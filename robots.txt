@@ -1,1 +1,1 @@
-Sitemap: /neureca/sitemap.xml
+Sitemap: /sitemap.xml
