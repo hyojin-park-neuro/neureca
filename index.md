@@ -1,7 +1,7 @@
 ---
 ---
 
-# hyojin-park-neuro's Website
+# Welcome to Dr. Hyojin Park's Research Group
 
 An engaging 1-3 sentence description of your lab.
 
