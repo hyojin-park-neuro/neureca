@@ -1,7 +1,7 @@
 ---
 ---
 
-# Welcome to Dr. Hyojin Park's Research Group
+# Welcome to NEURECA
 
 An engaging 1-3 sentence description of your lab.
 
