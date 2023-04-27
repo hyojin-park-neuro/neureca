@@ -46,7 +46,7 @@ header a {
 }
 
 .title > *:first-child {
-  font-size: var(--large);
+  font-size: var(--xxl);
 }
 
 .title > *:last-child {
