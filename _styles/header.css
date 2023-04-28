@@ -39,7 +39,7 @@ header a {
   justify-content: flex-start;
   align-items: baseline;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 10px;
   min-width: 0;
   font-family: var(--title);
   text-align: left;
