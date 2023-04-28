@@ -2,6 +2,7 @@
 ---
 
 # Welcome to Hyojin Park's Research Group - NEURECA
+Neural Representations & Computational Architecture of Multi-modal Brain across Lifespan
 
 1. Our mission is to conduct rigorous research and push the boundaries of what is currently known, with the ultimate goal of improving human communication and enhancing quality of life.
 
