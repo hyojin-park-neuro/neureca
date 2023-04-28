@@ -3,7 +3,11 @@
 
 # Welcome to Hyojin Park's Research Group - NEURECA
 
-An engaging 1-3 sentence description of your lab.
+1. Our mission is to conduct rigorous research and push the boundaries of what is currently known, with the ultimate goal of improving human communication and enhancing quality of life.
+
+2. Through cutting-edge research and collaboration, our group aims to advance our understanding of how the brain processes and responds to audiovisual communication. Our mission is to use this knowledge to inform new technologies, therapies, and interventions that benefit society as a whole.
+
+3. We are committed to producing high-quality research that has real-world applications and benefits for people of all ages.
 
 {% include section.html %}
 
