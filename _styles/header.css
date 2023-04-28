@@ -46,12 +46,13 @@ header a {
 }
 
 .title > *:first-child {
-  font-size: var(--4rem);
+  font-size: var(--xxl);
 }
 
 .title > *:last-child {
   opacity: 1;
-  font-weight: var(--thin);
+  font-weight: var(--bold);
+  font-size: var(--xxl);
 }
 
 .nav-toggle {
@@ -140,7 +141,7 @@ header[data-big] .title > *:first-child {
   font-size: var(--xxl);
 }
 header[data-big] .title > *:last-child {
-  font-size: var(--large);
+  font-size: var(--xxl);
 }
 
 /*# sourceMappingURL=header.css.map */
