@@ -18,7 +18,7 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-# Collaborators
+## Collaborators
 
 {% include section.html %}
 
@@ -39,12 +39,13 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 - Alejandro Perez, Senior Research Associate, MRC Cognition and Brain Science Unit, University of Cambridge
 
 {% include section.html background="images/background.jpg" dark=false %}
-# Local Collaborators
-- Ole Jensen, School of Psychology, Co-Director of the Centre for Human Brain Health (CHBH), Neuronal Oscillations Research Group
-- Katrien Segaert, Associate Professor, School of Psychology, Centre for Human Brain Health (CHBH), Neuroscience of Language Lab
-- Shin-Yi (Chloe) Chiou, Assistant Professor, School of Sport, Exercise and Rehabilitation Sciences 
-- Sang-Hoon Yeo, Assistant Professor, School of Sport, Exercise and Rehabilitation Sciences, Sensorimotor Computation Lab
-- Hyung Jin Chang, Assistant Professor, School of Computer Science, Intelligent Robotics Lab
+## Local Collaborators
+- [Ole Jensen](https://www.birmingham.ac.uk/staff/profiles/psychology/jensen-ole.aspx), School of Psychology, Co-Director of the Centre for Human Brain Health (CHBH), [Neuronal Oscillations Research Group](https://neuosc.com/)
+- [Katrien Segaert](https://www.birmingham.ac.uk/staff/profiles/psychology/segaert-katrien.aspx), Associate Professor, School of Psychology, Centre for Human Brain Health (CHBH), [Neuroscience of Language Lab](https://www.katriensegaert.com/)
+- [KyungMin An](https://www.birmingham.ac.uk/staff/profiles/psychology/an-kyungmin.aspx), Assistant Professor, School of Psychology, Centre for Human Brain Health (CHBH), [Lab](https://sites.google.com/view/an-lab/home)
+- [Shin-Yi (Chloe) Chiou](https://www.birmingham.ac.uk/staff/profiles/sportex/chiou-shin-yi.aspx), Associate Professor, School of Sport, Exercise and Rehabilitation Sciences 
+- [Sang-Hoon Yeo](https://www.birmingham.ac.uk/staff/profiles/sportex/yeo-sang-hoon.aspx), Assistant Professor, School of Sport, Exercise and Rehabilitation Sciences, [Sensorimotor Computation Lab](https://sites.google.com/view/yeolabprojects)
+- [Hyung Jin Chang](https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/chang-jin-hyung.aspx), Associate Professor, School of Computer Science, [Intelligent Robotics Lab](https://hyungjinchang.wordpress.com/)
 
 <!-- {% include figure.html image="images/photo.jpg" %} -->
 <!-- {% include figure.html image="images/photo.jpg" %} -->
