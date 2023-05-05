@@ -22,12 +22,14 @@ nav:
 {%
   include button.html
   type="address"
+  text="Location"
   tooltip="Our location on Google Maps for easy navigation"
   link="https://www.google.com/maps"
 %}
 {%
   include button.html
   type="address"
+  text="Campus Map"
   tooltip="Interactive Campus Map"
   link="https://campusmap.bham.ac.uk/search/projects/23/071493e0-8f07-43db-9b6f-a60fe9968aaf"
 %}
