@@ -58,22 +58,23 @@ nav:
 {% include section.html dark=true %}
 
 {% capture col1 %}
-Postal Address: <br>
+***Postal Address*** <br>
 School of Psychology <br>
 Centre for Human Brain Health (CHBH) <br>
 University of Birmingham <br>
 Edgbaston <br>
 Birmingham, UK <br>
-B15 2TT <br>
+B15 2TT
 {% endcapture %}
 
 {% capture col2 %}
-Visiting Address: <br>
+***Visiting Address*** <br>
 Office 102 <br>
 Centre for Human Brain Health (CHBH) <br>
+University of Birmingham <br>
 Edgbaston <br>
-Birmingham <br>
-UK
+Birmingham, UK <br>
+B15 2TT
 {% endcapture %}
 
 {% capture col3 %}
