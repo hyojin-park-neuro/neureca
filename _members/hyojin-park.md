@@ -1,7 +1,7 @@
 ---
 name: Hyojin Park
 image: images/Hyojin1.jpg
-role: PI
+role: pi
 aliases:
   - H. Park
   - H Park
