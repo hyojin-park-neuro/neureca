@@ -34,6 +34,7 @@
 - Audio-Visual (Speech) Integration
 - (Age-related) Hearing Loss
 - Deafness
+- Mild Traumatic Brain Injury (mTBI)
 - Brain Reorganisation following Sensory Loss
 - Cross-modal Plasticity
 - Speech Production
@@ -58,7 +59,7 @@
 - Sensory Stimulation, e.g., (Rapid) Frequency Tagging
 - Brain Network Analysis
 - Information Theory Approach: Mutual Information (MI), Transfer Entropy (TE), Partial Information Decomposition (PID)
-- Computational neural architecture using Machine Learning & Deep Learning algorithms
+- Computational Neural Architecture using Machine Learning & Deep Learning Algorithms
 - Encoding & Decoding
 - Natural Language Processing (NLP)
 - Large Language Models (LLMs)
