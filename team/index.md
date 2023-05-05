@@ -49,4 +49,6 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 
 {% endcapture %}
 
-{% include grid.html style="square" content=content %}
+{% include section.html %}
+
+<!-- {% include grid.html style="square" content=content %} -->
