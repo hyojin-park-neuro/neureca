@@ -43,7 +43,7 @@
 - Modulation of Brain Activity using Rhythmic Stimulation
 - Audiovisual Speech & Language Development/Changes across Lifespan
 - Cognitive Strategy Development
-- 
+
 {% endcapture %}
 
 {% capture col2 %}
@@ -55,7 +55,7 @@
 - Diffusion Tensor Imaging (DTI)
 - Ultrasound stimulation (Low-Intensity Focused Ultrasound Stimulation, LIFU)
 - Transcranial Magnetic Stimulation (TMS)
-- Sensory Stimulation - e.g., (Rapid) Frequency Tagging
+- Sensory Stimulation, e.g., (Rapid) Frequency Tagging
 - Brain Network Analysis
 - Information Theory Approach: Mutual Information (MI), Transfer Entropy (TE), Partial Information Decomposition (PID)
 - Computational neural architecture using Machine Learning & Deep Learning algorithms
