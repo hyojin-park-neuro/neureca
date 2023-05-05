@@ -46,6 +46,8 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 
 ## Local Collaborators
 
+{% include section.html %}
+
 {% capture content %}
 
 - [Ole Jensen](https://www.birmingham.ac.uk/staff/profiles/psychology/jensen-ole.aspx), School of Psychology, Co-Director of the Centre for Human Brain Health (CHBH), [Neuronal Oscillations Research Group](https://neuosc.com/)
