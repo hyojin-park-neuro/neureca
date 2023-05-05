@@ -23,10 +23,32 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 {% include section.html %}
 
 {% capture content %}
+- Robin A. A. Ince, Research Fellow at the Institute of Neuroscience and Psychology, University of Glasgow, Glasgow, UK
+- Joachim Gross, Professor at the Institute for Biomagnetism and Biosignalanalysis, University of Muenster, Muenster, Germany
+- Gregor Thut, Professor at the School of Psychology & Institute of Neuroscience and Psychology, University of Glasgow, Glasgow, UK
+- Hyo-Jeong Lee, Professor & Medical Doctor at the Department of Otolaryngology, Hallym University College of Medicine, Hallym University Medical Center, Anyang, South Korea 
+- Hyekyoung Lee, Department of Nuclear Medicine, Seoul National University Hospital, Seoul, South Korea
+- Simon Hanslmayr, Professor at the School of Psychology, University of Glasgow, Glasgow, UK
+- Emmanuel Biau, Sir Henry Wellcome Postdoctoral Fellow, School of Psychology, Centre for Human Brain Health & Institute of Population Health, University of Liverpool, UK
+- Aline Villavicencio, Professor at the Department of Computer Science, University of Sheffield, UK
+- Marco A. P. Idiart, Professor at the Institute of Physics, of the Federal University of Rio Grande do Sul, Brazil
+- Hyungmin Kim, Principal Research Scientist, Korea Institute of Science and Technology (KIST), Seoul, South Korea
+- Jin Wook Kim, Associate Professor & Medical Doctor, Department of Medical Informatics/Department of Urology, Chung-Ang University Gwangmyung Hospital, South Korea
+- Nathan Weisz, Professor at Centre for Cognitive Neuroscience, University of Salzburg, Austria
+- Mathieu Bourguignon, Assistant Professor at Université libre de Bruxelles, Brussels, Belgium
+- Alejandro Perez, Senior Research Associate, MRC Cognition and Brain Science Unit, University of Cambridge
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include section.html background="images/background.jpg" dark=false %}
+# Local Collaborators
+- Ole Jensen, School of Psychology, Co-Director of the Centre for Human Brain Health (CHBH), Neuronal Oscillations Research Group
+- Katrien Segaert, Associate Professor, School of Psychology, Centre for Human Brain Health (CHBH), Neuroscience of Language Lab
+- Shin-Yi (Chloe) Chiou, Assistant Professor, School of Sport, Exercise and Rehabilitation Sciences 
+- Sang-Hoon Yeo, Assistant Professor, School of Sport, Exercise and Rehabilitation Sciences, Sensorimotor Computation Lab
+- Hyung Jin Chang, Assistant Professor, School of Computer Science, Intelligent Robotics Lab
+
+<!-- {% include figure.html image="images/photo.jpg" %} -->
+<!-- {% include figure.html image="images/photo.jpg" %} -->
+<!-- {% include figure.html image="images/photo.jpg" %} -->
 
 {% endcapture %}
 
