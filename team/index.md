@@ -59,8 +59,8 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 ## Local Collaborators
 
 - [Ole Jensen](https://www.birmingham.ac.uk/staff/profiles/psychology/jensen-ole.aspx), School of Psychology, Co-Director of the CHBH, [Neuronal Oscillations Research Group](https://neuosc.com/)
-- [Katrien Segaert](https://www.birmingham.ac.uk/staff/profiles/psychology/segaert-katrien.aspx), Associate Professor, School of Psychology, CHBH, [Neuroscience of Language Lab](https://www.katriensegaert.com/)
-- [KyungMin An](https://www.birmingham.ac.uk/staff/profiles/psychology/an-kyungmin.aspx), Assistant Professor, School of Psychology, CHBH, [Lab](https://sites.google.com/view/an-lab/home)
-- [Shin-Yi (Chloe) Chiou](https://www.birmingham.ac.uk/staff/profiles/sportex/chiou-shin-yi.aspx), Associate Professor, School of Sport, Exercise and Rehabilitation Sciences 
-- [Sang-Hoon Yeo](https://www.birmingham.ac.uk/staff/profiles/sportex/yeo-sang-hoon.aspx), Assistant Professor, School of Sport, Exercise and Rehabilitation Sciences, [Sensorimotor Computation Lab](https://sites.google.com/view/yeolabprojects)
-- [Hyung Jin Chang](https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/chang-jin-hyung.aspx), Associate Professor, School of Computer Science, [Intelligent Robotics Lab](https://hyungjinchang.wordpress.com/)
+- [Katrien Segaert](https://www.birmingham.ac.uk/staff/profiles/psychology/segaert-katrien.aspx), School of Psychology, CHBH, [Neuroscience of Language Lab](https://www.katriensegaert.com/)
+- [KyungMin An](https://www.birmingham.ac.uk/staff/profiles/psychology/an-kyungmin.aspx), School of Psychology, CHBH, [Lab](https://sites.google.com/view/an-lab/home)
+- [Shin-Yi (Chloe) Chiou](https://www.birmingham.ac.uk/staff/profiles/sportex/chiou-shin-yi.aspx), School of Sport, Exercise and Rehabilitation Sciences 
+- [Sang-Hoon Yeo](https://www.birmingham.ac.uk/staff/profiles/sportex/yeo-sang-hoon.aspx), School of Sport, Exercise and Rehabilitation Sciences, [Sensorimotor Computation Lab](https://sites.google.com/view/yeolabprojects)
+- [Hyung Jin Chang](https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/chang-jin-hyung.aspx), School of Computer Science, [Intelligent Robotics Lab](https://hyungjinchang.wordpress.com/)
