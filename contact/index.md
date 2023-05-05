@@ -41,23 +41,24 @@ Visiting Address: Office 102, Centre for Human Brain Health (CHBH), Edgbaston, B
 
 {%
   include figure.html
-  image="images/uob.jpg"
-  caption="University of Birmingham"
-%}
-
-{% endcapture %}
-
-{% capture col2 %}
-
-{%
-  include figure.html
   image="images/chbh.jpg"
-  caption="Centre for Human Brain Health (CHBH)"
+  caption="Centre for Human Brain Health (CHBH), University of Birmingham"
 %}
 
 {% endcapture %}
 
-{% include cols.html col1=col1 col2=col2 %}
+<!-- {% capture col2 %} -->
+
+<!-- {% -->
+<!--   include figure.html -->
+<!--   image="images/chbh.jpg" -->
+<!--   caption="Centre for Human Brain Health (CHBH)" -->
+<!-- %} -->
+
+<!-- {% endcapture %} -->
+
+{% include cols.html col1=col1 %}
+<!-- {% include cols.html col1=col1 col2=col2 %} -->
 
 {% include section.html dark=true %}
 
