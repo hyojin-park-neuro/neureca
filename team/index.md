@@ -31,7 +31,6 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 - [Simon Hanslmayr](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/simonhanslmayr/), Professor at the School of Psychology, University of Glasgow, Glasgow, UK
 - [Emmanuel Biau](https://www.liverpool.ac.uk/population-health/staff/emmanuel-biau/), Sir Henry Wellcome Postdoctoral Fellow, School of Psychology, Centre for Human Brain Health & Institute of Population Health, University of Liverpool, UK
 - [Aline Villavicencio](https://www.sheffield.ac.uk/dcs/people/academic/aline-villavicencio), Professor at the Department of Computer Science, University of Sheffield, UK
-<!-- - Marco A. P. Idiart, Professor at the Institute of Physics, of the Federal University of Rio Grande do Sul, Brazil -->
 - [Hyungmin Kim](https://sites.google.com/view/tunnelatkist), Principal Research Scientist, Korea Institute of Science and Technology (KIST), Seoul, South Korea
 - [Jin Wook Kim](https://www.linkedin.com/in/jin-wook-kim-936b0b67/), Associate Professor & Medical Doctor, Department of Medical Informatics/Department of Urology, Chung-Ang University Gwangmyung Hospital, South Korea
 - [Nathan Weisz](https://www.plus.ac.at/psychology/ueber-uns/internal-organisation/division-of-physiological-psychology/team/salzburg-brain-dynamics-lab/weisz-nathan-en/?lang=en), Professor at Centre for Cognitive Neuroscience, University of Salzburg, Austria
