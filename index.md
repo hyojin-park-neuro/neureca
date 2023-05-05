@@ -27,21 +27,22 @@
 
 {% capture col1 %}
 ## Research Topics
-- Auditory perception
-- Visual perception
-- Auditory and Visual (speech) tracking
-- Audio-Visual (speech) integration
-- (Age-related) Hearing loss
+- Auditory Perception
+- Visual Perception
+- Sensory-Motor Interaction
+- Auditory and Visual (speech) Tracking
+- Audio-Visual (Speech) Integration
+- (Age-related) Hearing Loss
 - Deafness
-- Brain reorganisation following sensory loss
-- Cross-modal plasticity
-- Speech production
-- Interpersonal communication (Brain-to-Brain coupling)
-- Brain-Body-Environment coupling
-- (Micro-)Saccadic eye movements and audiovisual attention
-- Modulation of brain activity using rhythmic stimulation
-- Audiovisual speech/language development/changes across lifespan
-- Cognitive strategy development
+- Brain Reorganisation following Sensory Loss
+- Cross-modal Plasticity
+- Speech Production
+- Interpersonal Communication (Brain-to-Brain coupling)
+- Brain-Body-Environment Coupling
+- (Micro-)Saccadic Eye Movements and Audiovisual Attention
+- Modulation of Brain Activity using Rhythmic Stimulation
+- Audiovisual Speech & Language Development/Changes across Lifespan
+- Cognitive Strategy Development
 {% endcapture %}
 
 {% capture col2 %}
@@ -54,13 +55,13 @@
 - Ultrasound stimulation (Low-Intensity Focused Ultrasound Stimulation, LIFU)
 - Transcranial Magnetic Stimulation (TMS)
 - Transcranial Alternating Current Stimulation (tACS)
-- Sensory stimulation (e.g., (rapid) frequency tagging)
-- Signal processing
-- Time-Frequency analysis
-- Brain network analysis
+- Sensory Stimulation - e.g., (Rapid) Frequency Tagging
+- Signal Processing
+- Time-Frequency Analysis
+- Brain Network Analysis
 - Information Theory Approach: Mutual Information (MI), Transfer Entropy (TE), Partial Information Decomposition (PID)
 - Computational neural architecture using Machine Learning & Deep Learning algorithms
-- Encoding/Decoding
+- Encoding & Decoding
 - Natural Language Processing (NLP)
 - Large Language Models (LLMs)
 
