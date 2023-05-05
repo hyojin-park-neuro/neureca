@@ -1,12 +1,12 @@
 ---
-name: Jane Smith
-image: images/photo.jpg
-role: pi
+name: Hyojin Park
+image: images/Hyojin1.jpg
+role: PI
 aliases:
-  - J. Smith
-  - J Smith
+  - H. Park
+  - H Park
 links:
-  home-page: https://janesmith.com
+  home-page: https://neureca.org
   orcid: 0000-0001-8713-9213
 ---
 
