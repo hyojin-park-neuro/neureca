@@ -7,9 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-- 
-- 
-
 {%
   include button.html
   type="email"
@@ -31,7 +28,7 @@ nav:
 {%
   include button.html
   type="address"
-  tooltip="Campus Map"
+  tooltip="Interactive Campus Map"
   link="https://campusmap.bham.ac.uk/search/projects/23/071493e0-8f07-43db-9b6f-a60fe9968aaf"
 %}
 {% include section.html %}
