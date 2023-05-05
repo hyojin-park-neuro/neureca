@@ -16,13 +16,13 @@ links:
 She completed a PhD on Cognitive Neuroscience at the [Interdisciplinary Program in Cognitive Science](https://humanities.snu.ac.kr/en/academics/Interdisciplinary-Programs?deptidx=18), [Seoul National University](https://en.snu.ac.kr/), Seoul, South Korea (PhD supervisor: Professor Dong Soo Lee, MD, PhD) and before that she completed her undergraduate degree in [Psychology](https://psy.knu.ac.kr/) at the [Kyungpook National University](https://en.knu.ac.kr/main/main.htm), Daegu, South Korea. Subsequently she worked as a Research Associate (postdoctoral researcher) in the lab of Professor [Joachim Gross](https://www.uni-muenster.de/OCCMuenster/members/joachim-gross.html) and Professor [Gregor Thut](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/gregorthut/) (supported by their Wellcome Trust Senior Investigator Award) at the School of Psychology/Institute of Neuroscience and Psychology/[Centre for Cognitive Neuroimaging (CCNi)](https://www.gla.ac.uk/schools/psychologyneuroscience/research/ccni/) at the [University of Glasgow](https://www.gla.ac.uk/), Glasgow, UK.
 
 ### Links
-- School of Psychology, Centre for Human Brain Health (CHBH), University of Birmingham <br>
-- ORCID: https://orcid.org/0000-0002-7527-8280 <br>
-- Google Scholar: https://scholar.google.co.uk/citations?user=Vyn8xRQAAAAJ&hl=en <br>
-- Researcher ID: C-6267-2017 <br>
-- ResearchGate: https://www.researchgate.net/profile/Hyojin-Park-7 <br>
-- OSF (Open Science Framework): https://osf.io/n6kfw/ <br>
-- GitHub: https://github.com/hyojin-park-neuro <br>
+- [School of Psychology, Centre for Human Brain Health (CHBH), University of Birmingham](https://www.birmingham.ac.uk/staff/profiles/psychology/park-hyojin.aspx)
+- [ORCID](https://orcid.org/0000-0002-7527-8280)
+- [Google Scholar](https://scholar.google.co.uk/citations?user=Vyn8xRQAAAAJ&hl=en)
+- Researcher ID: C-6267-2017
+- [ResearchGate](https://www.researchgate.net/profile/Hyojin-Park-7)
+- [OSF (Open Science Framework)](https://osf.io/n6kfw/)
+- [GitHub](https://github.com/hyojin-park-neuro)
 
 ### Istitutional Responsibilities
 - [Modality Lead for MEG at the Centre for Human Brain Health (CHBH)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx), University of Birmingham
