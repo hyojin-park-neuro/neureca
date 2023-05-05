@@ -23,20 +23,20 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 <!-- {% include section.html %} -->
 
 <!-- {% capture content %} -->
-- Robin A. A. Ince, Research Fellow at the Institute of Neuroscience and Psychology, University of Glasgow, Glasgow, UK
-- Joachim Gross, Professor at the Institute for Biomagnetism and Biosignalanalysis, University of Muenster, Muenster, Germany
-- Gregor Thut, Professor at the School of Psychology & Institute of Neuroscience and Psychology, University of Glasgow, Glasgow, UK
-- Hyo-Jeong Lee, Professor & Medical Doctor at the Department of Otolaryngology, Hallym University College of Medicine, Hallym University Medical Center, Anyang, South Korea 
-- Hyekyoung Lee, Department of Nuclear Medicine, Seoul National University Hospital, Seoul, South Korea
-- Simon Hanslmayr, Professor at the School of Psychology, University of Glasgow, Glasgow, UK
-- Emmanuel Biau, Sir Henry Wellcome Postdoctoral Fellow, School of Psychology, Centre for Human Brain Health & Institute of Population Health, University of Liverpool, UK
-- Aline Villavicencio, Professor at the Department of Computer Science, University of Sheffield, UK
-- Marco A. P. Idiart, Professor at the Institute of Physics, of the Federal University of Rio Grande do Sul, Brazil
-- Hyungmin Kim, Principal Research Scientist, Korea Institute of Science and Technology (KIST), Seoul, South Korea
-- Jin Wook Kim, Associate Professor & Medical Doctor, Department of Medical Informatics/Department of Urology, Chung-Ang University Gwangmyung Hospital, South Korea
-- Nathan Weisz, Professor at Centre for Cognitive Neuroscience, University of Salzburg, Austria
-- Mathieu Bourguignon, Assistant Professor at Université libre de Bruxelles, Brussels, Belgium
-- Alejandro Perez, Senior Research Associate, MRC Cognition and Brain Science Unit, University of Cambridge
+- [Robin A. A. Ince](http://www.robinince.net/about.html), Research Fellow at the Institute of Neuroscience and Psychology, University of Glasgow, Glasgow, UK
+- [Joachim Gross](https://www.uni-muenster.de/OCCMuenster/members/joachim-gross.html), Professor at the Institute for Biomagnetism and Biosignalanalysis, University of Muenster, Muenster, Germany
+- [Gregor Thut](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/gregorthut/), Professor at the School of Psychology & Institute of Neuroscience and Psychology, University of Glasgow, Glasgow, UK
+- [Hyo-Jeong Lee](https://scholar.google.co.kr/citations?user=x-pSzCoAAAAJ&hl=en), Professor & Medical Doctor at the Department of Otolaryngology, Hallym University College of Medicine, Hallym University Medical Center, Anyang, South Korea 
+- [Hyekyoung Lee](https://scholar.google.com/citations?user=3ZNKO84AAAAJ&hl=en), Department of Nuclear Medicine, Seoul National University Hospital, Seoul, South Korea
+- [Simon Hanslmayr](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/simonhanslmayr/), Professor at the School of Psychology, University of Glasgow, Glasgow, UK
+- [Emmanuel Biau](https://www.liverpool.ac.uk/population-health/staff/emmanuel-biau/), Sir Henry Wellcome Postdoctoral Fellow, School of Psychology, Centre for Human Brain Health & Institute of Population Health, University of Liverpool, UK
+- [Aline Villavicencio](https://www.sheffield.ac.uk/dcs/people/academic/aline-villavicencio), Professor at the Department of Computer Science, University of Sheffield, UK
+<!-- - Marco A. P. Idiart, Professor at the Institute of Physics, of the Federal University of Rio Grande do Sul, Brazil -->
+- [Hyungmin Kim](https://sites.google.com/view/tunnelatkist), Principal Research Scientist, Korea Institute of Science and Technology (KIST), Seoul, South Korea
+- [Jin Wook Kim](https://www.linkedin.com/in/jin-wook-kim-936b0b67/), Associate Professor & Medical Doctor, Department of Medical Informatics/Department of Urology, Chung-Ang University Gwangmyung Hospital, South Korea
+- [Nathan Weisz], Professor at Centre for Cognitive Neuroscience, University of Salzburg, Austria
+- [Mathieu Bourguignon](https://crcn.ulb.ac.be/members/?q=121), Assistant Professor at Université libre de Bruxelles, Brussels, Belgium
+- [Alejandro Perez](https://sites.google.com/view/alejandroperez/about?authuser=0), Senior Research Associate, MRC Cognition and Brain Science Unit, University of Cambridge
 
 {% include section.html background="images/background.jpg" dark=false %}
 ## Local Collaborators
