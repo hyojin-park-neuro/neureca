@@ -58,21 +58,21 @@ nav:
 {% include section.html dark=true %}
 
 {% capture col1 %}
-Postal Address: 
-School of Psychology
-Centre for Human Brain Health (CHBH)
-University of Birmingham
-Edgbaston
-Birmingham, UK
-B15 2TT
+Postal Address: <br>
+School of Psychology <br>
+Centre for Human Brain Health (CHBH) <br>
+University of Birmingham <br>
+Edgbaston <br>
+Birmingham, UK <br>
+B15 2TT <br>
 {% endcapture %}
 
 {% capture col2 %}
-Visiting Address: 
-Office 102
-Centre for Human Brain Health (CHBH)
-Edgbaston
-Birmingham
+Visiting Address: <br>
+Office 102 <br>
+Centre for Human Brain Health (CHBH) <br>
+Edgbaston <br>
+Birmingham <br>
 UK
 {% endcapture %}
 
