@@ -14,7 +14,27 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
+<!-- {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %} -->
+
+### Postdoctoral researcher
+- Dr. Tara Ghafari (co-supervision)
+
+### Postgraduate Students
+- Choi Yu
+- Victoria Gorneva 
+
+### Undergraduate students
+- Abbie Evans
+- Valentina Kurti
+- Tamseel Naveed
+- Daisy Weston
+- Ellie Robson
+- Jasmin Wrighton
+
+### Alumni
+- Gabriel Byczynski
+- Zhuoxin Xiao
+
 
 {% include section.html background="images/background.jpg" dark=false %}
 
