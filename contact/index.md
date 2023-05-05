@@ -14,14 +14,14 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="PI"
+  link="h.park@bham.ac.uk"
 %}
 {%
   include button.html
   type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="UK (0121) 414-2948"
+  link="+44-0121-414-2948"
 %}
 {%
   include button.html
@@ -36,8 +36,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/uob.jpg"
+  caption="University of Birmingham"
 %}
 
 {% endcapture %}
@@ -46,8 +46,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/chbh.jpg"
+  caption="Centre for Human Brain Health (CHBH)"
 %}
 
 {% endcapture %}
