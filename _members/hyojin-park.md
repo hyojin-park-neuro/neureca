@@ -11,7 +11,7 @@ links:
 ---
 
 
-Dr. Hyojin Park (Principal Investigator) is an Assistant Professor (Lecturer) and Birmingham Fellow at the School of Psychology and Centre for Human Brain Health (CHBH), College of Life and Environmental Sciences at the University of Birmingham, Birmingham, UK.
+Dr. Hyojin Park<a>[http://example.com/](https://www.birmingham.ac.uk/staff/profiles/psychology/park-hyojin.aspx)</a> (Principal Investigator) is an Assistant Professor (Lecturer) and Birmingham Fellow at the School of Psychology and Centre for Human Brain Health (CHBH), College of Life and Environmental Sciences at the University of Birmingham, Birmingham, UK.
 
 She completed a PhD on Cognitive Neuroscience at the Interdisciplinary Program in Cognitive Science, Seoul National University, Seoul, South Korea (PhD supervisor: Professor Dong Soo Lee, MD, PhD) and before that she completed her undergraduate degree in Psychology at the Kyungpook National University, Daegu, South Korea. 
 
