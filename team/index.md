@@ -7,9 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-### Join the Team!
-Highly motivated PhD students and postdoctoral scientists are welcome to join Dr. Park’s research group! 
-Please feel free to contact me to discuss further regarding funding opportunities.
+## Join the Team!
+Highly motivated PhD students and postdoctoral scientists are welcome to join Dr. Park’s research group! <br>
+Please feel free to contact the PI to discuss further regarding funding opportunities!
 
 {% include section.html %}
 
