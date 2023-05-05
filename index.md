@@ -31,18 +31,21 @@
 - Visual perception
 - Auditory and Visual (speech) tracking
 - Audio-Visual (speech) integration
-- Hearing loss and Deafness
+- (Age-related) Hearing loss
+- Deafness
 - Brain reorganisation following sensory loss
 - Cross-modal plasticity
 - Speech production
 - Interpersonal communication (Brain-to-Brain coupling)
 - Brain-Body-Environment coupling
 - (Micro-)Saccadic eye movements and audiovisual attention
-- Rhythmic stimulation using sensory stimulation (rapid frequency tagging)
+- Modulation of brain activity using rhythmic stimulation
+- Audiovisual integration development/changes across life-span
+- Cognitive strategy development
 {% endcapture %}
 
 {% capture col2 %}
-## Techniques
+## Techniques & Approaches
 - SQUID-MEG (Magnetoencephalography)
 - OPM-MEG (Optically-Pumped Magnetometers)
 - Electroencephalography (EEG)
@@ -52,11 +55,6 @@
 - Transcranial Magnetic Stimulation (TMS)
 - Transcranial Alternating Current Stimulation (tACS)
 - Sensory stimulation (e.g., (rapid) frequency tagging)
-
-{% endcapture %}
-
-{% capture col3 %}
-## Data analysis approaches
 - Signal processing
 - Time-Frequency analysis
 - Brain network analysis
@@ -65,9 +63,10 @@
 - Encoding/Decoding
 - Natural Language Processing (NLP)
 - Large Language Models (LLMs)
+
 {% endcapture %}
 
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+{% include cols.html col1=col1 col2=col2 %}
 
 {% include section.html %}
 
