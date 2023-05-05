@@ -43,18 +43,17 @@ nav:
 
 {% endcapture %}
 
-<!-- {% capture col2 %} -->
+{% capture col2 %}
 
-<!-- {% -->
-<!--   include figure.html -->
-<!--   image="images/chbh.jpg" -->
-<!--   caption="Centre for Human Brain Health (CHBH)" -->
-<!-- %} -->
+{%
+  include figure.html
+  image="images/chbh.jpg"
+  caption="Centre for Human Brain Health (CHBH)"
+%}
 
-<!-- {% endcapture %} -->
+{% endcapture %}
 
 {% include cols.html col1=col1 %}
-<!-- {% include cols.html col1=col1 col2=col2 %} -->
 
 {% include section.html dark=true %}
 
