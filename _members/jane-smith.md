@@ -10,10 +10,9 @@ links:
   orcid: 0000-0001-8713-9213
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
-Elit at imperdiet dui accumsan.
-Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
-Vitae elementum curabitur vitae nunc sed velit dignissim sodales.
-Lacinia at quis risus sed vulputate odio ut.
-Magna eget est lorem ipsum.
+
+Dr Hyojin Park (Principal Investigator) is an Assistant Professor (Lecturer) and Birmingham Fellow at the School of Psychology and Centre for Human Brain Health (CHBH), College of Life and Environmental Sciences at the University of Birmingham, Birmingham, UK.
+
+She completed a PhD on Cognitive Neuroscience at the Interdisciplinary Program in Cognitive Science, Seoul National University, Seoul, South Korea (PhD supervisor: Professor Dong Soo Lee, MD, PhD) and before that she completed her undergraduate degree in Psychology at the Kyungpook National University, Daegu, South Korea. 
+
+Subsequently she worked as a Research Associate (postdoctoral researcher) in the lab of Professor Joachim Gross and Professor Gregor Thut (supported by their Wellcome Trust Senior Investigator Award) at the School of Psychology|Institute of Neuroscience and Psychology|Centre for Cognitive Neuroimaging (CCNi) at the University of Glasgow, Glasgow, UK.
