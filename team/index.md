@@ -16,14 +16,14 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 <!-- {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %} -->
 
-### Postdoctoral researcher
+### Postdoctoral Researcher
 - Dr. Tara Ghafari (co-supervision)
 
 ### Postgraduate Students
 - Choi Yu
 - Victoria Gorneva 
 
-### Undergraduate students
+### Undergraduate Students
 - Abbie Evans
 - Valentina Kurti
 - Tamseel Naveed
