@@ -31,8 +31,8 @@ Visiting Address: Office 102, Centre for Human Brain Health (CHBH), Edgbaston, B
 %}
 {%
   include button.html
-  type="Interactive Campus Map"
-  tooltip="Our location on Google Maps for easy navigation"
+  type="address"
+  tooltip="Campus Map"
   link="https://campusmap.bham.ac.uk/search/projects/23/071493e0-8f07-43db-9b6f-a60fe9968aaf"
 %}
 {% include section.html %}
