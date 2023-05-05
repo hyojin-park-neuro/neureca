@@ -12,7 +12,5 @@ links:
 
 
 Dr Hyojin Park (Principal Investigator) is an Assistant Professor (Lecturer) and Birmingham Fellow at the School of Psychology and Centre for Human Brain Health (CHBH), College of Life and Environmental Sciences at the University of Birmingham, Birmingham, UK.
-
 She completed a PhD on Cognitive Neuroscience at the Interdisciplinary Program in Cognitive Science, Seoul National University, Seoul, South Korea (PhD supervisor: Professor Dong Soo Lee, MD, PhD) and before that she completed her undergraduate degree in Psychology at the Kyungpook National University, Daegu, South Korea. 
-
 Subsequently she worked as a Research Associate (postdoctoral researcher) in the lab of Professor Joachim Gross and Professor Gregor Thut (supported by their Wellcome Trust Senior Investigator Award) at the School of Psychology|Institute of Neuroscience and Psychology|Centre for Cognitive Neuroimaging (CCNi) at the University of Glasgow, Glasgow, UK.
