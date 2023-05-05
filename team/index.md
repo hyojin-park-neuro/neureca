@@ -34,7 +34,7 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 <!-- - Marco A. P. Idiart, Professor at the Institute of Physics, of the Federal University of Rio Grande do Sul, Brazil -->
 - [Hyungmin Kim](https://sites.google.com/view/tunnelatkist), Principal Research Scientist, Korea Institute of Science and Technology (KIST), Seoul, South Korea
 - [Jin Wook Kim](https://www.linkedin.com/in/jin-wook-kim-936b0b67/), Associate Professor & Medical Doctor, Department of Medical Informatics/Department of Urology, Chung-Ang University Gwangmyung Hospital, South Korea
-- [Nathan Weisz], Professor at Centre for Cognitive Neuroscience, University of Salzburg, Austria
+- [Nathan Weisz](https://www.plus.ac.at/psychology/ueber-uns/internal-organisation/division-of-physiological-psychology/team/salzburg-brain-dynamics-lab/weisz-nathan-en/?lang=en), Professor at Centre for Cognitive Neuroscience, University of Salzburg, Austria
 - [Mathieu Bourguignon](https://crcn.ulb.ac.be/members/?q=121), Assistant Professor at Université libre de Bruxelles, Brussels, Belgium
 - [Alejandro Perez](https://sites.google.com/view/alejandroperez/about?authuser=0), Senior Research Associate, MRC Cognition and Brain Science Unit, University of Cambridge
 
