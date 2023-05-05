@@ -24,7 +24,7 @@ nav:
   type="address"
   text="Location"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  link="https://goo.gl/maps/6WUCN6RKZxGCqbXU7"
 %}
 {%
   include button.html
