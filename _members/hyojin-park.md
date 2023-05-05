@@ -27,4 +27,4 @@ She completed a PhD on Cognitive Neuroscience at the [Interdisciplinary Program 
 ### Istitutional Responsibilities
 - [Modality Lead for MEG at the Centre for Human Brain Health (CHBH)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx), University of Birmingham
 - Member of Management Committee, Centre for Human Brain Health (CHBH), University of Birmingham 
-- Member of Science, Technology, Engineering and Mathematics (STEM) Ethical Review Committee, University of Birmingham (2018-2023)
+- Member of Science, Technology, Engineering and Mathematics (STEM) Ethical Review Committee, University of Birmingham
