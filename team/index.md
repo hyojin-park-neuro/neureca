@@ -1,7 +1,7 @@
 ---
 title: Team
 nav:
-  order: 3
+  order: 1
   tooltip: About our team
 ---
 
@@ -18,7 +18,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Collaborators
+## Collaborators
 
 {% include section.html %}
 
