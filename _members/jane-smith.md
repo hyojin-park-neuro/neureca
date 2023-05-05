@@ -7,7 +7,7 @@ aliases:
   - H Park
 links:
   home-page: https://neureca.org
-  orcid: 0000-0001-8713-9213
+  orcid: 0000-0002-7527-8280
 ---
 
 
