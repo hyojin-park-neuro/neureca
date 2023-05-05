@@ -40,7 +40,7 @@
 - Brain-Body-Environment coupling
 - (Micro-)Saccadic eye movements and audiovisual attention
 - Modulation of brain activity using rhythmic stimulation
-- Audiovisual integration development/changes across life-span
+- Audiovisual speech/language development/changes across lifespan
 - Cognitive strategy development
 {% endcapture %}
 
