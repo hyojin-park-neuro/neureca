@@ -23,6 +23,7 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 {% include section.html %}
 
 {% capture content %}
+
 - [Robin A. A. Ince](http://www.robinince.net/about.html), Research Fellow at the Institute of Neuroscience and Psychology, University of Glasgow, Glasgow, UK
 - [Joachim Gross](https://www.uni-muenster.de/OCCMuenster/members/joachim-gross.html), Professor at the Institute for Biomagnetism and Biosignalanalysis, University of Muenster, Muenster, Germany
 - [Gregor Thut](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/gregorthut/), Professor at the School of Psychology & Institute of Neuroscience and Psychology, University of Glasgow, Glasgow, UK
@@ -36,16 +37,23 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 - [Nathan Weisz](https://www.plus.ac.at/psychology/ueber-uns/internal-organisation/division-of-physiological-psychology/team/salzburg-brain-dynamics-lab/weisz-nathan-en/?lang=en), Professor at Centre for Cognitive Neuroscience, University of Salzburg, Austria
 - [Mathieu Bourguignon](https://crcn.ulb.ac.be/members/?q=121), Assistant Professor at Université libre de Bruxelles, Brussels, Belgium
 - [Alejandro Perez](https://sites.google.com/view/alejandroperez/about?authuser=0), Senior Research Associate, MRC Cognition and Brain Science Unit, University of Cambridge
+- 
+{% endcapture %}
+
+{% include section.html %}
 
 {% include section.html background="images/background.jpg" dark=false %}
+
 ## Local Collaborators
+
+{% capture content %}
+
 - [Ole Jensen](https://www.birmingham.ac.uk/staff/profiles/psychology/jensen-ole.aspx), School of Psychology, Co-Director of the Centre for Human Brain Health (CHBH), [Neuronal Oscillations Research Group](https://neuosc.com/)
 - [Katrien Segaert](https://www.birmingham.ac.uk/staff/profiles/psychology/segaert-katrien.aspx), Associate Professor, School of Psychology, Centre for Human Brain Health (CHBH), [Neuroscience of Language Lab](https://www.katriensegaert.com/)
 - [KyungMin An](https://www.birmingham.ac.uk/staff/profiles/psychology/an-kyungmin.aspx), Assistant Professor, School of Psychology, Centre for Human Brain Health (CHBH), [Lab](https://sites.google.com/view/an-lab/home)
 - [Shin-Yi (Chloe) Chiou](https://www.birmingham.ac.uk/staff/profiles/sportex/chiou-shin-yi.aspx), Associate Professor, School of Sport, Exercise and Rehabilitation Sciences 
 - [Sang-Hoon Yeo](https://www.birmingham.ac.uk/staff/profiles/sportex/yeo-sang-hoon.aspx), Assistant Professor, School of Sport, Exercise and Rehabilitation Sciences, [Sensorimotor Computation Lab](https://sites.google.com/view/yeolabprojects)
 - [Hyung Jin Chang](https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/chang-jin-hyung.aspx), Associate Professor, School of Computer Science, [Intelligent Robotics Lab](https://hyungjinchang.wordpress.com/)
-
 
 {% endcapture %}
 
