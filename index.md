@@ -24,6 +24,42 @@
 
 **Facilities and Tools** The Group is a part of the newly established Centre for Human Brain Health (CHBH) at the University of Birmingham. The Centre is equipped with state-of-the-art brain imaging facilities, e.g. MEG, OPMs, EEG, MRI, TMS, TCS, Sleep labs, fNIRS. We combine these modalities in order to obtain a comprehensive picture of neural mechanisms of speech and multisensory (AV) integration.
 
+{% include section.html dark=true %}
+
+{% capture col1 %}
+**Neural oscillatory mechanisms in** <br>
+Auditory perception <br>
+Visual perception <br>
+Auditory and Visual (speech) tracking <br>
+Audio-Visual (speech) integration <br>
+Hearing loss and Deafness <br>
+Brain reorganisation following sensory loss <br>
+Cross-modal plasticity <br>
+Speech production <br>
+Interpersonal communication (Brain-to-Brain coupling) <br>
+Brain-Body-Environment coupling <br>
+Saccadic eye movements and audiovisual attention <br>
+Rhythmic stimulation using sensory stimulation (rapid frequency tagging) <br>
+{% endcapture %}
+
+{% capture col2 %}
+**Techniques and Approaches** <br>
+SQUID-MEG (Magnetoencephalography) <br>
+OPM-MEG (Optically-Pumped Magnetometers) <br>
+Ultrasound Stimulation (Low-Intensity Focused Ultrasound Stimulation, LIFU) <br>
+Electroencephalography (EEG) <br>
+Transcranial Magnetic Stimulation (TMS) <br>
+Transcranial Alternating Current Stimulation (tACS) <br>
+Diffusion Tensor Imaging (DTI) <br>
+Brain Network Analysis <br>
+Information Theory Approach: Mutual Information (MI), Transfer Entropy (TE), Partial Information Decomposition (PID) <br>
+Computational Neural Architecture using Deep Learning Algorithms <br>
+Natural Language Processing (NLP) <br>
+Large Language Models (LLMs) <br>
+{% endcapture %}
+
+{% include cols.html col1=col1 col2=col2 %}
+
 {% include section.html %}
 
 ## Highlights
