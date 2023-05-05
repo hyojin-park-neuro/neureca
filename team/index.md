@@ -64,5 +64,3 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 - [Shin-Yi (Chloe) Chiou](https://www.birmingham.ac.uk/staff/profiles/sportex/chiou-shin-yi.aspx), Associate Professor, School of Sport, Exercise and Rehabilitation Sciences 
 - [Sang-Hoon Yeo](https://www.birmingham.ac.uk/staff/profiles/sportex/yeo-sang-hoon.aspx), Assistant Professor, School of Sport, Exercise and Rehabilitation Sciences, [Sensorimotor Computation Lab](https://sites.google.com/view/yeolabprojects)
 - [Hyung Jin Chang](https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/chang-jin-hyung.aspx), Associate Professor, School of Computer Science, [Intelligent Robotics Lab](https://hyungjinchang.wordpress.com/)
-
-<!-- {% include section.html background="images/background.jpg" dark=true %} -->
