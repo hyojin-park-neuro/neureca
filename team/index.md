@@ -20,9 +20,9 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 
 ## Collaborators
 
-{% include section.html %}
+<!-- {% include section.html %} -->
 
-{% capture content %}
+<!-- {% capture content %} -->
 - Robin A. A. Ince, Research Fellow at the Institute of Neuroscience and Psychology, University of Glasgow, Glasgow, UK
 - Joachim Gross, Professor at the Institute for Biomagnetism and Biosignalanalysis, University of Muenster, Muenster, Germany
 - Gregor Thut, Professor at the School of Psychology & Institute of Neuroscience and Psychology, University of Glasgow, Glasgow, UK
@@ -51,6 +51,6 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 <!-- {% include figure.html image="images/photo.jpg" %} -->
 <!-- {% include figure.html image="images/photo.jpg" %} -->
 
-{% endcapture %}
+<!-- {% endcapture %} -->
 
-{% include grid.html style="square" content=content %}
+<!-- {% include grid.html style="square" content=content %} -->
