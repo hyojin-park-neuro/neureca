@@ -31,7 +31,7 @@ nav:
   type="address"
   text="Campus Map"
   tooltip="Interactive Campus Map"
-  link="https://campusmap.bham.ac.uk/search/projects/23/071493e0-8f07-43db-9b6f-a60fe9968aaf"
+  link="https://campusmap.bham.ac.uk//search/projects/23/5d6f49301e1f64009327b7cd"
 %}
 {% include section.html %}
 
