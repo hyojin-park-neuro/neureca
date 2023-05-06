@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
 
-#### News and Events and so on...
+News and Events ++
 
 {% include section.html %}
 
