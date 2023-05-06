@@ -57,7 +57,7 @@ nav:
 
 {% include cols.html col1=col1 %}
 
-{% include section.html style="background-color: gray;" %}
+{% include section.html color="gray" %}
 
 {% capture col1 %}
 ***Postal Address*** <br>
