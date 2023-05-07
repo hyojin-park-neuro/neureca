@@ -3,7 +3,8 @@
   date: 2022-6-22
   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
   buttons:
-    - type: website
+    - type: source
+      text: Manuscript Source
       link: https://doi.org/10.1101/2022.06.21.497061
   tags:
     - semantic gist
@@ -17,7 +18,8 @@
   date: 2022-5-15
   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
   buttons:
-    - type: website
+    - type: source
+      text: Manuscript Source
       link: https://doi.org/10.1016/j.neuroimage.2022.119044
   tags:
     - stimulus reconstruction
