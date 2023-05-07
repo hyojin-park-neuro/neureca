@@ -1,45 +1,29 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1101/2022.06.21.497061
+  title: Differential roles of delta and theta oscillations in understanding semantic gist during natural audiovisual speech perception: Functional and anatomical evidence
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - Hyojin Park
+  - Robin A. A. Ince
+  - Joachim Gross
+  publisher: bioRxiv
+  date: '2022-06-22'
+  link: https://doi.org/10.1101/2022.06.21.497061
+  orcid: 0000-0002-7527-8280
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.1016/j.neuroimage.2022.119044
+  title: Masking of the mouth area impairs reconstruction of acoustic speech features and higher-level segmentational features in the presence of a distractor speaker
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  - Chandra Leon Haider
+  - Nina Suess
+  - Anne Hauswald
+  - Hyojin Park
+  - Nathan Weisz
+  publisher: NeuroImage
+  date: '2022-05-15'
+  link: https://doi.org/10.1016/j.neuroimage.2022.119044
+  orcid: 0000-0002-7527-8280
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1186/s13059-020-02021-3
