@@ -109,6 +109,7 @@
   - audiovisual integration
   - delta
   - theta
+  - information theory
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.neuroimage.2022.119044
