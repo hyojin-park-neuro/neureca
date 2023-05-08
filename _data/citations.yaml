@@ -111,6 +111,7 @@
   - motor cortex
   - representational interaction
   - information theory
+  - mutual information
   - partial information decomposition
   - synergy
   - redundancy
@@ -259,6 +260,7 @@
   - top-down
   - auditory cortex
   - motor cortex
+  - information theory
   - transfer entropy
   - MEG/EEG
   plugin: sources.py
