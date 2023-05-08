@@ -28,10 +28,6 @@
   type: paper
   date: 2022-5-5
   image: images/highlights_1.jpg
-  buttons:
-    - type: website
-      text: Website
-      link: https://doi.org/10.1101/2022.05.05.490770
   tags:
     - audiovisual speech
     - semantic gist
