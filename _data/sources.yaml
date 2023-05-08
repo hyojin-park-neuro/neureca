@@ -38,6 +38,19 @@
     - MEG/EEG
 
 
+- id: doi:10.1016/j.crneur.2021.100014
+  type: paper
+  date: 2021-5-19
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2665945X21000103-gr1.jpg
+  tags:
+    - audiovisual speech
+    - auditory detection
+    - lip movement
+    - theta 
+    - phase
+    - MEG/EEG
+    
+
 - id: doi:10.1371/journal.pbio.2006558
   type: paper
   date: 2018-8-6
@@ -52,6 +65,21 @@
     - partial information decomposition
     - synergy
     - redundancy
+    - MEG/EEG
+    
+    
+- id: doi:10.1080/23273798.2018.1506589
+  type: paper
+  date: 2018-9-26
+  image: https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/plcp21/2020/plcp21.v035.i06/23273798.2018.1506589/20210511/images/large/plcp_a_1506589_f0004_oc.jpeg
+  tags:
+    - speech
+    - speech tracking
+    - prediction
+    - top-down
+    - delta
+    - theta
+    - beta
     - MEG/EEG
     
    
@@ -142,7 +170,7 @@
  - id: doi:10.1089/brain.2011.0046
   type: paper
   date: 2012-4-13
-  image: https://onlinelibrary.wiley.com/cms/asset/429827ab-1a27-4130-9fe0-df0e6f8d2cdb/hbm22452-fig-0003-m.jpg
+  image: images/cite_icon_brain_connect_12.jpg
   tags:
     - working memory
     - visuospatial memory
