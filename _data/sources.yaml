@@ -35,7 +35,7 @@
 - id: doi:10.1101/2022.05.05.490770
   type: paper
   date: 2022-5-5
-  image: images/photo.jpg
+  image: images/highlights_1.jpg
   buttons:
     - type: website
       text: Website
