@@ -11,7 +11,7 @@
   date: '2022-06-22'
   link: https://doi.org/gr7jkf
   type: paper
-  image: images/photo.jpg
+  image: images/cite_icon_arxiv_differential_roles.jpg
   tags:
   - semantic gist
   - audiovisual integration
@@ -58,10 +58,35 @@
   tags:
   - audiovisual speech
   - semantic gist
+  - topic
+  - keyword
   - topic model
+  - latent dirichlet allocation (LDA)
   - multi-speaker
   - natural language processing (NLP)
   - large language model (LLMs)
+  - MEG/EEG
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.crneur.2021.100014
+  title: Auditory detection is modulated by theta phase of silent lip movements
+  authors:
+  - Emmanuel Biau
+  - Danying Wang
+  - Hyojin Park
+  - Ole Jensen
+  - Simon Hanslmayr
+  publisher: Current Research in Neurobiology
+  date: '2021-05-19'
+  link: https://doi.org/gpzgm6
+  type: paper
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2665945X21000103-gr1.jpg
+  tags:
+  - audiovisual speech
+  - auditory detection
+  - lip movement
+  - theta
+  - phase
   - MEG/EEG
   plugin: sources.py
   file: sources.yaml
@@ -89,6 +114,29 @@
   - partial information decomposition
   - synergy
   - redundancy
+  - MEG/EEG
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1080/23273798.2018.1506589
+  title: Predictive entrainment of natural speech through two fronto-motor top-down
+    channels
+  authors:
+  - Hyojin Park
+  - Gregor Thut
+  - Joachim Gross
+  publisher: Language, Cognition and Neuroscience
+  date: '2018-09-26'
+  link: https://doi.org/gg8q3z
+  type: paper
+  image: https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/plcp21/2020/plcp21.v035.i06/23273798.2018.1506589/20210511/images/large/plcp_a_1506589_f0004_oc.jpeg
+  tags:
+  - speech
+  - speech tracking
+  - prediction
+  - top-down
+  - delta
+  - theta
+  - beta
   - MEG/EEG
   plugin: sources.py
   file: sources.yaml
@@ -139,6 +187,35 @@
   - lip movement
   - speech intelligibility
   - coherence
+  - MEG/EEG
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/srep28092
+  title: Formation of visual memories controlled by gamma power phase-locked to alpha
+    oscillations
+  authors:
+  - Hyojin Park
+  - Dong Soo Lee
+  - Eunjoo Kang
+  - Hyejin Kang
+  - Jarang Hahm
+  - June Sic Kim
+  - Chun Kee Chung
+  - Haiteng Jiang
+  - Joachim Gross
+  - Ole Jensen
+  publisher: Scientific Reports
+  date: '2016-06-16'
+  link: https://doi.org/f8snd3
+  type: paper
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep28092/MediaObjects/41598_2016_Article_BFsrep28092_Fig2_HTML.jpg?as=webp
+  tags:
+  - memory
+  - memory encoding
+  - alpha
+  - gamma
+  - cross-frequency coupling
+  - phase-amplitude coupling
   - MEG/EEG
   plugin: sources.py
   file: sources.yaml
@@ -211,6 +288,32 @@
   - remember
   - no-remember
   - alpha
+  - MEG/EEG
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1089/brain.2011.0046
+  title: Cross-Frequency Power Correlations Reveal the Right Superior Temporal Gyrus
+    as a Hub Region During Working Memory Maintenance
+  authors:
+  - Hyojin Park
+  - Eunjoo Kang
+  - Hyejin Kang
+  - June Sic Kim
+  - Ole Jensen
+  - Chun Kee Chung
+  - Dong Soo Lee
+  publisher: Brain Connectivity
+  date: '2012-04-13'
+  link: https://doi.org/fxvrh9
+  type: paper
+  image: images/cite_icon_brain_connect_12.jpg
+  tags:
+  - working memory
+  - visuospatial memory
+  - memory maintenance
+  - cross-freuqnecy coupling
+  - STG
+  - brain oscillations
   - MEG/EEG
   plugin: sources.py
   file: sources.yaml
