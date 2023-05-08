@@ -38,6 +38,22 @@
     - MEG/EEG
    
    
+- id: doi:10.1038/srep41592
+  type: paper
+  date: 2017-2-7
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep41592/MediaObjects/41598_2017_Article_BFsrep41592_Fig3_HTML.jpg?as=webp
+  tags:
+    - memory
+    - memory encoding
+    - alpha
+    - gamma
+    - cross-frequency
+    - functional connectivity
+    - graph filtration
+    - persistent homology
+    - MEG/EEG
+    
+    
 - id: doi:10.7554/eLife.14521
   type: paper
   date: 2016-5-5
@@ -72,8 +88,8 @@
   tags:
     - memory
     - irrelevant memory
-    - Remember
-    - No-Remember
+    - remember
+    - no-remember
     - alpha
     - MEG/EEG    
     
@@ -81,7 +97,7 @@
 - id: doi:10.1007/s00259-008-0808-z
   type: paper
   date: 2008-5-20
-  image: images/photo.jpg
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00259-008-0808-z/MediaObjects/259_2008_808_Fig3_HTML.gif?as=webp
   tags:
     - resting state
     - default mode
