@@ -27,7 +27,7 @@
 - id: doi:10.1101/2022.05.05.490770
   type: paper
   date: 2022-5-5
-  image: images/cite_icon_2022_get_the_gist.jpg
+  image: https://www.biorxiv.org/content/biorxiv/early/2022/05/05/2022.05.05.490770/F1/graphic-1.large.jpg?width=800&height=600&carousel=1
   tags:
     - audiovisual speech
     - semantic gist
