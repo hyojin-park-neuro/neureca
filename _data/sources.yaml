@@ -83,6 +83,20 @@
     - speech intelligibility
     - coherence
     - MEG/EEG    
+
+
+- id: doi:10.1038/srep28092
+  type: paper
+  date: 2016-6-16
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep28092/MediaObjects/41598_2016_Article_BFsrep28092_Fig2_HTML.jpg?as=webp
+  tags:
+    - memory
+    - memory encoding
+    - alpha
+    - gamma
+    - cross-frequency coupling
+    - phase-amplitude coupling
+    - MEG/EEG
     
         
 - id: doi:10.7554/eLife.14521
@@ -123,6 +137,20 @@
     - no-remember
     - alpha
     - MEG/EEG    
+    
+    
+ - id: doi:10.1089/brain.2011.0046
+  type: paper
+  date: 2012-4-13
+  image: https://onlinelibrary.wiley.com/cms/asset/429827ab-1a27-4130-9fe0-df0e6f8d2cdb/hbm22452-fig-0003-m.jpg
+  tags:
+    - working memory
+    - visuospatial memory
+    - memory maintenance
+    - cross-freuqnecy coupling
+    - STG
+    - brain oscillations
+    - MEG/EEG       
     
     
 - id: doi:10.1007/s00259-008-0808-z
