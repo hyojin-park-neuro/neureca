@@ -184,7 +184,7 @@
   - cross-frquency coupling
   - phase-amplitude coupling
   - spurious coupling
-  - brain osicllations
+  - brain oscillations
   - MEG/EEG
   plugin: sources.py
   file: sources.yaml
