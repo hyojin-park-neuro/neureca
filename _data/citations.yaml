@@ -54,7 +54,7 @@
   date: '2022-05-05'
   link: https://doi.org/gr7p2r
   type: paper
-  image: images/highlights_1.jpg
+  image: images/cite_icon_arxiv_get_the_gist.jpg
   tags:
   - audiovisual speech
   - semantic gist
@@ -62,6 +62,33 @@
   - multi-speaker
   - natural language processing (NLP)
   - large language model (LLMs)
+  - MEG/EEG
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1371/journal.pbio.2006558
+  title: 'Representational interactions during audiovisual speech entrainment: Redundancy
+    in left posterior superior temporal gyrus and synergy in left motor cortex'
+  authors:
+  - Hyojin Park
+  - Robin A. A. Ince
+  - Philippe G. Schyns
+  - Gregor Thut
+  - Joachim Gross
+  publisher: PLOS Biology
+  date: '2018-08-06'
+  link: https://doi.org/gd2g2g
+  type: paper
+  image: https://journals.plos.org/plosbiology/article/figure/image?size=large&id=10.1371/journal.pbio.2006558.g002
+  tags:
+  - audiovisual speech
+  - integration
+  - pSTG
+  - motor cortex
+  - representational interaction
+  - information theory
+  - partial information decomposition
+  - synergy
+  - redundancy
   - MEG/EEG
   plugin: sources.py
   file: sources.yaml
@@ -91,6 +118,27 @@
   - functional connectivity
   - graph filtration
   - persistent homology
+  - MEG/EEG
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1523/ENEURO.0334-16.2016
+  title: Discriminating Valid from Spurious Indices of Phase-Amplitude Coupling
+  authors:
+  - Ole Jensen
+  - Eelke Spaak
+  - Hyojin Park
+  publisher: eneuro
+  date: '2017-01-16'
+  link: https://doi.org/gfc3qr
+  type: paper
+  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5237829/bin/enu0061622090003.jpg
+  tags:
+  - audiovisual speech
+  - visual speech
+  - speeck tracking
+  - lip movement
+  - speech intelligibility
+  - coherence
   - MEG/EEG
   plugin: sources.py
   file: sources.yaml
