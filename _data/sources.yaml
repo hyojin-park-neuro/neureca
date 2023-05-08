@@ -12,6 +12,7 @@
     - delta
     - theta
     - information theory
+    - MEG/EEG
     
 
 - id: doi:10.1016/j.neuroimage.2022.119044
@@ -28,7 +29,74 @@
     - audiovisual speech
     - formants
     - speech envelope
+    - MEG/EEG
     
-
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+   
+- id: doi:10.1101/2022.05.05.490770
+  type: paper
+  date: 2022-5-5
+  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  buttons:
+    - type: source
+      text: Manuscript Source
+      link: https://doi.org/10.1101/2022.05.05.490770
+  tags:
+    - audiovisual speech
+    - semantic gist
+    - topic model
+    - multi-speaker
+    - natural language processing (NLP)
+    - large language model (LLMs)
+    - MEG/EEG
+   
+   
+- id: doi:10.7554/eLife.14521
+  type: paper
+  date: 2016-5-5
+  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  buttons:
+    - type: source
+      text: Manuscript Source
+      link:  https://doi.org/10.7554/eLife.14521
+  tags:
+    - audiovisual speech
+    - visual speech
+    - speeck tracking
+    - lip movement
+    - speech intelligibility
+    - coherence
+    - MEG/EEG
+    
+    
+- id: doi:10.1016/j.cub.2015.04.049
+  type: paper
+  date: 2015-6-15
+  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  buttons:
+    - type: source
+      text: Manuscript Source
+      link: https://doi.org/10.1016/j.cub.2015.04.049
+  tags:
+    - speech tracking
+    - top-down
+    - auditory cortex
+    - motor cortex
+    - transfer entropy
+    - MEG/EEG
+    
+    
+- id: doi:10.1007/s00259-008-0808-z
+  type: paper
+  date: 2008-5-20
+  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  buttons:
+    - type: source
+      text: Manuscript Source
+      link: https://doi.org/10.1007/s00259-008-0808-z
+  tags:
+    - resting state
+    - default mode
+    - interregional correlation
+    - functional connectivity
+    - metabolic connectivity
+    - FDG-PET
