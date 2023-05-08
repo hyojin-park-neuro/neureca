@@ -68,7 +68,7 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: images/photo.jpg
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S1053811922001732-gr1.jpg
   buttons:
   - type: source
     text: Manuscript Source
