@@ -195,3 +195,25 @@
     - functional connectivity
     - metabolic connectivity
     - FDG-PET
+
+
+- title: Language Lateralization Using Magnetoencephalography (MEG): A Preliminary Study
+  authors:
+  - Seo-Young Lee
+  - Eunjoo Kang
+  - June Sic Kim
+  - Sang-Kun Lee
+  - Hyejin Kang
+  - Hyojin Park
+  - Sung Hun Kim
+  - Seung Hwan Lee
+  - Chun Kee Chung
+  type: paper
+  date: 2006-12-30
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00259-008-0808-z/MediaObjects/259_2008_808_Fig3_HTML.gif?as=webp
+  tags:
+    - language
+    - lateralzation
+    - presurgical mapping
+    - epilepsy
+    - MEG/EEG
