@@ -27,7 +27,7 @@
 - id: doi:10.1101/2022.05.05.490770
   type: paper
   date: 2022-5-5
-  image: images/highlights_1.jpg
+  image: images/cite_icon_arxiv_get_the_gist.jpg
   tags:
     - audiovisual speech
     - semantic gist
@@ -36,7 +36,24 @@
     - natural language processing (NLP)
     - large language model (LLMs)
     - MEG/EEG
-   
+
+
+- id: doi:10.1371/journal.pbio.2006558
+  type: paper
+  date: 2018-8-6
+  image: https://journals.plos.org/plosbiology/article/figure/image?size=large&id=10.1371/journal.pbio.2006558.g002
+  tags:
+    - audiovisual speech
+    - integration
+    - pSTG
+    - motor cortex
+    - representational interaction
+    - information theory
+    - partial information decomposition
+    - synergy
+    - redundancy
+    - MEG/EEG
+    
    
 - id: doi:10.1038/srep41592
   type: paper
@@ -54,6 +71,20 @@
     - MEG/EEG
     
     
+- id: doi:10.1523/ENEURO.0334-16.2016
+  type: paper
+  date: 2017-1-16
+  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5237829/bin/enu0061622090003.jpg
+  tags:
+    - audiovisual speech
+    - visual speech
+    - speeck tracking
+    - lip movement
+    - speech intelligibility
+    - coherence
+    - MEG/EEG    
+    
+        
 - id: doi:10.7554/eLife.14521
   type: paper
   date: 2016-5-5
