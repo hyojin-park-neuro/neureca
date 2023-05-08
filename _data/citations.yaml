@@ -158,7 +158,7 @@
   type: paper
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep41592/MediaObjects/41598_2017_Article_BFsrep41592_Fig3_HTML.jpg?as=webp
   tags:
-  - memory
+  - long-term memory
   - memory encoding
   - alpha
   - gamma
@@ -208,7 +208,7 @@
   type: paper
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep28092/MediaObjects/41598_2016_Article_BFsrep28092_Fig2_HTML.jpg?as=webp
   tags:
-  - memory
+  - long-term memory
   - memory encoding
   - alpha
   - gamma
@@ -281,8 +281,9 @@
   type: paper
   image: https://onlinelibrary.wiley.com/cms/asset/429827ab-1a27-4130-9fe0-df0e6f8d2cdb/hbm22452-fig-0003-m.jpg
   tags:
-  - memory
+  - long-term memory
   - irrelevant memory
+  - memory blocking
   - remember
   - no-remember
   - alpha
