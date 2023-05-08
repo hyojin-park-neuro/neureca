@@ -53,7 +53,7 @@
 - id: doi:10.7554/eLife.14521
   type: paper
   date: 2016-5-5
-  image: images/photo.jpg
+  image: https://iiif.elifesciences.org/lax/14521%2Felife-14521-fig2-v2.tif/full/,1500/0/default.jpg
   buttons:
     - type: website
       text: Website
@@ -71,7 +71,7 @@
 - id: doi:10.1016/j.cub.2015.04.049
   type: paper
   date: 2015-6-15
-  image: images/photo.jpg
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S096098221500500X-gr1.jpg
   buttons:
     - type: website
       text: Website
@@ -88,7 +88,7 @@
 - id: doi:10.1007/s00259-008-0808-z
   type: paper
   date: 2008-5-20
-  image: images/photo.jpg
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00259-008-0808-z/MediaObjects/259_2008_808_Fig3_HTML.gif?as=webp
   buttons:
     - type: website
       text: Website
