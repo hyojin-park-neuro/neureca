@@ -3,8 +3,8 @@
   date: 2022-6-22
   image: images/photo.jpg
   buttons:
-    - type: source
-      text: Manuscript Source
+    - type: website
+      text: Website
       link: https://doi.org/10.1101/2022.06.21.497061
   tags:
     - semantic gist
@@ -20,8 +20,8 @@
   date: 2022-5-15
   image: https://ars.els-cdn.com/content/image/1-s2.0-S1053811922001732-gr1.jpg
   buttons:
-    - type: source
-      text: Manuscript Source
+    - type: website
+      text: Website
       link: https://doi.org/10.1016/j.neuroimage.2022.119044
   tags:
     - stimulus reconstruction
@@ -37,8 +37,8 @@
   date: 2022-5-5
   image: images/photo.jpg
   buttons:
-    - type: source
-      text: Manuscript Source
+    - type: website
+      text: Website
       link: https://doi.org/10.1101/2022.05.05.490770
   tags:
     - audiovisual speech
@@ -55,8 +55,8 @@
   date: 2016-5-5
   image: images/photo.jpg
   buttons:
-    - type: source
-      text: Manuscript Source
+    - type: website
+      text: Website
       link:  https://doi.org/10.7554/eLife.14521
   tags:
     - audiovisual speech
@@ -73,8 +73,8 @@
   date: 2015-6-15
   image: images/photo.jpg
   buttons:
-    - type: source
-      text: Manuscript Source
+    - type: website
+      text: Website
       link: https://doi.org/10.1016/j.cub.2015.04.049
   tags:
     - speech tracking
@@ -90,8 +90,8 @@
   date: 2008-5-20
   image: images/photo.jpg
   buttons:
-    - type: source
-      text: Manuscript Source
+    - type: website
+      text: Website
       link: https://doi.org/10.1007/s00259-008-0808-z
   tags:
     - resting state
