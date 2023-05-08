@@ -1,7 +1,7 @@
 - id: doi:10.1101/2022.06.21.497061
   type: paper
   date: 2022-6-22
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  image: images/photo.jpg
   buttons:
     - type: source
       text: Manuscript Source
@@ -18,7 +18,7 @@
 - id: doi:10.1016/j.neuroimage.2022.119044
   type: paper
   date: 2022-5-15
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  image: images/photo.jpg
   buttons:
     - type: source
       text: Manuscript Source
@@ -35,7 +35,7 @@
 - id: doi:10.1101/2022.05.05.490770
   type: paper
   date: 2022-5-5
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  image: images/photo.jpg
   buttons:
     - type: source
       text: Manuscript Source
@@ -53,7 +53,7 @@
 - id: doi:10.7554/eLife.14521
   type: paper
   date: 2016-5-5
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  image: images/photo.jpg
   buttons:
     - type: source
       text: Manuscript Source
@@ -71,7 +71,7 @@
 - id: doi:10.1016/j.cub.2015.04.049
   type: paper
   date: 2015-6-15
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  image: images/photo.jpg
   buttons:
     - type: source
       text: Manuscript Source
@@ -88,7 +88,7 @@
 - id: doi:10.1007/s00259-008-0808-z
   type: paper
   date: 2008-5-20
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  image: images/photo.jpg
   buttons:
     - type: source
       text: Manuscript Source
