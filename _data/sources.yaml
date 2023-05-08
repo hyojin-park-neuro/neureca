@@ -85,6 +85,23 @@
     - MEG/EEG
     
     
+- id: doi:10.1002/hbm.22452
+  type: paper
+  date: 2014-2-12
+  image: https://onlinelibrary.wiley.com/cms/asset/429827ab-1a27-4130-9fe0-df0e6f8d2cdb/hbm22452-fig-0003-m.jpg
+  buttons:
+    - type: website
+      text: Website
+      link: https://doi.org/10.1002/hbm.22452
+  tags:
+    - memory
+    - irrelevant memory
+    - Remember
+    - No-Remember
+    - alpha
+    - MEG/EEG    
+    
+    
 - id: doi:10.1007/s00259-008-0808-z
   type: paper
   date: 2008-5-20
