@@ -327,7 +327,7 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: images/photo.jpg
+  image: https://iiif.elifesciences.org/lax/14521%2Felife-14521-fig2-v2.tif/full/,1500/0/default.jpg
   buttons:
   - type: website
     text: Website
@@ -376,7 +376,7 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: images/photo.jpg
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S096098221500500X-gr1.jpg
   buttons:
   - type: website
     text: Website
@@ -472,7 +472,7 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: images/photo.jpg
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00259-008-0808-z/MediaObjects/259_2008_808_Fig3_HTML.gif?as=webp
   buttons:
   - type: website
     text: Website
