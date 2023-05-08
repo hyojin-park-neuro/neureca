@@ -16,8 +16,8 @@
   type: paper
   image: images/photo.jpg
   buttons:
-  - type: source
-    text: Manuscript Source
+  - type: website
+    text: Website
     link: https://doi.org/10.1101/2022.06.21.497061
   tags:
   - semantic gist
@@ -41,8 +41,8 @@
   type: paper
   image: images/photo.jpg
   buttons:
-  - type: source
-    text: Manuscript Source
+  - type: website
+    text: Website
     link: https://doi.org/10.1101/2022.05.05.490770
   tags:
   - audiovisual speech
@@ -70,8 +70,8 @@
   type: paper
   image: https://ars.els-cdn.com/content/image/1-s2.0-S1053811922001732-gr1.jpg
   buttons:
-  - type: source
-    text: Manuscript Source
+  - type: website
+    text: Website
     link: https://doi.org/10.1016/j.neuroimage.2022.119044
   tags:
   - stimulus reconstruction
@@ -329,8 +329,8 @@
   type: paper
   image: images/photo.jpg
   buttons:
-  - type: source
-    text: Manuscript Source
+  - type: website
+    text: Website
     link: https://doi.org/10.7554/eLife.14521
   tags:
   - audiovisual speech
@@ -378,8 +378,8 @@
   type: paper
   image: images/photo.jpg
   buttons:
-  - type: source
-    text: Manuscript Source
+  - type: website
+    text: Website
     link: https://doi.org/10.1016/j.cub.2015.04.049
   tags:
   - speech tracking
@@ -474,8 +474,8 @@
   type: paper
   image: images/photo.jpg
   buttons:
-  - type: source
-    text: Manuscript Source
+  - type: website
+    text: Website
     link: https://doi.org/10.1007/s00259-008-0808-z
   tags:
   - resting state
