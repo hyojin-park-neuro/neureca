@@ -105,7 +105,7 @@
 - id: doi:10.1007/s00259-008-0808-z
   type: paper
   date: 2008-5-20
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00259-008-0808-z/MediaObjects/259_2008_808_Fig3_HTML.gif?as=webp
+  image: images/photo.jpg
   buttons:
     - type: website
       text: Website
