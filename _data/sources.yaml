@@ -4,6 +4,8 @@
   image: images/cite_icon_arxiv_differential_roles.jpg
   tags:
     - semantic gist
+    - topic
+    - keywords
     - audiovisual integration
     - delta
     - theta
@@ -33,7 +35,7 @@
     - audiovisual speech
     - semantic gist
     - topic
-    - keyword
+    - keywords
     - topic model
     - latent dirichlet allocation (LDA)
     - multi-speaker
@@ -194,6 +196,7 @@
   tags:
     - resting state
     - default mode
+    - glucose metabolism
     - interregional correlation
     - functional connectivity
     - metabolic connectivity
