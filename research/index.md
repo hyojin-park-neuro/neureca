@@ -14,7 +14,7 @@ We believe this is essential for making meaningful contributions to our field an
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="Get the gist of the story: Neural map of topic keywords in multi-speaker environment" style="rich" %}
 
 {% include section.html %}
 
