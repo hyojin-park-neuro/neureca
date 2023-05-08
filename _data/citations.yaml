@@ -1,93 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
-  authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-7527-8280
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-7527-8280
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-7527-8280
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2019-06-24'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-7527-8280
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-7527-8280
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1101/2022.06.21.497061
   title: 'Differential roles of delta and theta oscillations in understanding semantic
     gist during natural audiovisual speech perception: Functional and anatomical evidence'
@@ -98,6 +10,9 @@
   publisher: Cold Spring Harbor Laboratory
   date: '2022-06-22'
   link: https://doi.org/gr7jkf
+  orcid: 0000-0002-7527-8280
+  plugin: sources.py
+  file: sources.yaml
   type: paper
   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
   buttons:
@@ -110,8 +25,33 @@
   - delta
   - theta
   - information theory
+  - MEG/EEG
+- id: doi:10.1101/2022.05.05.490770
+  title: 'Get the gist of the story: Neural map of topic keywords in multi-speaker
+    environment'
+  authors:
+  - Hyojin Park
+  - Joachim Gross
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-05-05'
+  link: https://doi.org/gr7p2r
+  orcid: 0000-0002-7527-8280
   plugin: sources.py
   file: sources.yaml
+  type: paper
+  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  buttons:
+  - type: source
+    text: Manuscript Source
+    link: https://doi.org/10.1101/2022.05.05.490770
+  tags:
+  - audiovisual speech
+  - semantic gist
+  - topic model
+  - multi-speaker
+  - natural language processing (NLP)
+  - large language model (LLMs)
+  - MEG/EEG
 - id: doi:10.1016/j.neuroimage.2022.119044
   title: Masking of the mouth area impairs reconstruction of acoustic speech features
     and higher-level segmentational features in the presence of a distractor speaker
@@ -124,6 +64,9 @@
   publisher: NeuroImage
   date: '2022-05-15'
   link: https://doi.org/gr7jkp
+  orcid: 0000-0002-7527-8280
+  plugin: sources.py
+  file: sources.yaml
   type: paper
   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
   buttons:
@@ -136,21 +79,418 @@
   - audiovisual speech
   - formants
   - speech envelope
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+  - MEG/EEG
+- id: doi:10.1101/2021.09.28.461909
+  title: Occlusion of lip movements impairs reconstruction of acoustic speech features
+    and higher-level segmentational features in the presence of a distractor speaker
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
+  - Chandra Leon Haider
+  - Nina Suess
+  - Anne Hauswald
+  - Hyojin Park
+  - Nathan Weisz
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-09-30'
+  link: https://doi.org/gn26ng
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.crneur.2021.100014
+  title: Auditory detection is modulated by theta phase of silent lip movements
+  authors:
+  - Emmanuel Biau
+  - Danying Wang
+  - Hyojin Park
+  - Ole Jensen
+  - Simon Hanslmayr
+  publisher: Current Research in Neurobiology
+  date: '2021-01-01'
+  link: https://doi.org/gpzgm6
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+- id: source-work-id:cb268275-03bd-4b1f-95fe-1301ff6d4d16
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: eid:2-s2.0-85053871296
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1080/23273798.2018.1506589
+  title: Predictive entrainment of natural speech through two fronto-motor top-down
+    channels
+  authors:
+  - Hyojin Park
+  - Gregor Thut
+  - Joachim Gross
+  publisher: Language, Cognition and Neuroscience
+  date: '2018-09-26'
+  link: https://doi.org/gg8q3z
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+- id: source-work-id:32b10530-f722-4d00-a6bf-f19e4e7e5b55
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: eid:2-s2.0-85102607293
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1101/2020.07.07.186452
+  title: Auditory detection is modulated by theta phase of silent lip movements
+  authors:
+  - Emmanuel Biau
+  - Danying Wang
+  - Hyojin Park
+  - Ole Jensen
+  - Simon Hanslmayr
+  publisher: Cold Spring Harbor Laboratory
+  date: '2020-07-07'
+  link: https://doi.org/gg8qzr
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+- id: source-work-id:f414aae7-4b7f-46a9-89c7-a54aaa591adf
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1371/journal.pbio.2006558
+  title: 'Representational interactions during audiovisual speech entrainment: Redundancy
+    in left posterior superior temporal gyrus and synergy in left motor cortex'
+  authors:
+  - Hyojin Park
+  - Robin A. A. Ince
+  - Philippe G. Schyns
+  - Gregor Thut
+  - Joachim Gross
+  publisher: PLOS Biology
+  date: '2018-08-06'
+  link: https://doi.org/gd2g2g
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85053237466
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1101/280032
+  title: Predictive entrainment of natural speech through two fronto-motor top-down
+    channels
+  authors:
+  - Hyojin Park
+  - Gregor Thut
+  - Joachim Gross
+  publisher: Cold Spring Harbor Laboratory
+  date: '2018-03-11'
+  link: https://doi.org/gkxbv3
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85095627379
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1101/202911
+  title: 'Entrained audiovisual speech integration implemented by two independent
+    computational mechanisms: Redundancy in left posterior superior temporal gyrus
+    and Synergy in left motor cortex'
+  authors:
+  - Hyojin Park
+  - Robin A. A. Ince
+  - Philippe G. Schyns
+  - Gregor Thut
+  - Joachim Gross
+  publisher: Cold Spring Harbor Laboratory
+  date: '2017-10-25'
+  link: https://doi.org/gkvt59
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85095640090
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: source-work-id:b1fdf422-19fb-4bef-8749-8f025de2524e
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: eid:2-s2.0-85011878144
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1038/srep41592
+  title: Gating of memory encoding of time-delayed cross-frequency MEG networks revealed
+    by graph filtration based on persistent homology
+  authors:
+  - Jarang Hahm
+  - Hyekyoung Lee
+  - Hyojin Park
+  - Eunjoo Kang
+  - Yu Kyeong Kim
+  - Chun Kee Chung
+  - Hyejin Kang
+  - Dong Soo Lee
+  publisher: Scientific Reports
+  date: '2017-02-07'
+  link: https://doi.org/f9pw8s
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+- id: source-work-id:02e3cd43-1581-46ee-8995-fc195d073be0
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: pmid:28101528
+  title: Discriminating Valid from Spurious Indices of Phase-Amplitude Coupling.
+  authors:
+  - Ole Jensen
+  - Eelke Spaak
+  - Hyojin Park
+  publisher: eNeuro
+  date: '2017-01-16'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28101528
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85014203779
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1523/ENEURO.0334-16.2016
+  title: Discriminating Valid from Spurious Indices of Phase-Amplitude Coupling
+  authors:
+  - Ole Jensen
+  - Eelke Spaak
+  - Hyojin Park
+  publisher: eneuro
+  date: '2016-11-01'
+  link: https://doi.org/gfc3qr
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+- id: source-work-id:dd3d5f4d-f492-407c-8994-2d2cd2028e21
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1038/srep28092
+  title: Formation of visual memories controlled by gamma power phase-locked to alpha
+    oscillations
+  authors:
+  - Hyojin Park
+  - Dong Soo Lee
+  - Eunjoo Kang
+  - Hyejin Kang
+  - Jarang Hahm
+  - June Sic Kim
+  - Chun Kee Chung
+  - Haiteng Jiang
+  - Joachim Gross
+  - Ole Jensen
+  publisher: Scientific Reports
+  date: '2016-06-16'
+  link: https://doi.org/f8snd3
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-84975518518
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.7554/eLife.14521
+  title: "Lip movements entrain the observers\u2019 low-frequency brain oscillations\
+    \ to facilitate speech intelligibility"
+  authors:
+  - Hyojin Park
+  - Christoph Kayser
+  - Gregor Thut
+  - Joachim Gross
   publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  date: '2016-05-05'
+  link: https://doi.org/gdvhsk
+  orcid: 0000-0002-7527-8280
   plugin: sources.py
   file: sources.yaml
+  type: paper
+  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  buttons:
+  - type: source
+    text: Manuscript Source
+    link: https://doi.org/10.7554/eLife.14521
+  tags:
+  - audiovisual speech
+  - visual speech
+  - speeck tracking
+  - lip movement
+  - speech intelligibility
+  - coherence
+  - MEG/EEG
+- id: wosuid:000387461700001
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: eid:2-s2.0-84975256242
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: source-work-id:ec3fb6b1-f59c-4f27-bc43-e9b393471d52
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: source-work-id:5a4e852b-054f-4f69-bd7e-4dea86c220b3
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1016/j.cub.2015.04.049
+  title: Frontal Top-Down Signals Increase Coupling of Auditory Low-Frequency Oscillations
+    to Continuous Speech in Human Listeners
+  authors:
+  - Hyojin Park
+  - "Robin\_A.A. Ince"
+  - "Philippe\_G. Schyns"
+  - Gregor Thut
+  - Joachim Gross
+  publisher: Current Biology
+  date: '2015-06-15'
+  link: https://doi.org/f7g5kj
+  orcid: 0000-0002-7527-8280
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  buttons:
+  - type: source
+    text: Manuscript Source
+    link: https://doi.org/10.1016/j.cub.2015.04.049
+  tags:
+  - speech tracking
+  - top-down
+  - auditory cortex
+  - motor cortex
+  - transfer entropy
+  - MEG/EEG
+- id: eid:2-s2.0-84931571434
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: source-work-id:5f1df867-abd8-47d7-9adb-340cec25bab7
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1002/hbm.22452
+  title: Blocking of irrelevant memories by posterior alpha activity boosts memory
+    encoding
+  authors:
+  - Hyojin Park
+  - Dong Soo Lee
+  - Eunjoo Kang
+  - Hyejin Kang
+  - Jarang Hahm
+  - June Sic Kim
+  - Chun Kee Chung
+  - Ole Jensen
+  publisher: Human Brain Mapping
+  date: '2014-02-12'
+  link: https://doi.org/f6bt53
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-84903934514
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1089/brain.2011.0046
+  title: Cross-Frequency Power Correlations Reveal the Right Superior Temporal Gyrus
+    as a Hub Region During Working Memory Maintenance
+  authors:
+  - Hyojin Park
+  - Eunjoo Kang
+  - Hyejin Kang
+  - June Sic Kim
+  - Ole Jensen
+  - Chun Kee Chung
+  - Dong Soo Lee
+  publisher: Brain Connectivity
+  date: '2011-12-01'
+  link: https://doi.org/fxvrh9
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85017022181
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: source-work-id:886dd3c7-b5db-4041-9478-9896c69c19aa
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: source-work-id:29e22523-0a3b-4e09-999c-20672e91e562
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1007/s00259-008-0808-z
+  title: Metabolic connectivity by interregional correlation analysis using statistical
+    parametric mapping (SPM) and FDG brain PET; methodological development and patterns
+    of metabolic connectivity in adults
+  authors:
+  - Dong Soo Lee
+  - Hyejin Kang
+  - Heejung Kim
+  - Hyojin Park
+  - Jungsu S. Oh
+  - Jae Sung Lee
+  - Myung Chul Lee
+  publisher: European Journal of Nuclear Medicine and Molecular Imaging
+  date: '2008-05-20'
+  link: https://doi.org/b46ctm
+  orcid: 0000-0002-7527-8280
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  buttons:
+  - type: source
+    text: Manuscript Source
+    link: https://doi.org/10.1007/s00259-008-0808-z
+  tags:
+  - resting state
+  - default mode
+  - interregional correlation
+  - functional connectivity
+  - metabolic connectivity
+  - FDG-PET
+- id: eid:2-s2.0-50449108302
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: source-work-id:7ae2ecbc-e35f-429a-a30f-31812dfeb024
+  orcid: 0000-0002-7527-8280
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
