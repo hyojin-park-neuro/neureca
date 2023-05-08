@@ -31,7 +31,10 @@
   tags:
     - audiovisual speech
     - semantic gist
+    - topic
+    - keyword
     - topic model
+    - latent dirichlet allocation (LDA)
     - multi-speaker
     - natural language processing (NLP)
     - large language model (LLMs)
