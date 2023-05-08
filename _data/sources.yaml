@@ -105,14 +105,12 @@
 - id: doi:10.1523/ENEURO.0334-16.2016
   type: paper
   date: 2017-1-16
-  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5237829/bin/enu0061622090003.jpg
+  image: https://www.eneuro.org/content/eneuro/3/6/ENEURO.0334-16.2016/F1.large.jpg?width=800&height=600&carousel=1
   tags:
-    - audiovisual speech
-    - visual speech
-    - speeck tracking
-    - lip movement
-    - speech intelligibility
-    - coherence
+    - cross-frquency coupling
+    - phase-amplitude coupling
+    - spurious coupling
+    - brain osicllations
     - MEG/EEG    
 
 
