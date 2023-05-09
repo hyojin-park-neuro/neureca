@@ -1,7 +1,7 @@
 - id: doi:10.1101/2022.06.21.497061
   type: paper
   date: 2022-6-22
-  image: images/cite_icon_arxiv_differential_roles.jpg
+  image: https://www.biorxiv.org/content/biorxiv/early/2022/06/22/2022.06.21.497061/F3.large.jpg?width=800&height=600&carousel=1
   tags:
     - semantic gist
     - topic
@@ -178,7 +178,7 @@
 - id: doi:10.1089/brain.2011.0046
   type: paper
   date: 2012-4-13
-  image: images/cite_icon_brain_connect_12.jpg
+  image: images/paper_thumbnail_2012_brain_connect.jpg
   tags:
     - working memory
     - visuospatial memory
