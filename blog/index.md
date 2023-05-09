@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog, News & Events
 
-## Look inside the Group!
+## Look inside the Group! - Stay tuned, more coming up!
 
 {% include section.html %}
 
