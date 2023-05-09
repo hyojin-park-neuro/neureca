@@ -1,6 +1,6 @@
 ---
 name: Hyojin Park
-image: images/Hyojin1.jpg
+image: images/hyojin_park_1.jpg
 role: pi
 aliases:
   - H. Park
@@ -24,7 +24,16 @@ She completed a PhD on Cognitive Neuroscience at the [Interdisciplinary Program 
 - [OSF (Open Science Framework)](https://osf.io/n6kfw/)
 - [GitHub](https://github.com/hyojin-park-neuro)
 
+### Teaching
+In Brain Imaging and Cognitive Neuroscience (BICN), Computational Neuroscience and Cognitive Robotics (CNCR), Psychology MSc Programs, School of Psychology
+- Data Science for Brain and Behaviour II
+- MATLAB Programming - Module Lead
+- Application of Electrophysiological Approaches in Cognitive Neuroscience (guest lectures)
+
 ### Istitutional Responsibilities
 - [Modality Lead for MEG at the Centre for Human Brain Health (CHBH)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx), University of Birmingham
 - Member of Management Committee, Centre for Human Brain Health (CHBH), University of Birmingham 
 - Member of Science, Technology, Engineering and Mathematics (STEM) Ethical Review Committee, University of Birmingham
+
+
+
