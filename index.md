@@ -75,7 +75,7 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+To unravel the enigmatic workings of the brain, our team employs state-of-the-art neuroimaging facilities and cutting-edge analysis techniques.
 
 {%
   include button.html
@@ -98,7 +98,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our team is dedicated to advancing our understanding of the brain by formulating seamless questions and making continuous progress in our research.
 
 {%
   include button.html
@@ -123,7 +123,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-**Power of synergies!** Teamwork is essential for unlocking the power of synergies, allowing individuals to leverage their strengths and achieve greater success than they could on their own.
+**Power of synergies!** Teamwork is essential for unlocking the power of synergies, allowing individuals to leverage their strengths and achieve greater success than they could on their own. Furthremore, we embrace the value of diversity and inclusive environments for research, which is essential for fostering innovative and impactful research.
 
 {%
   include button.html
