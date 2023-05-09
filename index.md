@@ -3,7 +3,7 @@
 
 ## Welcome to Dr. Hyojin Park's Research Group! - ***Under Construction***
 (We are moving from <https://sites.google.com/view/hyojinpark/home> to here!)
-### "Neural Representations & Computational Architecture of Multi-modal Brain across Lifespan"
+### NEURECA - Neural Representations & Computational Architecture of Multi-modal Brain across Lifespan
 1. Our mission is to conduct rigorous research and push the boundaries of what is currently known, with the ultimate goal of improving human communication and enhancing quality of life.
 
 2. Through cutting-edge research and collaboration, our group aims to advance our understanding of how the brain processes and responds to audiovisual communication. Our mission is to use this knowledge to inform new technologies, therapies, and interventions that benefit society as a whole.
