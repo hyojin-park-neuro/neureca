@@ -112,7 +112,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.png"
+  image="images/neureca.png"
   link="projects"
   title="Our Projects"
   flip=true
