@@ -39,7 +39,7 @@ nav:
 
 {%
   include figure.html
-  image="images/chbh.jpg"
+  image="images/chbh_office.jpg"
   caption="Centre for Human Brain Health (CHBH), University of Birmingham"
 %}
 
@@ -49,7 +49,7 @@ nav:
 
 {%
   include figure.html
-  image="images/chbh.jpg"
+  image="images/chbh_office.jpg"
   caption="Centre for Human Brain Health (CHBH)"
 %}
 
