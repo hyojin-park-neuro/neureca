@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Recent research developments in our Group - More coming up!
+## Recent research developments in our Group - More coming up!
 
 {% include tags.html tags="publication, resource, website" %}
 
