@@ -16,6 +16,10 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 <!-- {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %} -->
 
+**Power of synergies!** <br>
+Teamwork is essential for unlocking the power of synergies, allowing individuals to leverage their strengths and achieve greater success than they could on their own. <br>
+Furthremore, we embrace the value of diversity and inclusive environments for research, which is essential for fostering innovative and impactful research. <br>
+
 ### Postdoctoral Researcher
 - Dr. Tara Ghafari (co-supervision)
 
