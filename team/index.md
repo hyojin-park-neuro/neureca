@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-## Join the Team! - We are hiring now (deadline: 5th June), please check News page!
+## Join the Team! - We are hiring now (deadline: 5th June), check out our News page!
 Highly motivated PhD students and postdoctoral scientists are welcome to join Dr. Park’s research group! <br>
 Please feel free to contact the PI to discuss further regarding funding opportunities!
 
