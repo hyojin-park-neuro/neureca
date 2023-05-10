@@ -1,7 +1,6 @@
 ---
 title: Invited talk in ULB, Brussels, Belgium
 author: Hyojin Park
-date: 2023-03-27
 tags: seminar, MEG, OPM-MEG
 ---
 
