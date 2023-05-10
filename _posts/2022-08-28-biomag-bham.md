@@ -9,5 +9,5 @@ Dr. Hyojin Park played a key role in the organization of the conference, serving
 
 At the symposium, she gave a talk titled "Temporal relationship between auditory and visual speech signals in naturalistic speech and their interactive spatial representations in the brain".
 
-At the Satellite workshop (28th Aug 2022), she was invited to give a talk at the European MEG Society Satellite Workshop on “Investigation of human language with MEG: from research to clinical applications”
+At the Satellite workshop (28th Aug 2022), she was invited to give a talk at the European MEG Society Satellite Workshop on “Investigation of human language with MEG: from research to clinical applications” <br>
 Talk title: "Top-down and bottom-up processing in cortical entrainment to continuous speech"
