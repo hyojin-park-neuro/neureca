@@ -1,7 +1,7 @@
 ---
 title: Competition Funded PhD Project (open to UK home and International students)
 author: Hyojin Park, Katrien Segaert
-tags: job, PhD, learning, strategy, development, lifespan, NLP, LLMs, MEG, OPM-MEG, CHBH, CDS
+tags: job, PhD, learning, strategy, lifespan, NLP, LLMs, MEG, OPM-MEG, CHBH, CDS
 ---
 
 **Project Title**: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies
@@ -34,7 +34,7 @@ The project will be about learning strategies for effective communication. Effec
 **How to apply** <br>
 **Deadline for applications: Monday 5th June 2023 midnight** <br>
 Please send the documents (pdf, max 5 MB) below to supervisors’ emails: 
-Dr. Hyojin Park: <h.park@bham.ac.uk>, Dr. Katrien Segaert: <k.segaert@bham.ac.uk>
+Dr. Hyojin Park: <mailto:h.park@bham.ac.uk>, Dr. Katrien Segaert: <mailto:k.segaert@bham.ac.uk>
 - [Application form](https://drive.google.com/uc?export=download&id=1CSazI0eQgfXDcunFcj0L-eLUPgcRLZrH)
 - CV
 - Academic transcripts 
