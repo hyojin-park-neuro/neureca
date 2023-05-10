@@ -34,7 +34,7 @@ The project will be about learning strategies for effective communication. Effec
 **How to apply** <br>
 **Deadline for applications: Monday 5th June 2023 midnight** <br>
 Please send the documents (pdf, max 5 MB) below to supervisors’ emails: 
-Dr. Hyojin Park: h.park@bham.ac.uk, Dr. Katrien Segaert: k.segaert@bham.ac.uk
+Dr. Hyojin Park: <h.park@bham.ac.uk>, Dr. Katrien Segaert: <k.segaert@bham.ac.uk>
 - [Application form](https://drive.google.com/uc?export=download&id=1CSazI0eQgfXDcunFcj0L-eLUPgcRLZrH)
 - CV
 - Academic transcripts 
