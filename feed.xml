@@ -1,1 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-10T11:08:03+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>An engaging 1-3 sentence description of your lab.</subtitle><entry><title type="html">Example post 3</title><link href="/2023/02/23/example-post-3.html" rel="alternate" type="text/html" title="Example post 3" /><published>2023-02-23T00:00:00+00:00</published><updated>2023-05-10T11:07:13+00:00</updated><id>/2023/02/23/example-post-3</id><content type="html" xml:base="/2023/02/23/example-post-3.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>john-doe</name></author><category term="biology," /><category term="medicine" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary></entry><entry><title type="html">Example post 2</title><link href="/2021/09/30/example-post-2.html" rel="alternate" type="text/html" title="Example post 2" /><published>2021-09-30T00:00:00+00:00</published><updated>2023-05-10T11:07:13+00:00</updated><id>/2021/09/30/example-post-2</id><content type="html" xml:base="/2021/09/30/example-post-2.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>jane-smith</name></author><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary></entry><entry><title type="html">Example post 1</title><link href="/2019/01/07/example-post-1.html" rel="alternate" type="text/html" title="Example post 1" /><published>2019-01-07T00:00:00+00:00</published><updated>2023-05-10T11:07:13+00:00</updated><id>/2019/01/07/example-post-1</id><content type="html" xml:base="/2019/01/07/example-post-1.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>sarah-johnson</name></author><category term="biology" /><category term="medicine" /><category term="big data" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-10T19:06:38+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>An engaging 1-3 sentence description of your lab.</subtitle><entry><title type="html">Competition Funded PhD Project (open to UK home and International students)</title><link href="/2023/05/10/Funded-PhD-Studentship.html" rel="alternate" type="text/html" title="Competition Funded PhD Project (open to UK home and International students)" /><published>2023-05-10T00:00:00+00:00</published><updated>2023-05-10T19:04:23+00:00</updated><id>/2023/05/10/Funded-PhD-Studentship</id><content type="html" xml:base="/2023/05/10/Funded-PhD-Studentship.html"><![CDATA[<p><strong>Project Title</strong>: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies</p>
+
+<p><strong>Institution</strong>: University of Birmingham, School of Psychology, Centre for Human Brain Health (CHBH), Centre for Developmental Science (CDS)</p>
+
+<p><strong>Supervisors</strong>: Dr. Hyojin Park and Dr. Katrien Segaert</p>
+
+<p>We are inviting applications for a PhD studentship (start date September 18th 2023) in the School of Psychology and Centre for Human Brain Health (CHBH) at the University of Birmingham. This is a fully funded studentship which also covers UK home fees but is open to international students (details below). We are searching for a highly talented and dedicated PhD student with a 1st class or 2:1 degree in the field of psychology, cognitive neuroscience or similar disciplines (see criteria below). 
+We are keen to recruit PhD students from under-represented groups, for example, home students who identify as BAME or those who grew up or went to school in an area where young people are less likely to enter higher education.
+The project will be about learning strategies for effective communication. Effective communication in social situations relies heavily on the brain’s ability to integrate information from different sources. Despite the fact that this ability is crucial for communication abilities throughout one’s life, we know very little about the development of these strategies in early childhood and changes in the context of cognitive decline in older adulthood. This PhD project will take a lifespan perspective to investigate how the brain utilises and integrates visual and auditory information to process information efficiently in children, young adults and the elderly. To do this, the project will combine analysis of an existing neuroimaging dataset (including children) with new neuroimaging data-collection of young and older adults (using MEG/OPM-MEG). Brain oscillations data will then be linked to behavior. To do this, we will be using natural language processing (NLP) algorithms based on large-language models (LLMs) to decode the brain activity.</p>
+
+<p><strong><em>Essential skills:</em></strong></p>
+<ul>
+  <li>At least 1st class or 2:1 degree classification in relevant areas (MSc degree is a plus but we will consider students with a BSc degree)</li>
+  <li>Degree in psychology, neuroscience, medicine, physics, computer science, experimental linguistics or a related discipline relevant to cognitive neuroscience/neuroimaging</li>
+  <li>Relevant academic or non-academic experience or expertise relevant to the research project</li>
+  <li>Excellent English language skills</li>
+  <li>Strong organisation and time-management skills</li>
+  <li>Strong commitment, flexibility, independence</li>
+  <li>A positive problem-solving attitude and strong teamwork skills</li>
+</ul>
+
+<p><strong><em>Desirable skills:</em></strong></p>
+<ul>
+  <li>Experience with cognitive neuroscience research (human electrophysiology using MEG/EEG/OPM-MEG or other)</li>
+  <li>Programming skills (MATLAB, Python, R or similar)</li>
+  <li>Knowledge of general statistics for data analysis</li>
+  <li>Notes: These are skills that will be required to complete the PhD. However, we will also consider applicants who do not yet have these skills but are highly motivated to learn them during the project.</li>
+  <li>Candidates from underrepresented groups in the PGR cohort</li>
+</ul>
+
+<p><strong>How to apply</strong>
+<strong><em>Deadline for applications: Monday 5th June 2023 midnight</em></strong>
+Please send the documents (pdf, max 5 MB) below to supervisors’ emails: 
+Dr. Hyojin Park: h.park@bham.ac.uk, Dr. Katrien Segaert: k.segaert@bham.ac.uk</p>
+<ul>
+  <li><a href="https://drive.google.com/uc?export=download&amp;id=1CSazI0eQgfXDcunFcj0L-eLUPgcRLZrH">Application form</a></li>
+  <li>CV</li>
+  <li>Academic transcripts</li>
+  <li>Names and contact details of two referees
+Email subject line should be [PhD application] Your name (First, Last)</li>
+</ul>
+
+<p>The interview process will consist of two stages. The first interview stage will be with the supervisors (provisionally scheduled to take place on Friday June 9th). Candidates who pass the first stage, will proceed to a second stage with a wider University interview panel (provisionally scheduled June 22/June 23).
+If you have any questions, please contact supervisors.</p>
+
+<p><strong>Funding Notes</strong>
+The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 3.5 years.
+For international students: Funding will only cover home tuition fees, therefore, international students would need to cover the gap between home and international tuition fee rates. If you are an international student, you will need to confirm that you are able to cover the fee difference.</p>
+
+<p><strong>FindAPhD Link</strong>
+https://www.findaphd.com/phds/project/information-processing-from-childhood-into-older-age-a-developmental-lifespan-perspective-on-neural-plasticity-in-learning-strategies/?p158217</p>
+
+<p><strong>Please take a look at the group webpages of the supervisors and our Centres &amp; University.</strong></p>
+<ul>
+  <li>Dr. Hyojin Park: https://www.neureca.org/</li>
+  <li>Dr. Katrien Segaert: https://www.katriensegaert.com/</li>
+  <li>School of Psychology: https://www.birmingham.ac.uk/schools/psychology/index.aspx</li>
+  <li>CHBH: https://www.birmingham.ac.uk/research/centre-for-human-brain-health/index.aspx</li>
+  <li>CDS: https://www.birmingham.ac.uk/research/centre-for-developmental-science/index.aspx</li>
+  <li>University of Birmingham: https://www.birmingham.ac.uk/index.aspx</li>
+</ul>]]></content><author><name>Hyojin Park</name></author><category term="job," /><category term="PhD" /><summary type="html"><![CDATA[Project Title: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies]]></summary></entry><entry><title type="html">Example post 2</title><link href="/2021/09/30/example-post-2.html" rel="alternate" type="text/html" title="Example post 2" /><published>2021-09-30T00:00:00+00:00</published><updated>2023-05-10T19:04:23+00:00</updated><id>/2021/09/30/example-post-2</id><content type="html" xml:base="/2021/09/30/example-post-2.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>jane-smith</name></author><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary></entry><entry><title type="html">Example post 1</title><link href="/2019/01/07/example-post-1.html" rel="alternate" type="text/html" title="Example post 1" /><published>2019-01-07T00:00:00+00:00</published><updated>2023-05-10T19:04:23+00:00</updated><id>/2019/01/07/example-post-1</id><content type="html" xml:base="/2019/01/07/example-post-1.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>sarah-johnson</name></author><category term="biology" /><category term="medicine" /><category term="big data" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary></entry></feed>
