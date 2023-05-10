@@ -1,6 +1,6 @@
 ---
 title: Competition Funded PhD Project (open to UK home and International students)
-author: Hyojin Park
+author: Hyojin Park, Katrien Segaert
 tags: job, PhD, learning, strategy, development, lifespan, NLP, LLMs, MEG, OPM-MEG
 ---
 
