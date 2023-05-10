@@ -38,7 +38,7 @@ Dr. Hyojin Park: <h.park@bham.ac.uk>, Dr. Katrien Segaert: <k.segaert@bham.ac.uk
 - [Application form](https://drive.google.com/uc?export=download&id=1CSazI0eQgfXDcunFcj0L-eLUPgcRLZrH)
 - CV
 - Academic transcripts 
-- Names and contact details of two referees
+- Names and contact details of two referees <br>
 Email subject line should be [PhD application] Your name (First, Last)
 
 The interview process will consist of two stages. The first interview stage will be with the supervisors (provisionally scheduled to take place on **Friday June 9th**). Candidates who pass the first stage, will proceed to a second stage with a wider University interview panel (provisionally scheduled **June 22/June 23**).
@@ -47,7 +47,7 @@ If you have any questions, please contact supervisors.
 
 **Funding Notes** <br>
 The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 3.5 years. <br>
-For international students: Funding will only cover home tuition fees, therefore, international students would need to cover the gap between home and international tuition fee rates. If you are an international student, you will need to confirm that you are able to cover the fee difference.  
+*For international students*: Funding will only cover home tuition fees, therefore, international students would need to cover the gap between home and international tuition fee rates. If you are an international student, you will need to confirm that you are able to cover the fee difference.  
 
 
 **FindAPhD Link** <br>
