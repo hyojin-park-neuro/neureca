@@ -51,13 +51,13 @@ For international students: Funding will only cover home tuition fees, therefore
 
 
 **FindAPhD Link** <br>
-https://www.findaphd.com/phds/project/information-processing-from-childhood-into-older-age-a-developmental-lifespan-perspective-on-neural-plasticity-in-learning-strategies/?p158217
+<https://www.findaphd.com/phds/project/information-processing-from-childhood-into-older-age-a-developmental-lifespan-perspective-on-neural-plasticity-in-learning-strategies/?p158217>
 
 
 **Please take a look at the group webpages of the supervisors and our Centres & University.**
-- Dr. Hyojin Park: https://www.neureca.org/
-- Dr. Katrien Segaert: https://www.katriensegaert.com/
-- School of Psychology: https://www.birmingham.ac.uk/schools/psychology/index.aspx
-- CHBH: https://www.birmingham.ac.uk/research/centre-for-human-brain-health/index.aspx
-- CDS: https://www.birmingham.ac.uk/research/centre-for-developmental-science/index.aspx
-- University of Birmingham: https://www.birmingham.ac.uk/index.aspx
+- Dr. Hyojin Park: <https://www.neureca.org/>
+- Dr. Katrien Segaert: <https://www.katriensegaert.com/>
+- School of Psychology: <https://www.birmingham.ac.uk/schools/psychology/index.aspx>
+- CHBH: <https://www.birmingham.ac.uk/research/centre-for-human-brain-health/index.aspx>
+- CDS: <https://www.birmingham.ac.uk/research/centre-for-developmental-science/index.aspx>
+- University of Birmingham: <https://www.birmingham.ac.uk/index.aspx>
