@@ -31,8 +31,8 @@ The project will be about learning strategies for effective communication. Effec
 - Candidates from underrepresented groups in the PGR cohort
 
 
-**How to apply**
-***Deadline for applications: Monday 5th June 2023 midnight***
+**How to apply** <br>
+**Deadline for applications: Monday 5th June 2023 midnight** <br>
 Please send the documents (pdf, max 5 MB) below to supervisors’ emails: 
 Dr. Hyojin Park: h.park@bham.ac.uk, Dr. Katrien Segaert: k.segaert@bham.ac.uk
 - [Application form](https://drive.google.com/uc?export=download&id=1CSazI0eQgfXDcunFcj0L-eLUPgcRLZrH)
@@ -45,12 +45,12 @@ The interview process will consist of two stages. The first interview stage will
 If you have any questions, please contact supervisors. 
 
 
-**Funding Notes**
-The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 3.5 years.
+**Funding Notes** <br>
+The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 3.5 years. <br>
 For international students: Funding will only cover home tuition fees, therefore, international students would need to cover the gap between home and international tuition fee rates. If you are an international student, you will need to confirm that you are able to cover the fee difference.  
 
 
-**FindAPhD Link**
+**FindAPhD Link** <br>
 https://www.findaphd.com/phds/project/information-processing-from-childhood-into-older-age-a-developmental-lifespan-perspective-on-neural-plasticity-in-learning-strategies/?p158217
 
 
