@@ -54,6 +54,10 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
 <https://www.findaphd.com/phds/project/information-processing-from-childhood-into-older-age-a-developmental-lifespan-perspective-on-neural-plasticity-in-learning-strategies/?p158217>
 
 
+**jobs.ac.uk Link** <br>
+https://www.jobs.ac.uk/job/CZS642/phd-studentship-information-processing-from-childhood-into-older-age-a-developmental-lifespan-perspective-on-neural-plasticity-in-learning-strategies
+
+
 **Please take a look at the group webpages of the supervisors and our Centres & University.**
 - Dr. Hyojin Park: <https://www.neureca.org/>
 - Dr. Katrien Segaert: <https://www.katriensegaert.com/>
