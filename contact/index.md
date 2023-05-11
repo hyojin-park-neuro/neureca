@@ -3,6 +3,11 @@ title: Contact
 nav:
   order: 5
   tooltip: Email, address, and location
+carousels:
+  - images: 
+    - image: /images/carousel/uob_1.jpg
+    - image: /images/carousel/uob_2.jpg
+    - image: /images/carousel/uob_3.jpg
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
@@ -93,7 +98,11 @@ sed do eiusmod tempor
 {% include section.html %}
 
 {%
-  include figure.html
-  image="images/uob_1.jpg"
+  include carousel.html
+  width="60"
+  height="60"
+  unit="%"
+  duration="8"
+  number="1"
   caption="University of Birmingham"
 %}
