@@ -91,6 +91,7 @@ sed do eiusmod tempor
 {% include cols.html col1=col1 col2=col2 %}
 
 {% include section.html %}
+
 {%
   include figure.html
   image="images/uob_1.jpg"
