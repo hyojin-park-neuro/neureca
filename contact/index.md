@@ -104,6 +104,6 @@ sed do eiusmod tempor
   width="60"
   height="60"
   unit="%"
-  duration="7"
+  duration="5"
   number="1"
 %}
