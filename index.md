@@ -1,4 +1,9 @@
 ---
+title: Home
+carousels:
+  - images: 
+    - image: /images/carousel/hyojin_park_2.jpg
+    - image: /images/carousel/hyojin_park_3.jpg
 ---
 
 ## Welcome to Dr. Hyojin Park's Research Group! - ***Under Construction***
@@ -137,8 +142,9 @@ Our team is dedicated to advancing our understanding of the brain by formulating
 {% endcapture %}
 
 {%
-  include feature.html
-  image="images/hyojin_park_2.jpg"
+  include carousel.html
+  duration="10" 
+  number="1"
   link="team"
   title="Our Team"
   text=text
