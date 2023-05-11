@@ -8,6 +8,8 @@ carousels:
     - image: /images/carousel/uob_1.jpg
     - image: /images/carousel/uob_2.jpg
     - image: /images/carousel/uob_3.jpg
+    - image: /images/carousel/uob_4.jpg
+    - image: /images/carousel/uob_5.jpg
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
@@ -102,7 +104,6 @@ sed do eiusmod tempor
   width="60"
   height="60"
   unit="%"
-  duration="8"
+  duration="7"
   number="1"
-  caption="University of Birmingham"
 %}
