@@ -1,5 +1,5 @@
 ---
-title: Competition Funded PhD Project (open to UK home and International students)
+title: Competition Funded PhD Project <br> (open to UK home and International students)
 author: Hyojin Park, Katrien Segaert
 tags: job, PhD, learning, strategy, lifespan, NLP, LLMs, MEG, OPM-MEG, CHBH, CDS
 ---
