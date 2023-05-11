@@ -1,5 +1,8 @@
 ---
 title: Home
+nav:
+  order: 1
+  tooltip: Home
 carousels:
   - images: 
     - image: /images/carousel/hyojin_park_2.jpg
