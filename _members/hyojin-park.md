@@ -12,8 +12,12 @@ aliases:
 links:
   home-page: https://neureca.org
   orcid: 0000-0002-7527-8280
+carousels:
+  - images: 
+    - image: /images/carousel/hyojin_park_2.jpg
+    - image: /images/carousel/hyojin_park_3.jpg
+    - image: /images/carousel/hyojin_park_4.jpg
 ---
-
 
 [Dr. Hyojin Park](https://www.birmingham.ac.uk/staff/profiles/psychology/park-hyojin.aspx) (Principal Investigator) is an Assistant Professor (Lecturer) and [Birmingham Fellow](https://www.birmingham.ac.uk/staff/excellence/fellows/index.aspx) at the [School of Psychology](https://www.birmingham.ac.uk/schools/psychology/index.aspx) and [Centre for Human Brain Health (CHBH)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/index.aspx), [College of Life and Environmental Sciences](https://www.birmingham.ac.uk/university/colleges/les/index.aspx) at the [University of Birmingham](https://www.birmingham.ac.uk/index.aspx), Birmingham, UK.
 
@@ -39,5 +43,6 @@ In Brain Imaging and Cognitive Neuroscience (BICN), Computational Neuroscience a
 - Member of Management Committee, Centre for Human Brain Health (CHBH), University of Birmingham 
 - Member of Science, Technology, Engineering and Mathematics (STEM) Ethical Review Committee, University of Birmingham
 
+{% include section.html %}
 
-
+{% include carousel.html width="60" height="60" unit="%" duration="5" number="1" %}
