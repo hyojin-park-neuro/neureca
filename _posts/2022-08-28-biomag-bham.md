@@ -21,6 +21,6 @@ Talk title: "Top-down and bottom-up processing in cortical entrainment to contin
 
 {% include section.html %}
 
-{% include carousel.html width="60" height="60" unit="%" duration="6" %}
+{% include carousel.html width="60" height="60" unit="%" duration="6" number="1" %}
   
 {% include section.html %}
