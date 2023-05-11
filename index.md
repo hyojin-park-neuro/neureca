@@ -146,7 +146,7 @@ Our team is dedicated to advancing our understanding of the brain by formulating
   image="images/hyojin_park_2.jpg"
   link="team"
   title="Our Team"
-  flip=true
+  flip=false
   style="bare"
   text=text
 %}
