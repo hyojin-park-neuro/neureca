@@ -42,7 +42,7 @@ Dr. Hyojin Park: <mailto:h.park@bham.ac.uk>, Dr. Katrien Segaert: <mailto:k.sega
 Email subject line should be [PhD application] Your name (First, Last)
 
 The interview process will consist of two stages. The first interview stage will be with the supervisors (provisionally scheduled to take place on **Friday June 9th**). Candidates who pass the first stage, will proceed to a second stage with a wider University interview panel (provisionally scheduled **June 22/June 23**).
-If you have any questions, please contact supervisors. 
+If you have any questions, please contact the supervisors. 
 
 
 **Funding Notes** <br>
