@@ -19,7 +19,7 @@ Also, Hyojin organised a symposium titled "Rhythms in Auditory, Visual, and Audi
 At the Satellite workshop (28th Aug 2022), she was invited to give a talk at the European MEG Society Satellite Workshop on “Investigation of human language with MEG: from research to clinical applications” <br>
 Talk title: "Top-down and bottom-up processing in cortical entrainment to continuous speech"
 
-{% include section.html size="50%" %}
+{% include section.html size="100%" %}
 
 {% include carousel.html unit="%" duration="5" number="1" %}
   
