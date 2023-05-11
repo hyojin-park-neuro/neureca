@@ -1,47 +1,47 @@
-- title: Cool Dataset
+- title: Cool Project
   subtitle: a subtitle
   group: featured
   image: images/neureca.png
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://github.com/hyojin-park-neuro
+  description: More coming up!
+  repo: hyojin-park-neuro
   tags:
     - resource
 
-- title: Cool Package
+- title: Cool Project
   subtitle: a subtitle
   group: featured
   image: images/neureca.png
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://github.com/hyojin-park-neuro
+  description: More coming up!
+  repo: hyojin-park-neuro
   tags:
     - resource
 
-- title: Cool Tutorial
+- title: Cool Project
   subtitle: a subtitle
   image: images/neureca.png
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://github.com/hyojin-park-neuro
+  description: More coming up!
+  repo: hyojin-park-neuro
   tags:
     - resource
     - publication
 
-- title: Cool Web App
+- title: Cool Project
   subtitle: a subtitle
   image: images/neureca.png
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://github.com/hyojin-park-neuro
+  description: More coming up!
+  repo: hyojin-park-neuro
   tags:
     - software
 
-- title: Cool Web Server
+- title: Cool Project
   subtitle: a subtitle
   image: images/neureca.png
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://github.com/hyojin-park-neuro
+  description: More coming up!
+  repo: hyojin-park-neuro
   tags:
     - software
