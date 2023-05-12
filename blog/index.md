@@ -5,9 +5,8 @@ nav:
   tooltip: Blog & Miscellany
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %} Blog & Deeper Stories!
+# {% include icon.html icon="fa-solid fa-feather-pointed" %} Blog & Stories Unveiled!
 
-## Look inside our Group! - More stories inside posts with taggings!
 
 {% include section.html %}
 
