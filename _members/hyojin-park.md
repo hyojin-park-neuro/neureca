@@ -45,4 +45,4 @@ In Brain Imaging and Cognitive Neuroscience (BICN), Computational Neuroscience a
 
 {% include section.html %}
 
-{% include carousel.html height="40" unit="%" duration="5" number="1" %}
+{% include carousel.html height="60" unit="%" duration="5" number="1" %}
