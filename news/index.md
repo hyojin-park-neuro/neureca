@@ -5,7 +5,7 @@ nav:
   tooltip: News & Events
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events - For deeper stories, see Blog!
+# {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events
 
 # 2023
 - We are hiring - Please apply!! [Competition Funded PhD Studentship](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)
