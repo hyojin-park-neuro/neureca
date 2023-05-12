@@ -1,7 +1,7 @@
 ---
 title: Competition Funded PhD Project <br> (open to UK home and International students)
 author: Hyojin Park, Katrien Segaert
-tags: job, PhD, learning, strategy, lifespan, NLP, LLMs, MEG, OPM-MEG, CHBH, CDS
+tags: job, PhD, MEG, OPM-MEG, CHBH, CDS
 ---
 
 **Project Title**: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies
