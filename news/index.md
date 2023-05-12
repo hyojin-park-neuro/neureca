@@ -22,21 +22,22 @@ nav:
 - Talk, Korea Institute of Science and Technology (KIST), Seoul, South Korea. 30 Dec 2022.
 
 - BIOMAG 2022 (see Blog)
-- Symposium Chair. BIOMAG 2022 (The 22nd International Conference on Biomagnetism), Birmingham, UK. Symposium title: "Rhythms in Auditory, Visual, and Audiovisual Speech Processing: Multisensory representations in unisensory cortices and beyond". 28 Aug-1 Sep 2022.
-- Talk, Symposium at BIOMAG 2022 (The 22nd International Conference on Biomagnetism), Birmingham, UK. "The temporal relationship between auditory and visual speech signals in naturalistic speech and their interactive spatial representations in the brain". 28 Aug 28-1 Sep 2022.
-- Talk, European MEG Society Satellite Workshop titled “Investigation of human language with MEG: from research to clinical applications”. BIOMAG 2022 (The 22nd International Conference on Biomagnetism). Top-down and bottom-up processing in cortical entrainment to continuous speech. 28 Aug 2022.
+    - Symposium Chair. BIOMAG 2022 (The 22nd International Conference on Biomagnetism), Birmingham, UK. Symposium title: "Rhythms in Auditory, Visual, and Audiovisual Speech Processing: Multisensory representations in unisensory cortices and beyond". 28 Aug-1 Sep 2022.
+    - Talk, Symposium at BIOMAG 2022 (The 22nd International Conference on Biomagnetism), Birmingham, UK. "The temporal relationship between auditory and visual speech signals in naturalistic speech and their interactive spatial representations in the brain". 28 Aug 28-1 Sep 2022.
+    - Talk, European MEG Society Satellite Workshop titled “Investigation of human language with MEG: from research to clinical applications”. BIOMAG 2022 (The 22nd International Conference on Biomagnetism). Top-down and bottom-up processing in cortical entrainment to continuous speech. 28 Aug 2022.
 
-- Talk, School of Computer Science and Electrical Engineering, Handong Global University, Pohang, South Korea. Aug 2022.
+- Talk, Korea Research Institute of Standards and Science (KRISS), Daejeon, South Korea, Daejeon, South Korea. 12 Aug 2022.
 
-- Talk, Korea Research Institute of Standards and Science (KRISS), Daejeon, South Korea, Daejeon, South Korea. Aug 2022.
+- Talk, School of Computer Science and Electrical Engineering, Handong Global University, Pohang, South Korea. 9 Aug 2022.
 
-- Talk, Dept. of Neurosurgery, Seoul National University Hospital, Seoul, South Korea. Jul 2022.
+- Talk, Dept. of Neurosurgery, Seoul National University Hospital, Seoul, South Korea. 29 Jul 2022.
 
-- Talk, Dept. of Nuclear Medicine, Seoul National University Hospital, South Korea. Jul 2022.
+- Talk, Dept. of Nuclear Medicine, Seoul National University Hospital, South Korea. 27 Jul 2022.
 
 - Talk, UST (University of Science & Technology) Global Mentoring Conference. Seoul, South Korea. "Brain rhythms and Natural Language Processing (NLP)". 28 Jun 2022.
 
-- Talk, BACN (British Association for Cognitive Neuroscience) in Birmingham, UK. 25 May 2022. "Spatio-Temporal Neural Map of Representation of Topic Keywords during Natural Auditory Speech Perception" (see picture below!)
+- Talk, BACN (British Association for Cognitive Neuroscience) in Birmingham, UK. 25 May 2022. 
+"Spatio-Temporal Neural Map of Representation of Topic Keywords during Natural Auditory Speech Perception" (see picture below!)
 
 - Talk, MRC Cognition and Brain Sciences Unit (MRC CBU) Chaucer Club Seminar, University of Cambridge. 3 Feb 2022. "Neural dynamics of natural speech perception via Natural Language Processing (NLP) models" https://www.mrc-cbu.cam.ac.uk/seminar-information/chaucer-club/
 
