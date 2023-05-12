@@ -1,5 +1,5 @@
 ---
-title: MEG UK 2017
+title: MEG UK 2017, Oxford
 author: Hyojin Park
 ---
 Talk, MEG UK 2017, Oxford, UK. 22 Mar 2017.
