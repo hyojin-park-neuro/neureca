@@ -10,7 +10,7 @@ nav:
 # 2023
 - We are hiring - Please apply!! [Competition Funded PhD Studentship](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)
 
-- [Talk, ULB Hospital Erasme Brussels, Brussels, Belgium.](https://www.neureca.org/2023/03/27/invited-talk-brussels.html) "Brain rhythms and Natural Language Processing (NLP)". 27 Mar 2023
+- [Talk, ULB Hospital Erasme Brussels, Brussels, Belgium](https://www.neureca.org/2023/03/27/invited-talk-brussels.html). "Brain rhythms and Natural Language Processing (NLP)". 27 Mar 2023
 
 - Talk, National Epilepsy Care Center, Seoul, South Korea. 13 Mar 2023.
 
@@ -23,7 +23,7 @@ nav:
 # 2022
 - Talk, Korea Institute of Science and Technology (KIST), Seoul, South Korea. 30 Dec 2022.
 
-- [BIOMAG (The 22nd International Conference on Biomagnetism) 28 Aug-1 Sep 2022, Birmingham, UK](https://www.neureca.org/2022/08/28/biomag-bham.html)
+- [BIOMAG (The 22nd International Conference on Biomagnetism)](https://www.neureca.org/2022/08/28/biomag-bham.html). 28 Aug-1 Sep 2022, Birmingham, UK
     - Symposium Chair. Symposium title: "Rhythms in Auditory, Visual, and Audiovisual Speech Processing: Multisensory representations in unisensory cortices and beyond". 
     - Talk at Symposium "The temporal relationship between auditory and visual speech signals in naturalistic speech and their interactive spatial representations in the brain"
     - Talk at European MEG Society Satellite Workshop (28 Aug) titled “Investigation of human language with MEG: from research to clinical applications”. "Top-down and bottom-up processing in cortical entrainment to continuous speech"
@@ -38,11 +38,11 @@ nav:
 
 - Talk, UST (University of Science & Technology) Global Mentoring Conference. Seoul, South Korea. "Brain rhythms and Natural Language Processing (NLP)". 28 Jun 2022.
 
-- [Talk, BACN (British Association for Cognitive Neuroscience) in Birmingham, UK.](https://www.neureca.org/2022/05/25/bacn-bham.html) 25 May 2022. "Spatio-Temporal Neural Map of Representation of Topic Keywords during Natural Auditory Speech Perception"
+- [Talk, BACN (British Association for Cognitive Neuroscience) in Birmingham, UK](https://www.neureca.org/2022/05/25/bacn-bham.html). 25 May 2022. "Spatio-Temporal Neural Map of Representation of Topic Keywords during Natural Auditory Speech Perception"
 
 - Brain Awareness Week (BAW) Mar 14-20 2022. [Gabe (Gabriel Byczynski, MSc student in the group) talking about audiovisual speech integration!](https://www.neureca.org/2022/03/14/baw-gabe.html) 
 
-- [Talk, MRC Cognition and Brain Sciences Unit (MRC CBU) Chaucer Club Seminar, University of Cambridge.](https://www.neureca.org/2022/02/03/invited-talk-cambridge.html) 3 Feb 2022. 
+- [Talk, MRC Cognition and Brain Sciences Unit (MRC CBU) Chaucer Club Seminar, University of Cambridge](https://www.neureca.org/2022/02/03/invited-talk-cambridge.html). 3 Feb 2022. 
 "Neural dynamics of natural speech perception via Natural Language Processing (NLP) models" <https://www.mrc-cbu.cam.ac.uk/seminar-information/chaucer-club/>
 
 # 2021
@@ -119,7 +119,7 @@ nav:
 # 2016
 - Selected to participate in the ***Nature Masterclass***! 13-14 Oct 2016, University of Glasgow.
 
-- [***Young Investigator Award (YIA)*** from the BIOMAG (The 20th International Conference on Biomagnetism).](https://www.neureca.org/2016/10/01/biomag-yia.html) 1-6 Oct 2016. Seoul, South Korea. Dr. Hyojin Park received the prestigious YIA! 
+- [***Young Investigator Award (YIA)*** from the BIOMAG (The 20th International Conference on Biomagnetism)](https://www.neureca.org/2016/10/01/biomag-yia.html). 1-6 Oct 2016. Seoul, South Korea. Dr. Hyojin Park received the prestigious YIA! 
 
 - ***Merit Award*** from the OHBM (Organization for Human Brain Mapping). 26-30 Jun 2016. Geneva, Switzerland. Dr. Hyojin Park received the Merit Award! 
 
