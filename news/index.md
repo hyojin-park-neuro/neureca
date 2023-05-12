@@ -8,6 +8,8 @@ nav:
 # {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events - For deeper stories, see Blog!
 
 # 2023
+- We are hiring - Please apply!! - [Competition Funded PhD Studentship](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)
+
 - Talk, ULB Hospital Erasme Brussels, Brussels, Belgium. "Brain rhythms and Natural Language Processing (NLP)". 27 Mar 2023 (see Blog)
 
 - Talk, National Epilepsy Care Center, Seoul, South Korea. 13 Mar 2023.
