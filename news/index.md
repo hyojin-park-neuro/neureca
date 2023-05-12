@@ -9,11 +9,12 @@ nav:
 
 
 - Talk, ULB Hospital Erasme Brussels, Brussels, Belgium. "Brain rhythms and Natural Language Processing (NLP)". 27 Mar 2023.
+
 - Talk, National Epilepsy Care Center, Seoul, South Korea. 13 Mar 2023.
+
 - Talk, National Epilepsy Care Center, Seoul, South Korea. 27 Feb 2023.
 
-
-Talk, Dept. of Brain and Cognitive Sciences, Seoul National University, Seoul, South Korea. Jan 2023.
+- Talk, Dept. of Brain and Cognitive Sciences, Seoul National University, Seoul, South Korea. Jan 2023.
 
 
 Talk, Auditory Research Society, Seoul, South Korea. Jan 2023.
