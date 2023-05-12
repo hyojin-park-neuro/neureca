@@ -10,7 +10,7 @@ nav:
 # 2023
 - We are hiring - Please apply!! [Competition Funded PhD Studentship](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)
 
-- Talk, ULB Hospital Erasme Brussels, Brussels, Belgium. "Brain rhythms and Natural Language Processing (NLP)". 27 Mar 2023 (see Blog)
+- Talk, ULB Hospital Erasme Brussels, Brussels, Belgium. "Brain rhythms and Natural Language Processing (NLP)". 27 Mar 2023
 
 - Talk, National Epilepsy Care Center, Seoul, South Korea. 13 Mar 2023.
 
@@ -23,10 +23,11 @@ nav:
 # 2022
 - Talk, Korea Institute of Science and Technology (KIST), Seoul, South Korea. 30 Dec 2022.
 
-- BIOMAG 28 Aug-1 Sep 2022 (see Blog)
-    - Symposium Chair. BIOMAG 2022 (The 22nd International Conference on Biomagnetism), Birmingham, UK. Symposium title: "Rhythms in Auditory, Visual, and Audiovisual Speech Processing: Multisensory representations in unisensory cortices and beyond". 
-    - Talk, Symposium at BIOMAG 2022 (The 22nd International Conference on Biomagnetism), Birmingham, UK. "The temporal relationship between auditory and visual speech signals in naturalistic speech and their interactive spatial representations in the brain"
-    - Talk, European MEG Society Satellite Workshop titled “Investigation of human language with MEG: from research to clinical applications”. BIOMAG 2022 (The 22nd International Conference on Biomagnetism). Top-down and bottom-up processing in cortical entrainment to continuous speech. 28 Aug 2022.
+- BIOMAG (The 22nd International Conference on Biomagnetism) 28 Aug-1 Sep 2022 (see Blog), Birmingham, UK
+    - Symposium Chair. Symposium title: "Rhythms in Auditory, Visual, and Audiovisual Speech Processing: Multisensory representations in unisensory cortices and beyond". 
+    - Talk at Symposium "The temporal relationship between auditory and visual speech signals in naturalistic speech and their interactive spatial representations in the brain"
+    - Talk at European MEG Society Satellite Workshop (28 Aug) titled “Investigation of human language with MEG: from research to clinical applications”. <br> 
+    "Top-down and bottom-up processing in cortical entrainment to continuous speech"
 
 - Talk, Korea Research Institute of Standards and Science (KRISS), Daejeon, South Korea, Daejeon, South Korea. 12 Aug 2022.
 
@@ -45,11 +46,9 @@ nav:
 "Neural dynamics of natural speech perception via Natural Language Processing (NLP) models" https://www.mrc-cbu.cam.ac.uk/seminar-information/chaucer-club/
 
 # 2021
-- BBSRC funded Midlands Integrative Biosciences Training Partnership (MIBTP) approved! PhD Funding available: Please apply here! (1 Nov 2021 - 9 Jan 2022) <br> 
-Project details can be found on the FindAPhD website.
+- BBSRC funded Midlands Integrative Biosciences Training Partnership (MIBTP) approved! PhD Funding available: Please apply here! (1 Nov 2021 - 9 Jan 2022) Project details can be found on the FindAPhD website.
 
-- Co-PI of the Grant "Mild Traumatic Brain Injury Biomarker Study, a prospective cohort biomarker study of military and civilian participants with mTBI: mTBI-Predict" funded by Ministry of Defence (MOD), UK. 
-Postdoc Position available: We are hiring a postdoctoral researcher. Please apply here!
+- Co-PI of the Grant "Mild Traumatic Brain Injury Biomarker Study, a prospective cohort biomarker study of military and civilian participants with mTBI: mTBI-Predict" funded by Ministry of Defence (MOD), UK. Postdoc Position available: We are hiring a postdoctoral researcher. Please apply here!
 
 - BIOMAG 2022 (The 22nd International Conference on Biomagnetism) Symposium proposal accepted!
 
