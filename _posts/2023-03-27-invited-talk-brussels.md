@@ -1,5 +1,5 @@
 ---
-title: Invited talk at ULB, Brussels, Belgium
+title: Invited talk, ULB, Brussels, Belgium
 author: Hyojin Park
 tags: seminar, MEG, OPM-MEG
 ---
