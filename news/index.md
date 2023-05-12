@@ -41,6 +41,7 @@ nav:
 
 - Talk, MRC Cognition and Brain Sciences Unit (MRC CBU) Chaucer Club Seminar, University of Cambridge. 3 Feb 2022. "Neural dynamics of natural speech perception via Natural Language Processing (NLP) models" https://www.mrc-cbu.cam.ac.uk/seminar-information/chaucer-club/
 
+# 2021
 - BBSRC funded Midlands Integrative Biosciences Training Partnership (MIBTP) approved! PhD Funding available: Please apply here! (1 Nov 2021 - 9 Jan 2022) <br> 
 Project details can be found on the FindAPhD website.
 
@@ -59,10 +60,12 @@ Postdoc Position available: We are hiring a postdoctoral researcher. Please appl
 
 - Hosting  a School Seminar: Prof. Edmund Lalor at the University of Rochester will give a talk titled "Modelling the electrophysiology of hierarchical speech and language processing" at the School of Psychology Seminar Series, 24 Feb 2021.
 
+# 2020
 - Hosting a CHBH Seminar: Prof. Nathan Weisz at the University of Salzburg will give a talk titled "Predictive listening as double-edged sword" at the CHBH seminar series, 25 Jun 2020.
 
 - Hosting a School Seminar: Prof. Riikka Mottonen at the University of Nottingham will give a talk titled "Stimulating the talking and listening brain" at the School of Psychology Seminar Series, 12 Feb 2020.
 
+# 2019
 - Selected to participate in the *Rising Stars Programme*, Life and Environmental Sciences, University of Birmingham (2018-2019).
 
 - Member of Local Organising Committee & Award Committee of the BIOMAG 2022 (The 22nd International Conference on Biomagnetism), Birmingham, UK. (2018-2022).
@@ -93,6 +96,7 @@ Postdoc Position available: We are hiring a postdoctoral researcher. Please appl
 
 - Interview with the Korea Institute of Radiological and Medical Sciences (in Korean).
 
+# 2018
 - Joined the Editorial Board as a Review Editor in Frontiers in Human Neuroscience, Since Sep 2018.
 
 - Talk, BACN (British Association for Cognitive Neuroscience) in Glasgow, UK. 7 Sep 2018. Symposium title: "Neuroscientific investigations of natural language processing" (chaired by Prof. Olaf Hauk).
@@ -105,6 +109,7 @@ Postdoc Position available: We are hiring a postdoctoral researcher. Please appl
 
 - Inaugural MEG (Magnetoencephalography) Symposium at the CHBH, 11 May 2018 https://meg2018.eventbrite.co.uk Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at the CHBH.
 
+# 2017
 - Talk, Cyprus University of Technology, Limassol, Cyprus. 6 Nov 2017. Title: "Application of MEG in cognitive neuroscience research". Lecture for the Postgraduate Program MSc Brain & Cognitive Science at the Faculty of Health Sciences, Cyprus University of Technology (invited by Prof. Maria Kambanaros).
 
 - Talk, BCBL (Basque Center on Cognition, Brain and Language), San Sebastian, Spain. 18 May 2017 (invited by Director Prof. Manuel Carreiras). Title: "Dynamic information in audiovisual speech entrainment through neural oscillatory communication".
