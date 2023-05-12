@@ -2,7 +2,7 @@
 title: Contact
 nav:
   order: 7
-  tooltip: Email, address & location
+  tooltip: Email, Address & Location
 carousels:
   - images: 
     - image: /images/carousel/uob_1.jpg
