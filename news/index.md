@@ -23,7 +23,7 @@ nav:
 # 2022
 - Talk, Korea Institute of Science and Technology (KIST), Seoul, South Korea. 30 Dec 2022.
 
-- BIOMAG (The 22nd International Conference on Biomagnetism) 28 Aug-1 Sep 2022 (see Blog), Birmingham, UK
+- BIOMAG (The 22nd International Conference on Biomagnetism) 28 Aug-1 Sep 2022, Birmingham, UK
     - Symposium Chair. Symposium title: "Rhythms in Auditory, Visual, and Audiovisual Speech Processing: Multisensory representations in unisensory cortices and beyond". 
     - Talk at Symposium "The temporal relationship between auditory and visual speech signals in naturalistic speech and their interactive spatial representations in the brain"
     - Talk at European MEG Society Satellite Workshop (28 Aug) titled “Investigation of human language with MEG: from research to clinical applications”. "Top-down and bottom-up processing in cortical entrainment to continuous speech"
@@ -85,7 +85,7 @@ nav:
 - Brain Awareness Week (BAW) Mar 11-17 2019. Centre for Human Brain Health (CHBH), University of Birmingham. Dr. Hyojin Park will guide the tour to the MEG and give a quick presentation about MEG facility.
 
 # 2018
-- Selected to participate in the *Rising Stars Programme*, Life and Environmental Sciences, University of Birmingham. 2018-2019.
+- Selected to participate in the ***Rising Stars Programme***, Life and Environmental Sciences, University of Birmingham. 2018-2019.
 
 - Member of Local Organising Committee & Award Committee of the BIOMAG 2022 (The 22nd International Conference on Biomagnetism), Birmingham, UK. 2018-2022.
 
@@ -112,7 +112,7 @@ nav:
 
 - Talk, CNS (Cognitive Neuroscience Society), San Francisco, CA, USA. 25-28 Mar 2017. Title: "Neural decomposition of synergistic and redundant information in interaction between audiovisual speech rhythms and brain oscillations".
 
-- Talk, MEG UK 2017, Oxford, UK. Mar 2017. Title: "Analysis of neuronal oscillatory communication: entrainment, coupling and directionality in cognitive paradigm" https://www.ohba.ox.ac.uk/files/news/meguk_program.pdf
+- Talk, MEG UK 2017, Oxford, UK. Mar 2017. Title: "Analysis of neuronal oscillatory communication: entrainment, coupling and directionality in cognitive paradigm" <https://www.ohba.ox.ac.uk/files/news/meguk_program.pdf>
 
 # 2016
 - Selected to participate in the ***Nature Masterclass***! 13-14 Oct 2016, University of Glasgow.
