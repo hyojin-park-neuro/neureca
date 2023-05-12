@@ -1,10 +1,10 @@
 ---
-title: Invited talk, ULB, Brussels, Belgium
+title: Invited talk, ULB Hospital Erasme Brussels, Belgium
 author: Hyojin Park
 tags: seminar, MEG, OPM-MEG
 ---
 
-Dr. Hyojin Park (PI) gave a talk at the ULB Hospital Erasme Brussels, Belgium. <br>
+Dr. Hyojin Park gave a talk at the ULB Hospital Erasme Brussels, Belgium (Hosted by Dr. Mathieu Bourguignon). <br>
 
 "Brain rhythms and Natural Language Processing (NLP)" on 27th March 2023.
 
