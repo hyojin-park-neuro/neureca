@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-## Join the Team! - We are hiring now (*Deadline: 5th June*), check out our [News page](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)!
+## Join the Team! - We are hiring now (*Deadline: 5th June*), [check it out!](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)!
 Highly motivated PhD students and postdoctoral scientists are welcome to join Dr. Park’s research group! <br>
 Please feel free to contact the PI to discuss further regarding funding opportunities!
 
