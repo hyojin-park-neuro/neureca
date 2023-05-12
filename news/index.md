@@ -48,13 +48,11 @@ nav:
 
 - Co-PI of the Grant "Mild Traumatic Brain Injury Biomarker Study, a prospective cohort biomarker study of military and civilian participants with mTBI: mTBI-Predict" funded by Ministry of Defence (MOD), UK. Postdoc Position available: We are hiring a postdoctoral researcher. Please apply here!
 
-- BIOMAG 2022 (The 22nd International Conference on Biomagnetism) Symposium proposal accepted!
+- BIOMAG 2022 (The 22nd International Conference on Biomagnetism) Symposium proposal accepted! Symposium title: "Rhythms in Auditory, Visual, and Audiovisual Speech Processing: Multisensory representations in unisensory cortices and beyond" (Chair: Dr Hyojin Park, Speakers: Hyojin Park, Nicola Molinaro, Nina Suess, Emmanuel Biau, Anne Keitel).
 
-- Symposium title: "Rhythms in Auditory, Visual, and Audiovisual Speech Processing: Multisensory representations in unisensory cortices and beyond" (Chair: Dr Hyojin Park, Speakers: Hyojin Park, Nicola Molinaro, Nina Suess, Emmanuel Biau, Anne Keitel).
+- Talk, Hallym University Medical Center, Anyang, South Korea. 7 Jul 2021.
 
-- Talk, Korea Institute of Science and Technology (KIST), Seoul, South Korea. Jul 2021.
-
-- Talk, Hallym University Medical Center, Anyang, South Korea. Jul 2021.
+- Talk, Korea Institute of Science and Technology (KIST), Seoul, South Korea. 5 Jul 2021.
 
 - Hosting a School Seminar: Prof. Soo-Eun Chang at the University of Michigan will give a talk titled "Rhythm and timing investigations in developmental stuttering" at the School of Psychology Seminar Series, 5 May 2021.
 
@@ -66,44 +64,42 @@ nav:
 - Hosting a School Seminar: Prof. Riikka Mottonen at the University of Nottingham will give a talk titled "Stimulating the talking and listening brain" at the School of Psychology Seminar Series, 12 Feb 2020.
 
 # 2019
-- Selected to participate in the *Rising Stars Programme*, Life and Environmental Sciences, University of Birmingham (2018-2019).
-
-- Member of Local Organising Committee & Award Committee of the BIOMAG 2022 (The 22nd International Conference on Biomagnetism), Birmingham, UK. (2018-2022).
-
 - Talk, School of Psychology, University of Nottingham. 6 Nov 2019.
 
-- Talk, Nanosymposium, SfN (Society for Neuroscience) in Chicago, IL. 19-23 October 2019 (Session title: Integration Across Sensory Modalities (23 Oct 13:00-17:00). Talk title: "Rhythmic modulations in representational interactions between audiovisual speech features".
+- Talk, Nanosymposium, SfN (Society for Neuroscience) in Chicago, IL. 19-23 October 2019 (Session title: Integration Across Sensory Modalities (23 Oct 13:00-17:00). Talk title: "Rhythmic modulations in representational interactions between audiovisual speech features"
 
 - Hosting a CHBH Seminar: Dr. Robin Ince at the University of Glasgow will give a talk titled "Information theoretic analysis of neuroimaging signals: Hands-on tutorial"  at the CHBH Seminar Series, 10 Oct 2019.
 
-- Talk, Korea Institute of Radiological & Medical Sciences (KIRAMS). Seoul, South Korea. Sep 2019.
+- Talk, Korea Institute of Radiological & Medical Sciences (KIRAMS). Seoul, South Korea. 17 Sep 2019.
 
-- Talk, Department of Psychology, Kyungpook National University. Daegu, South Korea. Sep 2019.
+- Talk, Department of Psychology, Kyungpook National University. Daegu, South Korea. 10 Sep 2019.
 
-- Talk, Centre for Neuroscience-Inspired AI, Korea Advanced Institute of Science and Technology (KAIST). Daejeon, South Korea. Aug 2019.
+- Talk, Centre for Neuroscience-Inspired AI, Korea Advanced Institute of Science and Technology (KAIST). Daejeon, South Korea. 14 Aug 2019.
 
-- Talk, Korea Research Institute of Standards and Science (KRISS). Daejeon, South Korea. Aug 2019.
+- Talk, Korea Research Institute of Standards and Science (KRISS). Daejeon, South Korea. 13 Aug 2019.
 
-- Invited to be an opponent at the Corona (PhD defence) of Linda Drijvers. Thesis title: "On the oscillatory dynamics underlying speech-gesture integration in clear and adverse listening conditions" Congratulate her on Cum Laude! 13th May 2019.
+- Invited to be an opponent at the Corona (PhD defence) of Linda Drijvers. Thesis title: "On the oscillatory dynamics underlying speech-gesture integration in clear and adverse listening conditions" Congratulate her on Cum Laude! 13 May 2019.
 
-- Talk, MEG UK 2019, Cardiff, UK. Title: "Multivariate information theory analysis reveals spatiotemporal properties of audiovisual speech integration".
+- Talk, MEG UK, Cardiff, UK. 15-17 Apr 2019. Title: "Multivariate information theory analysis reveals spatiotemporal properties of audiovisual speech integration".
 
-- CHBH Tour during Brain Awareness Week 2019 - Mar 11 - 17 at the Centre for Human Brain Health (CHBH), University of Birmingham.
-
-- Dr. Hyojin Park will guide the tour to the MEG and give a quick presentation about MEG facility.
-
-- Talk, Max Planck Institute for Empirical Aesthetics (Department of Neuroscience, Invited by Director Prof. David Poeppel and Prof. Lucia Melloni), Frankfurt, Germany, 24 Sep 2018. Title: "Neural oscillatory mechanisms in dynamic information representation during natural audiovisual speech perception".
-
-- Interview with the Korea Institute of Radiological and Medical Sciences (in Korean).
+- Brain Awareness Week (BAW) Mar 11-17 2019. Centre for Human Brain Health (CHBH), University of Birmingham. Dr. Hyojin Park will guide the tour to the MEG and give a quick presentation about MEG facility.
 
 # 2018
-- Joined the Editorial Board as a Review Editor in Frontiers in Human Neuroscience, Since Sep 2018.
+- Selected to participate in the *Rising Stars Programme*, Life and Environmental Sciences, University of Birmingham. 2018-2019.
+
+- Member of Local Organising Committee & Award Committee of the BIOMAG 2022 (The 22nd International Conference on Biomagnetism), Birmingham, UK. 2018-2022.
+
+- Talk, Max Planck Institute for Empirical Aesthetics (Department of Neuroscience, Invited by Director Prof. David Poeppel and Prof. Lucia Melloni), Frankfurt, Germany, 24 Sep 2018. Title: "Neural oscillatory mechanisms in dynamic information representation during natural audiovisual speech perception"
 
 - Talk, BACN (British Association for Cognitive Neuroscience) in Glasgow, UK. 7 Sep 2018. Symposium title: "Neuroscientific investigations of natural language processing" (chaired by Prof. Olaf Hauk).
 
+- [Interview](https://rmwebzine.re.kr/newshome/mtnmain.php?mtnkey=articleview&mkey=scatelist&mkey2=77&aid=2846) with the Korea Institute of Radiological and Medical Sciences (in Korean). 1 Sep 2018.
+
+- Joined the Editorial Board as a Review Editor in Frontiers in Human Neuroscience, Since 1 Sep 2018.
+
 - Talk, BIOMAG 2018 (The 21st International Conference on Biomagnetism) Symposium titled "Thinking Outside The Brain Box: Using MEG To Assess Oscillatory Coupling Between The Brain And The Body" (chaired by Dr. Karim Jerbi and Dr. Sarang Dalal), Philadelphia, 30 Aug 2018.
 
-- Joined the Editorial Board as an Academic Editor in PLoS One, Since Jun 2018.
+- Joined the Editorial Board as an Academic Editor in PLoS One, Since 1 Jun 2018.
 
 - Talk, Institute of Neuroscience, Newcastle University Medical School, 24 May 2018. "Neural oscillatory mechanisms in dynamic information representation during natural audiovisual speech perception" (invited by Prof. Christopher Petkov).
 
@@ -114,16 +110,18 @@ nav:
 
 - Talk, BCBL (Basque Center on Cognition, Brain and Language), San Sebastian, Spain. 18 May 2017 (invited by Director Prof. Manuel Carreiras). Title: "Dynamic information in audiovisual speech entrainment through neural oscillatory communication".
 
+- Talk, CNS (Cognitive Neuroscience Society), San Francisco, CA, USA. 25-28 Mar 2017. Title: "Neural decomposition of synergistic and redundant information in interaction between audiovisual speech rhythms and brain oscillations".
+
 - Talk, MEG UK 2017, Oxford, UK. Mar 2017. Title: "Analysis of neuronal oscillatory communication: entrainment, coupling and directionality in cognitive paradigm" https://www.ohba.ox.ac.uk/files/news/meguk_program.pdf
 
-- Talk, CNS (Cognitive Neuroscience Society), San Francisco, CA, USA. Mar 2017. Title: "Neural decomposition of synergistic and redundant information in interaction between audiovisual speech rhythms and brain oscillations".
+# 2016
+- Selected to participate in the *Nature Masterclass*! 13-14 Oct 2016, University of Glasgow.
 
-- *Young Investigator Award* from the BIOMAG 2016 (The 20th International Conference on Biomagnetism). Dr. Hyojin Park received the prestigious YIA! 
+- *Young Investigator Award* from the BIOMAG (The 20th International Conference on Biomagnetism) 1-6 Oct 2016. Dr. Hyojin Park received the prestigious YIA! 
 
-- Selected to participate in the *Nature Masterclass*! Oct 2016, University of Glasgow.
+- *Merit Award* from the OHBM (Organization for Human Brain Mapping). 26-30 Jun 2016. Geneva, Switzerland. Dr. Hyojin Park received the Merit Award! 
 
-- *Merit Award* from the OHBM (Organization for Human Brain Mapping) 2016. Dr. Hyojin Park received the Merit Award! 
+# 2015
+- *Merit Award* from the OHBM (Organization for Human Brain Mapping). 14-18 Jun 2015. Honolulu, Hawaii. Dr. Hyojin Park received the Merit Award! 
 
-- *Merit Award* from the OHBM (Organization for Human Brain Mapping) 2015. Dr. Hyojin Park received the Merit Award! 
-
-*Talks: Only invited talks and invited spoken conference presentations (since 2017)
+*Talks*: Only invited talks and invited spoken conference presentations since 2017
