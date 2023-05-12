@@ -18,7 +18,7 @@ nav:
 
 - Talk, Auditory Research Society, Seoul, South Korea. 10 Jan 2023.
 
-- [Talk](http://bcs.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=136), Dept. of Brain and Cognitive Sciences, Seoul National University, Seoul, South Korea. 5 Jan 2023.
+- [Talk, Dept. of Brain and Cognitive Sciences, Seoul National University]((http://bcs.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=136)), Seoul, South Korea. 5 Jan 2023.
 
 # 2022
 - Talk, Korea Institute of Science and Technology (KIST), Seoul, South Korea. 30 Dec 2022.
@@ -95,7 +95,7 @@ nav:
 
 - Talk, BACN (British Association for Cognitive Neuroscience) in Glasgow, UK. 7 Sep 2018. Symposium title: "Neuroscientific investigations of natural language processing" (chaired by Prof. Olaf Hauk).
 
-- [Interview](https://rmwebzine.re.kr/newshome/mtnmain.php?mtnkey=articleview&mkey=scatelist&mkey2=77&aid=2846) with the Korea Institute of Radiological and Medical Sciences (in Korean). 1 Sep 2018.
+- [Interview with the Korea Institute of Radiological and Medical Sciences (in Korean)](https://rmwebzine.re.kr/newshome/mtnmain.php?mtnkey=articleview&mkey=scatelist&mkey2=77&aid=2846). 1 Sep 2018.
 
 - Joined the Editorial Board as a Review Editor in Frontiers in Human Neuroscience, Since 1 Sep 2018.
 
