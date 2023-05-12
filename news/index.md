@@ -26,8 +26,7 @@ nav:
 - BIOMAG (The 22nd International Conference on Biomagnetism) 28 Aug-1 Sep 2022 (see Blog), Birmingham, UK
     - Symposium Chair. Symposium title: "Rhythms in Auditory, Visual, and Audiovisual Speech Processing: Multisensory representations in unisensory cortices and beyond". 
     - Talk at Symposium "The temporal relationship between auditory and visual speech signals in naturalistic speech and their interactive spatial representations in the brain"
-    - Talk at European MEG Society Satellite Workshop (28 Aug) titled “Investigation of human language with MEG: from research to clinical applications”. <br> 
-    "Top-down and bottom-up processing in cortical entrainment to continuous speech"
+    - Talk at European MEG Society Satellite Workshop (28 Aug) titled “Investigation of human language with MEG: from research to clinical applications”. "Top-down and bottom-up processing in cortical entrainment to continuous speech"
 
 - Talk, Korea Research Institute of Standards and Science (KRISS), Daejeon, South Korea, Daejeon, South Korea. 12 Aug 2022.
 
@@ -39,11 +38,10 @@ nav:
 
 - Talk, UST (University of Science & Technology) Global Mentoring Conference. Seoul, South Korea. "Brain rhythms and Natural Language Processing (NLP)". 28 Jun 2022.
 
-- Talk, BACN (British Association for Cognitive Neuroscience) in Birmingham, UK. 25 May 2022. 
-"Spatio-Temporal Neural Map of Representation of Topic Keywords during Natural Auditory Speech Perception"
+- Talk, BACN (British Association for Cognitive Neuroscience) in Birmingham, UK. 25 May 2022. "Spatio-Temporal Neural Map of Representation of Topic Keywords during Natural Auditory Speech Perception"
 
 - Talk, MRC Cognition and Brain Sciences Unit (MRC CBU) Chaucer Club Seminar, University of Cambridge. 3 Feb 2022. 
-"Neural dynamics of natural speech perception via Natural Language Processing (NLP) models" https://www.mrc-cbu.cam.ac.uk/seminar-information/chaucer-club/
+"Neural dynamics of natural speech perception via Natural Language Processing (NLP) models" <https://www.mrc-cbu.cam.ac.uk/seminar-information/chaucer-club/>
 
 # 2021
 - BBSRC funded Midlands Integrative Biosciences Training Partnership (MIBTP) approved! PhD Funding available: Please apply here! (1 Nov 2021 - 9 Jan 2022) Project details can be found on the FindAPhD website.
