@@ -5,7 +5,7 @@ nav:
   tooltip: News & Events
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}News & Events - For deeper stories, see Blog!
+# {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events - For deeper stories, see Blog!
 
 
 - Talk, ULB Hospital Erasme Brussels, Brussels, Belgium. "Brain rhythms and Natural Language Processing (NLP)". 27 Mar 2023.
