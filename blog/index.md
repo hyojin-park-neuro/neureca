@@ -1,11 +1,11 @@
 ---
 title: Blog
 nav:
-  order: 4
-  tooltip: News, Events, Blog & Miscellany
+  order: 5
+  tooltip: Blog & Miscellany
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %} News, Events & Blog
+# {% include icon.html icon="fa-solid fa-feather-pointed" %} Blog & Deeper Stories!
 
 ## Look inside our Group! - More stories inside posts with taggings!
 
