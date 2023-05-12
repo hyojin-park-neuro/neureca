@@ -1,5 +1,5 @@
 ---
-title: News
+title: Blog
 nav:
   order: 4
   tooltip: News, Events, Blog & Miscellany
