@@ -18,7 +18,7 @@ nav:
 
 - Talk, Auditory Research Society, Seoul, South Korea. 10 Jan 2023.
 
-- Talk, Dept. of Brain and Cognitive Sciences, Seoul National University, Seoul, South Korea. 5 Jan 2023.
+- [Talk](http://bcs.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=136), Dept. of Brain and Cognitive Sciences, Seoul National University, Seoul, South Korea. 5 Jan 2023.
 
 # 2022
 - Talk, Korea Institute of Science and Technology (KIST), Seoul, South Korea. 30 Dec 2022.
@@ -54,21 +54,21 @@ nav:
 
 - Talk, Korea Institute of Science and Technology (KIST), Seoul, South Korea. 5 Jul 2021.
 
-- Hosting a School Seminar: Prof. Soo-Eun Chang at the University of Michigan will give a talk titled "Rhythm and timing investigations in developmental stuttering" at the School of Psychology Seminar Series, 5 May 2021.
+- Hosting a School Seminar: Prof. [Soo-Eun Chang](https://medicine.umich.edu/dept/psychiatry/soo-eun-chang-phd) at the University of Michigan will give a talk titled "Rhythm and timing investigations in developmental stuttering" at the School of Psychology Seminar Series, 5 May 2021.
 
-- Hosting  a School Seminar: Prof. Edmund Lalor at the University of Rochester will give a talk titled "Modelling the electrophysiology of hierarchical speech and language processing" at the School of Psychology Seminar Series, 24 Feb 2021.
+- Hosting  a School Seminar: Prof. [Edmund Lalor](https://www.urmc.rochester.edu/people/30415577-edmund-c-lalor) at the University of Rochester will give a talk titled "Modelling the electrophysiology of hierarchical speech and language processing" at the School of Psychology Seminar Series, 24 Feb 2021.
 
 # 2020
-- Hosting a CHBH Seminar: Prof. Nathan Weisz at the University of Salzburg will give a talk titled "Predictive listening as double-edged sword" at the CHBH seminar series, 25 Jun 2020.
+- Hosting a CHBH Seminar: Prof. [Nathan Weisz](https://www.plus.ac.at/psychology/ueber-uns/internal-organisation/division-of-physiological-psychology/team/salzburg-brain-dynamics-lab/weisz-nathan-en/?lang=en) at the University of Salzburg will give a talk titled "Predictive listening as double-edged sword" at the CHBH seminar series, 25 Jun 2020.
 
-- Hosting a School Seminar: Prof. Riikka Mottonen at the University of Nottingham will give a talk titled "Stimulating the talking and listening brain" at the School of Psychology Seminar Series, 12 Feb 2020.
+- Hosting a School Seminar: Prof. [Riikka Mottonen](https://researchportal.helsinki.fi/en/persons/riikka-kaisa-marjaana-m%C3%B6tt%C3%B6nen) at the University of Nottingham will give a talk titled "Stimulating the talking and listening brain" at the School of Psychology Seminar Series, 12 Feb 2020.
 
 # 2019
 - Talk, School of Psychology, University of Nottingham. 6 Nov 2019.
 
 - Talk, Nanosymposium, SfN (Society for Neuroscience) in Chicago, IL. 19-23 October 2019 (Session title: Integration Across Sensory Modalities (23 Oct 13:00-17:00). Talk title: "Rhythmic modulations in representational interactions between audiovisual speech features"
 
-- Hosting a CHBH Seminar: Dr. Robin Ince at the University of Glasgow will give a talk titled "Information theoretic analysis of neuroimaging signals: Hands-on tutorial"  at the CHBH Seminar Series, 10 Oct 2019.
+- Hosting a CHBH Seminar: Dr. [Robin Ince](http://www.robinince.net/) at the University of Glasgow will give a talk titled "Information theoretic analysis of neuroimaging signals: Hands-on tutorial"  at the CHBH Seminar Series, 10 Oct 2019.
 
 - Talk, Korea Institute of Radiological & Medical Sciences (KIRAMS). Seoul, South Korea. 17 Sep 2019.
 
@@ -103,7 +103,7 @@ nav:
 
 - Talk, Institute of Neuroscience, Newcastle University Medical School, 24 May 2018. "Neural oscillatory mechanisms in dynamic information representation during natural audiovisual speech perception" (invited by Prof. Christopher Petkov).
 
-- Inaugural MEG (Magnetoencephalography) Symposium at the CHBH, 11 May 2018 https://meg2018.eventbrite.co.uk Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at the CHBH.
+- Inaugural MEG (Magnetoencephalography) Symposium at the CHBH, 11 May 2018. <https://meg2018.eventbrite.co.uk> Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at the CHBH.
 
 # 2017
 - Talk, Cyprus University of Technology, Limassol, Cyprus. 6 Nov 2017. Title: "Application of MEG in cognitive neuroscience research". Lecture for the Postgraduate Program MSc Brain & Cognitive Science at the Faculty of Health Sciences, Cyprus University of Technology (invited by Prof. Maria Kambanaros).
@@ -115,13 +115,13 @@ nav:
 - Talk, MEG UK 2017, Oxford, UK. Mar 2017. Title: "Analysis of neuronal oscillatory communication: entrainment, coupling and directionality in cognitive paradigm" https://www.ohba.ox.ac.uk/files/news/meguk_program.pdf
 
 # 2016
-- Selected to participate in the *Nature Masterclass*! 13-14 Oct 2016, University of Glasgow.
+- Selected to participate in the ***Nature Masterclass***! 13-14 Oct 2016, University of Glasgow.
 
-- *Young Investigator Award* from the BIOMAG (The 20th International Conference on Biomagnetism) 1-6 Oct 2016. Dr. Hyojin Park received the prestigious YIA! 
+- ***Young Investigator Award (YIA)*** from the BIOMAG (The 20th International Conference on Biomagnetism) 1-6 Oct 2016. Seoul, South Korea. Dr. Hyojin Park received the prestigious YIA! 
 
-- *Merit Award* from the OHBM (Organization for Human Brain Mapping). 26-30 Jun 2016. Geneva, Switzerland. Dr. Hyojin Park received the Merit Award! 
+- ***Merit Award*** from the OHBM (Organization for Human Brain Mapping). 26-30 Jun 2016. Geneva, Switzerland. Dr. Hyojin Park received the Merit Award! 
 
 # 2015
-- *Merit Award* from the OHBM (Organization for Human Brain Mapping). 14-18 Jun 2015. Honolulu, Hawaii. Dr. Hyojin Park received the Merit Award! 
+- ***Merit Award*** from the OHBM (Organization for Human Brain Mapping). 14-18 Jun 2015. Honolulu, Hawaii. Dr. Hyojin Park received the Merit Award! 
 
 *Talks*: Only invited talks and invited spoken conference presentations since 2017
