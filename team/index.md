@@ -13,6 +13,7 @@ We are hiring now (*Deadline: 5th June*), [check it out!](https://www.neureca.or
 {%
   include alert.html
   type="info"
+  content="test"
 %}
 
 Highly motivated PhD students and postdoctoral scientists are welcome to join Dr. Park’s research group! <br>
