@@ -2,6 +2,7 @@
 title: BIOMAG 2022, Birmingham, UK
 author: Hyojin Park
 tags: BIOMAG, conference, MEG, OPM-MEG, EEG
+last_modified_at: ""
 carousels:
   - images: 
     - image: /images/carousel/biomag2022_1.jpg
