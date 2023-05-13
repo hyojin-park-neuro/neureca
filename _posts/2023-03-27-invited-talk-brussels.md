@@ -17,4 +17,4 @@ Also, she took part in an OPM-MEG experiment! Had a lot of fun!
 
 {% include section.html %}
 
-{% include carousel.html min-width="70%" max-width="none" duration="5" number="1" %}
+{% include carousel.html min-height="70%" max-height="none" duration="5" number="1" %}
