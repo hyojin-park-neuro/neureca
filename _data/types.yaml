@@ -124,7 +124,7 @@ linkedin:
 
 tip:
   icon: fa-solid fa-lightbulb
-  color: "#d946ef"
+  color: "#D95204"
 
 help:
   icon: fa-solid fa-circle-question
@@ -132,7 +132,7 @@ help:
 
 info:
   icon: fa-solid fa-circle-info
-  color: "#0ea5e9"
+  color: "#68828C"
 
 success:
   icon: fa-solid fa-circle-check
