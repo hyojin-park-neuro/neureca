@@ -5,7 +5,7 @@ nav:
   tooltip: Ongoing projects and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-brain" %}Projects
 
 ## Recent research developments in our Group - More coming up!
 
