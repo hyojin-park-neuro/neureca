@@ -9,6 +9,8 @@ nav:
 
 ## Recent research developments in our Group - More coming up!
 
+{% include search-box.html %}
+
 {% include tags.html tags="publication, resource, website" %}
 
 {% include search-info.html %}
