@@ -23,7 +23,20 @@
     - speech
     - modulation
     - MEG/EEG
-
+    
+- title: Natural Speech Perception and NLP
+  subtitle: MEG & Behaviour
+  group: featured
+  image: images/neureca.png
+  link: https://github.com/hyojin-park-neuro/neureca-project-003
+  description: Project in Progress
+  repo: https://github.com/hyojin-park-neuro/neureca-project-003
+  tags:
+    - speech
+    - NLP
+    - LLMs
+    - MEG/EEG
+    
 - title: Cool Project
   subtitle: a subtitle
   image: images/neureca.png
