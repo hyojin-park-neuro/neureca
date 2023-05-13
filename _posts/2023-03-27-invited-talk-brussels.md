@@ -2,6 +2,11 @@
 title: Invited talk, ULB Hospital Erasme Brussels, Belgium
 author: Hyojin Park
 tags: seminar, MEG, OPM-MEG
+carousels:
+  - images: 
+    - image: /images/carousel/20230327_brussels_opm_1.jpg
+    - image: /images/carousel/20230327_brussels_opm_2.jpg
+    - image: /images/carousel/20230327_brussels_opm_3.jpg
 ---
 
 Dr. Hyojin Park gave a talk at the ULB Hospital Erasme Brussels, Belgium (Hosted by Dr. Mathieu Bourguignon). <br>
