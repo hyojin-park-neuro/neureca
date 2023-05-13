@@ -6,8 +6,6 @@
   description: Project in Progress
   repo: neureca-project-001
   tags:
-    - MEG/EEG
-    - attention
     - microsaccade
 
 - title: Rapid Invisible Frequency Tagging and Speech
@@ -19,8 +17,6 @@
   repo: https://github.com/hyojin-park-neuro/neureca-project-002
   tags:
     - rift
-    - MEG/EEG
-    - speech
 
 - title: Cool Project
   subtitle: a subtitle
