@@ -5,6 +5,7 @@ tags:
   - BIOMAG
   - award
   - YIA
+last_modified_at: ""
 carousels:
   - images: 
     - image: /images/carousel/biomag2016_1.jpg
