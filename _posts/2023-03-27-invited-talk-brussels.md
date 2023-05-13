@@ -13,4 +13,8 @@ Dr. Hyojin Park gave a talk at the ULB Hospital Erasme Brussels, Belgium (Hosted
 
 "Brain rhythms and Natural Language Processing (NLP)" on 27th March 2023.
 
-Also, she took part in an OPM-MEG experiment! Had a lot of fun! (picture on the main page)
+Also, she took part in an OPM-MEG experiment! Had a lot of fun!
+
+{% include section.html %}
+
+{% include carousel.html height="60" unit="%" duration="5" number="1" %}
