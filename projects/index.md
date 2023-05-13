@@ -19,11 +19,10 @@ nav:
 
 ## Featured
 
-{% include section.html %}
-
-{% include list.html data="projects_hp" component="card" filters="group: featured" %}
+{% include list.html component="card" data="projects" filters="group: featured" %}
 
 {% include section.html %}
 
 ## More
-{% include list.html data="projects_hp" component="card" filters="group: " style="small" %}
+
+{% include list.html component="card" data="projects" filters="group: " style="small" %}
