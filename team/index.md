@@ -64,7 +64,6 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 - [Mathieu Bourguignon](https://crcn.ulb.ac.be/members/?q=121), Université libre de Bruxelles, Belgium
 - [Alejandro Perez](https://sites.google.com/view/alejandroperez/about?authuser=0), MRC Cognition and Brain Science Unit, University of Cambridge, UK
 
-{% include section.html %}
 
 ## Local Collaborators
 
