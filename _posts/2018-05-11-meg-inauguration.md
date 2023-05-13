@@ -16,4 +16,4 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
 
 {% include section.html %}
 
-{% include carousel.html height="60" unit="%" duration="7" number="1" %}
+{% include carousel.html height="60" unit="%" duration="5" number="1" %}
