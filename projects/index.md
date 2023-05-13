@@ -26,3 +26,8 @@ nav:
 ## More
 
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
+
+{%
+  include post-excerpt.html
+  lookup="project_intro"
+%}
