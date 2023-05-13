@@ -10,7 +10,7 @@
     - attention
     - microsaccade
 
-- title: Rapid Frequency Tagging and Speech
+- title: Rapid Invisible Frequency Tagging and Speech
   subtitle: MEG & Behaviour
   group: featured
   image: images/neureca.png
@@ -18,7 +18,9 @@
   description: Project in Progress
   repo: https://github.com/hyojin-park-neuro/neureca-project-002
   tags:
-    - resource
+    - rift
+    - MEG/EEG
+    - speech
 
 - title: Cool Project
   subtitle: a subtitle
