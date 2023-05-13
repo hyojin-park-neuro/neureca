@@ -10,12 +10,12 @@
     - attention
     - microsaccade
 
-- title: Cool Project
-  subtitle: a subtitle
+- title: Rapid Frequency Tagging and Speech
+  subtitle: MEG
   group: featured
   image: images/neureca.png
   link: https://github.com/hyojin-park-neuro/neureca-project-002
-  description: Very exciting!
+  description: Project in Progress
   repo: https://github.com/hyojin-park-neuro/neureca-project-002
   tags:
     - resource
@@ -43,7 +43,7 @@
   subtitle: a subtitle
   image: images/neureca.png
   link: https://github.com/hyojin-park-neuro
-  description: More coming up!
+  description: Exciting!
   repo: hyojin-park-neuro
   tags:
     - software
