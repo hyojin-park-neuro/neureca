@@ -19,4 +19,4 @@ Dr. Hyojin Park received the prestigious YIA!
 
 {% include section.html%}
 
-{% include carousel.html height="60" unit="%" duration="7" number="1" %}
+{% include carousel.html height="60" unit="%" duration="5" number="1" %}
