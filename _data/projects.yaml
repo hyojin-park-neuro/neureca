@@ -2,7 +2,7 @@
   subtitle: a subtitle
   group: featured
   image: images/neureca.png
-  link: projects_hp/project-001.md
+  link: _projects_hp/project_001.md
   description: More coming up!
   repo: hyojin-park-neuro
   tags:
