@@ -7,6 +7,9 @@
   repo: neureca-project-001
   tags:
     - microsaccade
+    - auditory
+    - attention
+    - MEG/EEG
 
 - title: Rapid Invisible Frequency Tagging and Speech
   subtitle: MEG & Behaviour
@@ -17,6 +20,9 @@
   repo: https://github.com/hyojin-park-neuro/neureca-project-002
   tags:
     - rift
+    - speech
+    - modulation
+    - MEG/EEG
 
 - title: Cool Project
   subtitle: a subtitle
