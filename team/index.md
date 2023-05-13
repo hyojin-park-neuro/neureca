@@ -11,13 +11,13 @@ nav:
 
 {%
   include alert.html
-  type="info"
-  content="## We are hiring now (*Deadline: 5th June*), [check it out!](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)!"
+  type="tip"
+  content="### We are hiring now (*Deadline: 5th June 2023*), [check it out!](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)!"
 %}
 
 {%
   include alert.html
-  type="tip"
+  type="info"
   content="Highly motivated PhD students and postdoctoral scientists are welcome to join Dr. Park’s research group! <br> Please feel free to contact the PI to discuss further regarding funding opportunities!"
 %}
 
