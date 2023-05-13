@@ -1,4 +1,3 @@
----
 - title: Cool Project
   subtitle: a subtitle
   group: featured
