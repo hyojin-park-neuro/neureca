@@ -83,7 +83,7 @@ carousels:
 
 {% capture text %}
 
-To unravel the enigmatic workings of the brain, our team employs state-of-the-art neuroimaging facilities and cutting-edge analysis techniques.
+To unravel the enigmatic workings of the brain, our team employs **state-of-the-art neuroimaging facilities** and **cutting-edge analysis techniques**.
 
 {%
   include button.html
@@ -106,7 +106,7 @@ To unravel the enigmatic workings of the brain, our team employs state-of-the-ar
 
 {% capture text %}
 
-Our team is dedicated to advancing our understanding of the brain by formulating seamless questions and making continuous progress in our research.
+Our team is dedicated to advancing our understanding of the brain by **formulating seamless questions** and **making continuous progress** in our research.
 
 {%
   include button.html
@@ -131,7 +131,7 @@ Our team is dedicated to advancing our understanding of the brain by formulating
 
 {% capture text %}
 
-**Power of synergies!** Teamwork is essential for unlocking the power of synergies, allowing individuals to leverage their strengths and achieve greater success than they could on their own. Furthremore, we embrace the value of diversity and inclusive environments for research, which is essential for fostering innovative and impactful research.
+**Power of synergies!** Teamwork is essential for unlocking the power of synergies, allowing individuals to leverage their strengths and achieve greater success than they could on their own. Furthremore, we embrace **the value of diversity and inclusive environments for research**, which is essential for fostering innovative and impactful research.
 
 {%
   include button.html
