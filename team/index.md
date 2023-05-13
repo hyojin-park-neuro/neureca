@@ -8,8 +8,10 @@ nav:
 # {% include icon.html icon="fa-solid fa-people-group" %}Team
 
 ## Join the Team! 
-{% capture lorem %}
-_Lorem_ We are hiring now (*Deadline: 5th June*), [check it out!](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)!
+We are hiring now (*Deadline: 5th June*), [check it out!](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)!
+
+{% capture hiring %}
+_hiring_
 {% endcapture %}
 
 {%
