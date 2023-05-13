@@ -1,21 +1,22 @@
-- title: Cool Project
-  subtitle: a subtitle
+- title: Microsaccade and Auditory Attention
+  subtitle: MEG & Behaviour
   group: featured
   image: images/neureca.png
   link: https://github.com/hyojin-park-neuro/neureca-project-001
-  description: More coming up!
+  description: Project in Progress
   repo: neureca-project-001
   tags:
-    - resource
-    - website
+    - MEG/EEG
+    - attention
+    - microsaccade
 
 - title: Cool Project
   subtitle: a subtitle
   group: featured
   image: images/neureca.png
-  link: https://github.com/hyojin-park-neuro
+  link: https://github.com/hyojin-park-neuro/neureca-project-002
   description: Very exciting!
-  repo: hyojin-park-neuro
+  repo: https://github.com/hyojin-park-neuro/neureca-project-002
   tags:
     - resource
 
