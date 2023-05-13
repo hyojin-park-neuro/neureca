@@ -5,7 +5,7 @@ nav:
   tooltip: Ongoing projects and more
 ---
 
-# {% include icon.html icon="fa-solid fa-lock-open" %}Projects
+# {% include icon.html icon="fa-solid fa-laptop-code" %}Projects
 
 ## Recent research developments in our Group - More coming up!
 
