@@ -10,10 +10,6 @@ nav:
 ## Join the Team! 
 We are hiring now (*Deadline: 5th June*), [check it out!](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)!
 
-{% capture hiring %}
-_hiring_
-{% endcapture %}
-
 {%
   include alert.html
   type="info"
