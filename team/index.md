@@ -8,14 +8,10 @@ nav:
 # {% include icon.html icon="fa-solid fa-people-group" %}Team
 
 ## Join the Team! 
-{% capture lorem %}
-- We are hiring now (*Deadline: 5th June*), [check it out!](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)!
-{% endcapture %}
-
 {%
   include alert.html
   type="info"
-  content=content
+  content=We are hiring now (*Deadline: 5th June*), [check it out!](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)!
 %}
 
 Highly motivated PhD students and postdoctoral scientists are welcome to join Dr. Park’s research group! <br>
