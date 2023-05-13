@@ -38,16 +38,18 @@
   subtitle: a subtitle
   image: images/neureca.png
   link: https://github.com/hyojin-park-neuro
-  description: More coming up!
+  description: Exciting!
   repo: hyojin-park-neuro
   tags:
-    - software
+    - resource
+    - publication
 
 - title: Cool Project
   subtitle: a subtitle
   image: images/neureca.png
   link: https://github.com/hyojin-park-neuro
-  description: Exciting!
+  description: More coming up!
   repo: hyojin-park-neuro
   tags:
-    - software
+    - resource
+    - publication
