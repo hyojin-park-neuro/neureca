@@ -13,7 +13,7 @@ We are hiring now (*Deadline: 5th June*), [check it out!](https://www.neureca.or
 {%
   include alert.html
   type="info"
-  content="test"
+  content="We are hiring now (*Deadline: 5th June*), [check it out!](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)!"
 %}
 
 Highly motivated PhD students and postdoctoral scientists are welcome to join Dr. Park’s research group! <br>
@@ -24,7 +24,7 @@ Please feel free to contact the PI to discuss further regarding funding opportun
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 <!-- {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %} -->
 
-**Power of Synergies!** Teamwork is essential for unlocking the power of synergies, allowing individuals to leverage their strengths and achieve greater success than they could on their own. Furthremore, we embrace the value of diversity and inclusive environments for research, which is essential for fostering innovative and impactful research.
+**Power of Synergies!** Teamwork is essential for unlocking the power of synergies, allowing individuals to leverage their strengths and achieve greater success than they could on their own. Furthremore, we embrace **the value of diversity** and **inclusive environments for research**, which is essential for fostering innovative and impactful research.
 
 ### Postdoctoral Researcher
 - Dr. Tara Ghafari (co-supervision)
