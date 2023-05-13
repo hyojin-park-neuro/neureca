@@ -2,9 +2,9 @@
   subtitle: a subtitle
   group: featured
   image: images/neureca.png
-  link: hyojin-park-neuro/neureca-project-001
+  link: https://github.com/hyojin-park-neuro
   description: More coming up!
-  repo: hyojin-park-neuro/neureca-project-001
+  repo: neureca-project-001
   tags:
     - resource
     - website
