@@ -5,7 +5,7 @@ nav:
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-brain" %}Research
 
 Our goal is to conduct high-quality research. We believe this is essential for making meaningful contributions to our field and advancing knowledge!
 
