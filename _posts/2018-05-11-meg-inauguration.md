@@ -4,6 +4,7 @@ author: Hyojin Park
 tags:
   - MEG
   - CHBH
+last_modified_at: ""
 carousels:
   - images: 
     - image: /images/carousel/meg_inauguration_1.jpg
