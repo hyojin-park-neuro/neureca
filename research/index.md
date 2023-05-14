@@ -25,4 +25,6 @@ Our goal is to conduct high-quality research. We believe this is essential for m
 
 {% include list.html data="citations" component="citation" style="rich" %}
 
-{% include citation.html title="Manual title" authors="Manual authors" %}
+{% include citation.html 
+title="Language Lateralization Using Magnetoencephalography (MEG): A Preliminary Study" 
+authors="Manual authors" %}
