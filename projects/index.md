@@ -29,6 +29,5 @@ nav:
 
 {%
   include post-excerpt.html
-  data="posts"
   lookup="Resaerch Highlights"
 %}
