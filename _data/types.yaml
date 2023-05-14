@@ -132,7 +132,7 @@ help:
 
 info:
   icon: fa-solid fa-circle-info
-  color: "#68828C"
+  color: "#35278C"
 
 success:
   icon: fa-solid fa-circle-check
