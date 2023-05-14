@@ -30,5 +30,5 @@ nav:
 {%
   include post-excerpt.html
   data="posts"
-  lookup="project_intro"
+  lookup="Resaerch Highlights"
 %}
