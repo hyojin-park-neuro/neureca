@@ -10,8 +10,9 @@ carousels:
 ---
 
 ## <span style="color: #586A8C;">Welcome to Dr. Hyojin Park's Research Group!</span>
-(We are moving home from <https://sites.google.com/view/hyojinpark/home> to here!)
 ### <span style="color: #586A8C;">NEURECA - Neural Representations & Computational Architecture of Multi-modal Brain across Lifespan</span>
+(We are moving home from <https://sites.google.com/view/hyojinpark/home> to here!)
+
 1. Our mission is to conduct rigorous research and push the boundaries of what is currently known, with the ultimate goal of improving human communication and enhancing quality of life.
 
 2. Through cutting-edge research and collaboration, our group aims to advance our understanding of how the brain processes and responds to audiovisual communication. Our mission is to use this knowledge to inform new technologies, therapies, and interventions that benefit society as a whole.
