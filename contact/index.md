@@ -101,11 +101,9 @@ sed do eiusmod tempor
 %}
 
 
-{% capture col1 %}
 {%
   include figure.html
   image="images/logo_uob_3.png"
 %}
 {% endcapture %}
 
-{% include cols.html col1=col1 %}
