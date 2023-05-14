@@ -27,12 +27,11 @@ Our goal is to conduct high-quality research. We believe this is essential for m
 
 {% include citation.html 
 title="Language Lateralization Using Magnetoencephalography (MEG): A Preliminary Study" 
-authors="Seo-Young Lee
-    - Eunjoo Kang
-    - June Sic Kim
-    - Sang-Kun Lee
-    - Hyejin Kang
-    - Hyojin Park
-    - Sung Hun Kim
-    - Seung Hwan Lee
-    - Chun Kee Chung" %}
+authors="Seo-Young Lee, Eunjoo Kang, June Sic Kim, Sang-Kun Lee, Hyejin Kang, Hyojin Park, Sung Hun Kim, Seung Hwan Lee, Chun Kee Chung"
+type="paper"
+publisher="Annals of Clinical Neurophysiology"
+date="2006-12-30"
+link="https://koreascience.kr/article/JAKO200627362963917.page"
+tag="MEG/EEG, epilepsy, language"
+style="rich"
+%}
