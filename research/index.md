@@ -28,5 +28,5 @@ Our goal is to conduct high-quality research. We believe this is essential for m
 {%
   include post-excerpt.html
   data="posts" 
-  lookup="project_intro"
+  lookup="Resaerch Highlights"
 %}
