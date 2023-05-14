@@ -18,7 +18,7 @@ nav:
 
 ## Highlighted
 
-{% include list.html lookup="Competition Funded PhD Project" style="rich" %}
+{% include post-excerpt.html lookup="Competition Funded PhD Project" style="rich" %}
 
 {% include section.html %}
 
