@@ -33,6 +33,6 @@ publisher="Annals of Clinical Neurophysiology"
 date="2006-12-30"
 link="https://koreascience.kr/article/JAKO200627362963917.page"
 image="images/paper_thumbnail_2006_language_lateralization.jpg"
-tags="MEG/EEG"
+tags="- MEG/EEG"
 style="rich"
 %}
