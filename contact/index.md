@@ -105,5 +105,4 @@ sed do eiusmod tempor
   include figure.html
   image="images/logo_uob_3.png"
 %}
-{% endcapture %}
 
