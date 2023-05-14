@@ -16,4 +16,10 @@ nav:
 
 {% include search-info.html %}
 
+## Highlighted
+
+{% include list.html lookup="Competition Funded PhD Project" style="rich" %}
+
+{% include section.html %}
+
 {% include list.html data="posts" component="post-excerpt" %}
