@@ -121,7 +121,7 @@ Our team is dedicated to advancing our understanding of the brain by **formulati
 
 {%
   include feature.html
-  image="images/neureca.png"
+  image="images/main_projects.png"
   link="projects"
   title="Our Projects"
   flip=true
