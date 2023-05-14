@@ -2,9 +2,9 @@
   subtitle: MEG & Behaviour
   group: featured
   image: images/neureca.png
-  link: https://github.com/hyojin-park-neuro/neureca-project-001
+  link: https://github.com/hyojin-park-neuro/microsaccade-aud
   description: Project in Progress
-  repo: neureca-project-001
+  repo: microsaccade-aud
   tags:
     - microsaccade
     - auditory
@@ -15,9 +15,9 @@
   subtitle: MEG & Behaviour
   group: featured
   image: images/neureca.png
-  link: https://github.com/hyojin-park-neuro/neureca-project-002
+  link: https://github.com/hyojin-park-neuro/rift-speech
   description: Project in Progress
-  repo: https://github.com/hyojin-park-neuro/neureca-project-002
+  repo: rift-speech
   tags:
     - rift
     - speech
@@ -28,9 +28,9 @@
   subtitle: MEG & Behaviour
   group: featured
   image: images/neureca.png
-  link: https://github.com/hyojin-park-neuro/neureca-project-003
+  link: https://github.com/hyojin-park-neuro/nlp-speech
   description: Project in Progress
-  repo: https://github.com/hyojin-park-neuro/neureca-project-003
+  repo: nlp-speech
   tags:
     - speech
     - NLP
