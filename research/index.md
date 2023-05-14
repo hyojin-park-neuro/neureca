@@ -24,8 +24,3 @@ Our goal is to conduct high-quality research. We believe this is essential for m
 {% include search-info.html %}
 
 {% include list.html data="citations" component="citation" style="rich" %}
-
-{%
-  include post-excerpt.html
-  lookup="Resaerch Highlights"
-%}
