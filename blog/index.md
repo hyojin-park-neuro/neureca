@@ -9,7 +9,7 @@ nav:
 
 ## Highlighted
 
-{% include list.html data="posts" component="post-excerpt" lookup="Competition Funded PhD Project" %}
+{% include list.html data="posts" component="post-excerpt" lookup="2023-05-10-funded-phd-studentship.md" %}
 
 {% include section.html %}
 
