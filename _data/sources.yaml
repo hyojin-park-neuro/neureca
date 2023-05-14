@@ -204,16 +204,18 @@
 
 
 - title: Language lateralization using Magnetoencephalography (MEG): A preliminary study
-  authors:
-  - Seo-Young Lee
-  - Eunjoo Kang
-  - June Sic Kim
-  - Sang-Kun Lee
-  - Hyejin Kang
-  - Hyojin Park
-  - Sung Hun Kim
-  - Seung Hwan Lee
-  - Chun Kee Chung
-  publisher: Annals of Clinical Neurophysiology
+  type: paper
   date: 2006-12-30
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00259-008-0808-z/MediaObjects/259_2008_808_Fig3_HTML.gif?as=webp
+  authors:
+    - Seo-Young Lee
+    - Eunjoo Kang
+    - June Sic Kim
+    - Sang-Kun Lee
+    - Hyejin Kang
+    - Hyojin Park
+    - Sung Hun Kim
+    - Seung Hwan Lee
+    - Chun Kee Chung
+  publisher: Annals of Clinical Neurophysiology
   link: https://koreascience.kr/article/JAKO200627362963917.page
