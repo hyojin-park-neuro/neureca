@@ -41,8 +41,8 @@ carousels:
   tooltip="Interactive Campus Map"
   link="https://campusmap.bham.ac.uk//search/projects/23/5d6f49301e1f64009327b7cd"
 %}
-{% include section.html %}
 
+{% include section.html %}
 
 {% capture content %}
 {% include figure.html image="images/chbh_1.png" %}
@@ -53,6 +53,8 @@ carousels:
 {% include figure.html image="images/chbh_6.jpg" %}
 {% endcapture %}
 {% include grid.html style="square" content=content %}
+
+{% include section.html %}
 
 <a href="https://twitter.com/HyojinParkNeuro?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @HyojinParkNeuro</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <a class="twitter-timeline" data-width="100%" data-height="600%" href="https://twitter.com/HyojinParkNeuro?ref_src=twsrc%5Etfw">Tweets by HyojinParkNeuro</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -102,14 +104,8 @@ sed do eiusmod tempor
 {% capture col1 %}
 {%
   include figure.html
-  image="images/logo_uob_1.png"
+  image="images/logo_uob_3.png"
 %}
 {% endcapture %}
 
-{% capture col2 %}
-{%
-  include figure.html
-  image="images/logo_uob_2.png"
-%}
-{% endcapture %}
-{% include cols.html col1=col1 col2=col2 %}
+{% include cols.html col1=col1 %}
