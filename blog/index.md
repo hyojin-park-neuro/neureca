@@ -9,7 +9,7 @@ nav:
 
 ## Highlighted
 
-{% include post-excerpt.html lookup="Competition Funded PhD Project" %}
+{% include list.html data="posts" component="post-excerpt" lookup="Competition Funded PhD Project" %}
 
 {% include section.html %}
 
