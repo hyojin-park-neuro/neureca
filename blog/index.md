@@ -7,10 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-pen-nib" %} Blog & Stories Unveiled!
 
-## Highlighted
-
-{% include list.html data="posts" lookup="2023-05-10-funded-phd-studentship.md" %}
-
 {% include section.html %}
 
 {% include search-box.html %}
