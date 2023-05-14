@@ -42,26 +42,32 @@ carousels:
 %}
 {% include section.html %}
 
-{% capture col1 %}
 
+{% capture content %}
+{% include figure.html image="images/chbh_1.png" %}
+{% include figure.html image="images/chbh_2.png" %}
+{% include figure.html image="images/chbh_3.png" %}
+{% include figure.html image="images/chbh_4.png" %}
+{% include figure.html image="images/chbh_5.png" %}
+{% endcapture %}
+{% include grid.html style="square" content=content %}
+
+
+{% capture col1 %}
 {%
   include figure.html
   image="images/chbh_office.jpg"
   caption="Centre for Human Brain Health (CHBH), University of Birmingham"
 %}
-
 {% endcapture %}
 
 {% capture col2 %}
-
 {%
   include figure.html
   image="images/chbh_office.jpg"
   caption="Centre for Human Brain Health (CHBH)"
 %}
-
 {% endcapture %}
-
 {% include cols.html col1=col1 %}
 
 <a href="https://twitter.com/HyojinParkNeuro?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @HyojinParkNeuro</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
