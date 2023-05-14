@@ -112,7 +112,7 @@ youtube:
   icon: fa-brands fa-youtube
   text: YouTube
   tooltip: YouTube
-  link: https://youtube.com/$VALUE
+  link: https://youtube.com/@$VALUE
 
 linkedin:
   icon: fa-brands fa-linkedin
