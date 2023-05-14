@@ -573,8 +573,6 @@
 
 </div>
 
-<p style="text-align: center;">Centre for Human Brain Health (CHBH), University of Birmingham</p>
-
 <p><a href="https://twitter.com/HyojinParkNeuro?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @HyojinParkNeuro</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <a class="twitter-timeline" data-width="100%" data-height="600%" href="https://twitter.com/HyojinParkNeuro?ref_src=twsrc%5Etfw">Tweets by HyojinParkNeuro</a> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
   </section>
@@ -641,13 +639,15 @@ B15 2TT</p>
         
           <input class="carousel__activator" type="radio" name="carousel0" id="0e">
         
+          <input class="carousel__activator" type="radio" name="carousel0" id="0f">
+        
         
           
           
           
           
           <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="0e"></label>
+              <label class="carousel__control carousel__control--backward" for="0f"></label>
               <label class="carousel__control carousel__control--forward" for="0b"></label>
           </div>
         
@@ -684,6 +684,15 @@ B15 2TT</p>
           
           <div class="carousel__controls">
               <label class="carousel__control carousel__control--backward" for="0d"></label>
+              <label class="carousel__control carousel__control--forward" for="0f"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0e"></label>
               <label class="carousel__control carousel__control--forward" for="0a"></label>
           </div>
         
@@ -704,6 +713,9 @@ B15 2TT</p>
             </li>
 <li class="carousel__slide" style="background-image: url('/images/carousel/uob_5.jpg');">
             
+            </li>
+<li class="carousel__slide" style="background-image: url('/images/carousel/uob_6.jpg');">
+            
           </li>
 </ul>
         </div>
@@ -718,6 +730,8 @@ B15 2TT</p>
               <label class="carousel__indicator" for="0d"></label>
             
               <label class="carousel__indicator" for="0e"></label>
+            
+              <label class="carousel__indicator" for="0f"></label>
             
         </div>
     </div>
@@ -853,6 +867,29 @@ B15 2TT</p>
   opacity: 1;
 }
 
+.carousel__activator:nth-of-type(6):checked ~ .carousel__track {
+  -webkit-transform: translateX(-500%);
+          transform: translateX(-500%);
+}
+.carousel__activator:nth-of-type(6):checked ~ .carousel__slide:nth-of-type(6) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(6):checked ~ .carousel__controls:nth-of-type(6) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(6):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(6) {
+  opacity: 1;
+}
+
 
 .carousel__control {
   height: 30px;
@@ -947,6 +984,11 @@ B15 2TT</p>
           transform: translateX(400%);
 }
 
+.carousel__track .carousel__slide:nth-of-type(6) {
+  -webkit-transform: translateX(500%);
+          transform: translateX(500%);
+}
+
 
 .carousel--scale .carousel__slide {
   -webkit-transform: scale(0);
@@ -997,6 +1039,12 @@ B15 2TT</p>
   background-position: center;
 }
 
+.carousel__slide:nth-of-type(6),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(6) {
+  background-size: cover;
+  background-position: center;
+}
+
 </style>
 
 <script>
@@ -1043,15 +1091,15 @@ B15 2TT</p>
     
     <div>
 <figure class="figure">
-  <a class="figure-image" aria-label="Centre for Human Brain Health (CHBH), University of Birmingham">
+  <a class="figure-image" aria-label="Centre for Human Brain Health (CHBH)">
     <img src="/images/chbh_office.jpg" style="
         width: auto;
         max-height: unset;
-      " alt="Centre for Human Brain Health (CHBH), University of Birmingham" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      " alt="Centre for Human Brain Health (CHBH)" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
     <figcaption class="figure-caption">
-      Centre for Human Brain Health (CHBH), University of Birmingham
+      Centre for Human Brain Health (CHBH)
 
     </figcaption>
   
