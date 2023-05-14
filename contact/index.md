@@ -18,7 +18,6 @@ carousels:
   include button.html
   type="email"
   text="Hyojin Park"
-  color="#f37021"
   link="h.park@bham.ac.uk"
 %}
 {%
