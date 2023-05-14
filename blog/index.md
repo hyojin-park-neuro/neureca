@@ -5,7 +5,7 @@ nav:
   tooltip: Blog & Miscellany
 ---
 
-# {% include icon.html icon="fa-solid fa-envelope-open-text" %} Blog & Stories Unveiled!
+# {% include icon.html icon="fa-solid fa-pen-nib" %} Blog & Stories Unveiled!
 
 
 {% include section.html %}
