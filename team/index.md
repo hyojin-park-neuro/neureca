@@ -12,7 +12,7 @@ nav:
 {%
   include alert.html
   type="tip"
-  content="### We are hiring now (*Deadline: 5th June 2023*), [check it out!](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)!"
+  content="**We are hiring now (*Deadline: 5th June 2023*), [check it out!](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)!**"
 %}
 
 {%
