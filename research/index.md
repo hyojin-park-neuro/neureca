@@ -27,4 +27,12 @@ Our goal is to conduct high-quality research. We believe this is essential for m
 
 {% include citation.html 
 title="Language Lateralization Using Magnetoencephalography (MEG): A Preliminary Study" 
-authors="Manual authors" %}
+authors="Seo-Young Lee
+    - Eunjoo Kang
+    - June Sic Kim
+    - Sang-Kun Lee
+    - Hyejin Kang
+    - Hyojin Park
+    - Sung Hun Kim
+    - Seung Hwan Lee
+    - Chun Kee Chung" %}
