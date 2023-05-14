@@ -49,26 +49,10 @@ carousels:
 {% include figure.html image="images/chbh_3.png" %}
 {% include figure.html image="images/chbh_4.png" %}
 {% include figure.html image="images/chbh_5.png" %}
+{% include figure.html image="images/chbh_6.jpg" %}
 {% endcapture %}
 {% include grid.html style="square" content=content %}
 
-
-{% capture col1 %}
-{%
-  include figure.html
-  image="images/chbh_office.jpg"
-  caption="Centre for Human Brain Health (CHBH), University of Birmingham"
-%}
-{% endcapture %}
-
-{% capture col2 %}
-{%
-  include figure.html
-  image="images/chbh_office.jpg"
-  caption="Centre for Human Brain Health (CHBH)"
-%}
-{% endcapture %}
-{% include cols.html col1=col1 %}
 
 <a href="https://twitter.com/HyojinParkNeuro?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @HyojinParkNeuro</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <a class="twitter-timeline" data-width="100%" data-height="600%" href="https://twitter.com/HyojinParkNeuro?ref_src=twsrc%5Etfw">Tweets by HyojinParkNeuro</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -113,3 +97,21 @@ sed do eiusmod tempor
   duration="5"
   number="1"
 %}
+
+
+{% capture col1 %}
+{%
+  include figure.html
+  image="images/chbh_office.jpg"
+  caption="Centre for Human Brain Health (CHBH), University of Birmingham"
+%}
+{% endcapture %}
+
+{% capture col2 %}
+{%
+  include figure.html
+  image="images/chbh_office.jpg"
+  caption="Centre for Human Brain Health (CHBH)"
+%}
+{% endcapture %}
+{% include cols.html col1=col1 col2=col2 %}
