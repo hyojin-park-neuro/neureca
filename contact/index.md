@@ -102,16 +102,14 @@ sed do eiusmod tempor
 {% capture col1 %}
 {%
   include figure.html
-  image="images/chbh_office.jpg"
-  caption="Centre for Human Brain Health (CHBH)"
+  image="images/logo_uob_1.png"
 %}
 {% endcapture %}
 
 {% capture col2 %}
 {%
   include figure.html
-  image="images/chbh_office.jpg"
-  caption="Centre for Human Brain Health (CHBH)"
+  image="images/logo_uob_2.png"
 %}
 {% endcapture %}
 {% include cols.html col1=col1 col2=col2 %}
