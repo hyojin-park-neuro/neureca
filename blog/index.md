@@ -7,6 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-pen-nib" %} Blog & Stories Unveiled!
 
+## Highlighted
+
+{% include post-excerpt.html lookup="Competition Funded PhD Project" style="rich" %}
 
 {% include section.html %}
 
@@ -15,10 +18,6 @@ nav:
 {% include tags.html tags=site.tags %}
 
 {% include search-info.html %}
-
-## Highlighted
-
-{% include post-excerpt.html lookup="Competition Funded PhD Project" style="rich" %}
 
 {% include section.html %}
 
