@@ -29,5 +29,5 @@ nav:
 
 {% include section.html %}
 
-{% include list.html component="post-excerpt" data="posts" filters="project-intro" %}
+{% include list.html component="post-excerpt" data="posts_extra" %}
 
