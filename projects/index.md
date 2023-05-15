@@ -29,7 +29,7 @@ nav:
 
 {% include section.html %}
 
-{% include list.html data="posts" component="portrait" filters="title: test" %}
+{% include list.html data="members" component="portrait" filters="title: test" %}
 
 {% include section.html %}
 
