@@ -27,5 +27,10 @@ nav:
 
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
 
+{% include section.html %}
+<!-- {% include list.html data="posts" component="post-excerpt" filters="title: test" %} -->
 
-{% include list.html data="posts" component="post-excerpt" filters="title: test" %}
+{%
+  include post-excerpt.html
+  lookup="test"
+%}
