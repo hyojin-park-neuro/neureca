@@ -1,5 +1,5 @@
 
-# hyojin-park-neuro's Website
+# Dr. Hyojin Park's Group Website 🧠🧠🧠
 
 Visit **[www.neureca.org](https://www.neureca.org)** 🚀
 
