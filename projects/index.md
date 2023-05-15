@@ -36,4 +36,5 @@ nav:
 {%
   include post-excerpt.html
   lookup="testtest"
+  title="BIOMAG 2022, Birmingham, UK"
 %}
