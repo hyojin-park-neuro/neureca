@@ -21,6 +21,19 @@ carousels:
 
 {% include section.html %}
 
+{% capture content %}
+  {% include figure.html
+  image="images/main_communication.png"
+  width="400px"
+  %}
+{% endcapture %}
+
+{%
+  include float.html
+  content=content
+  flip=true
+%}
+
 **The main goal of our research group** is to understand neural oscillatory mechanisms in speech processing - both auditory and visual - as well as their integration that leads to a unified perception. 
 
 **Why Rhythms in Speech?** Speech consists of a hierarchy of components occurring on different timescales. For example, prosody or intonation occurs on a relatively long timescale-hundreds of milliseconds, syllables occur on around hundred milliseconds, and short transients and phonemes last only tens of milliseconds. Similarly, distinct neuronal populations fire rhythmically at different rates (brain oscillations), and different bands of oscillations are arranged in a hierarchy.
@@ -33,7 +46,10 @@ carousels:
 
 **Facilities and Tools** The Group is a part of the newly established Centre for Human Brain Health (CHBH) at the University of Birmingham. The Centre is equipped with state-of-the-art brain imaging facilities, e.g. MEG, OPMs, EEG, MRI, TMS, TCS, Sleep labs, fNIRS. We combine these modalities in order to obtain a comprehensive picture of neural mechanisms of speech and multisensory (AV) integration.
 
-{% include section.html dark=false %}
+{% include float.html clear=true %}
+
+
+{% include section.html %}
 
 {% capture col1 %}
 ## Research Topics
