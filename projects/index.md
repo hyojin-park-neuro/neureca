@@ -26,3 +26,6 @@ nav:
 ## More
 
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
+
+
+{% include list.html data="posts" component="post-excerpt" filters="title: test" %}
