@@ -29,7 +29,7 @@ nav:
 
 {% include section.html %}
 
-{% include list.html data="posts" component="portrait" filters="title: testtest" %}
+{% include list.html data="posts" component="portrait" filters="title: BIOMAG 2022, Birmingham, UK" %}
 
 {% include section.html %}
 
