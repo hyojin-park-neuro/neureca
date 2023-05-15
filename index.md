@@ -59,8 +59,8 @@ carousels:
 
 {% capture col2 %}
 ## Techniques & Approaches
-- SQUID-MEG (Magnetoencephalography)
-- OPM-MEG (Optically-Pumped Magnetometers)
+- [SQUID-MEG (Magnetoencephalography)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx)
+- [OPM-MEG (Optically-Pumped Magnetometers)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/opm.aspx)
 - Electroencephalography (EEG)
 - Functional Magnetic Resonance Imaging (fMRI)
 - Diffusion Tensor Imaging (DTI)
