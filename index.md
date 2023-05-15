@@ -24,7 +24,7 @@ carousels:
 {% capture content %}
   {% include figure.html
   image="images/main_communication.png"
-  width="400px"
+  width="500px"
   %}
 {% endcapture %}
 
