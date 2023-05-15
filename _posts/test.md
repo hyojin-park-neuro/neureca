@@ -1,7 +1,6 @@
 ---
 title: test
-author: Hyojin Park
-description: project
+role: project
 tags:
   - test
 last_modified_at: ""
