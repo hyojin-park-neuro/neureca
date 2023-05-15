@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-laptop-code" %}Projects
 
-## Recent research developments in our Group :seedling::seedling::seedling:
+## Recent research developments in our Group &nbsp; :seedling::seedling::seedling:
 
 {% include search-box.html %}
 
