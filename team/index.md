@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-people-group" %}Team
 
-## :heartpulse: Join the Team! :heartpulse:
+## Join the Team! :heartpulse:
 
 {%
   include alert.html
