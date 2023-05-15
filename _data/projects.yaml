@@ -40,6 +40,18 @@
     
 - title: Cool Project
   subtitle: a subtitle
+  group: featured
+  image: images/neureca.png
+  link: https://github.com/hyojin-park-neuro
+  description: Project in Progress
+  repo: hyojin-park-neuro
+  tags:
+    - resource
+    - publication
+    - MEG/OPM-MEG/EEG  
+    
+- title: Cool Project
+  subtitle: a subtitle
   image: images/neureca.png
   link: https://github.com/hyojin-park-neuro
   description: More coming up!
