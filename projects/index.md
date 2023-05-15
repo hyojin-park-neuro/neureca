@@ -29,7 +29,7 @@ nav:
 
 {% include section.html %}
 
-{% include list.html data="posts" component="post-excerpt" filters="title: BIOMAG 2022, Birmingham, UK" %}
+{% include list.html data="posts" component="post-excerpt" filters="title: test" %}
 
 {% include section.html %}
 
