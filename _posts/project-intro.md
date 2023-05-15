@@ -1,5 +1,5 @@
 ---
-title: Resaerch Highlights
+title: Project Intro
 author: Hyojin Park
 tags:
   - test
