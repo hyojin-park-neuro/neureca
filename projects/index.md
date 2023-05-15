@@ -29,7 +29,5 @@ nav:
 
 {% include section.html %}
 
-{%
-  include post-excerpt.html
-  lookup="project-intro"
-%}
+{% include list.html component="post-excerpt" data="posts" lookup="project-intro" %}
+
