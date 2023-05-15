@@ -44,7 +44,7 @@ carousels:
 - Audio-Visual (Speech) Integration
 - (Age-related) Hearing Loss
 - Deafness
-- Mild Traumatic Brain Injury (mTBI)
+- [Mild Traumatic Brain Injury (mTBI)](https://www.birmingham.ac.uk/research/metabolism-systems/translational-brain-science/mtbi-predict/mtbi-predict.aspx)
 - Brain Reorganisation following Sensory Loss
 - Cross-modal Plasticity
 - Speech Production
