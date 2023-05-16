@@ -28,6 +28,9 @@ nav:
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
 
 {% include section.html %}
-# test3
+# test4
 
-{% include list.html data="tasks" component="task-excerpt" lookup = "test" %}
+{% include list.html data="tasks" component="task-excerpt" %}
+
+
+{% include list.html data="members" component="card" filters="role: pi" %}
