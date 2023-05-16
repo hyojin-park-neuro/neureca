@@ -31,7 +31,7 @@ nav:
 {% include section.html %}
 
 {% capture content %}
-{% include figure.html image="images/chbh_1.png" caption="The team at our annual Christmas party, 2025" link="team" %}
+{% include figure.html image="images/chbh_1.png" caption="The team at our annual Christmas party, 2025" link="https://hyojin-park-neuro.github.io/intro-published/2022-more-than-words" %}
 {% include figure.html image="images/chbh_2.png" caption="The team at our annual Christmas party, 2025" link="team" %}
 {% include figure.html image="images/chbh_3.png" caption="The team at our annual Christmas party, 2025" link="team" %}
 {% include figure.html image="images/chbh_4.png" caption="The team at our annual Christmas party, 2025" link="team" %}
