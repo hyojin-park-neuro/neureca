@@ -27,7 +27,7 @@ nav:
 
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
 
-
+## Some of published work
 {% include section.html %}
 
 {% capture content %}
