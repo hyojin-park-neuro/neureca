@@ -35,6 +35,6 @@ nav:
 {% include figure.html image="images/chbh_1.png" caption="More than Words" link="https://hyojin-park-neuro.github.io/intro-published/2022-more-than-words" width="300px" %}
 {% include figure.html image="images/paper-av-pid.png" caption="AV Integration" link="https://hyojin-park-neuro.github.io/intro-published/2018-av-pid" width="300px" %}
 {% include figure.html image="images/paper-lip-tracking.png" caption="Lip Tracking" link="https://hyojin-park-neuro.github.io/intro-published/2016-lip-tracking" width="300px" %}
-{% include figure.html image="images/chbh_4.png" caption="Frontal Top-down" link="https://hyojin-park-neuro.github.io/intro-published/2015-top-down" width="300px" %}
+{% include figure.html image="images/paper-top-down.png" caption="Frontal Top-down" link="https://hyojin-park-neuro.github.io/intro-published/2015-top-down" width="300px" %}
 {% endcapture %}
 {% include grid.html style="square" content=content %}
