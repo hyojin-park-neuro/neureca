@@ -28,7 +28,8 @@ nav:
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
 
 {% include section.html %}
-# test6
+
+## Intro of Published Work - test1
 
 {% include list.html data="tasks" component="task-excerpt" %}
 
