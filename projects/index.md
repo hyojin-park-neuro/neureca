@@ -29,11 +29,4 @@ nav:
 
 {% include section.html %}
 
-{% include list.html data="posts" component="post-excerpt" filters="title: test" %}
-
-{% include section.html %}
-
-{%
-  include post-excerpt.html
-  lookup="testtest.md"
-%}
+{% include list.html data="tasks" component="task-excerpt" filters="title: Inaugural MEG Symposium, CHBH" %}
