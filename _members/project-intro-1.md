@@ -1,10 +1,11 @@
 ---
 title: BIOMAG Young Investigator Award
-author: Hyojin Park
+author: ""
 tags:
   - BIOMAG
   - award
   - YIA
+date: ""
 last_modified_at: ""
 carousels:
   - images: 
