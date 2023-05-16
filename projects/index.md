@@ -28,6 +28,6 @@ nav:
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
 
 {% include section.html %}
-# test2
+# test3
 
-{% include list.html data="tasks" component="task-excerpt" %}
+{% include list.html data="tasks" component="task-excerpt" lookup = "test" %}
