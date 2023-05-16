@@ -1,11 +1,10 @@
 ---
 title: More than Words - Topic keywords processing in the brain in multi-speaker environment
-author: ""
+author: "Hyojin Park"
 tags:
   - BIOMAG
   - award
   - YIA
-date: ""
 last_modified_at: ""
 carousels:
   - images: 
