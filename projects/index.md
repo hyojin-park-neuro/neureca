@@ -33,4 +33,4 @@ nav:
 {% include list.html data="tasks" component="task-excerpt" %}
 
 
-{% include list.html data="members" component="card" filters="role: pi" %}
+{% include list.html data="members" component="post-excerpt" filters="role: pi" %}
