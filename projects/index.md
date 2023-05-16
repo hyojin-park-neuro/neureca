@@ -29,4 +29,4 @@ nav:
 
 {% include section.html %}
 
-{% include list.html data="tasks" component="task-excerpt" %}
+{% include list.html data="tasks" component="task-excerpt" filters="title: Inaugural MEG Symposium, CHBH" %}
