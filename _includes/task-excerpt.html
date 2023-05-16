@@ -1,0 +1,35 @@
+{% assign task = site.tasks 
+  | where_exp: "task", "task.slug == include.lookup"
+  | first
+  | default: include
+%}
+
+<div class="task-excerpt">
+  {% assign url = task.url %}
+  {% assign title = task.title %}
+  <a href="{{ url | relative_url }}">{{ title }}</a>
+
+  {%
+    include task-info.html
+    author=task.author
+    published=task.date
+    updated=post.last_modified_at
+    tags=task.tags
+  %}
+
+  {% assign excerpt = task.content
+    | default: ""
+    | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
+    | default: task.excerpt
+    | default: ""
+    | strip_html
+  %}
+  {% assign search = task.content
+    | strip_html 
+    | strip_newlines
+    | regex_strip
+  %}
+  <p data-search="{{ search }}">
+    {{ excerpt }}
+  </p>
+</div>
