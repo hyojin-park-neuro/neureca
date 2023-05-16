@@ -1,5 +1,5 @@
 ---
-title: More than Words: Topic keywords processing in the brain in multi-speaker environment
+title: More than Words - Topic keywords processing in the brain in multi-speaker environment
 author: ""
 tags:
   - BIOMAG
