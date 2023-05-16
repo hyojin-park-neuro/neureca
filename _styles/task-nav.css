@@ -1,0 +1,36 @@
+.task-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--gray);
+  line-height: calc(var(--spacing) - 0.4);
+}
+
+.task-nav > *:first-child {
+  text-align: left;
+}
+
+.task-nav > *:last-child {
+  text-align: right;
+}
+
+.task-nav > *:first-child .icon {
+  margin-right: 0.5em;
+}
+
+.task-nav > *:last-child .icon {
+  margin-left: 0.5em;
+}
+
+@media (max-width: 600px) {
+  .task-nav {
+    align-items: center;
+    flex-direction: column;
+  }
+  .task-nav > * {
+    text-align: center !important;
+  }
+}
+
+/*# sourceMappingURL=task-nav.css.map */
