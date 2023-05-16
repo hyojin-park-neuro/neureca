@@ -28,9 +28,9 @@ nav:
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
 
 {% include section.html %}
-# test5
+# test6
 
 {% include list.html data="tasks" component="task-excerpt" %}
 
 
-{% include list.html data="members" component="post-excerpt" filters="role: pi" %}
+{% include list.html data="members" component="post-excerpt" filters="title: BIOMAG Young Investigator Award" %}
