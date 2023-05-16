@@ -31,9 +31,9 @@ nav:
 {% include section.html %}
 
 {% capture content %}
-{% include figure.html image="images/chbh_1.png" caption="The team at our annual Christmas party, 2025" link="https://hyojin-park-neuro.github.io/intro-published/2022-more-than-words" %}
-{% include figure.html image="images/chbh_2.png" caption="The team at our annual Christmas party, 2025" link="team" %}
-{% include figure.html image="images/chbh_3.png" caption="The team at our annual Christmas party, 2025" link="team" %}
-{% include figure.html image="images/chbh_4.png" caption="The team at our annual Christmas party, 2025" link="team" %}
+{% include figure.html image="images/chbh_1.png" caption="More than Words" link="https://hyojin-park-neuro.github.io/intro-published/2022-more-than-words" %}
+{% include figure.html image="images/chbh_2.png" caption="AV Integration" link="https://hyojin-park-neuro.github.io/intro-published/2018-av-pid" %}
+{% include figure.html image="images/chbh_3.png" caption="Lip Tracking" link="https://hyojin-park-neuro.github.io/intro-published/2016-lip-tracking" %}
+{% include figure.html image="images/chbh_4.png" caption="Frontal Top-down" link="https://hyojin-park-neuro.github.io/intro-published/2015-top-down" %}
 {% endcapture %}
 {% include grid.html style="square" content=content %}
