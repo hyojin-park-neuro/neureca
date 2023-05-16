@@ -1,0 +1,18 @@
+<div class="task-nav">
+  <span>
+    {% if include.task.previous %}
+      {% include icon.html icon="fa-solid fa-angle-left" %} Previous post<br>
+      <a href="{{ include.task.previous.url | relative_url }}">
+        {{ include.task.previous.title }}
+      </a>
+    {% endif %}
+  </span>
+  <span>
+    {% if include.task.next %}
+      Next post {% include icon.html icon="fa-solid fa-angle-right" %}<br>
+      <a href="{{ include.task.next.url | relative_url }}">
+        {{ include.task.next.title }}
+      </a>
+    {% endif %}
+  </span>
+</div>
