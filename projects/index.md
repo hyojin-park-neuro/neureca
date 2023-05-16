@@ -34,4 +34,4 @@ nav:
 {% include list.html data="tasks" component="task-excerpt" %}
 
 
-{% include list.html data="members" component="post-excerpt" filters="title: More than Words" %}
+{% include list.html data="members" component="post-excerpt" filters="title: More than Words - Topic keywords processing in the brain in multi-speaker environment" %}
