@@ -1,0 +1,33 @@
+---
+---
+
+.task-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
+  color: var(--gray);
+}
+
+.task-info .portrait {
+  margin: 0;
+}
+
+.task-info .icon {
+  margin-right: 0.5em;
+}
+
+.task-info a {
+  color: inherit;
+}
+
+.task-info a:hover {
+  color: var(--primary);
+}
+
+.task-info > span {
+  text-align: center;
+  white-space: nowrap;
+}
