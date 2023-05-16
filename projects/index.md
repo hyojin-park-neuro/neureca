@@ -26,3 +26,14 @@ nav:
 ## More
 
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
+
+
+{% include section.html %}
+
+{% capture content %}
+{% include figure.html image="images/chbh_1.png" caption="The team at our annual Christmas party, 2025" link="team" %}
+{% include figure.html image="images/chbh_2.png" caption="The team at our annual Christmas party, 2025" link="team" %}
+{% include figure.html image="images/chbh_3.png" caption="The team at our annual Christmas party, 2025" link="team" %}
+{% include figure.html image="images/chbh_4.png" caption="The team at our annual Christmas party, 2025" link="team" %}
+{% endcapture %}
+{% include grid.html style="square" content=content %}
