@@ -33,4 +33,4 @@ nav:
 {% include list.html data="tasks" component="task-excerpt" %}
 
 
-{% include list.html data="members" component="post-excerpt" filters="title: BIOMAG Young Investigator Award" %}
+{% include list.html data="members" component="post-excerpt" filters="title: More than Words" %}
