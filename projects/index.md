@@ -29,4 +29,4 @@ nav:
 
 {% include section.html %}
 
-## [Some of published work](https://hyojin-park-neuro.github.io/intro-published/)
+## [A selection of published works](https://hyojin-park-neuro.github.io/intro-published/)
