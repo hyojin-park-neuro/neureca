@@ -27,8 +27,9 @@ nav:
 
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
 
-## Some of published work
 {% include section.html %}
+
+## Some of published work
 
 {% capture content %}
 {% include figure.html image="images/chbh_1.png" caption="More than Words" link="https://hyojin-park-neuro.github.io/intro-published/2022-more-than-words" width="400px" %}
