@@ -26,12 +26,3 @@ nav:
 ## More
 
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
-
-{% include section.html %}
-
-## Intro of Published Work - test1
-
-{% include list.html data="tasks" component="task-excerpt" %}
-
-
-{% include list.html data="members" component="post-excerpt" filters="title: More than Words - Topic keywords processing in the brain in multi-speaker environment" %}
