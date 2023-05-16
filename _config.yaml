@@ -36,10 +36,6 @@ defaults:
       type: "posts"
     values:
       layout: post
-  - scope:
-      type: "tasks"
-    values:
-      layout: task    
 
 collections:
   # generate page for each member
