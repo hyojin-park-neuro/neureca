@@ -28,5 +28,6 @@ nav:
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
 
 {% include section.html %}
+# test
 
 {% include list.html data="tasks" component="task-excerpt" filters="title: Inaugural MEG Symposium, CHBH" %}
