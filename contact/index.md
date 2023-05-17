@@ -42,7 +42,7 @@ carousels:
   link="https://campusmap.bham.ac.uk//search/projects/23/5d6f49301e1f64009327b7cd"
 %}
 
-{% include section.html dark=true %}
+{% include section.html %}
 
 {% capture content %}
 {% include figure.html image="images/chbh_1.png" %}
@@ -54,12 +54,12 @@ carousels:
 {% endcapture %}
 {% include grid.html style="square" content=content %}
 
-{% include section.html dark=true %}
+{% include section.html %}
 
 <a href="https://twitter.com/HyojinParkNeuro?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @HyojinParkNeuro</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <a class="twitter-timeline" data-width="100%" data-height="700%" href="https://twitter.com/HyojinParkNeuro?ref_src=twsrc%5Etfw">Tweets by HyojinParkNeuro</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-{% include section.html dark=true %}
+{% include section.html %}
 
 {% capture col1 %}
 ***Postal Address*** <br>
@@ -89,7 +89,7 @@ sed do eiusmod tempor
 
 {% include cols.html col1=col1 col2=col2 %}
 
-{% include section.html dark=true %}
+{% include section.html %}
 
 {%
   include carousel.html
