@@ -28,3 +28,5 @@ nav:
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
 
 ## [A selection of published works](https://hyojin-park-neuro.github.io/intro-published/)
+
+{% include list.html component="card" data="projects" filters="group: published" %}
