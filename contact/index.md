@@ -18,7 +18,7 @@ carousels:
 {%
   include button.html
   type="email"
-  text="Hyojin Park"
+  text="h.park@bham.ac.uk"
   link="h.park@bham.ac.uk"
 %}
 {%
