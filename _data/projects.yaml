@@ -92,3 +92,15 @@
     - topic
     - keywords
     - MEG/EEG
+
+- title: AV Speech Integration
+  subtitle: Representational Interactions
+  group: published
+  image: images/neureca.png
+  link: https://github.com/hyojin-park-neuro/intro-published/tree/main/2018-av-pid
+  description: published
+  repo: hyojin-park-neuro/intro-published
+  tags:
+    - audiovisual
+    - integration
+    - MEG/EEG
