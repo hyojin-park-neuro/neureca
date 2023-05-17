@@ -94,7 +94,7 @@
     - MEG/EEG
 
 - title: AV Speech Integration
-  subtitle: Representational Interactions
+  subtitle: Representational Interactions between AV
   group: published
   image: images/neureca.png
   link: https://github.com/hyojin-park-neuro/intro-published/tree/main/2018-av-pid
@@ -103,4 +103,28 @@
   tags:
     - audiovisual
     - integration
+    - MEG/EEG
+
+- title: Visual Speech Tracking
+  subtitle: Low-frequency following Lip Movements
+  group: published
+  image: images/neureca.png
+  link: https://github.com/hyojin-park-neuro/intro-published/tree/main/2016-lip-tracking
+  description: published
+  repo: hyojin-park-neuro/intro-published
+  tags:
+    - lip
+    - tracking
+    - MEG/EEG
+    
+- title: Top-down Modulation of Speech
+  subtitle: Fronto-motor top-down signals
+  group: published
+  image: images/neureca.png
+  link: https://github.com/hyojin-park-neuro/intro-published/tree/main/2015-top-down
+  description: published
+  repo: hyojin-park-neuro/intro-published
+  tags:
+    - top-down
+    - frontal
     - MEG/EEG
