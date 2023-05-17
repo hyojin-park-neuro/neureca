@@ -118,7 +118,7 @@
     - MEG/EEG
     
 - title: Top-down Modulation of Speech
-  subtitle: Fronto-motor top-down signals
+  subtitle: Fronto-motor Top-down Signals
   group: published
   image: images/neureca.png
   link: https://github.com/hyojin-park-neuro/intro-published/tree/main/2015-top-down
@@ -126,5 +126,5 @@
   repo: hyojin-park-neuro/intro-published
   tags:
     - top-down
-    - frontal
+    - fronto-motor
     - MEG/EEG
