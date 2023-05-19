@@ -1,26 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2023.05.15.540818
-  title: Lip movements and lexical features improve speech tracking differently for
-    clear and multi-speaker speech
-  authors:
-  - Chandra Leon Haider
-  - Hyojin Park
-  - Anne Hauswald
-  - Nathan Weisz
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-05-15'
-  link: https://doi.org/gr8tdt
-  type: paper
-  image: https://www.biorxiv.org/content/biorxiv/early/2023/05/15/2023.05.15.540818/F3.large.jpg?width=800&height=600&carousel=1
-  tags:
-  - lip movement
-  - speech
-  - feature
-  - multi-speaker
-  - MEG/EEG
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1101/2022.06.21.497061
   title: 'Differential roles of delta and theta oscillations in understanding semantic
     gist during natural audiovisual speech perception: Functional and anatomical evidence'
