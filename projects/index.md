@@ -17,7 +17,7 @@ nav:
 
 {% include section.html %}
 
-## Featured 💡
+## Featured&nbsp;💡
 
 {% include list.html component="card" data="projects" filters="group: featured" %}
 
