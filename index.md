@@ -23,7 +23,12 @@ carousels:
 {% include section.html %}
 
 {% capture content %}
-  {% include carousel.html height="30" unit="%" duration="5" number="1" %}
+  {% include carousel.html
+  height="30"
+  unit="%"
+  duration="5"
+  number="1" 
+  %}
 {% endcapture %}
 
 {%
