@@ -14,7 +14,7 @@ nav:
 {%
   include alert.html
   type="info"
-  content="**Highly motivated PhD students and postdoctoral scientists are welcome to join Dr. Park’s research group! Please feel free to contact the PI to discuss further regarding funding opportunities!**"
+  content="**Highly motivated PhD students and postdoctoral scientists are welcome to join Dr. Hyojin Park’s research group! Please feel free to contact the PI to discuss further regarding funding opportunities!**"
 %}
 
 
