@@ -5,8 +5,9 @@ nav:
   tooltip: Home
 carousels:
   - images: 
-    - image: /images/carousel/hyojin_park_2.jpg
-    - image: /images/carousel/hyojin_park_3.jpg
+    - image: /images/carousel/main_comms_1.png
+    - image: /images/carousel/main_comms_2.png
+    - image: /images/carousel/main_comms_3.png
 ---
 
 ## <span style="color: #586A8C;">Welcome to Dr. Hyojin Park's Research Group - NEURECA!</span>
@@ -22,10 +23,7 @@ carousels:
 {% include section.html %}
 
 {% capture content %}
-  {% include figure.html
-  image="images/main_communication.png"
-  width="500px"
-  %}
+  {% include carousel.html height="60" unit="%" duration="5" number="1" %}
 {% endcapture %}
 
 {%
