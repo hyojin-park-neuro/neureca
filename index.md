@@ -9,6 +9,7 @@ carousels:
     - image: /images/carousel/main_comms_2.png
     - image: /images/carousel/main_comms_3.png
     - image: /images/carousel/main_comms_4.png
+    - image: /images/carousel/main_comms_5.png
 ---
 
 ## <span style="color: #586A8C;">Welcome to Dr. Hyojin Park's Research Group - NEURECA!</span>
