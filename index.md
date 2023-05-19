@@ -22,19 +22,17 @@ carousels:
 
 {% include section.html %}
 
-{% capture content %}
-  {% include carousel.html
-  height="30"
-  unit="%"
-  duration="5"
-  number="1" 
-  %}
-{% endcapture %}
-
 {%
   include float.html
   content=content
   flip=true
+%}
+
+{% include carousel.html
+height="30"
+unit="%"
+duration="5"
+number="1" 
 %}
 
 **The main goal of our research group** is to understand neural oscillatory mechanisms in speech processing - both auditory and visual - as well as their integration that leads to a unified perception. 
