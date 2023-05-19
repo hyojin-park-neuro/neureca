@@ -23,7 +23,7 @@ carousels:
 {% include section.html %}
 
 {% include carousel.html
-height="30"
+height="40"
 unit="%"
 duration="5"
 number="1" 
