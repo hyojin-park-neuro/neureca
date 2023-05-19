@@ -1,3 +1,16 @@
+- id: doi:10.1101/2023.05.15.540818
+  type: paper
+  date: 2023-5-15
+  image: https://www.biorxiv.org/content/biorxiv/early/2023/05/15/2023.05.15.540818/F3.large.jpg?width=800&height=600&carousel=1
+  tags:
+    - audiovisual speech
+    - lip movement
+    - face mask
+    - speech features
+    - multi-speaker
+    - MEG/EEG
+
+
 - id: doi:10.1101/2022.06.21.497061
   type: paper
   date: 2022-6-22
@@ -20,7 +33,7 @@
   image: https://ars.els-cdn.com/content/image/1-s2.0-S1053811922001732-gr1.jpg
   tags:
     - stimulus reconstruction
-    - face masks
+    - face mask
     - audiovisual speech
     - formants
     - speech envelope
