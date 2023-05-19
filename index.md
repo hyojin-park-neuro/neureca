@@ -43,8 +43,7 @@ number="1"
 
 {% capture col1 %}
 ## Research Topics
-- Auditory Perception
-- Visual Perception
+- AudioVisual Perception
 - Sensory-Motor Interaction
 - Auditory and Visual (speech) Tracking
 - Audio-Visual (Speech) Integration
