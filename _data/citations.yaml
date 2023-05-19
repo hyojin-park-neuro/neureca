@@ -1,6 +1,6 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: https://doi.org/10.1101/2023.05.15.540818
+- id: doi:10.1101/2023.05.15.540818
   title: Lip movements and lexical features improve speech tracking differently for
     clear and multi-speaker speech
   authors:
@@ -8,11 +8,11 @@
   - Hyojin Park
   - Anne Hauswald
   - Nathan Weisz
-  publisher: bioRxiv
+  publisher: Cold Spring Harbor Laboratory
   date: '2023-05-15'
-  link: https://www.biorxiv.org/content/10.1101/2023.05.15.540818v1
+  link: https://doi.org/gr8tdt
   type: paper
-  image: https://www.biorxiv.org/content/biorxiv/early/2023/05/15/2023.05.15.540818/F1.large.jpg?width=800&height=600&carousel=1
+  image: https://www.biorxiv.org/content/biorxiv/early/2023/05/15/2023.05.15.540818/F3.large.jpg?width=800&height=600&carousel=1
   tags:
   - lip movement
   - speech
