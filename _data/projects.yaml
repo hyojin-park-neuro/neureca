@@ -96,7 +96,7 @@
 - title: AV Speech Integration
   subtitle: Representational Interactions between AV
   group: published
-  image: images/neureca.png
+  image: images/projects/project_2018_pbio_pid.png
   link: https://github.com/hyojin-park-neuro/intro-published/tree/main/2018-av-pid
   description: published
   repo: hyojin-park-neuro/intro-published
@@ -121,7 +121,7 @@
 - title: Top-down Modulation of Speech
   subtitle: Fronto-motor Top-down Signals
   group: published
-  image: images/neureca.png
+  image: images/projects/project_2015_cb_topdown.png
   link: https://github.com/hyojin-park-neuro/intro-published/tree/main/2015-top-down
   description: published
   repo: hyojin-park-neuro/intro-published
