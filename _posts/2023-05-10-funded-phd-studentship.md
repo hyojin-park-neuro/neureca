@@ -1,5 +1,5 @@
 ---
-title: Competition Funded PhD Project <br> (open to UK home and International students)
+title: 🔔 Join Us! Competition Funded PhD Project <br> (open to UK home and International students)
 author: Hyojin Park, Katrien Segaert
 tags: job, PhD, MEG, OPM-MEG, CHBH, CDS
 last_modified_at: ""
@@ -10,6 +10,8 @@ last_modified_at: ""
 **Institution**: University of Birmingham, School of Psychology, Centre for Human Brain Health (CHBH), Centre for Developmental Science (CDS)
 
 **Supervisors**: Dr. Hyojin Park and Dr. Katrien Segaert
+
+{% include section.html %}
 
 We are inviting applications for a PhD studentship (start date September 18th 2023) in the School of Psychology and Centre for Human Brain Health (CHBH) at the University of Birmingham. This is a fully funded studentship which also covers UK home fees but is open to international students (details below). We are searching for a highly talented and dedicated PhD student with a 1st class or 2:1 degree in the field of psychology, cognitive neuroscience or similar disciplines (see criteria below). 
 We are keen to recruit PhD students from under-represented groups, for example, home students who identify as BAME or those who grew up or went to school in an area where young people are less likely to enter higher education.
