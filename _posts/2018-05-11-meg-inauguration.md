@@ -1,6 +1,6 @@
 ---
 title: Inaugural MEG Symposium, CHBH
-author: Hyojin Park
+author: hyojin-park
 tags:
   - MEG
   - CHBH
