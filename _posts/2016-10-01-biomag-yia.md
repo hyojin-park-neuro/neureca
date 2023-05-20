@@ -1,6 +1,6 @@
 ---
 title: BIOMAG Young Investigator Award
-author: Hyojin Park
+author: hyojin-park
 tags:
   - BIOMAG
   - award
