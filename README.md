@@ -3,6 +3,6 @@
 
 
 
-<img src="images/share.png" alt="neureca" width="80%">
+<img src="images/share.png" alt="neureca" width="100%">
 
 _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
