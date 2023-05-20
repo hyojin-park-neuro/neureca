@@ -9,7 +9,7 @@ nav:
 
 ## Join the Team!&nbsp;:heartpulse:
 
-### 🔔 **We are hiring now (*Deadline: 5th June 2023*) - [check it out](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)!**
+### 🔔 **We are hiring now! (*Deadline: 5th June 2023*) [Check it out](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)!**
 
 {%
   include alert.html
