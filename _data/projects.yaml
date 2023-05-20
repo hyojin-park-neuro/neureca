@@ -1,7 +1,7 @@
 - title: Microsaccade/Oculomotor Activities and Auditory Attention
   subtitle: MEG & Behaviour
   group: featured
-  image: images/neureca.png
+  image: https://github.com/hyojin-park-neuro/microsaccade-aud/raw/main/images/ms_aud_1.jpg
   link: https://github.com/hyojin-park-neuro/microsaccade-aud
   description: Project in Progress
   repo: microsaccade-aud
