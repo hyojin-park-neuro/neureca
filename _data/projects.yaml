@@ -28,7 +28,7 @@
 - title: Natural Speech and NLP/LLMs
   subtitle: MEG & Behaviour
   group: featured
-  image: images/neureca.png
+  image: images/projects/project_llms.png
   link: https://github.com/hyojin-park-neuro/nlp-speech
   description: Project in Progress
   repo: nlp-speech
