@@ -1,6 +1,6 @@
 ---
 title: Competition Funded PhD Project <br> (open to UK home and International students)
-author: hyojin-park, Katrien Segaert
+author: Hyojin Park, Katrien Segaert
 tags: job, PhD, MEG, OPM-MEG, CHBH, CDS
 last_modified_at: ""
 ---
