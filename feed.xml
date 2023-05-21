@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-21T20:43:02+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>Dr. Hyojin Park&apos;s Research Group</subtitle><entry><title type="html">🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)</title><link href="/2023/05/10/funded-phd-studentship.html" rel="alternate" type="text/html" title="🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)" /><published>2023-05-10T00:00:00+00:00</published><updated>2023-05-10T00:00:00+00:00</updated><id>/2023/05/10/funded-phd-studentship</id><content type="html" xml:base="/2023/05/10/funded-phd-studentship.html"><![CDATA[<p><strong>Project Title</strong>: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-21T20:50:57+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>Dr. Hyojin Park&apos;s Research Group</subtitle><entry><title type="html">🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)</title><link href="/2023/05/10/funded-phd-studentship.html" rel="alternate" type="text/html" title="🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)" /><published>2023-05-10T00:00:00+00:00</published><updated>2023-05-10T00:00:00+00:00</updated><id>/2023/05/10/funded-phd-studentship</id><content type="html" xml:base="/2023/05/10/funded-phd-studentship.html"><![CDATA[<p><strong>Project Title</strong>: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies</p>
 
 <p><strong>Institution</strong>: University of Birmingham, School of Psychology, Centre for Human Brain Health (CHBH), Centre for Developmental Science (CDS)</p>
 
@@ -335,18 +335,36 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(1) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 .carousel__slide:nth-of-type(2),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 .carousel__slide:nth-of-type(3),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 </style>
@@ -607,12 +625,24 @@ Every single student has made remarkable strides in such a remarkably brief span
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(1) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 .carousel__slide:nth-of-type(2),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 </style>
@@ -1007,30 +1037,60 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(1) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 .carousel__slide:nth-of-type(2),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 .carousel__slide:nth-of-type(3),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 .carousel__slide:nth-of-type(4),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(4) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 .carousel__slide:nth-of-type(5),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(5) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 </style>
@@ -1383,24 +1443,48 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(1) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 .carousel__slide:nth-of-type(2),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 .carousel__slide:nth-of-type(3),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 .carousel__slide:nth-of-type(4),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(4) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 </style>
@@ -1790,30 +1874,60 @@ Dr. Hyojin Park received the prestigious YIA!</p>
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(1) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 .carousel__slide:nth-of-type(2),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 .carousel__slide:nth-of-type(3),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 .carousel__slide:nth-of-type(4),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(4) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 .carousel__slide:nth-of-type(5),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(5) {
   background-size: cover;
   background-position: center;
+.zoom-effect {
+  transition: transform 0.5s ease;
+}
+.zoom-effect:hover {
+  transform: scale(1.2);
+}
 }
 
 </style>
