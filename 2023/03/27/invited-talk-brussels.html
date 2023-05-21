@@ -578,6 +578,19 @@
 
 <style>
 .carousel__holder {width: 100%; position: relative; padding-bottom: 150%; margin: 1rem 0 1rem;}
+.carousel-inner .carousel-item > img {
+  -webkit-animation: thing 5s;
+  -o-animation: thing 5s;
+  animation: thing 5s; 
+}
+@keyframes thing {
+  from {
+     transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
 .carousel {
   height: 100%;
   width: 100%;
