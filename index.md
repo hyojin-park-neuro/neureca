@@ -37,7 +37,7 @@ number="1"
 
 **Rhythmic Stimulation using Rapid Frequency Tagging (RFT) and Transcranial Stimulation** Can low-frequency rhythms (delta, theta bands) causally modulate audiovisual speech integration in effortful listening conditions? We are looking into how the rhythmic modulation enhances cortical excitability in the sensory cortex using sensory stimulation (Rapid Frequency Tagging) and transcranial stimulation (Ultrasound Stimulation) techniques. 
 
-**Computational Models by harnessing NLP (Natural Language Processing) Techniques** Topic model, word vectors, and transformer models are used to study specific feature processing in the brain during naturalistic speech perception.
+**Computational Models by harnessing NLP (Natural Language Processing) algorithms based on Large Language Models (LLMs)** Topic model, word vectors, and transformer models are used to study specific feature processing in the brain during naturalistic speech perception.
 
 **Facilities and Tools** The Group is a part of the newly established Centre for Human Brain Health (CHBH) at the University of Birmingham. The Centre is equipped with state-of-the-art brain imaging facilities, e.g. MEG, OPMs, EEG, MRI, TMS, TCS, Sleep labs, fNIRS. We combine these modalities in order to obtain a comprehensive picture of neural mechanisms of speech and multisensory (AV) integration.
 
