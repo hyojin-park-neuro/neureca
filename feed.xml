@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-21T19:21:14+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>Dr. Hyojin Park&apos;s Research Group</subtitle><entry><title type="html">🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)</title><link href="/2023/05/10/funded-phd-studentship.html" rel="alternate" type="text/html" title="🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)" /><published>2023-05-10T00:00:00+00:00</published><updated>2023-05-10T00:00:00+00:00</updated><id>/2023/05/10/funded-phd-studentship</id><content type="html" xml:base="/2023/05/10/funded-phd-studentship.html"><![CDATA[<p><strong>Project Title</strong>: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-21T19:58:35+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>Dr. Hyojin Park&apos;s Research Group</subtitle><entry><title type="html">🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)</title><link href="/2023/05/10/funded-phd-studentship.html" rel="alternate" type="text/html" title="🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)" /><published>2023-05-10T00:00:00+00:00</published><updated>2023-05-10T00:00:00+00:00</updated><id>/2023/05/10/funded-phd-studentship</id><content type="html" xml:base="/2023/05/10/funded-phd-studentship.html"><![CDATA[<p><strong>Project Title</strong>: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies</p>
 
 <p><strong>Institution</strong>: University of Birmingham, School of Psychology, Centre for Human Brain Health (CHBH), Centre for Developmental Science (CDS)</p>
 
@@ -170,8 +170,8 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(1):checked ~ .carousel__controls:nth-of-type(1) {
   display: block;
@@ -193,8 +193,8 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(2):checked ~ .carousel__controls:nth-of-type(2) {
   display: block;
@@ -216,8 +216,8 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(3):checked ~ .carousel__controls:nth-of-type(3) {
   display: block;
@@ -471,8 +471,8 @@ Every single student has made remarkable strides in such a remarkably brief span
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(1):checked ~ .carousel__controls:nth-of-type(1) {
   display: block;
@@ -494,8 +494,8 @@ Every single student has made remarkable strides in such a remarkably brief span
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(2):checked ~ .carousel__controls:nth-of-type(2) {
   display: block;
@@ -788,8 +788,8 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(1):checked ~ .carousel__controls:nth-of-type(1) {
   display: block;
@@ -811,8 +811,8 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(2):checked ~ .carousel__controls:nth-of-type(2) {
   display: block;
@@ -834,8 +834,8 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(3):checked ~ .carousel__controls:nth-of-type(3) {
   display: block;
@@ -857,8 +857,8 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(4):checked ~ .carousel__controls:nth-of-type(4) {
   display: block;
@@ -880,8 +880,8 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(5):checked ~ .carousel__controls:nth-of-type(5) {
   display: block;
@@ -1193,8 +1193,8 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(1):checked ~ .carousel__controls:nth-of-type(1) {
   display: block;
@@ -1216,8 +1216,8 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(2):checked ~ .carousel__controls:nth-of-type(2) {
   display: block;
@@ -1239,8 +1239,8 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(3):checked ~ .carousel__controls:nth-of-type(3) {
   display: block;
@@ -1262,8 +1262,8 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(4):checked ~ .carousel__controls:nth-of-type(4) {
   display: block;
@@ -1573,8 +1573,8 @@ Dr. Hyojin Park received the prestigious YIA!</p>
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(1):checked ~ .carousel__controls:nth-of-type(1) {
   display: block;
@@ -1596,8 +1596,8 @@ Dr. Hyojin Park received the prestigious YIA!</p>
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(2):checked ~ .carousel__controls:nth-of-type(2) {
   display: block;
@@ -1619,8 +1619,8 @@ Dr. Hyojin Park received the prestigious YIA!</p>
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(3):checked ~ .carousel__controls:nth-of-type(3) {
   display: block;
@@ -1642,8 +1642,8 @@ Dr. Hyojin Park received the prestigious YIA!</p>
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(4):checked ~ .carousel__controls:nth-of-type(4) {
   display: block;
@@ -1665,8 +1665,8 @@ Dr. Hyojin Park received the prestigious YIA!</p>
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .carousel__activator:nth-of-type(5):checked ~ .carousel__controls:nth-of-type(5) {
   display: block;
