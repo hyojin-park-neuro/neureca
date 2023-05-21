@@ -557,19 +557,15 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
         <div class="carousel__track">
           <ul>
             
-            <li class="carousel__slide" style="background-image: url('/images/carousel/meg_inauguration_1.jpg');">
+            <li class="carousel__slide"><a href="/images/carousel/meg_inauguration_1.jpg"><img src="/images/carousel/meg_inauguration_1.jpg"></a></li>
             
-            </li>
-<li class="carousel__slide" style="background-image: url('/images/carousel/meg_inauguration_2.jpg');">
+            <li class="carousel__slide"><a href="/images/carousel/meg_inauguration_2.jpg"><img src="/images/carousel/meg_inauguration_2.jpg"></a></li>
             
-            </li>
-<li class="carousel__slide" style="background-image: url('/images/carousel/meg_inauguration_3.jpg');">
+            <li class="carousel__slide"><a href="/images/carousel/meg_inauguration_3.jpg"><img src="/images/carousel/meg_inauguration_3.jpg"></a></li>
             
-            </li>
-<li class="carousel__slide" style="background-image: url('/images/carousel/meg_inauguration_4.jpg');">
+            <li class="carousel__slide"><a href="/images/carousel/meg_inauguration_4.jpg"><img src="/images/carousel/meg_inauguration_4.jpg"></a></li>
             
-          </li>
-</ul>
+          </ul>
         </div>
         <div class="carousel__indicators">
             
@@ -703,7 +699,7 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   cursor: pointer;
   border-width: 5px 5px 0 0;
   border-style: solid;
-  border-color: #fafafa;
+  border-color: lightgray;
   opacity: 0.35;
   opacity: 1;
   outline: 0;
@@ -749,9 +745,9 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   left: 0;
   padding: 0;
   margin: 0;
-  transition: -webkit-transform 1.5s ease 0s;
-  transition: transform 1.5s ease 0s;
-  transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
+  transition: -webkit-transform 0.5s ease 0s;
+  transition: transform 0.5s ease 0s;
+  transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
 }
 .carousel__track .carousel__slide {
   display: block;
@@ -792,7 +788,8 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   opacity: 0;
   overflow: hidden;
 }
-.carousel__slide .overlay {height: 100%;}
+.carousel__slide a {display: block;}
+.carousel__slide img {height: 100%;}
 .carousel--thumb .carousel__indicator {
   height: 30px;
   width: 30px;

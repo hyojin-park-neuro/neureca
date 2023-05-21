@@ -536,22 +536,17 @@
         <div class="carousel__track">
           <ul>
             
-            <li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_1.png');">
+            <li class="carousel__slide"><a href="/images/carousel/main_comms_1.png"><img src="/images/carousel/main_comms_1.png"></a></li>
             
-            </li>
-<li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_2.png');">
+            <li class="carousel__slide"><a href="/images/carousel/main_comms_2.png"><img src="/images/carousel/main_comms_2.png"></a></li>
             
-            </li>
-<li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_3.png');">
+            <li class="carousel__slide"><a href="/images/carousel/main_comms_3.png"><img src="/images/carousel/main_comms_3.png"></a></li>
             
-            </li>
-<li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_4.png');">
+            <li class="carousel__slide"><a href="/images/carousel/main_comms_4.png"><img src="/images/carousel/main_comms_4.png"></a></li>
             
-            </li>
-<li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_5.png');">
+            <li class="carousel__slide"><a href="/images/carousel/main_comms_5.png"><img src="/images/carousel/main_comms_5.png"></a></li>
             
-          </li>
-</ul>
+          </ul>
         </div>
         <div class="carousel__indicators">
             
@@ -710,7 +705,7 @@
   cursor: pointer;
   border-width: 5px 5px 0 0;
   border-style: solid;
-  border-color: #fafafa;
+  border-color: lightgray;
   opacity: 0.35;
   opacity: 1;
   outline: 0;
@@ -756,9 +751,9 @@
   left: 0;
   padding: 0;
   margin: 0;
-  transition: -webkit-transform 1.5s ease 0s;
-  transition: transform 1.5s ease 0s;
-  transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
+  transition: -webkit-transform 0.5s ease 0s;
+  transition: transform 0.5s ease 0s;
+  transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
 }
 .carousel__track .carousel__slide {
   display: block;
@@ -804,7 +799,8 @@
   opacity: 0;
   overflow: hidden;
 }
-.carousel__slide .overlay {height: 100%;}
+.carousel__slide a {display: block;}
+.carousel__slide img {height: 100%;}
 .carousel--thumb .carousel__indicator {
   height: 30px;
   width: 30px;
