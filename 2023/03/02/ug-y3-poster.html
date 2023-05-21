@@ -539,11 +539,13 @@ Every single student has made remarkable strides in such a remarkably brief span
         <div class="carousel__track">
           <ul>
             
-            <li class="carousel__slide"><a href="/images/carousel/20230302_ug_y3_poster_1.jpg"><img src="/images/carousel/20230302_ug_y3_poster_1.jpg"></a></li>
+            <li class="carousel__slide" style="background-image: url('/images/carousel/20230302_ug_y3_poster_1.jpg');">
             
-            <li class="carousel__slide"><a href="/images/carousel/20230302_ug_y3_poster_2.jpg"><img src="/images/carousel/20230302_ug_y3_poster_2.jpg"></a></li>
+            </li>
+<li class="carousel__slide" style="background-image: url('/images/carousel/20230302_ug_y3_poster_2.jpg');">
             
-          </ul>
+          </li>
+</ul>
         </div>
         <div class="carousel__indicators">
             
@@ -582,8 +584,8 @@ Every single student has made remarkable strides in such a remarkably brief span
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 .carousel__activator:nth-of-type(1):checked ~ .carousel__controls:nth-of-type(1) {
   display: block;
@@ -605,8 +607,8 @@ Every single student has made remarkable strides in such a remarkably brief span
   left: 0;
   right: 0;
   opacity: 1;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 .carousel__activator:nth-of-type(2):checked ~ .carousel__controls:nth-of-type(2) {
   display: block;
@@ -627,7 +629,7 @@ Every single student has made remarkable strides in such a remarkably brief span
   cursor: pointer;
   border-width: 5px 5px 0 0;
   border-style: solid;
-  border-color: lightgray;
+  border-color: #fafafa;
   opacity: 0.35;
   opacity: 1;
   outline: 0;
@@ -673,9 +675,9 @@ Every single student has made remarkable strides in such a remarkably brief span
   left: 0;
   padding: 0;
   margin: 0;
-  transition: -webkit-transform 0.5s ease 0s;
-  transition: transform 0.5s ease 0s;
-  transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
+  transition: -webkit-transform 1.5s ease 0s;
+  transition: transform 1.5s ease 0s;
+  transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
 }
 .carousel__track .carousel__slide {
   display: block;
@@ -697,8 +699,8 @@ Every single student has made remarkable strides in such a remarkably brief span
 
 
 .carousel--scale .carousel__slide {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(0);
+          transform: scale(0);
 }
 .carousel__slide {
   height: 100%;
@@ -706,8 +708,7 @@ Every single student has made remarkable strides in such a remarkably brief span
   opacity: 0;
   overflow: hidden;
 }
-.carousel__slide a {display: block;}
-.carousel__slide img {height: 100%;}
+.carousel__slide .overlay {height: 100%;}
 .carousel--thumb .carousel__indicator {
   height: 30px;
   width: 30px;
