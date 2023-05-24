@@ -44,7 +44,6 @@ number="1"
 {% include section.html %}
 
 {% capture col1 %}
-<p style='text-align: left;'>
 ## Research Topics
 - AudioVisual Perception
 - Sensory-Motor Interaction
@@ -58,27 +57,25 @@ number="1"
 - Speech Production
 - Interpersonal Communication (Brain-to-Brain coupling)
 - Brain-Body-Environment Coupling
-- (Micro-)Saccadic Eye Movements and Audiovisual Attention
+- <p style='text-align: left;'>(Micro-)Saccadic Eye Movements and Audiovisual Attention</p>
 - Modulation of Brain Activity using Rhythmic Stimulation
-- Audiovisual Speech & Language Development/Changes across Lifespan
+- <p style='text-align: left;'>Audiovisual Speech & Language Development/Changes across Lifespan</p>
 - Cognitive Strategy Development
-</p>
 {% endcapture %}
 
 {% capture col2 %}
-<p style='text-align: left;'>
 ## Techniques & Approaches
 - [SQUID-MEG (Magnetoencephalography)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx)
 - [OPM-MEG (Optically-Pumped Magnetometers)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/opm.aspx)
 - Electroencephalography (EEG)
 - Functional Magnetic Resonance Imaging (fMRI)
 - Diffusion Tensor Imaging (DTI)
-- Ultrasound stimulation (Low-Intensity Focused Ultrasound Stimulation, LIFU)
+- <p style='text-align: left;'>Ultrasound stimulation (Low-Intensity Focused Ultrasound Stimulation, LIFU)</p>
 - Transcranial Magnetic Stimulation (TMS)
 - Sensory Stimulation, e.g., (Rapid) Frequency Tagging
 - Brain Network Analysis
 - Information Theory Approach: Mutual Information (MI), Transfer Entropy (TE), Partial Information Decomposition (PID)
-- Computational Neural Architecture using Machine Learning & Deep Learning Algorithms
+- <p style='text-align: left;'>Computational Neural Architecture using Machine Learning & Deep Learning Algorithms</p>
 - Encoding & Decoding
 - Natural Language Processing (NLP)
 - Large Language Models (LLMs)
