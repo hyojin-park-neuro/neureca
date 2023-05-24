@@ -2,7 +2,8 @@
 title: OHBM 2016 Merit Award
 author: hyojin-park
 tags:
-  - ohbm
+  - OHBM
+  - award
   - merit award
 last_modified_at: ""
 ---
