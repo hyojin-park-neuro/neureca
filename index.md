@@ -45,6 +45,7 @@ number="1"
 
 {% capture col1 %}
 ## Research Topics
+<p style='text-align: left;'>
 - AudioVisual Perception
 - Sensory-Motor Interaction
 - Auditory and Visual (speech) Tracking
@@ -57,28 +58,31 @@ number="1"
 - Speech Production
 - Interpersonal Communication (Brain-to-Brain coupling)
 - Brain-Body-Environment Coupling
-- <p style='text-align: left;'>(Micro-)Saccadic Eye Movements and Audiovisual Attention</p>
+- (Micro-)Saccadic Eye Movements and Audiovisual Attention
 - Modulation of Brain Activity using Rhythmic Stimulation
-- <p style='text-align: left;'>Audiovisual Speech & Language Development/Changes across Lifespan</p>
+- Audiovisual Speech & Language Development/Changes across Lifespan
 - Cognitive Strategy Development
+</p>
 {% endcapture %}
 
 {% capture col2 %}
 ## Techniques & Approaches
+<p style='text-align: left;'>
 - [SQUID-MEG (Magnetoencephalography)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx)
 - [OPM-MEG (Optically-Pumped Magnetometers)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/opm.aspx)
 - Electroencephalography (EEG)
 - Functional Magnetic Resonance Imaging (fMRI)
 - Diffusion Tensor Imaging (DTI)
-- <p style='text-align: left;'>Ultrasound stimulation (Low-Intensity Focused Ultrasound Stimulation, LIFU)</p>
+- Ultrasound stimulation (Low-Intensity Focused Ultrasound Stimulation, LIFU)
 - Transcranial Magnetic Stimulation (TMS)
 - Sensory Stimulation, e.g., (Rapid) Frequency Tagging
 - Brain Network Analysis
 - Information Theory Approach: Mutual Information (MI), Transfer Entropy (TE), Partial Information Decomposition (PID)
-- <p style='text-align: left;'>Computational Neural Architecture using Machine Learning & Deep Learning Algorithms</p>
+- Computational Neural Architecture using Machine Learning & Deep Learning Algorithms
 - Encoding & Decoding
 - Natural Language Processing (NLP)
 - Large Language Models (LLMs)
+</p>
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
