@@ -6,4 +6,4 @@ tags:
   - merit award
 last_modified_at: ""
 ---
-Dr. Hyojin Park received the 2nd Merit Award 🏆🏆 from the OHBM (Organization for Human Brain Mapping) held in Geneva, Switzerland, from June 6th to June 30th, 2016.
+Dr. Hyojin Park received the 2nd Merit Award 🏆🏆 from the OHBM (Organization for Human Brain Mapping) held in Geneva, Switzerland, 26-30 June, 2016.
