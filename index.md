@@ -45,30 +45,27 @@ number="1"
 
 {% capture col1 %}
 ## Research Topics
-<p style='text-align: left;'>
-- AudioVisual Perception
-- Sensory-Motor Interaction
-- Auditory and Visual (speech) Tracking
-- Audio-Visual (Speech) Integration
-- (Age-related) Hearing Loss
-- Deafness
-- [Mild Traumatic Brain Injury (mTBI)](https://www.birmingham.ac.uk/research/metabolism-systems/translational-brain-science/mtbi-predict/mtbi-predict.aspx)
-- Brain Reorganisation following Sensory Loss
-- Cross-modal Plasticity
-- Speech Production
-- Interpersonal Communication (Brain-to-Brain coupling)
-- Brain-Body-Environment Coupling
-- (Micro-)Saccadic Eye Movements and Audiovisual Attention
-- Modulation of Brain Activity using Rhythmic Stimulation
-- Audiovisual Speech & Language Development/Changes across Lifespan
-- Cognitive Strategy Development
-</p>
+- <p style='text-align: left;'>AudioVisual Perception
+- <p style='text-align: left;'>Sensory-Motor Interaction
+- <p style='text-align: left;'>Auditory and Visual (speech) Tracking
+- <p style='text-align: left;'>Audio-Visual (Speech) Integration
+- <p style='text-align: left;'>(Age-related) Hearing Loss
+- <p style='text-align: left;'>Deafness
+- <p style='text-align: left;'>[Mild Traumatic Brain Injury (mTBI)](https://www.birmingham.ac.uk/research/metabolism-systems/translational-brain-science/mtbi-predict/mtbi-predict.aspx)
+- <p style='text-align: left;'>Brain Reorganisation following Sensory Loss
+- <p style='text-align: left;'>Cross-modal Plasticity
+- <p style='text-align: left;'>Speech Production
+- <p style='text-align: left;'>Interpersonal Communication (Brain-to-Brain coupling)
+- <p style='text-align: left;'>Brain-Body-Environment Coupling
+- <p style='text-align: left;'>(Micro-)Saccadic Eye Movements and Audiovisual Attention
+- <p style='text-align: left;'>Modulation of Brain Activity using Rhythmic Stimulation
+- <p style='text-align: left;'>Audiovisual Speech & Language Development/Changes across Lifespan
+- <p style='text-align: left;'>Cognitive Strategy Development
 {% endcapture %}
 
 {% capture col2 %}
 ## Techniques & Approaches
-<p style='text-align: left;'>
-- [SQUID-MEG (Magnetoencephalography)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx)
+- <p style='text-align: left;'>[SQUID-MEG (Magnetoencephalography)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx)
 - [OPM-MEG (Optically-Pumped Magnetometers)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/opm.aspx)
 - Electroencephalography (EEG)
 - Functional Magnetic Resonance Imaging (fMRI)
@@ -81,8 +78,7 @@ number="1"
 - Computational Neural Architecture using Machine Learning & Deep Learning Algorithms
 - Encoding & Decoding
 - Natural Language Processing (NLP)
-- Large Language Models (LLMs)
-</p>
+- Large Language Models (LLMs)</p>
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
