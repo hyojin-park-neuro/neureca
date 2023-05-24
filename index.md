@@ -79,7 +79,6 @@ number="1"
 - Encoding & Decoding
 - Natural Language Processing (NLP)
 - Large Language Models (LLMs)
-</p>
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
