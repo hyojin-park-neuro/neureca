@@ -56,7 +56,7 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
 
 
 **FindAPhD Link** <br>
-<https://www.findaphd.com/phds/project/information-processing-from-childhood-into-older-age-a-developmental-lifespan-perspective-on-neural-plasticity-in-learning-strategies/?p158217>
+<https://www.findaphd.com/phds/project/information-processing-from-childhood-into-older-age-a-developmental-lifespan-perspective-on-neural-plasticity-in-learning-strategies/?p158217>{:target="_blank"}
 
 
 **jobs.ac.uk Link** <br>
