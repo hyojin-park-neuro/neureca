@@ -2,7 +2,7 @@
 title: Projects
 nav:
   order: 3
-  tooltip: Ongoing projects and more
+  tooltip: Ongoing Projects & More
 ---
 
 # {% include icon.html icon="fa-solid fa-laptop-code" %}Projects
