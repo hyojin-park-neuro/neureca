@@ -38,7 +38,7 @@ number="1"
 
 **Computational Models by harnessing NLP (Natural Language Processing) algorithms based on Large Language Models (LLMs)** Topic model, word vectors, and transformer models are used to study specific feature processing in the brain during naturalistic speech perception.
 
-**Facilities and Tools** The Group is a part of the newly established Centre for Human Brain Health (CHBH) at the University of Birmingham. The Centre is equipped with state-of-the-art brain imaging facilities, e.g. MEG, OPMs, EEG, MRI, TMS, TCS, Sleep labs, fNIRS. We combine these modalities in order to obtain a comprehensive picture of neural mechanisms of speech and multisensory (AV) integration.
+**Facilities and Tools** The Group is a part of the newly established Centre for Human Brain Health (CHBH) at the University of Birmingham. The Centre is equipped with state-of-the-art brain imaging facilities, e.g. MEG, OPM-MEG, EEG, MRI, TMS, TCS, Sleep labs, fNIRS. We combine these modalities in order to obtain a comprehensive picture of neural mechanisms of speech and multisensory (AV) integration.
 
 {% include section.html %}
 
