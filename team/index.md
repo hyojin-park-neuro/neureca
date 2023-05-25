@@ -66,6 +66,7 @@ nav:
 
 - [Ole Jensen](https://www.birmingham.ac.uk/staff/profiles/psychology/jensen-ole.aspx){:target="_blank"}, School of Psychology, Co-Director of the CHBH, [Neuronal Oscillations Research Group](https://neuosc.com/){:target="_blank"}
 - [Katrien Segaert](https://www.birmingham.ac.uk/staff/profiles/psychology/segaert-katrien.aspx){:target="_blank"}, School of Psychology, CHBH, [Neuroscience of Language Lab](https://www.katriensegaert.com/){:target="_blank"}
+- [Andrew Quinn](https://www.birmingham.ac.uk/staff/profiles/psychology/quinn-andrew.aspx){:target="_blank"}, School of Psychology, CHBH
 - [KyungMin An](https://www.birmingham.ac.uk/staff/profiles/psychology/an-kyungmin.aspx){:target="_blank"}, School of Psychology, CHBH, [Lab](https://sites.google.com/view/an-lab/home){:target="_blank"}
 - [Shin-Yi (Chloe) Chiou](https://www.birmingham.ac.uk/staff/profiles/sportex/chiou-shin-yi.aspx){:target="_blank"}, School of Sport, Exercise and Rehabilitation Sciences, [Lab](https://www.birmingham.ac.uk/schools/sport-exercise/research/projects/spinal-cord-injury/index.aspx/){:target="_blank"}
 - [Sang-Hoon Yeo](https://www.birmingham.ac.uk/staff/profiles/sportex/yeo-sang-hoon.aspx){:target="_blank"}, School of Sport, Exercise and Rehabilitation Sciences, [Sensorimotor Computation Lab](https://sites.google.com/view/yeolabprojects){:target="_blank"}
