@@ -55,9 +55,9 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
 *For international students*: Funding will only cover home tuition fees, therefore, international students would need to cover the gap between home and international tuition fee rates. If you are an international student, you will need to confirm that you are able to cover the fee difference.  
 
 
-**[FindAPhD Link](https://www.findaphd.com/phds/project/information-processing-from-childhood-into-older-age-a-developmental-lifespan-perspective-on-neural-plasticity-in-learning-strategies/?p158217 target="_blank")**
+**[FindAPhD Link](https://www.findaphd.com/phds/project/information-processing-from-childhood-into-older-age-a-developmental-lifespan-perspective-on-neural-plasticity-in-learning-strategies/?p158217){:target="_blank"}**
 
-**[jobs.ac.uk Link](https://www.jobs.ac.uk/job/CZS642/phd-studentship-information-processing-from-childhood-into-older-age-a-developmental-lifespan-perspective-on-neural-plasticity-in-learning-strategies target="_blank")**
+**[jobs.ac.uk Link](https://www.jobs.ac.uk/job/CZS642/phd-studentship-information-processing-from-childhood-into-older-age-a-developmental-lifespan-perspective-on-neural-plasticity-in-learning-strategies){:target="_blank"}**
 
 
 **Please take a look at the group webpages of the supervisors and our Centres & University.**
