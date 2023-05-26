@@ -18,7 +18,7 @@ nav:
 
 - Talk, Auditory Research Society, Seoul, South Korea. 10 Jan 2023.
 
-- [Talk, Dept. of Brain and Cognitive Sciences, Seoul National University](http://bcs.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=136), Seoul, South Korea. 5 Jan 2023.
+- [Talk, Dept. of Brain and Cognitive Sciences, Seoul National University](http://bcs.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=136){:target="_blank"}, Seoul, South Korea. 5 Jan 2023.
 
 # 2022
 - Talk, Korea Institute of Science and Technology (KIST), Seoul, South Korea. 30 Dec 2022.
@@ -43,7 +43,7 @@ nav:
 - Brain Awareness Week (BAW) Mar 14-20 2022. [Gabe (Gabriel Byczynski, MSc student in the group) talking about audiovisual speech integration!](https://www.neureca.org/2022/03/14/baw-gabe.html) 👈 Check out his YouTube video! 📺
 
 - Talk, MRC Cognition and Brain Sciences Unit (MRC CBU) Chaucer Club Seminar, University of Cambridge. 3 Feb 2022. 
-"Neural dynamics of natural speech perception via Natural Language Processing (NLP) models" <https://www.mrc-cbu.cam.ac.uk/seminar-information/chaucer-club/>
+"Neural dynamics of natural speech perception via Natural Language Processing (NLP) models" <https://www.mrc-cbu.cam.ac.uk/seminar-information/chaucer-club/>{:target="_blank"}
 
 # 2021
 - BBSRC funded Midlands Integrative Biosciences Training Partnership (MIBTP) approved! PhD Funding available: Please apply here! (1 Nov 2021 - 9 Jan 2022) Project details can be found on the FindAPhD website.
@@ -56,21 +56,21 @@ nav:
 
 - Talk, Korea Institute of Science and Technology (KIST), Seoul, South Korea. 5 Jul 2021.
 
-- Hosting a School Seminar: Prof. [Soo-Eun Chang](https://medicine.umich.edu/dept/psychiatry/soo-eun-chang-phd) at the University of Michigan will give a talk titled "Rhythm and timing investigations in developmental stuttering" at the School of Psychology Seminar Series, 5 May 2021.
+- Hosting a School Seminar: Prof. [Soo-Eun Chang](https://medicine.umich.edu/dept/psychiatry/soo-eun-chang-phd){:target="_blank"} at the University of Michigan will give a talk titled "Rhythm and timing investigations in developmental stuttering" at the School of Psychology Seminar Series, 5 May 2021.
 
-- Hosting  a School Seminar: Prof. [Edmund Lalor](https://www.urmc.rochester.edu/people/30415577-edmund-c-lalor) at the University of Rochester will give a talk titled "Modelling the electrophysiology of hierarchical speech and language processing" at the School of Psychology Seminar Series, 24 Feb 2021.
+- Hosting  a School Seminar: Prof. [Edmund Lalor](https://www.urmc.rochester.edu/people/30415577-edmund-c-lalor){:target="_blank"} at the University of Rochester will give a talk titled "Modelling the electrophysiology of hierarchical speech and language processing" at the School of Psychology Seminar Series, 24 Feb 2021.
 
 # 2020
-- Hosting a CHBH Seminar: Prof. [Nathan Weisz](https://www.plus.ac.at/psychology/ueber-uns/internal-organisation/division-of-physiological-psychology/team/salzburg-brain-dynamics-lab/weisz-nathan-en/?lang=en) at the University of Salzburg will give a talk titled "Predictive listening as double-edged sword" at the CHBH seminar series, 25 Jun 2020.
+- Hosting a CHBH Seminar: Prof. [Nathan Weisz](https://www.plus.ac.at/psychology/ueber-uns/internal-organisation/division-of-physiological-psychology/team/salzburg-brain-dynamics-lab/weisz-nathan-en/?lang=en){:target="_blank"} at the University of Salzburg will give a talk titled "Predictive listening as double-edged sword" at the CHBH seminar series, 25 Jun 2020.
 
-- Hosting a School Seminar: Prof. [Riikka Mottonen](https://researchportal.helsinki.fi/en/persons/riikka-kaisa-marjaana-m%C3%B6tt%C3%B6nen) at the University of Nottingham will give a talk titled "Stimulating the talking and listening brain" at the School of Psychology Seminar Series, 12 Feb 2020.
+- Hosting a School Seminar: Prof. [Riikka Mottonen](https://researchportal.helsinki.fi/en/persons/riikka-kaisa-marjaana-m%C3%B6tt%C3%B6nen){:target="_blank"} at the University of Nottingham will give a talk titled "Stimulating the talking and listening brain" at the School of Psychology Seminar Series, 12 Feb 2020.
 
 # 2019
 - Talk, School of Psychology, University of Nottingham. 6 Nov 2019.
 
 - Talk, Nanosymposium, SfN (Society for Neuroscience) in Chicago, IL. 19-23 October 2019 (Session title: Integration Across Sensory Modalities (23 Oct 13:00-17:00). Talk title: "Rhythmic modulations in representational interactions between audiovisual speech features"
 
-- Hosting a CHBH Seminar: Dr. [Robin Ince](http://www.robinince.net/) at the University of Glasgow will give a talk titled "Information theoretic analysis of neuroimaging signals: Hands-on tutorial"  at the CHBH Seminar Series, 10 Oct 2019.
+- Hosting a CHBH Seminar: Dr. [Robin Ince](http://www.robinince.net/){:target="_blank"} at the University of Glasgow will give a talk titled "Information theoretic analysis of neuroimaging signals: Hands-on tutorial"  at the CHBH Seminar Series, 10 Oct 2019.
 
 - Talk, Korea Institute of Radiological & Medical Sciences (KIRAMS). Seoul, South Korea. 17 Sep 2019.
 
@@ -95,7 +95,7 @@ nav:
 
 - Talk, BACN (British Association for Cognitive Neuroscience) in Glasgow, UK. 7 Sep 2018. Symposium title: "Neuroscientific investigations of natural language processing" (chaired by Prof. Olaf Hauk).
 
-- [Interview with the Korea Institute of Radiological and Medical Sciences (in Korean)](https://rmwebzine.re.kr/newshome/mtnmain.php?mtnkey=articleview&mkey=scatelist&mkey2=77&aid=2846). 1 Sep 2018.
+- [Interview with the Korea Institute of Radiological and Medical Sciences (in Korean)](https://rmwebzine.re.kr/newshome/mtnmain.php?mtnkey=articleview&mkey=scatelist&mkey2=77&aid=2846){:target="_blank"}. 1 Sep 2018.
 
 - Joined the Editorial Board as a Review Editor in Frontiers in Human Neuroscience, Since 1 Sep 2018.
 
@@ -105,7 +105,7 @@ nav:
 
 - Talk, Institute of Neuroscience, Newcastle University Medical School, 24 May 2018. "Neural oscillatory mechanisms in dynamic information representation during natural audiovisual speech perception" (invited by Prof. Christopher Petkov).
 
-- [Inaugural MEG (Magnetoencephalography) Symposium at the CHBH](https://www.neureca.org/2018/05/11/meg-inauguration.html), 11 May 2018. <https://meg2018.eventbrite.co.uk> Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at the CHBH.
+- [Inaugural MEG (Magnetoencephalography) Symposium at the CHBH](https://www.neureca.org/2018/05/11/meg-inauguration.html), 11 May 2018. <https://meg2018.eventbrite.co.uk>{:target="_blank"} Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at the CHBH.
 
 # 2017
 - Talk, Cyprus University of Technology, Limassol, Cyprus. 6 Nov 2017. Title: "Application of MEG in cognitive neuroscience research". Lecture for the Postgraduate Program MSc Brain & Cognitive Science at the Faculty of Health Sciences, Cyprus University of Technology (invited by Prof. Maria Kambanaros).
@@ -114,7 +114,7 @@ nav:
 
 - Talk, CNS (Cognitive Neuroscience Society), San Francisco, CA, USA. 25-28 Mar 2017. Title: "Neural decomposition of synergistic and redundant information in interaction between audiovisual speech rhythms and brain oscillations".
 
-- Talk, MEG UK 2017, Oxford, UK. Mar 2017. Title: "Analysis of neuronal oscillatory communication: entrainment, coupling and directionality in cognitive paradigm" <https://www.ohba.ox.ac.uk/files/news/meguk_program.pdf>
+- Talk, MEG UK 2017, Oxford, UK. Mar 2017. Title: "Analysis of neuronal oscillatory communication: entrainment, coupling and directionality in cognitive paradigm" <https://www.ohba.ox.ac.uk/files/news/meguk_program.pdf>{:target="_blank"}
 
 # 2016
 - Selected to participate in the ***Nature Masterclass***! 13-14 Oct 2016, University of Glasgow.
