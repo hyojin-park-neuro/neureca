@@ -558,6 +558,29 @@ Every single student has made remarkable strides in such a remarkably brief span
 </div>
 
 <style>
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(1, 1);
+  }
+  to {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.carousel-inner .item > img {
+  -webkit-animation: zoom 20s;
+  animation: zoom 20s;
+}
+    
 .carousel__holder {width: 100%; position: relative; padding-bottom: 60%; margin: 1rem 0 1rem;}
 .carousel {
   height: 100%;
@@ -675,6 +698,9 @@ Every single student has made remarkable strides in such a remarkably brief span
   left: 0;
   padding: 0;
   margin: 0;
+  transition: -webkit-animation: zoom 20s;
+  animation: zoom 20s;
+    
   transition: -webkit-transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
