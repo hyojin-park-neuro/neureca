@@ -50,7 +50,7 @@ number="1"
 - Audio-Visual (Speech) Integration
 - (Age-related) Hearing Loss
 - Deafness
-- [Mild Traumatic Brain Injury (mTBI)](https://www.birmingham.ac.uk/research/metabolism-systems/translational-brain-science/mtbi-predict/mtbi-predict.aspx)
+- [Mild Traumatic Brain Injury (mTBI)](https://www.birmingham.ac.uk/research/metabolism-systems/translational-brain-science/mtbi-predict/mtbi-predict.aspx){:target="_blank"}
 - Brain Reorganisation following Sensory Loss
 - Cross-modal Plasticity
 - Speech Production
@@ -64,8 +64,8 @@ number="1"
 
 {% capture col2 %}
 ## Techniques & Approaches
-- [SQUID-MEG (Magnetoencephalography)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx)
-- [OPM-MEG (Optically-Pumped Magnetometers)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/opm.aspx)
+- [SQUID-MEG (Magnetoencephalography)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx){:target="_blank"}
+- [OPM-MEG (Optically-Pumped Magnetometers)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/opm.aspx){:target="_blank"}
 - Electroencephalography (EEG)
 - Functional Magnetic Resonance Imaging (fMRI)
 - Diffusion Tensor Imaging (DTI)
