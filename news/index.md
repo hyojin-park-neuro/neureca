@@ -42,7 +42,7 @@ nav:
 
 - Brain Awareness Week (BAW) Mar 14-20 2022. [Gabe (Gabriel Byczynski, MSc student in the group) talking about audiovisual speech integration!](https://www.neureca.org/2022/03/14/baw-gabe.html) 👈 Check out his YouTube video! 📺
 
-- [Talk, MRC Cognition and Brain Sciences Unit (MRC CBU) Chaucer Club Seminar, University of Cambridge](https://www.neureca.org/2022/02/03/invited-talk-cambridge.html). 3 Feb 2022. 
+- Talk, MRC Cognition and Brain Sciences Unit (MRC CBU) Chaucer Club Seminar, University of Cambridge. 3 Feb 2022. 
 "Neural dynamics of natural speech perception via Natural Language Processing (NLP) models" <https://www.mrc-cbu.cam.ac.uk/seminar-information/chaucer-club/>
 
 # 2021
