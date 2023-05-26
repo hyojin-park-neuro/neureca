@@ -105,7 +105,7 @@ nav:
 
 - Talk, Institute of Neuroscience, Newcastle University Medical School, 24 May 2018. "Neural oscillatory mechanisms in dynamic information representation during natural audiovisual speech perception" (invited by Prof. Christopher Petkov).
 
-- [Inaugural MEG (Magnetoencephalography) Symposium at the CHBH](https://www.neureca.org/2018/05/11/meg-inauguration.html), 11 May 2018. <https://meg2018.eventbrite.co.uk>{:target="_blank"} Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at the CHBH.
+- [Inaugural MEG (Magnetoencephalography) Symposium at the CHBH](https://www.neureca.org/2018/05/11/meg-inauguration.html), 11 May 2018. [Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at the CHBH.](https://meguk.ac.uk/events/inaugural-meg-symposium-at-the-university-of-birmingham/){:target="_blank"}
 
 # 2017
 - Talk, Cyprus University of Technology, Limassol, Cyprus. 6 Nov 2017. Title: "Application of MEG in cognitive neuroscience research". Lecture for the Postgraduate Program MSc Brain & Cognitive Science at the Faculty of Health Sciences, Cyprus University of Technology (invited by Prof. Maria Kambanaros).
