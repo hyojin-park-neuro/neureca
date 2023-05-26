@@ -38,7 +38,7 @@ nav:
 
 - Talk, UST (University of Science & Technology) Global Mentoring Conference. Seoul, South Korea. "Brain rhythms and Natural Language Processing (NLP)". 28 Jun 2022.
 
-- [Talk, BACN (British Association for Cognitive Neuroscience)](https://www.neureca.org/2022/05/25/bacn-bham.html). Birmingham, UK. 25 May 2022. "Spatio-Temporal Neural Map of Representation of Topic Keywords during Natural Auditory Speech Perception"
+- Talk, BACN (British Association for Cognitive Neuroscience). Birmingham, UK. 25 May 2022. "Spatio-Temporal Neural Map of Representation of Topic Keywords during Natural Auditory Speech Perception"
 
 - Brain Awareness Week (BAW) Mar 14-20 2022. [Gabe (Gabriel Byczynski, MSc student in the group) talking about audiovisual speech integration!](https://www.neureca.org/2022/03/14/baw-gabe.html) 👈 Check out his YouTube video! 📺
 
