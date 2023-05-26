@@ -43,10 +43,10 @@
   group: featured
   image: images/neureca.png
   link: https://github.com/hyojin-park-neuro
-  description: More coming up!
+  description: Can't wait!
   repo: hyojin-park-neuro
   tags:
-    - project
+    - large language models
     - MEG/OPM-MEG
     
 - title: Cool Project
@@ -73,7 +73,7 @@
   subtitle: a subtitle
   image: images/neureca.png
   link: https://github.com/hyojin-park-neuro
-  description: More coming up!
+  description: Looking forward to it!
   repo: hyojin-park-neuro
   tags:
     - resource
