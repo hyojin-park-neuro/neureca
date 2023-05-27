@@ -10,7 +10,7 @@ nav:
 # 2023
 - 🔔 **We are hiring! Please apply!!** [Competition Funded PhD Studentship](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)
 
-- Dr. Hyojin Park attended OSL-Dynamics Workshop at the Oxford Centre for Human Brain Activity (OHBA) group at the University of Oxford. 24-25 Apr 2023.
+- Dr. Hyojin Park attended [OSL-Dynamics Workshop](https://osl-dynamics.readthedocs.io/en/latest/index.html){:target="_blank"} at the Oxford Centre for Human Brain Activity (OHBA) group at the University of Oxford. 24-25 Apr 2023.
 
 - [Talk, ULB Hospital Erasme Brussels, Belgium](https://www.neureca.org/2023/03/27/invited-talk-brussels.html). "Brain rhythms and Natural Language Processing (NLP)". 27 Mar 2023.
 
