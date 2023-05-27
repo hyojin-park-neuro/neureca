@@ -27,7 +27,8 @@
         <div class="carousel__track">
           <ul>
             {% for item in page.carousels[number].images %}
-            <p class="text-top-image1">{{ item.caption }}</p>
+            <p class="text-top-image1">The NEURECA Group</p>
+            <p class="text-top-image2">{{ item.caption }}</p>
             <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
             {% endfor %}
           </ul>
@@ -141,9 +142,9 @@
 }
 .text-top-image1{
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 50%;
-    z-index: 100;
+    z-index: 999;
     color: #fff;
     text-align: center;
     text-transform: capitalize;
@@ -156,7 +157,28 @@
               transform: translate3d(-50%,-50%,0);
     font-size: 3em;    
     font-weight: bold;
-    opacity: 0.75;
+    opacity: 0.8;
+    margin: 0;
+    padding: 0;
+}
+.text-top-image2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    z-index: 999;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+/*     text-transform: uppercase; */
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+    font-size: 1em;    
+    font-weight: normal;
+    opacity: 0.8;
     margin: 0;
     padding: 0;
 }
