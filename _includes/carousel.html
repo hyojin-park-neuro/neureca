@@ -164,8 +164,8 @@
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
 }
     
-{% for item in page.carousels[number].images %}    
-.text-top-image1:nth-of-type({{ forloop.index }}):checked ~ .carousel__track {
+
+.text-top-image1 .carousel__slide {
   position: absolute;
   top: 15%;
   left: 50%;
@@ -187,7 +187,7 @@
   padding: 0;
   animation: textslide 2s ease-in-out;
 }
-.text-top-image2:nth-of-type({{ forloop.index }}):checked ~ .carousel__track {
+.text-top-image2 .carousel__slide {
   position: absolute;
   top: 25%;
   left: 50%;
@@ -209,7 +209,6 @@
   padding: 0;
   animation: textfade 5.5s forwards;
 }
-{% endfor %}
     
 .carousel__track .carousel__slide {
   display: block;
