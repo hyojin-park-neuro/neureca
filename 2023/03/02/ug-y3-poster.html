@@ -562,6 +562,16 @@ Every single student has made remarkable strides in such a remarkably brief span
 </div>
 
 <style>
+@keyframes textslide {
+    from{
+        left:-100px;
+        opacity:0;
+    }
+    to{
+        left:500px;
+        opacity:0.8;
+    }    
+}  
 .carousel__holder {width: 100%; position: relative; padding-bottom: 60%; margin: 1rem 0 1rem;}
 .carousel {
   height: 100%;
@@ -703,6 +713,7 @@ Every single student has made remarkable strides in such a remarkably brief span
     opacity: 0.8;
     margin: 0;
     padding: 0;
+    animation: textslide 2s ease-out;
 }
 .text-top-image2{
     position: absolute;
