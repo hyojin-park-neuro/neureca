@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-27T17:29:22+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>Dr. Hyojin Park&apos;s Research Group</subtitle><entry><title type="html">🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)</title><link href="/2023/05/10/funded-phd-studentship.html" rel="alternate" type="text/html" title="🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)" /><published>2023-05-10T00:00:00+00:00</published><updated>2023-05-10T00:00:00+00:00</updated><id>/2023/05/10/funded-phd-studentship</id><content type="html" xml:base="/2023/05/10/funded-phd-studentship.html"><![CDATA[<p><strong>Project Title</strong>: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-27T17:48:00+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>Dr. Hyojin Park&apos;s Research Group</subtitle><entry><title type="html">🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)</title><link href="/2023/05/10/funded-phd-studentship.html" rel="alternate" type="text/html" title="🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)" /><published>2023-05-10T00:00:00+00:00</published><updated>2023-05-10T00:00:00+00:00</updated><id>/2023/05/10/funded-phd-studentship</id><content type="html" xml:base="/2023/05/10/funded-phd-studentship.html"><![CDATA[<p><strong>Project Title</strong>: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies</p>
 
 <p><strong>Institution</strong>: University of Birmingham, School of Psychology, Centre for Human Brain Health (CHBH), Centre for Developmental Science (CDS)</p>
 
@@ -315,6 +315,8 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
   transition: transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
 }
+    
+    
 .text-top-image1 {
   position: absolute;
   top: 15%;
@@ -359,6 +361,98 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
   padding: 0;
   animation: textfade 5.5s forwards;
 }
+    
+.text-top-image1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*     text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 3em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textslide 2s ease-in-out;
+}
+.text-top-image2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 2em;    
+  font-weight: normal;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textfade 5.5s forwards;
+}
+    
+.text-top-image1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*     text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 3em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textslide 2s ease-in-out;
+}
+.text-top-image2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 2em;    
+  font-weight: normal;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textfade 5.5s forwards;
+}
+
+    
 .carousel__track .carousel__slide {
   display: block;
   top: 0;
@@ -663,6 +757,8 @@ Every single student has made remarkable strides in such a remarkably brief span
   transition: transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
 }
+    
+    
 .text-top-image1 {
   position: absolute;
   top: 15%;
@@ -707,6 +803,53 @@ Every single student has made remarkable strides in such a remarkably brief span
   padding: 0;
   animation: textfade 5.5s forwards;
 }
+    
+.text-top-image1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*     text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 3em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textslide 2s ease-in-out;
+}
+.text-top-image2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 2em;    
+  font-weight: normal;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textfade 5.5s forwards;
+}
+
+    
 .carousel__track .carousel__slide {
   display: block;
   top: 0;
@@ -1125,6 +1268,8 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
   transition: transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
 }
+    
+    
 .text-top-image1 {
   position: absolute;
   top: 15%;
@@ -1169,6 +1314,188 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
   padding: 0;
   animation: textfade 5.5s forwards;
 }
+    
+.text-top-image1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*     text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 3em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textslide 2s ease-in-out;
+}
+.text-top-image2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 2em;    
+  font-weight: normal;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textfade 5.5s forwards;
+}
+    
+.text-top-image1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*     text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 3em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textslide 2s ease-in-out;
+}
+.text-top-image2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 2em;    
+  font-weight: normal;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textfade 5.5s forwards;
+}
+    
+.text-top-image1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*     text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 3em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textslide 2s ease-in-out;
+}
+.text-top-image2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 2em;    
+  font-weight: normal;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textfade 5.5s forwards;
+}
+    
+.text-top-image1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*     text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 3em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textslide 2s ease-in-out;
+}
+.text-top-image2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 2em;    
+  font-weight: normal;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textfade 5.5s forwards;
+}
+
+    
 .carousel__track .carousel__slide {
   display: block;
   top: 0;
@@ -1582,6 +1909,8 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   transition: transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
 }
+    
+    
 .text-top-image1 {
   position: absolute;
   top: 15%;
@@ -1626,6 +1955,143 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   padding: 0;
   animation: textfade 5.5s forwards;
 }
+    
+.text-top-image1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*     text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 3em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textslide 2s ease-in-out;
+}
+.text-top-image2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 2em;    
+  font-weight: normal;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textfade 5.5s forwards;
+}
+    
+.text-top-image1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*     text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 3em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textslide 2s ease-in-out;
+}
+.text-top-image2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 2em;    
+  font-weight: normal;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textfade 5.5s forwards;
+}
+    
+.text-top-image1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*     text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 3em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textslide 2s ease-in-out;
+}
+.text-top-image2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 2em;    
+  font-weight: normal;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textfade 5.5s forwards;
+}
+
+    
 .carousel__track .carousel__slide {
   display: block;
   top: 0;
@@ -2061,6 +2527,8 @@ Dr. Hyojin Park received the prestigious YIA!</p>
   transition: transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
 }
+    
+    
 .text-top-image1 {
   position: absolute;
   top: 15%;
@@ -2105,6 +2573,188 @@ Dr. Hyojin Park received the prestigious YIA!</p>
   padding: 0;
   animation: textfade 5.5s forwards;
 }
+    
+.text-top-image1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*     text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 3em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textslide 2s ease-in-out;
+}
+.text-top-image2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 2em;    
+  font-weight: normal;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textfade 5.5s forwards;
+}
+    
+.text-top-image1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*     text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 3em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textslide 2s ease-in-out;
+}
+.text-top-image2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 2em;    
+  font-weight: normal;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textfade 5.5s forwards;
+}
+    
+.text-top-image1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*     text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 3em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textslide 2s ease-in-out;
+}
+.text-top-image2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 2em;    
+  font-weight: normal;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textfade 5.5s forwards;
+}
+    
+.text-top-image1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*     text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 3em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textslide 2s ease-in-out;
+}
+.text-top-image2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-size: 2em;    
+  font-weight: normal;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation: textfade 5.5s forwards;
+}
+
+    
 .carousel__track .carousel__slide {
   display: block;
   top: 0;
