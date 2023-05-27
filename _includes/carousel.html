@@ -28,8 +28,8 @@
           <ul>
             {% for item in page.carousels[number].images %}
             <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
-            <p class="text-top-image1">The NEURECA Group</p>
-            <p class="text-top-image2">{{ item.caption }}</p>
+            <p class="@text-top-image1">The NEURECA Group</p>
+            <p class="@text-top-image2">{{ item.caption }}</p>
             {% endfor %}
           </ul>
         </div>
@@ -165,7 +165,7 @@
 }
     
 
-.carousel__track .text-top-image1 {
+.@text-top-image1 {
   position: absolute;
   top: 15%;
   left: 50%;
@@ -187,7 +187,7 @@
   padding: 0;
   animation: textslide 2s ease-in-out;
 }
-.carousel__track .text-top-image2 {
+.@text-top-image2 {
   position: absolute;
   top: 25%;
   left: 50%;
