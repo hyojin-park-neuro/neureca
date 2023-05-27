@@ -27,6 +27,7 @@
         <div class="carousel__track">
           <ul>
             {% for item in page.carousels[number].images %}
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
             {% endfor %}
           </ul>
@@ -137,6 +138,9 @@
   transition: -webkit-transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
+}
+.text-top-image{
+    z-index: 100;
 }
 .carousel__track .carousel__slide {
   display: block;
