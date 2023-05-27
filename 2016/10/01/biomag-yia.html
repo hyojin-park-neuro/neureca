@@ -626,6 +626,14 @@ Dr. Hyojin Park received the prestigious YIA!</p>
         opacity:0.8;
     }    
 }  
+@keyframes textfade {
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:0.8;
+    }    
+}      
 .carousel__holder {width: 100%; position: relative; padding-bottom: 60%; margin: 1rem 0 1rem;}
 .carousel {
   height: 100%;
@@ -836,7 +844,7 @@ Dr. Hyojin Park received the prestigious YIA!</p>
     opacity: 0.8;
     margin: 0;
     padding: 0;
-    animation: textslide 2s ease-out;
+    animation: textslide 2s ease-in-out;
 }
 .text-top-image2{
     position: absolute;
@@ -858,9 +866,9 @@ Dr. Hyojin Park received the prestigious YIA!</p>
     opacity: 0.8;
     margin: 0;
     padding: 0;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
+    animation-name: textfade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 .carousel__track .carousel__slide {
   display: block;
