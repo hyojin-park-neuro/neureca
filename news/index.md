@@ -8,9 +8,11 @@ nav:
 # {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events
 
 # 2023
-- 🔔**We are hiring! Please apply!!** [Competition Funded PhD Studentship](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)
+- 🔔 **We are hiring! Please apply!!** [Competition Funded PhD Studentship](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)
 
-- [Talk, ULB Hospital Erasme Brussels, Belgium](https://www.neureca.org/2023/03/27/invited-talk-brussels.html). "Brain rhythms and Natural Language Processing (NLP)". 27 Mar 2023
+- Dr. Hyojin Park attended OSL-Dynamics Workshop at the Oxford Centre for Human Brain Activity (OHBA) group at the University of Oxford. 24-25 Apr 2023.
+
+- [Talk, ULB Hospital Erasme Brussels, Belgium](https://www.neureca.org/2023/03/27/invited-talk-brussels.html). "Brain rhythms and Natural Language Processing (NLP)". 27 Mar 2023.
 
 - Talk, National Epilepsy Care Center, Seoul, South Korea. 13 Mar 2023.
 
@@ -40,7 +42,7 @@ nav:
 
 - Talk, BACN (British Association for Cognitive Neuroscience). Birmingham, UK. 25 May 2022. "Spatio-Temporal Neural Map of Representation of Topic Keywords during Natural Auditory Speech Perception"
 
-- Brain Awareness Week (BAW) Mar 14-20 2022. [Gabe (Gabriel Byczynski, MSc student in the group) talking about audiovisual speech integration!](https://www.neureca.org/2022/03/14/baw-gabe.html) 👈 Check out his YouTube video!🎬
+- Brain Awareness Week (BAW) Mar 14-20 2022. [Gabe (Gabriel Byczynski, MSc student in the group) talking about audiovisual speech integration!](https://www.neureca.org/2022/03/14/baw-gabe.html) 👈 Check out his YouTube video! 🎬
 
 - [Talk, MRC Cognition and Brain Sciences Unit (MRC CBU) Chaucer Club Seminar, University of Cambridge.](https://talks.cam.ac.uk/talk/index/167645){:target="_blank"} 3 Feb 2022. 
 "Neural dynamics of natural speech perception via Natural Language Processing (NLP) models"
@@ -87,7 +89,7 @@ nav:
 - Brain Awareness Week (BAW) Mar 11-17 2019. Centre for Human Brain Health (CHBH), University of Birmingham. Dr. Hyojin Park will guide the tour to the MEG and give a quick presentation about MEG facility.
 
 # 2018
-- 🏆Selected to participate in the ***Rising Stars Programme***, Life and Environmental Sciences, University of Birmingham. 2018-2019.
+- 🏆 Selected to participate in the ***Rising Stars Programme***, Life and Environmental Sciences, University of Birmingham. 2018-2019.
 
 - Member of Local Organising Committee & Award Committee of the BIOMAG 2022 (The 22nd International Conference on Biomagnetism), Birmingham, UK. 2018-2022.
 
@@ -121,7 +123,7 @@ nav:
 
 - 🏆 [**Young Investigator Award (YIA)** from the BIOMAG (The 20th International Conference on Biomagnetism)](https://www.neureca.org/2016/10/01/biomag-yia.html). 1-6 Oct 2016. Seoul, South Korea. Dr. Hyojin Park received the prestigious YIA! 
 
-- 🏆***Merit Award*** from the OHBM (Organization for Human Brain Mapping). 26-30 Jun 2016. Geneva, Switzerland. Dr. Hyojin Park received the Merit Award! 
+- 🏆 ***Merit Award*** from the OHBM (Organization for Human Brain Mapping). 26-30 Jun 2016. Geneva, Switzerland. Dr. Hyojin Park received the Merit Award! 
 
 # 2015
 - 🏆 ***Merit Award*** from the OHBM (Organization for Human Brain Mapping). 14-18 Jun 2015. Honolulu, Hawaii. Dr. Hyojin Park received the Merit Award! 
