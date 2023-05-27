@@ -30,7 +30,7 @@
             <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
             {% endfor %}
             {% for item_caption in page.carousels[number].captions %}
-            <p class="text-top-image">item_caption</p>
+            <p class="text-top-image">item_caption.caption</p>
             {% endfor %}  
           </ul>
         </div>
