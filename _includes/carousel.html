@@ -1,6 +1,7 @@
 {% assign letterstring = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
 {% assign letters = letterstring | split: ',' %}
-{% assign number = include.number | minus: 1 %}
+<!-- {% assign number = include.number | minus: 1 %} -->
+{% assign number = include.number %}
 <div class="carousel__holder">
     <div id="carousel{{ number }}" class="carousel">
         {% for item in page.carousels[number].images %}
@@ -163,7 +164,7 @@
 }
 .text-top-image2{
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     z-index: 999;
     color: #fff;
@@ -176,7 +177,7 @@
           -ms-transform: translate3d(-50%,-50%,0);
            -o-transform: translate3d(-50%,-50%,0);
               transform: translate3d(-50%,-50%,0);
-    font-size: 1em;    
+    font-size: 2em;    
     font-weight: normal;
     opacity: 0.8;
     margin: 0;
