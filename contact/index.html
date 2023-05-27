@@ -773,14 +773,19 @@ B15 2TT</p>
         opacity:0.8;
     }    
 }  
-@keyframes textfade {
+/* @keyframes textfade {
     from{
         opacity:0;
     }
     to{
         opacity:0.8;
     }    
-}      
+}       */
+@-webkit-keyframes textfade {
+    0%   {opacity: 0;}
+    90%  {opacity: 1;}
+    100% {opacity: 0; display: none;}
+}
 .carousel__holder {width: 100%; position: relative; padding-bottom: 60%; margin: 1rem 0 1rem;}
 .carousel {
   height: 100%;
