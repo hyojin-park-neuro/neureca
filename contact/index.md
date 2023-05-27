@@ -11,6 +11,13 @@ carousels:
     - image: /images/carousel/uob_4.jpg
     - image: /images/carousel/uob_5.jpg
     - image: /images/carousel/uob_6.jpg
+  - captions: 
+    - caption: "neureca 1"
+    - caption: "neureca 2"
+    - caption: "neureca 3"
+    - caption: "neureca 4"
+    - caption: "neureca 5"
+    - caption: "neureca 6"
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
