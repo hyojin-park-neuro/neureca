@@ -163,6 +163,8 @@
   transition: transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
 }
+    
+{% for item in page.carousels[number].images %}    
 .text-top-image1 {
   position: absolute;
   top: 15%;
@@ -207,6 +209,8 @@
   padding: 0;
   animation: textfade 5.5s forwards;
 }
+{% endfor %}
+    
 .carousel__track .carousel__slide {
   display: block;
   top: 0;
