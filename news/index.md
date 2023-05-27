@@ -117,13 +117,13 @@ nav:
 - Talk, MEG UK 2017, Oxford, UK. Mar 2017. Title: "Analysis of neuronal oscillatory communication: entrainment, coupling and directionality in cognitive paradigm" <https://www.ohba.ox.ac.uk/files/news/meguk_program.pdf>{:target="_blank"}
 
 # 2016
-- 🏆Selected to participate in the ***Nature Masterclass***! 13-14 Oct 2016, University of Glasgow.
+- 🏆 Selected to participate in the ***Nature Masterclass***! 13-14 Oct 2016, University of Glasgow.
 
-- 🏆[**Young Investigator Award (YIA)** from the BIOMAG (The 20th International Conference on Biomagnetism)](https://www.neureca.org/2016/10/01/biomag-yia.html). 1-6 Oct 2016. Seoul, South Korea. Dr. Hyojin Park received the prestigious YIA! 
+- 🏆 [**Young Investigator Award (YIA)** from the BIOMAG (The 20th International Conference on Biomagnetism)](https://www.neureca.org/2016/10/01/biomag-yia.html). 1-6 Oct 2016. Seoul, South Korea. Dr. Hyojin Park received the prestigious YIA! 
 
 - 🏆***Merit Award*** from the OHBM (Organization for Human Brain Mapping). 26-30 Jun 2016. Geneva, Switzerland. Dr. Hyojin Park received the Merit Award! 
 
 # 2015
-- 🏆***Merit Award*** from the OHBM (Organization for Human Brain Mapping). 14-18 Jun 2015. Honolulu, Hawaii. Dr. Hyojin Park received the Merit Award! 
+- 🏆 ***Merit Award*** from the OHBM (Organization for Human Brain Mapping). 14-18 Jun 2015. Honolulu, Hawaii. Dr. Hyojin Park received the Merit Award! 
 
 *Talks*: Only invited talks and invited spoken conference presentations since 2017
