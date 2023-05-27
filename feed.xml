@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-27T05:41:03+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>Dr. Hyojin Park&apos;s Research Group</subtitle><entry><title type="html">🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)</title><link href="/2023/05/10/funded-phd-studentship.html" rel="alternate" type="text/html" title="🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)" /><published>2023-05-10T00:00:00+00:00</published><updated>2023-05-10T00:00:00+00:00</updated><id>/2023/05/10/funded-phd-studentship</id><content type="html" xml:base="/2023/05/10/funded-phd-studentship.html"><![CDATA[<p><strong>Project Title</strong>: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-27T06:28:45+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>Dr. Hyojin Park&apos;s Research Group</subtitle><entry><title type="html">🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)</title><link href="/2023/05/10/funded-phd-studentship.html" rel="alternate" type="text/html" title="🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)" /><published>2023-05-10T00:00:00+00:00</published><updated>2023-05-10T00:00:00+00:00</updated><id>/2023/05/10/funded-phd-studentship</id><content type="html" xml:base="/2023/05/10/funded-phd-studentship.html"><![CDATA[<p><strong>Project Title</strong>: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies</p>
 
 <p><strong>Institution</strong>: University of Birmingham, School of Psychology, Centre for Human Brain Health (CHBH), Centre for Developmental Science (CDS)</p>
 
@@ -121,10 +121,13 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
         <div class="carousel__track">
           <ul>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/20230327_brussels_opm_1.jpg');"></li>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/20230327_brussels_opm_2.jpg');"></li>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/20230327_brussels_opm_3.jpg');"></li>
             
           </ul>
@@ -286,6 +289,9 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
   transition: transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
 }
+.text-top-image{
+    z-index: 100;
+}
 .carousel__track .carousel__slide {
   display: block;
   top: 0;
@@ -425,8 +431,10 @@ Every single student has made remarkable strides in such a remarkably brief span
         <div class="carousel__track">
           <ul>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/20230302_ug_y3_poster_1.jpg');"></li>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/20230302_ug_y3_poster_2.jpg');"></li>
             
           </ul>
@@ -562,6 +570,9 @@ Every single student has made remarkable strides in such a remarkably brief span
   transition: -webkit-transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
+}
+.text-top-image{
+    z-index: 100;
 }
 .carousel__track .carousel__slide {
   display: block;
@@ -729,14 +740,19 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
         <div class="carousel__track">
           <ul>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/biomag2022_1.jpg');"></li>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/biomag2022_2.jpg');"></li>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/biomag2022_3.jpg');"></li>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/biomag2022_4.jpg');"></li>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/biomag2022_5.jpg');"></li>
             
           </ul>
@@ -948,6 +964,9 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
   transition: transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
 }
+.text-top-image{
+    z-index: 100;
+}
 .carousel__track .carousel__slide {
   display: block;
   top: 0;
@@ -1138,12 +1157,16 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
         <div class="carousel__track">
           <ul>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/meg_inauguration_1.jpg');"></li>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/meg_inauguration_2.jpg');"></li>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/meg_inauguration_3.jpg');"></li>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/meg_inauguration_4.jpg');"></li>
             
           </ul>
@@ -1330,6 +1353,9 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   transition: transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
 }
+.text-top-image{
+    z-index: 100;
+}
 .carousel__track .carousel__slide {
   display: block;
   top: 0;
@@ -1513,14 +1539,19 @@ Dr. Hyojin Park received the prestigious YIA!</p>
         <div class="carousel__track">
           <ul>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/biomag2016_1.jpg');"></li>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/biomag2016_2.jpg');"></li>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/biomag2016_3.jpg');"></li>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/biomag2016_4.jpg');"></li>
             
+            <p class="text-top-image">neureca</p>
             <li class="carousel__slide" style="background-image: url('/images/carousel/biomag2016_5.jpg');"></li>
             
           </ul>
@@ -1731,6 +1762,9 @@ Dr. Hyojin Park received the prestigious YIA!</p>
   transition: -webkit-transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;  
+}
+.text-top-image{
+    z-index: 100;
 }
 .carousel__track .carousel__slide {
   display: block;
