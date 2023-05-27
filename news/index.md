@@ -87,7 +87,7 @@ nav:
 - Brain Awareness Week (BAW) Mar 11-17 2019. Centre for Human Brain Health (CHBH), University of Birmingham. Dr. Hyojin Park will guide the tour to the MEG and give a quick presentation about MEG facility.
 
 # 2018
-- Selected to participate in the ***Rising Stars Programme***, Life and Environmental Sciences, University of Birmingham. 2018-2019.
+- 🏆Selected to participate in the ***Rising Stars Programme***, Life and Environmental Sciences, University of Birmingham. 2018-2019.
 
 - Member of Local Organising Committee & Award Committee of the BIOMAG 2022 (The 22nd International Conference on Biomagnetism), Birmingham, UK. 2018-2022.
 
@@ -117,13 +117,13 @@ nav:
 - Talk, MEG UK 2017, Oxford, UK. Mar 2017. Title: "Analysis of neuronal oscillatory communication: entrainment, coupling and directionality in cognitive paradigm" <https://www.ohba.ox.ac.uk/files/news/meguk_program.pdf>{:target="_blank"}
 
 # 2016
-- Selected to participate in the ***Nature Masterclass***! 13-14 Oct 2016, University of Glasgow.
+- 🏆Selected to participate in the ***Nature Masterclass***! 13-14 Oct 2016, University of Glasgow.
 
-- [**Young Investigator Award (YIA)** from the BIOMAG (The 20th International Conference on Biomagnetism)](https://www.neureca.org/2016/10/01/biomag-yia.html). 1-6 Oct 2016. Seoul, South Korea. Dr. Hyojin Park received the prestigious YIA! 
+- 🏆[**Young Investigator Award (YIA)** from the BIOMAG (The 20th International Conference on Biomagnetism)](https://www.neureca.org/2016/10/01/biomag-yia.html). 1-6 Oct 2016. Seoul, South Korea. Dr. Hyojin Park received the prestigious YIA! 
 
-- ***Merit Award*** from the OHBM (Organization for Human Brain Mapping). 26-30 Jun 2016. Geneva, Switzerland. Dr. Hyojin Park received the Merit Award! 
+- 🏆***Merit Award*** from the OHBM (Organization for Human Brain Mapping). 26-30 Jun 2016. Geneva, Switzerland. Dr. Hyojin Park received the Merit Award! 
 
 # 2015
-- ***Merit Award*** from the OHBM (Organization for Human Brain Mapping). 14-18 Jun 2015. Honolulu, Hawaii. Dr. Hyojin Park received the Merit Award! 
+- 🏆***Merit Award*** from the OHBM (Organization for Human Brain Mapping). 14-18 Jun 2015. Honolulu, Hawaii. Dr. Hyojin Park received the Merit Award! 
 
 *Talks*: Only invited talks and invited spoken conference presentations since 2017
