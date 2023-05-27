@@ -860,7 +860,11 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
   opacity: 0.8;
   margin: 0;
   padding: 0;
-  animation: textslide 2s ease-in-out;
+/*   animation: textslide 2s ease-in-out; */
+  animation-name: textslide;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: ease-in-out;
 }
 .text-top-image2 {
   position: absolute;
@@ -883,7 +887,7 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
   margin: 0;
   padding: 0;
   animation-name: textfade;
-  animation-duration: 5.5s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-direction: forwards;
 /*   transition-property: all; */
