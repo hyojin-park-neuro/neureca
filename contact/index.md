@@ -16,7 +16,7 @@ carousels:
     - image: /images/carousel/uob_5.jpg
       caption: "Autumnal view of Old Joe"
     - image: /images/carousel/uob_6.jpg
-      caption: "Panoramic view of Old Joe"
+      caption: "Panoramic view of UoB"
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
