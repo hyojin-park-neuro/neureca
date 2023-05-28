@@ -16,7 +16,7 @@ carousels:
     - image: /images/carousel/uob_5.jpg
       caption: "Autumnal View of Old Joe"
     - image: /images/carousel/uob_6.jpg
-      caption: "Panoramic View of University of Birmingham"
+      caption: "Panoramic View of UoB"
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
