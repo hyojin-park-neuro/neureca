@@ -12,7 +12,7 @@ carousels:
     - image: /images/carousel/main_comms_3.png
       caption: "By Delving into Real-world &<br>Multi-modal Human Communication"
     - image: /images/carousel/main_comms_4.png
-      caption: "Using State-of-the-art Techniques & Analysis Approaches"
+      caption: "Using State-of-the-art Techniques &<br>Analysis Approaches"
     - image: /images/carousel/main_comms_5.png
       caption: "For People of All Ages"
 ---
