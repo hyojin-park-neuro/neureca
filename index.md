@@ -6,10 +6,15 @@ nav:
 carousels:
   - images: 
     - image: /images/carousel/main_comms_1.png
+      caption: "NEURECA"
     - image: /images/carousel/main_comms_2.png
+      caption: "Unraveling the Mysteries of the Brain"
     - image: /images/carousel/main_comms_3.png
+      caption: "During Multi-modal Human Communication"
     - image: /images/carousel/main_comms_4.png
+      caption: "Using State-of-the-art Computational Approach"
     - image: /images/carousel/main_comms_5.png
+      caption: "For People of All Ages"
 ---
 
 <h2 style="text-align:center;color: #586A8C;font-size:20px;">Welcome to Dr. Hyojin Park's Research Group - NEURECA!</h2>
@@ -24,7 +29,7 @@ carousels:
 {% include carousel_main.html
 height="40"
 unit="%"
-duration="5"
+duration="6"
 number="1" 
 %}
 
