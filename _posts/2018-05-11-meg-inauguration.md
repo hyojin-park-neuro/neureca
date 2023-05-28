@@ -8,7 +8,9 @@ last_modified_at: ""
 carousels:
   - images: 
     - image: /images/carousel/meg_inauguration_1.jpg
+      caption: "Celebrating our new MEG"
     - image: /images/carousel/meg_inauguration_2.jpg
+      caption: "Celebrating our new MEG"
     - image: /images/carousel/meg_inauguration_3.jpg
     - image: /images/carousel/meg_inauguration_4.jpg
 ---
