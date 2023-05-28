@@ -10,7 +10,7 @@ carousels:
     - image: /images/carousel/meg_inauguration_1.jpg
       caption: "Celebrating our new MEG in front of the MEG Hut"
     - image: /images/carousel/meg_inauguration_2.jpg
-      caption: "Celebrating our new MEG at Dinner"
+      caption: "Celebrating our new MEG with Speakers at Dinner"
     - image: /images/carousel/meg_inauguration_3.jpg
       caption: "One of the speakers Prof. Joachim Gross & Prof. Ole Jensen"
     - image: /images/carousel/meg_inauguration_4.jpg
