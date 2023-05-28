@@ -12,7 +12,7 @@ carousels:
     - image: /images/carousel/meg_inauguration_2.jpg
       caption: "Celebrating our new MEG with Speakers at Dinner"
     - image: /images/carousel/meg_inauguration_3.jpg
-      caption: "One of the speakers Prof. Joachim Gross & Prof. Ole Jensen"
+      caption: "One of our speakers Prof. Joachim Gross & Prof. Ole Jensen"
     - image: /images/carousel/meg_inauguration_4.jpg
       caption: "Ribbon-cutting Event!"
 ---
