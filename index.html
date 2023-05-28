@@ -457,7 +457,7 @@
   
   
 
-  <section class="background" data-size="cover">
+  <section class="background" data-size="1em">
     <h2 style="text-align:center;color: #586A8C;font-size:20px;">Welcome to Dr. Hyojin Park's Research Group - NEURECA!</h2>
 <p style="text-align:center;color: #586A8C;font-size:30px;">Neural Representations &amp; Computational Architecture of<br>Multi-modal Brain across Lifespan</p>
 
@@ -536,18 +536,28 @@
           <ul>
             
             <li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_1.png');">
+<!--             <p class="text-top-image1">The NEURECA Group</p> -->
+            <p class="text-top-image2">NEURECA</p>
             
             </li>
 <li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_2.png');">
+<!--             <p class="text-top-image1">The NEURECA Group</p> -->
+            <p class="text-top-image2">Unraveling the Mysteries of the Brain</p>
             
             </li>
 <li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_3.png');">
+<!--             <p class="text-top-image1">The NEURECA Group</p> -->
+            <p class="text-top-image2">During Multi-modal Human Communication</p>
             
             </li>
 <li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_4.png');">
+<!--             <p class="text-top-image1">The NEURECA Group</p> -->
+            <p class="text-top-image2">Using State-of-the-art Computational Approach</p>
             
             </li>
 <li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_5.png');">
+<!--             <p class="text-top-image1">The NEURECA Group</p> -->
+            <p class="text-top-image2">For People of All Ages</p>
             
           </li>
 </ul>
@@ -586,7 +596,30 @@
     transform: scale(1.5, 1.5);
   }
 }
-
+@keyframes textslide {
+    from{
+        left:-100px;
+        opacity:0;
+    }
+    to{
+/*         left:500px; */
+        left:50%;
+        opacity:0.8;
+    }    
+}  
+/* @keyframes textfade {
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:0.8;
+    }    
+}       */
+@-webkit-keyframes textfade {
+    0%   {opacity: 0;}
+    50%  {opacity: 0.8;}
+    100% {opacity: 0; display: none;}
+}
 .carousel-inner .item > img {
   -webkit-animation: zoom 20s;
   animation: zoom 20s;
@@ -779,14 +812,75 @@
   padding: 0;
   margin: 0;
     
-  transition: -webkit-animation: zoom 5s;
-  animation: zoom 5s;
+  transition: -webkit-animation: zoom 6s;
+  animation-name: zoom;
+  animation-duration: 6s;
+  animation-iteration-count: 5;
     
   transition: -webkit-transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;    
-   
 }
+    
+.text-top-image1 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*     text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-family: Alice;
+  font-size: 1em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+/*   animation: textslide 2s ease-in-out; */
+  animation-name: textslide;
+  animation-duration: 6s;
+/*   animation-delay: 0s, 3s, 3s, 3s, 3s, 3s; */
+  animation-iteration-count: infinite;
+  animation-direction: ease-in;
+/*   transition-delay: 3s; */
+  display: block;
+}
+.text-top-image2 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+/*     z-index: 999; */
+  color: #fff;
+  text-align: center;
+/*   text-transform: capitalize; */
+/*     text-transform: uppercase; */
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+  font-family: Helvetica;  
+  font-size: 1.5em;    
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  animation-name: textfade;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: forwards;
+/*   transition-property: all; */
+/*   transition-delay: 4s; */
+}    
+    
 .carousel__track .carousel__slide {
   display: block;
   top: 0;
