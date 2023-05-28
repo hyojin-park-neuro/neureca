@@ -126,6 +126,6 @@ nav:
 - 🏆 [***Merit Award*** from the OHBM (Organization for Human Brain Mapping)](https://www.neureca.org/2016/06/26/ohbm-award.html). 26-30 Jun 2016. Geneva, Switzerland. Dr. Hyojin Park received the Merit Award! 
 
 # 2015
-- 🏆 [***Merit Award*** from the OHBM (Organization for Human Brain Mapping).](https://www.neureca.org/2015/06/14/ohbm-award.html) 14-18 Jun 2015. Honolulu, Hawaii. Dr. Hyojin Park received the Merit Award! 
+- 🏆 [***Merit Award*** from the OHBM (Organization for Human Brain Mapping)](https://www.neureca.org/2015/06/14/ohbm-award.html). 14-18 Jun 2015. Honolulu, Hawaii. Dr. Hyojin Park received the Merit Award! 
 
 *Talks*: Only invited talks and invited spoken conference presentations since 2017
