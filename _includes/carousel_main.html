@@ -27,7 +27,7 @@
         <div class="carousel__track">
           <ul>
             {% for item in page.carousels[number].images %}
-            <li class="carousel__slide imagezoom" style="background-image: url('{{ item.image }}');"></li>
+            <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
 <!--             <p class="text-top-image1">The NEURECA Group</p> -->
             <p class="text-top-image2">{{ item.caption }}</p>
             {% endfor %}
@@ -260,6 +260,11 @@
 .carousel__track .carousel__slide:nth-of-type({{ forloop.index }}) {
   -webkit-transform: translateX({{ forloop.index0 }}00%);
           transform: translateX({{ forloop.index0 }}00%);
+    
+    /*   transition: -webkit-animation: zoom 6s; */
+  animation-name: zoom;
+  animation-duration: 6s;
+/*   animation-iteration-count: 1,2,3,4,5;   */
 }
 {% endfor %}
 
