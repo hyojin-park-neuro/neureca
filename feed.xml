@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-28T08:02:29+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>Dr. Hyojin Park&apos;s Research Group</subtitle><entry><title type="html">🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)</title><link href="/2023/05/10/funded-phd-studentship.html" rel="alternate" type="text/html" title="🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)" /><published>2023-05-10T00:00:00+00:00</published><updated>2023-05-10T00:00:00+00:00</updated><id>/2023/05/10/funded-phd-studentship</id><content type="html" xml:base="/2023/05/10/funded-phd-studentship.html"><![CDATA[<p><strong>Project Title</strong>: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-28T08:03:20+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>Dr. Hyojin Park&apos;s Research Group</subtitle><entry><title type="html">🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)</title><link href="/2023/05/10/funded-phd-studentship.html" rel="alternate" type="text/html" title="🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)" /><published>2023-05-10T00:00:00+00:00</published><updated>2023-05-10T00:00:00+00:00</updated><id>/2023/05/10/funded-phd-studentship</id><content type="html" xml:base="/2023/05/10/funded-phd-studentship.html"><![CDATA[<p><strong>Project Title</strong>: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies</p>
 
 <p><strong>Institution</strong>: University of Birmingham, School of Psychology, Centre for Human Brain Health (CHBH), Centre for Developmental Science (CDS)</p>
 
@@ -169,7 +169,7 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
 }       */
 @-webkit-keyframes textfade {
     0%   {opacity: 0;}
-    50%  {opacity: 1;}
+    50%  {opacity: 0.8;}
     100% {opacity: 0; display: none;}
 }
 .carousel__holder {width: 100%; position: relative; padding-bottom: 150%; margin: 1rem 0 1rem;}
@@ -370,7 +370,7 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
   margin: 0;
   padding: 0;
   animation-name: textfade;
-  animation-duration: 5s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-direction: forwards;
 /*   transition-property: all; */
@@ -558,7 +558,7 @@ Every single student has made remarkable strides in such a remarkably brief span
 }       */
 @-webkit-keyframes textfade {
     0%   {opacity: 0;}
-    50%  {opacity: 1;}
+    50%  {opacity: 0.8;}
     100% {opacity: 0; display: none;}
 }
 .carousel__holder {width: 100%; position: relative; padding-bottom: 60%; margin: 1rem 0 1rem;}
@@ -736,7 +736,7 @@ Every single student has made remarkable strides in such a remarkably brief span
   margin: 0;
   padding: 0;
   animation-name: textfade;
-  animation-duration: 5s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-direction: forwards;
 /*   transition-property: all; */
@@ -969,7 +969,7 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
 }       */
 @-webkit-keyframes textfade {
     0%   {opacity: 0;}
-    50%  {opacity: 1;}
+    50%  {opacity: 0.8;}
     100% {opacity: 0; display: none;}
 }
 .carousel__holder {width: 100%; position: relative; padding-bottom: 60%; margin: 1rem 0 1rem;}
@@ -1216,7 +1216,7 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
   margin: 0;
   padding: 0;
   animation-name: textfade;
-  animation-duration: 5s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-direction: forwards;
 /*   transition-property: all; */
@@ -1467,7 +1467,7 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
 }       */
 @-webkit-keyframes textfade {
     0%   {opacity: 0;}
-    50%  {opacity: 1;}
+    50%  {opacity: 0.8;}
     100% {opacity: 0; display: none;}
 }
 .carousel__holder {width: 100%; position: relative; padding-bottom: 60%; margin: 1rem 0 1rem;}
@@ -1691,7 +1691,7 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   margin: 0;
   padding: 0;
   animation-name: textfade;
-  animation-duration: 5s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-direction: forwards;
 /*   transition-property: all; */
@@ -1941,7 +1941,7 @@ Dr. Hyojin Park received the prestigious YIA!</p>
 }       */
 @-webkit-keyframes textfade {
     0%   {opacity: 0;}
-    50%  {opacity: 1;}
+    50%  {opacity: 0.8;}
     100% {opacity: 0; display: none;}
 }
 .carousel__holder {width: 100%; position: relative; padding-bottom: 60%; margin: 1rem 0 1rem;}
@@ -2188,7 +2188,7 @@ Dr. Hyojin Park received the prestigious YIA!</p>
   margin: 0;
   padding: 0;
   animation-name: textfade;
-  animation-duration: 5s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-direction: forwards;
 /*   transition-property: all; */
