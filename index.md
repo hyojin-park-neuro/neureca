@@ -12,7 +12,7 @@ carousels:
     - image: /images/carousel/main_comms_3.png
       caption: "During Multi-modal Human Communication"
     - image: /images/carousel/main_comms_4.png
-      caption: "Using State-of-the-art Approach"
+      caption: "Using State-of-the-art Techniques & Approaches"
     - image: /images/carousel/main_comms_5.png
       caption: "For People of All Ages"
 ---
