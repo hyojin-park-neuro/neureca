@@ -6,17 +6,17 @@ nav:
 carousels:
   - images: 
     - image: /images/carousel/uob_1.jpg
-      caption: "neureca 1"
+      caption: "Old Joe & Library"
     - image: /images/carousel/uob_2.jpg
-      caption: "neureca 2"
+      caption: "Aston Webb"
     - image: /images/carousel/uob_3.jpg
-      caption: "neureca 3"
+      caption: "Nighttime view of Old Joe"
     - image: /images/carousel/uob_4.jpg
-      caption: "neureca 4"
+      caption: "Chancellor's Court"
     - image: /images/carousel/uob_5.jpg
-      caption: "neureca 5"
+      caption: "Autumnal view of Old Joe"
     - image: /images/carousel/uob_6.jpg
-      caption: "neureca 6"
+      caption: "Panoramic view of Old Joe"
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
