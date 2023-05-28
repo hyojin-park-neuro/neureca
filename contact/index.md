@@ -102,7 +102,7 @@ sed do eiusmod tempor
   width="60"
   height="60"
   unit="%"
-  duration="5"
+  duration="6"
   number="1"
 %}
 
