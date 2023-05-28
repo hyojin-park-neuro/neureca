@@ -8,9 +8,9 @@ last_modified_at: ""
 carousels:
   - images: 
     - image: /images/carousel/meg_inauguration_1.jpg
-      caption: "Celebrating our new MEG in front of the MEG Hut"
+      caption: "Celebrating our new MEG in front of the MEG Hut in 2018 (now at the CHBH)"
     - image: /images/carousel/meg_inauguration_2.jpg
-      caption: "Celebrating our new MEG with Speakers at Dinner"
+      caption: "Celebrating our new MEG with Invited Speakers at Dinner"
     - image: /images/carousel/meg_inauguration_3.jpg
       caption: "One of our speakers Prof. Joachim Gross & Prof. Ole Jensen"
     - image: /images/carousel/meg_inauguration_4.jpg
