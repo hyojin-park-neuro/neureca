@@ -80,7 +80,7 @@
 }       */
 @-webkit-keyframes textfade {
     0%   {opacity: 0;}
-    50%  {opacity: 0.8;}
+    50%  {opacity: 1;}
     100% {opacity: 0; display: none;}
 }
 .carousel-inner .item > img {
@@ -278,8 +278,9 @@
   opacity: 0;
   overflow: hidden;
 /*   transition: -webkit-animation: zoom 6s; */
-/*   animation-name: zoom; */
-/*   animation-duration: 6s; */
+  animation-name: zoom;
+  animation-duration: 6s;
+  animation-iteration-count: 5;
 }
 .carousel__slide .overlay {height: 100%;}
 .carousel--thumb .carousel__indicator {
