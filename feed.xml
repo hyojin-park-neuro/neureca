@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-28T08:05:03+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>Dr. Hyojin Park&apos;s Research Group</subtitle><entry><title type="html">🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)</title><link href="/2023/05/10/funded-phd-studentship.html" rel="alternate" type="text/html" title="🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)" /><published>2023-05-10T00:00:00+00:00</published><updated>2023-05-10T00:00:00+00:00</updated><id>/2023/05/10/funded-phd-studentship</id><content type="html" xml:base="/2023/05/10/funded-phd-studentship.html"><![CDATA[<p><strong>Project Title</strong>: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-28T08:11:28+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>Dr. Hyojin Park&apos;s Research Group</subtitle><entry><title type="html">🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)</title><link href="/2023/05/10/funded-phd-studentship.html" rel="alternate" type="text/html" title="🔔 Join Us! Competition Funded PhD Project (open to UK home and International students)" /><published>2023-05-10T00:00:00+00:00</published><updated>2023-05-10T00:00:00+00:00</updated><id>/2023/05/10/funded-phd-studentship</id><content type="html" xml:base="/2023/05/10/funded-phd-studentship.html"><![CDATA[<p><strong>Project Title</strong>: Information processing from childhood into older age: A developmental lifespan perspective on neural plasticity in learning strategies</p>
 
 <p><strong>Institution</strong>: University of Birmingham, School of Psychology, Centre for Human Brain Health (CHBH), Centre for Developmental Science (CDS)</p>
 
@@ -155,7 +155,7 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
     }
     to{
 /*         left:500px; */
-        left:100%;
+        left:50%;
         opacity:0.8;
     }    
 }  
@@ -320,7 +320,7 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
 
 .text-top-image1 {
   position: absolute;
-  top: 5%;
+  top: 90%;
   left: 50%;
 /*     z-index: 999; */
   color: #fff;
@@ -334,7 +334,7 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
          -o-transform: translate3d(-50%,-50%,0);
             transform: translate3d(-50%,-50%,0);
   font-family: Alice;
-  font-size: 1.5em;    
+  font-size: 1em;    
   font-weight: bold;
   opacity: 0.8;
   margin: 0;
@@ -350,7 +350,7 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
 }
 .text-top-image2 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
 /*     z-index: 999; */
   color: #fff;
@@ -364,7 +364,7 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
          -o-transform: translate3d(-50%,-50%,0);
             transform: translate3d(-50%,-50%,0);
   font-family: Helvetica;  
-  font-size: 1em;    
+  font-size: 1.5em;    
   font-weight: normal;
   opacity: 0.8;
   margin: 0;
@@ -544,7 +544,7 @@ Every single student has made remarkable strides in such a remarkably brief span
     }
     to{
 /*         left:500px; */
-        left:100%;
+        left:50%;
         opacity:0.8;
     }    
 }  
@@ -686,7 +686,7 @@ Every single student has made remarkable strides in such a remarkably brief span
 
 .text-top-image1 {
   position: absolute;
-  top: 5%;
+  top: 90%;
   left: 50%;
 /*     z-index: 999; */
   color: #fff;
@@ -700,7 +700,7 @@ Every single student has made remarkable strides in such a remarkably brief span
          -o-transform: translate3d(-50%,-50%,0);
             transform: translate3d(-50%,-50%,0);
   font-family: Alice;
-  font-size: 1.5em;    
+  font-size: 1em;    
   font-weight: bold;
   opacity: 0.8;
   margin: 0;
@@ -716,7 +716,7 @@ Every single student has made remarkable strides in such a remarkably brief span
 }
 .text-top-image2 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
 /*     z-index: 999; */
   color: #fff;
@@ -730,7 +730,7 @@ Every single student has made remarkable strides in such a remarkably brief span
          -o-transform: translate3d(-50%,-50%,0);
             transform: translate3d(-50%,-50%,0);
   font-family: Helvetica;  
-  font-size: 1em;    
+  font-size: 1.5em;    
   font-weight: normal;
   opacity: 0.8;
   margin: 0;
@@ -955,7 +955,7 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
     }
     to{
 /*         left:500px; */
-        left:100%;
+        left:50%;
         opacity:0.8;
     }    
 }  
@@ -1166,7 +1166,7 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
 
 .text-top-image1 {
   position: absolute;
-  top: 5%;
+  top: 90%;
   left: 50%;
 /*     z-index: 999; */
   color: #fff;
@@ -1180,7 +1180,7 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
          -o-transform: translate3d(-50%,-50%,0);
             transform: translate3d(-50%,-50%,0);
   font-family: Alice;
-  font-size: 1.5em;    
+  font-size: 1em;    
   font-weight: bold;
   opacity: 0.8;
   margin: 0;
@@ -1196,7 +1196,7 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
 }
 .text-top-image2 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
 /*     z-index: 999; */
   color: #fff;
@@ -1210,7 +1210,7 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
          -o-transform: translate3d(-50%,-50%,0);
             transform: translate3d(-50%,-50%,0);
   font-family: Helvetica;  
-  font-size: 1em;    
+  font-size: 1.5em;    
   font-weight: normal;
   opacity: 0.8;
   margin: 0;
@@ -1453,7 +1453,7 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
     }
     to{
 /*         left:500px; */
-        left:100%;
+        left:50%;
         opacity:0.8;
     }    
 }  
@@ -1641,7 +1641,7 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
 
 .text-top-image1 {
   position: absolute;
-  top: 5%;
+  top: 90%;
   left: 50%;
 /*     z-index: 999; */
   color: #fff;
@@ -1655,7 +1655,7 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
          -o-transform: translate3d(-50%,-50%,0);
             transform: translate3d(-50%,-50%,0);
   font-family: Alice;
-  font-size: 1.5em;    
+  font-size: 1em;    
   font-weight: bold;
   opacity: 0.8;
   margin: 0;
@@ -1671,7 +1671,7 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
 }
 .text-top-image2 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
 /*     z-index: 999; */
   color: #fff;
@@ -1685,7 +1685,7 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
          -o-transform: translate3d(-50%,-50%,0);
             transform: translate3d(-50%,-50%,0);
   font-family: Helvetica;  
-  font-size: 1em;    
+  font-size: 1.5em;    
   font-weight: normal;
   opacity: 0.8;
   margin: 0;
@@ -1927,7 +1927,7 @@ Dr. Hyojin Park received the prestigious YIA!</p>
     }
     to{
 /*         left:500px; */
-        left:100%;
+        left:50%;
         opacity:0.8;
     }    
 }  
@@ -2138,7 +2138,7 @@ Dr. Hyojin Park received the prestigious YIA!</p>
 
 .text-top-image1 {
   position: absolute;
-  top: 5%;
+  top: 90%;
   left: 50%;
 /*     z-index: 999; */
   color: #fff;
@@ -2152,7 +2152,7 @@ Dr. Hyojin Park received the prestigious YIA!</p>
          -o-transform: translate3d(-50%,-50%,0);
             transform: translate3d(-50%,-50%,0);
   font-family: Alice;
-  font-size: 1.5em;    
+  font-size: 1em;    
   font-weight: bold;
   opacity: 0.8;
   margin: 0;
@@ -2168,7 +2168,7 @@ Dr. Hyojin Park received the prestigious YIA!</p>
 }
 .text-top-image2 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
 /*     z-index: 999; */
   color: #fff;
@@ -2182,7 +2182,7 @@ Dr. Hyojin Park received the prestigious YIA!</p>
          -o-transform: translate3d(-50%,-50%,0);
             transform: translate3d(-50%,-50%,0);
   font-family: Helvetica;  
-  font-size: 1em;    
+  font-size: 1.5em;    
   font-weight: normal;
   opacity: 0.8;
   margin: 0;
