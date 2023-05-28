@@ -535,27 +535,27 @@
         <div class="carousel__track">
           <ul>
             
-            <li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_1.png');">
+            <li class="carousel__slide imagezoom" style="background-image: url('/images/carousel/main_comms_1.png');">
 <!--             <p class="text-top-image1">The NEURECA Group</p> -->
             <p class="text-top-image2">The NEURECA Group</p>
             
             </li>
-<li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_2.png');">
+<li class="carousel__slide imagezoom" style="background-image: url('/images/carousel/main_comms_2.png');">
 <!--             <p class="text-top-image1">The NEURECA Group</p> -->
             <p class="text-top-image2">Unraveling the Mysteries of the Brain</p>
             
             </li>
-<li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_3.png');">
+<li class="carousel__slide imagezoom" style="background-image: url('/images/carousel/main_comms_3.png');">
 <!--             <p class="text-top-image1">The NEURECA Group</p> -->
             <p class="text-top-image2">Delving into Real-world &amp; Multi-modal Human Communication</p>
             
             </li>
-<li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_4.png');">
+<li class="carousel__slide imagezoom" style="background-image: url('/images/carousel/main_comms_4.png');">
 <!--             <p class="text-top-image1">The NEURECA Group</p> -->
             <p class="text-top-image2">Using State-of-the-art Techniques &amp; Analysis Approaches</p>
             
             </li>
-<li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_5.png');">
+<li class="carousel__slide imagezoom" style="background-image: url('/images/carousel/main_comms_5.png');">
 <!--             <p class="text-top-image1">The NEURECA Group</p> -->
             <p class="text-top-image2">For People of All Ages</p>
             
@@ -814,12 +814,7 @@
        
   transition: -webkit-transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s;
-  transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;    
-    
-  transition: -webkit-animation: zoom 6s;
-  animation-name: zoom;
-  animation-duration: 6s;
-  animation-iteration-count: 1,2,3,4,5;  
+  transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;
 }
     
 .text-top-image1 {
@@ -927,6 +922,14 @@
   opacity: 0;
   overflow: hidden;
 }
+    
+.imagezoom {
+/*   transition: -webkit-animation: zoom 6s; */
+  animation-name: zoom;
+  animation-duration: 6s;
+  animation-iteration-count: 1,2,3,4,5;  
+}
+    
 .carousel__slide .overlay {height: 100%;}
 .carousel--thumb .carousel__indicator {
   height: 30px;
