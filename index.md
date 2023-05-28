@@ -98,7 +98,7 @@ To unravel the enigmatic workings of the brain, our team employs **state-of-the-
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="See our Publications"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -121,7 +121,7 @@ Our team is dedicated to advancing our understanding of the brain by **formulati
 {%
   include button.html
   link="projects"
-  text="Browse our projects"
+  text="Browse our Projects"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -146,7 +146,7 @@ Our team is dedicated to advancing our understanding of the brain by **formulati
 {%
   include button.html
   link="team"
-  text="Meet our team"
+  text="Meet our Team"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
