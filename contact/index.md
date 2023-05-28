@@ -10,13 +10,13 @@ carousels:
     - image: /images/carousel/uob_2.jpg
       caption: "Aston Webb"
     - image: /images/carousel/uob_3.jpg
-      caption: "Nighttime view of Old Joe"
+      caption: "Nighttime View of Old Joe"
     - image: /images/carousel/uob_4.jpg
       caption: "Chancellor's Court"
     - image: /images/carousel/uob_5.jpg
-      caption: "Autumnal view of Old Joe"
+      caption: "Autumnal View of Old Joe"
     - image: /images/carousel/uob_6.jpg
-      caption: "Panoramic view of UoB"
+      caption: "Panoramic View of University of Birmingham"
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
