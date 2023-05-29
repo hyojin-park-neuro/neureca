@@ -34,15 +34,11 @@ She completed a PhD on Cognitive Neuroscience at the [Interdisciplinary Program 
 - [OSF (Open Science Framework)](https://osf.io/n6kfw/){:target="_blank"}
 - [GitHub](https://github.com/hyojin-park-neuro){:target="_blank"}
 
-{% include section.html %}
-
 ### Teaching
 In Brain Imaging and Cognitive Neuroscience (BICN), Computational Neuroscience and Cognitive Robotics (CNCR), Psychology MSc Programs, School of Psychology
 - Data Science for Brain and Behaviour II
 - MATLAB Programming - Module Lead
 - Application of Electrophysiological Approaches in Cognitive Neuroscience (guest lectures)
-
-{% include section.html %}
 
 ### Institutional Responsibilities
 - [Modality Lead for MEG at the Centre for Human Brain Health (CHBH)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx){:target="_blank"}, University of Birmingham
