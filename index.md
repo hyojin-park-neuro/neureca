@@ -34,8 +34,6 @@ duration="6"
 number="1" 
 %}
 
-<!-- {% include section.html size="full" %} -->
-
 {% include section.html %}
 
 **The main goal of our research group** is to understand neural oscillatory mechanisms in speech processing - both auditory and visual - as well as their integration that leads to a unified perception. 
