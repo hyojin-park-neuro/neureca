@@ -5,7 +5,7 @@ nav:
   tooltip: Home
 carousels:
   - images: 
-    - image: /images/carousel/main_comms_1.svg
+    - image: /images/carousel/main_comms_1_transparent.svg
       caption: "The NEURECA Group"
     - image: /images/carousel/main_comms_2.png
       caption: "Unraveling the Mysteries of the Brain"
