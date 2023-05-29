@@ -9,7 +9,7 @@ carousels:
       caption: "The NEURECA Group"
     - image: /images/carousel/main_comms_2.png
       caption: "Unraveling the Mysteries of the Brain"
-    - image: /images/carousel/main_comms_3.png
+    - image: /images/carousel/main_comms_3.svg
       caption: "By Delving into Real-world &<br>Multi-modal Human Communication"
     - image: /images/carousel/main_comms_4.png
       caption: "Using State-of-the-art Techniques &<br>Analysis Approaches"
