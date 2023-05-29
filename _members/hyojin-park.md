@@ -15,9 +15,9 @@ links:
 carousels:
   - images: 
     - image: /images/carousel/hyojin_park_2.svg
-      caption: "Taking Part in OPM-MEG Study"
+      caption: "Taking Part in an OPM-MEG Study"
     - image: /images/carousel/hyojin_park_3.jpg
-      caption: "Taking Part in SQUID-MEG Study"
+      caption: "Taking Part in a SQUID-MEG Study"
     - image: /images/carousel/hyojin_park_4.svg
       caption: "Talk at BACN 2022"
 ---
