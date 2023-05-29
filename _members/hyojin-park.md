@@ -37,7 +37,7 @@ She completed a PhD on Cognitive Neuroscience at the [Interdisciplinary Program 
 - [OSF (Open Science Framework)](https://osf.io/n6kfw/){:target="_blank"}
 - [GitHub](https://github.com/hyojin-park-neuro){:target="_blank"}
 
-### 👩🏻‍🏫 Teaching 
+### 💻 Teaching 
 In Brain Imaging and Cognitive Neuroscience (BICN), Computational Neuroscience and Cognitive Robotics (CNCR), Psychology MSc Programs, School of Psychology
 - Data Science for Brain and Behaviour II
 - MATLAB Programming - Module Lead
