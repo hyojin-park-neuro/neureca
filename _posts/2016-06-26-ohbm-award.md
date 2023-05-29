@@ -11,8 +11,7 @@ Dr. Hyojin Park received the 2nd Merit Award 🏆🏆 from the OHBM (Organizatio
 
 {%
   include figure.html
-  image="images/blogs/ohbm2016_merit_award.svg"
+  image="images/blogs/ohbm2016_merit_award.png"
   caption="OHBM Program Book"
-<!--   link="team" -->
   width="400px"
 %}
