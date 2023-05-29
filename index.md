@@ -26,12 +26,15 @@ carousels:
 
 3. We are committed to producing high-quality research that has real-world applications and benefits for people of all ages.
 
+{% include section.html size="full" %}
 {% include carousel_main.html
 height="40"
 unit="%"
 duration="6"
 number="1" 
 %}
+
+{% include section.html size="full" %}
 
 **The main goal of our research group** is to understand neural oscillatory mechanisms in speech processing - both auditory and visual - as well as their integration that leads to a unified perception. 
 
