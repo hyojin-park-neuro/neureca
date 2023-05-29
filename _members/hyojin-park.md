@@ -14,7 +14,7 @@ links:
   orcid: 0000-0002-7527-8280
 carousels:
   - images: 
-    - image: /images/carousel/hyojin_park_2.jpg
+    - image: /images/carousel/hyojin_park_2.svg
     - image: /images/carousel/hyojin_park_3.jpg
     - image: /images/carousel/hyojin_park_4.svg
 ---
