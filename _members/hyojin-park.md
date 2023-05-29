@@ -23,6 +23,8 @@ carousels:
 
 She completed a PhD on Cognitive Neuroscience at the [Interdisciplinary Program in Cognitive Science](https://humanities.snu.ac.kr/en/academics/Interdisciplinary-Programs?deptidx=18){:target="_blank"}, [Seoul National University](https://en.snu.ac.kr/){:target="_blank"}, Seoul, South Korea (PhD supervisor: Professor [Dong Soo Lee](https://snucm.elsevierpure.com/en/persons/y-lee-131){:target="_blank"}, MD, PhD) and before that she completed her undergraduate degree at the [Department of Psychology](https://psy.knu.ac.kr/){:target="_blank"}, [Kyungpook National University](https://en.knu.ac.kr/main/main.htm){:target="_blank"}, Daegu, South Korea. Subsequently she worked as a Research Associate (postdoctoral researcher) in the lab of Professor [Joachim Gross](https://www.uni-muenster.de/OCCMuenster/members/joachim-gross.html){:target="_blank"} and Professor [Gregor Thut](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/gregorthut/){:target="_blank"} (supported by their Wellcome Trust Senior Investigator Award) at the [School of Psychology and Neuroscience](https://www.gla.ac.uk/schools/psychologyneuroscience/){:target="_blank"} and [Centre for Cognitive Neuroimaging (CCNi)](https://www.gla.ac.uk/schools/psychologyneuroscience/research/ccni/){:target="_blank"} at the [University of Glasgow](https://www.gla.ac.uk/){:target="_blank"}, Glasgow, UK.
 
+{% include section.html %}
+
 ### Links
 - [School of Psychology, University of Birmingham](https://www.birmingham.ac.uk/staff/profiles/psychology/park-hyojin.aspx){:target="_blank"}
 - [ORCID](https://orcid.org/0000-0002-7527-8280){:target="_blank"}
@@ -32,11 +34,15 @@ She completed a PhD on Cognitive Neuroscience at the [Interdisciplinary Program 
 - [OSF (Open Science Framework)](https://osf.io/n6kfw/){:target="_blank"}
 - [GitHub](https://github.com/hyojin-park-neuro){:target="_blank"}
 
+{% include section.html %}
+
 ### Teaching
 In Brain Imaging and Cognitive Neuroscience (BICN), Computational Neuroscience and Cognitive Robotics (CNCR), Psychology MSc Programs, School of Psychology
 - Data Science for Brain and Behaviour II
 - MATLAB Programming - Module Lead
 - Application of Electrophysiological Approaches in Cognitive Neuroscience (guest lectures)
+
+{% include section.html %}
 
 ### Institutional Responsibilities
 - [Modality Lead for MEG at the Centre for Human Brain Health (CHBH)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx){:target="_blank"}, University of Birmingham
