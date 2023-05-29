@@ -36,6 +36,7 @@ number="1"
 
 <!-- {% include section.html size="full" %} -->
 {% include section.html %}
+
 **The main goal of our research group** is to understand neural oscillatory mechanisms in speech processing - both auditory and visual - as well as their integration that leads to a unified perception. 
 
 **Why Rhythms in Speech?** Speech consists of a hierarchy of components occurring on different timescales. For example, prosody or intonation occurs on a relatively long timescale-hundreds of milliseconds, syllables occur on around hundred milliseconds, and short transients and phonemes last only tens of milliseconds. Similarly, distinct neuronal populations fire rhythmically at different rates (brain oscillations), and different bands of oscillations are arranged in a hierarchy.
