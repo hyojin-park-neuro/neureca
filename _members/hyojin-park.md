@@ -25,7 +25,7 @@ She completed a PhD on Cognitive Neuroscience at the [Interdisciplinary Program 
 
 {% include section.html %}
 
-### Links
+### Links 🔗
 - [School of Psychology, University of Birmingham](https://www.birmingham.ac.uk/staff/profiles/psychology/park-hyojin.aspx){:target="_blank"}
 - [ORCID](https://orcid.org/0000-0002-7527-8280){:target="_blank"}
 - [Google Scholar](https://scholar.google.co.uk/citations?user=Vyn8xRQAAAAJ&hl=en){:target="_blank"}
@@ -34,13 +34,13 @@ She completed a PhD on Cognitive Neuroscience at the [Interdisciplinary Program 
 - [OSF (Open Science Framework)](https://osf.io/n6kfw/){:target="_blank"}
 - [GitHub](https://github.com/hyojin-park-neuro){:target="_blank"}
 
-### Teaching
+### Teaching 👩🏻‍🏫
 In Brain Imaging and Cognitive Neuroscience (BICN), Computational Neuroscience and Cognitive Robotics (CNCR), Psychology MSc Programs, School of Psychology
 - Data Science for Brain and Behaviour II
 - MATLAB Programming - Module Lead
 - Application of Electrophysiological Approaches in Cognitive Neuroscience (guest lectures)
 
-### Institutional Responsibilities
+### Institutional Responsibilities 🏫
 - [Modality Lead for MEG at the Centre for Human Brain Health (CHBH)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx){:target="_blank"}, University of Birmingham
 - Member of Management Committee, Centre for Human Brain Health (CHBH), University of Birmingham 
 - Member of Science, Technology, Engineering and Mathematics (STEM) Ethical Review Committee, University of Birmingham
