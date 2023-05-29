@@ -11,7 +11,7 @@ Dr. Hyojin Park received Merit Award 🏆 from the OHBM (Organization for Human 
 
 {%
   include figure.html
-  image="images/blogs/ohbm2015_merit_award.svg"
-  caption="OHBM Program Book"
-  height="100%"
+  image="images/blogs/ohbm2015_merit_award.png"
+<!--   caption="OHBM Program Book" -->
+  height="80%"
 %}
