@@ -16,7 +16,7 @@ carousels:
   - images: 
     - image: /images/carousel/hyojin_park_2.jpg
     - image: /images/carousel/hyojin_park_3.jpg
-    - image: /images/carousel/hyojin_park_4.jpg
+    - image: /images/carousel/hyojin_park_4.svg
 ---
 
 [Dr. Hyojin Park](https://www.birmingham.ac.uk/staff/profiles/psychology/park-hyojin.aspx){:target="_blank"} (Principal Investigator) is an Assistant Professor (Lecturer) and [Birmingham Fellow](https://www.birmingham.ac.uk/staff/excellence/fellows/index.aspx){:target="_blank"} at the [School of Psychology](https://www.birmingham.ac.uk/schools/psychology/index.aspx){:target="_blank"} and [Centre for Human Brain Health (CHBH)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/index.aspx){:target="_blank"}, [College of Life and Environmental Sciences](https://www.birmingham.ac.uk/university/colleges/les/index.aspx){:target="_blank"} at the [University of Birmingham](https://www.birmingham.ac.uk/index.aspx){:target="_blank"}, Birmingham, United Kingdom.
