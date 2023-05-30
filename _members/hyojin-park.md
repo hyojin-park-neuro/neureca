@@ -39,7 +39,7 @@ She completed a PhD on Cognitive Neuroscience at the [Interdisciplinary Program 
 
 {% include section.html %}
 
-### {% include icon.html icon="fa-solid fa-person-chalkboard" %}Teaching 
+### {% include icon.html icon="fa-solid fa-chalkboard-user" %}Teaching 
 In Brain Imaging and Cognitive Neuroscience (BICN), Computational Neuroscience and Cognitive Robotics (CNCR), Psychology MSc Programs, School of Psychology
 - Data Science for Brain and Behaviour II
 - MATLAB Programming - Module Lead
