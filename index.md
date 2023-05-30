@@ -51,7 +51,7 @@ number="1"
 {% include section.html %}
 
 {% capture col1 %}
-## Research Topics
+## {% include icon.html icon="fa-solid fa-brain" %}Research Topics
 - AudioVisual Perception
 - Sensory-Motor Interaction
 - Auditory and Visual (speech) Tracking
@@ -71,7 +71,7 @@ number="1"
 {% endcapture %}
 
 {% capture col2 %}
-## Techniques & Approaches
+## {% include icon.html icon="fa-solid fa-screwdriver-wrench" %}Techniques & Approaches
 - [SQUID-MEG (Magnetoencephalography)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx){:target="_blank"}
 - [OPM-MEG (Optically-Pumped Magnetometers)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/opm.aspx){:target="_blank"}
 - Electroencephalography (EEG)
