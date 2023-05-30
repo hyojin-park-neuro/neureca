@@ -11,7 +11,14 @@ aliases:
   - Park H  
 links:
   home-page: https://neureca.org
+  email: h.park@bham.ac.uk
   orcid: 0000-0002-7527-8280
+  google-scholar: Vyn8xRQAAAAJ
+  linkedin: hyojin-park-neureca  
+  youtube: neureca
+  instagram: neureca_hp
+  github: hyojin-park-neuro
+  twitter: HyojinParkNeuro
 carousels:
   - images: 
     - image: /images/carousel/hyojin_park_2.jpg
