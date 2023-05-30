@@ -19,7 +19,7 @@ carousels:
       caption: "Panoramic View of UoB"
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-solid fa-envelope-open-text" %}Contact
 
 {%
   include button.html
