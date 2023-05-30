@@ -78,7 +78,7 @@ B15 2TT
 {% endcapture %}
 
 {% capture col2 %}
-### {% include icon.html icon="fa-solid fa-map-location" %}Visiting Address
+### {% include icon.html icon="fa-solid fa-location-dot" %}Visiting Address
 Office 102 <br>
 Centre for Human Brain Health (CHBH) <br>
 University of Birmingham <br>
