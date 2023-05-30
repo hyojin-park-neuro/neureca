@@ -68,7 +68,7 @@ carousels:
 {% include section.html %}
 
 {% capture col1 %}
-### {% include icon.html icon="fa-solid fa-address-card" %}Postal Address
+### {% include icon.html icon="fa-solid fa-address-card" %}***Postal Address***
 School of Psychology <br>
 Centre for Human Brain Health (CHBH) <br>
 University of Birmingham <br>
@@ -78,7 +78,7 @@ B15 2TT
 {% endcapture %}
 
 {% capture col2 %}
-### {% include icon.html icon="fa-solid fa-location-dot" %}Visiting Address
+### {% include icon.html icon="fa-solid fa-location-dot" %}***Visiting Address***
 Office 102 <br>
 Centre for Human Brain Health (CHBH) <br>
 University of Birmingham <br>
