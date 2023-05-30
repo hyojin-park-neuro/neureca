@@ -66,8 +66,8 @@
   width: 20%;
   aspect-ratio: 1 / 1;
   border-radius: 999px;
-  background: #F37021;
-  box-shadow: var(--shadow);
+  background: var(--background);
+  box-shadow: #F37021;
   transform: translate(14%, 14%);
 }
 
