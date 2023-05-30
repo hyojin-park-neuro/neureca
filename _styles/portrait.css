@@ -66,12 +66,12 @@
   background: var(--background);
   box-shadow: var(--shadow);
   transform: translate(14%, 14%);
+  color: #F37021;
 }
 
 .portrait[data-style=small] .portrait-role .icon {
   left: -2px;
   top: -2px;
-  color: #F37021;
 }
 
 /*# sourceMappingURL=portrait.css.map */
