@@ -67,9 +67,8 @@
   aspect-ratio: 1 / 1;
   border-radius: 999px;
   background: var(--background);
-  box-shadow: var(--shadow);
+  box-shadow: #F37021;
   transform: translate(14%, 14%);
-  color: #F37021;
 }
 
 .portrait[data-style="small"] .portrait-role .icon {
