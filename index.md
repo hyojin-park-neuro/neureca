@@ -159,7 +159,7 @@ Our team is dedicated to advancing our understanding of the brain by **formulati
 
 {%
   include feature.html
-  image="images/hyojin_park_2.jpg"
+  image="images/carousel/hyojin_park_2.jpg"
   link="team"
   title="Our Team"
   flip=false
