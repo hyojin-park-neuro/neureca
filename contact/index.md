@@ -35,7 +35,7 @@ carousels:
 %}
 {%
   include button.html
-  type="address"
+  type="globe"
   text="Location"
   tooltip="Our location on Google Maps for easy navigation"
   link="https://goo.gl/maps/6WUCN6RKZxGCqbXU7"
