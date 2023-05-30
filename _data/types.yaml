@@ -64,6 +64,11 @@ address:
   icon: fa-solid fa-map-location-dot
   text: Address
   tooltip: Address
+  
+globe:
+  icon: fa-solid fa-globe
+  text: Map
+  tooltip: Map
 
 search:
   icon: fa-solid fa-magnifying-glass
