@@ -5,4 +5,7 @@
 
 _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
 
+Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs){:target="_blank"}
+
+
 Built with <a href="https://greene-lab.gitbook.io/lab-website-template-docs" target="_blank">Lab Website Template</a>
