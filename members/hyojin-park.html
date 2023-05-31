@@ -654,13 +654,15 @@ Researcher ID: C-6267-2017 <br></p>
         
           <input class="carousel__activator" type="radio" name="carousel0" id="0b">
         
+          <input class="carousel__activator" type="radio" name="carousel0" id="0c">
+        
         
           
           
           
           
           <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="0b"></label>
+              <label class="carousel__control carousel__control--backward" for="0c"></label>
               <label class="carousel__control carousel__control--forward" for="0b"></label>
           </div>
         
@@ -670,6 +672,15 @@ Researcher ID: C-6267-2017 <br></p>
           
           <div class="carousel__controls">
               <label class="carousel__control carousel__control--backward" for="0a"></label>
+              <label class="carousel__control carousel__control--forward" for="0c"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0b"></label>
               <label class="carousel__control carousel__control--forward" for="0a"></label>
           </div>
         
@@ -687,6 +698,12 @@ Researcher ID: C-6267-2017 <br></p>
             <p class="text-top-image1">The NEURECA Group</p>
             <p class="text-top-image2">Taking Part in a SQUID-MEG Study</p>
             
+            </li>
+<li class="carousel__slide" style="background-image: url('/images/carousel/hyojin_park_4.svg');">
+<!--             <p class="text-top-image1">&copy;The NEURECA Group</p> -->
+            <p class="text-top-image1">The NEURECA Group</p>
+            <p class="text-top-image2">Talk at BACN (British Association for Cognitive Neuroscience) 2022</p>
+            
           </li>
 </ul>
         </div>
@@ -695,6 +712,8 @@ Researcher ID: C-6267-2017 <br></p>
               <label class="carousel__indicator" for="0a"></label>
             
               <label class="carousel__indicator" for="0b"></label>
+            
+              <label class="carousel__indicator" for="0c"></label>
             
         </div>
     </div>
@@ -782,6 +801,29 @@ Researcher ID: C-6267-2017 <br></p>
   opacity: 1;
 }
 .carousel__activator:nth-of-type(2):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(2) {
+  opacity: 1;
+}
+
+.carousel__activator:nth-of-type(3):checked ~ .carousel__track {
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
+}
+.carousel__activator:nth-of-type(3):checked ~ .carousel__slide:nth-of-type(3) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(3):checked ~ .carousel__controls:nth-of-type(3) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(3):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(3) {
   opacity: 1;
 }
 
@@ -925,6 +967,11 @@ Researcher ID: C-6267-2017 <br></p>
           transform: translateX(100%);
 }
 
+.carousel__track .carousel__slide:nth-of-type(3) {
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
+}
+
 
 .carousel--scale .carousel__slide {
   -webkit-transform: scale(0);
@@ -953,6 +1000,12 @@ Researcher ID: C-6267-2017 <br></p>
 
 .carousel__slide:nth-of-type(2),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel__slide:nth-of-type(3),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
   background-size: cover;
   background-position: center;
 }
