@@ -23,14 +23,14 @@ nav:
 
 **Power of Synergies!** Teamwork is essential for unlocking the power of synergies, allowing individuals to leverage their strengths and achieve greater success than they could on their own. Furthremore, we embrace **the value of diversity** and **inclusive environments for research**, which is essential for fostering innovative and impactful research.
 
-### Postdoctoral Researcher
+### {% include icon.html icon="fa-solid fa-person-rays" %}Postdoctoral Researcher
 - Dr. Tara Ghafari (co-supervision)
 
-### Postgraduate Students
+### {% include icon.html icon="fa-solid fa-users-graduate" %}Postgraduate Students
 - Choi Yu
 - Victoria Gorneva 
 
-### Undergraduate Students
+### {% include icon.html icon="fa-solid fa-user-gear" %}Undergraduate Students
 - Abbie Evans
 - Valentina Kurti
 - Tamseel Naveed
@@ -38,7 +38,7 @@ nav:
 - Ellie Robson
 - Jasmin Wrighton
 
-### Alumni
+### {% include icon.html icon="fa-solid fa-users-rays" %}Alumni
 - Gabriel Byczynski
 - Zhuoxin Xiao
 
