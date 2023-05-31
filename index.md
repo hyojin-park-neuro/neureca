@@ -10,9 +10,9 @@ carousels:
     - image: /images/carousel/main_comms_2.svg
       caption: "Unraveling the Mysteries of the Brain"
     - image: /images/carousel/main_comms_3.svg
-      caption: "By Delving into Real-world &<br>Multi-modal Human Communication"
+      caption: "By Delving into Real-world & Multi-modal Human Communication"
     - image: /images/carousel/main_comms_4.svg
-      caption: "Using State-of-the-art Techniques &<br>Analysis Approaches"
+      caption: "Using State-of-the-art Techniques & Analysis Approaches"
     - image: /images/carousel/main_comms_5.svg
       caption: "For People of All Ages"
 ---
