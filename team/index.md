@@ -45,7 +45,7 @@ nav:
 
 {% include section.html %}
 
-## Collaborators
+## {% include icon.html icon="fa-solid fa-users-line" %}Collaborators
 
 - [Robin A. A. Ince](http://www.robinince.net/about.html){:target="_blank"}, Institute of Neuroscience and Psychology, University of Glasgow, UK
 - [Joachim Gross](https://www.uni-muenster.de/OCCMuenster/members/joachim-gross.html){:target="_blank"}, Institute for Biomagnetism and Biosignalanalysis, University of Muenster, Germany
@@ -62,7 +62,7 @@ nav:
 - [Alejandro Perez](https://sites.google.com/view/alejandroperez/about?authuser=0){:target="_blank"}, MRC Cognition and Brain Science Unit, University of Cambridge, UK
 
 
-## Local Collaborators
+## {% include icon.html icon="fa-solid fa-users-between-lines" %}Local Collaborators
 
 - [Ole Jensen](https://www.birmingham.ac.uk/staff/profiles/psychology/jensen-ole.aspx){:target="_blank"}, School of Psychology, Co-Director of the CHBH, [Neuronal Oscillations Research Group](https://neuosc.com/){:target="_blank"}
 - [Katrien Segaert](https://www.birmingham.ac.uk/staff/profiles/psychology/segaert-katrien.aspx){:target="_blank"}, School of Psychology, CHBH, [Neuroscience of Language Lab](https://www.katriensegaert.com/){:target="_blank"}
