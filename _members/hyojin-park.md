@@ -21,7 +21,7 @@ links:
   twitter: HyojinParkNeuro
 carousels:
   - images: 
-    - image: /images/carousel/hyojin_park_2.jpg
+    - image: /images/carousel/hyojin_park_2.svg
       caption: "Taking Part in an OPM-MEG Study"
     - image: /images/carousel/hyojin_park_3.jpg
       caption: "Taking Part in a SQUID-MEG Study"
