@@ -11,7 +11,6 @@ h1 {
   font-size: var(--xxl);
   font-weight: var(--regular);
   letter-spacing: 1px;
-  text-transform: capitalize;
   text-align: left;
 }
 
