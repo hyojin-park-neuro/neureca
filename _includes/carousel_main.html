@@ -27,7 +27,7 @@
         <div class="carousel__track">
           <ul>
             {% for item in page.carousels[number].images %}
-            <li class="carousel__slide" style="background-image: url('{{ item.image }}'); animation-iteration-count: infinite;"></li>
+            <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
 <!--             <p class="text-top-image1">The NEURECA Group</p> -->
             <p class="text-top-image2">{{ item.caption }}</p>
             {% endfor %}
@@ -192,7 +192,7 @@
   animation-duration: 6s;
 /*   animation-fill-mode: backwards; */
 /*   animation-iteration-count: 1;   */
-/*   animation-iteration-count: 1,2,3,4,5;   */
+  animation-iteration-count: 5 5 5 5 5;  
 }
     
 .text-top-image1 {
