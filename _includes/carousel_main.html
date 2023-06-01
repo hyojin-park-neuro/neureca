@@ -83,10 +83,10 @@
     50%  {opacity: 1;}
     100% {opacity: 0; display: none;}
 }
-.carousel__slide .item > img {
-  -webkit-animation: zoom 6s;
-  animation: zoom 6s;
-}
+/* .carousel__slide .item > img { */
+/*   -webkit-animation: zoom 6s; */
+/*   animation: zoom 6s; */
+/* } */
     
 .carousel__holder {width: 100%; position: relative; padding-bottom: {{ include.height }}{{ include.unit }}; margin: 1rem 0 1rem;}
 .carousel {
@@ -187,7 +187,7 @@
   transition: transform 1.5s ease 0s;
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;
     
-/*   transition: -webkit-animation: zoom 6s ; */
+  transition: -webkit-animation: zoom 6s 5;
 /*   animation-name: zoom; */
 /*   animation-duration: 6s; */
 /*   animation-iteration-count: 1;   */
