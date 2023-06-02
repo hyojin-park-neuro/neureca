@@ -43,7 +43,7 @@ nav:
 - Zhuoxin Xiao
 
 
-{% include section.html %}
+{% include section.html dark="hp3" %}
 
 ## {% include icon.html icon="fa-solid fa-users-line" %}Collaborators
 
