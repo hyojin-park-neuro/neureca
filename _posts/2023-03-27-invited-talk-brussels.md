@@ -16,6 +16,4 @@ Dr. Hyojin Park gave a talk at the ULB Hospital Erasme Brussels, Belgium (Hosted
 
 Also, she took part in an OPM-MEG experiment! Had a lot of fun!
 
-{% include section.html %}
-
 {% include carousel.html height="150%" duration="6" number="1" %}
