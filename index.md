@@ -26,7 +26,7 @@ carousels:
 
 3. We are committed to producing high-quality research that has real-world applications and benefits for people of all ages.
 
-{% include section.html size="full" background: var(--background) %}
+{% include section.html size="full" background: var(--background); %}
 {% include carousel_main.html
 height="40"
 unit="%"
