@@ -17,6 +17,4 @@ carousels:
 **🏆Young Investigator Award (YIA)🏆** from the BIOMAG 2016 (The 20th International Conference on Biomagnetism). <br>
 Dr. Hyojin Park received the prestigious YIA! 
 
-{% include section.html%}
-
 {% include carousel.html height="60" unit="%" duration="6" number="1" %}
