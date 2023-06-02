@@ -21,7 +21,3 @@ At the Satellite workshop (28th Aug 2022), she was invited to give a talk at the
 Talk title: "Top-down and bottom-up processing in cortical entrainment to continuous speech"
 
 {% include carousel.html height="60" unit="%" duration="6" number="1" %}
-
-{% include section.html dark="hp1" %}
-
-test11
