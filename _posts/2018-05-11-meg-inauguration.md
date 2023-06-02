@@ -19,6 +19,4 @@ carousels:
 Inaugural MEG (Magnetoencephalography) Symposium at the CHBH, 11 May 2018 <br>
 Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at the CHBH, University of Birmingham.
 
-{% include section.html %}
-
 {% include carousel.html height="60" unit="%" duration="6" number="1" %}
