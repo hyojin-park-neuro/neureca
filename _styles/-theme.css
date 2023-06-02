@@ -20,7 +20,7 @@
   --overlay: #ffffff10;
 }
 
-[data-dark=hp] {
+[data-dark=hp1] {
   --primary: #7EB9BF;
   --secondary: #A0D9D9;
   --text: #000000;
