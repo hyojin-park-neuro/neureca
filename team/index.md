@@ -7,8 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-people-group" %}Team
 
-{% include section.html dark="hp_bgwhite_icon1" %}
-
 ## Join the Team!&nbsp;:heartpulse:
 
 ### 🔔 **We are hiring now! (*Deadline: 5th June 2023*) [Check it out](https://www.neureca.org/2023/05/10/funded-phd-studentship.html){:target="_blank"}!**
@@ -18,7 +16,6 @@ nav:
   type="info"
   content="**Highly motivated PhD students and postdoctoral scientists are welcome to join Dr. Hyojin Park’s research group! Please feel free to [contact the PI](mailto:h.park@bham.ac.uk) to discuss further regarding funding opportunities!**"
 %}
-
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 <!-- {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %} -->
@@ -44,8 +41,7 @@ nav:
 - Gabriel Byczynski
 - Zhuoxin Xiao
 
-
-{% include section.html dark="hp_bggray_icon2" %}
+{% include section.html %}
 
 ## {% include icon.html icon="fa-solid fa-users-line" %}Collaborators
 
@@ -62,7 +58,6 @@ nav:
 - [Nathan Weisz](https://www.plus.ac.at/psychology/ueber-uns/internal-organisation/division-of-physiological-psychology/team/salzburg-brain-dynamics-lab/weisz-nathan-en/?lang=en){:target="_blank"}, Centre for Cognitive Neuroscience, University of Salzburg, Austria
 - [Mathieu Bourguignon](https://crcn.ulb.ac.be/members/?q=121){:target="_blank"}, Université libre de Bruxelles, Belgium
 - [Alejandro Perez](https://sites.google.com/view/alejandroperez/about?authuser=0){:target="_blank"}, MRC Cognition and Brain Science Unit, University of Cambridge, UK
-
 
 ## {% include icon.html icon="fa-solid fa-users-between-lines" %}Local Collaborators
 
