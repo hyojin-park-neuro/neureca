@@ -64,9 +64,9 @@ number="1"
 - Speech Production
 - Interpersonal Communication (Brain-to-Brain coupling)
 - Brain-Body-Environment Coupling
-- (Micro-)Saccadic Eye Movements and Audiovisual Attention
+- <div style="text-align: left">(Micro-)Saccadic Eye Movements and Audiovisual Attention</div>
 - Modulation of Brain Activity using Rhythmic Stimulation
-- Audiovisual Speech & Language Development/Changes across Lifespan
+- <div style="text-align: left">Audiovisual Speech/Language Development & Neural Plasticity across Lifespan</div>
 - Cognitive Strategy Development
 {% endcapture %}
 
@@ -81,8 +81,8 @@ number="1"
 - Transcranial Magnetic Stimulation (TMS)
 - Sensory Stimulation, e.g., (Rapid) Frequency Tagging
 - Brain Network Analysis
-- Information Theory Approach: Mutual Information (MI), Transfer Entropy (TE), Partial Information Decomposition (PID)
-- Computational Neural Architecture using Machine Learning & Deep Learning Algorithms
+- <div style="text-align: left">Information Theory Approach: Mutual Information (MI), Transfer Entropy (TE), Partial Information Decomposition (PID)</div>
+- <div style="text-align: left">Computational Neural Architecture using Machine Learning & Deep Learning Algorithms</div>
 - Encoding & Decoding
 - Natural Language Processing (NLP)
 - Large Language Models (LLMs)
