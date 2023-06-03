@@ -15,20 +15,20 @@ nav:
 
 {% include search-info.html %}
 
-{% include section.html %}
+{% include section.html dark="hp_bgwhite_icon" %}
 
-## Featured&nbsp;💡
+## {% include icon.html icon="fa-solid fa-lightbulb" %}Featured
 
 {% include list.html component="card" data="projects" filters="group: featured" %}
 
-{% include section.html %}
+{% include section.html dark="hp_bggray_icon" %}
 
 ## More
 
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
 
-{% include section.html %}
+{% include section.html dark="hp_bgwhite_icon" %}
 
-## [A selection of published works](https://github.com/hyojin-park-neuro/intro-published)&nbsp;🕮🕮🕮
+## {% include icon.html icon="fa-solid fa-book-open" %}[A selection of published works](https://github.com/hyojin-park-neuro/intro-published)
 
 {% include list.html component="card" data="projects" filters="group: published" %}
