@@ -50,9 +50,9 @@ number="1"
 
 {% include section.html dark="hp_bggray_icon1" %}
 
+<div style="text-align: left">
 {% capture col1 %}
 ## {% include icon.html icon="fa-solid fa-brain" %}Research Topics
-<div style="text-align: left">
 - AudioVisual Perception
 - Sensory-Motor Interaction
 - Auditory and Visual (speech) Tracking
@@ -69,8 +69,8 @@ number="1"
 - Modulation of Brain Activity using Rhythmic Stimulation
 - Audiovisual Speech & Language Development/Changes across Lifespan
 - Cognitive Strategy Development
-</div>
 {% endcapture %}
+</div>
 
 {% capture col2 %}
 ## {% include icon.html icon="fa-solid fa-screwdriver-wrench" %}Techniques & Approaches
