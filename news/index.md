@@ -146,4 +146,4 @@ nav:
 
 {% include section.html %}
 
-<p style="text-align:center;">*Talks*: Only invited talks and invited spoken conference presentations since 2017</p>
+<p style="text-align:center;"><em>Talks</em>: Only invited talks and invited spoken conference presentations since 2017</p>
