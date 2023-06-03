@@ -23,7 +23,7 @@ nav:
 
 {% include section.html dark="hp_bggray_icon1" %}
 
-## {% include icon.html icon="fa-solid fa-book-infinity" %}More
+## {% include icon.html icon="fa-solid fa-infinity" %}More
 
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
 
