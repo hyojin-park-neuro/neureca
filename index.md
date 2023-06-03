@@ -90,9 +90,9 @@ number="1"
 
 {% include cols.html col1=col1 col2=col2 %}
 
-{% include section.html %}
+{% include section.html dark="hp2" %}
 
-## Highlights
+## {% include icon.html icon="fa-brands fa-sketch" %}A Dynamic Impression: Sketching the Essence of Our Group
 
 {% capture text %}
 
