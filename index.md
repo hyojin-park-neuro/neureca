@@ -48,7 +48,7 @@ number="1"
 
 **Facilities and Tools** The Group is a part of the newly established Centre for Human Brain Health (CHBH) at the University of Birmingham. The Centre is equipped with state-of-the-art brain imaging facilities, e.g. MEG, OPM-MEG, EEG, MRI, TMS, TCS, Sleep labs, fNIRS. We combine these modalities in order to obtain a comprehensive picture of neural mechanisms of speech and multisensory (AV) integration.
 
-{% include section.html dark="hp_bggray_icon" %}
+{% include section.html dark="hp_bggray_icon1" %}
 
 {% capture col1 %}
 ## {% include icon.html icon="fa-solid fa-brain" %}Research Topics
@@ -90,7 +90,7 @@ number="1"
 
 {% include cols.html col1=col1 col2=col2 %}
 
-{% include section.html dark="hp_bgwhite_icon" %}
+{% include section.html dark="hp_bgwhite_icon1" %}
 
 ## {% include icon.html icon="fa-brands fa-sketch" %}A Dynamic Impression: Sketching the Essence of Our Group
 
