@@ -79,7 +79,7 @@ number="1"
 - Electroencephalography (EEG)
 - Functional Magnetic Resonance Imaging (fMRI)
 - Diffusion Tensor Imaging (DTI)
-- Ultrasound stimulation (Low-Intensity Focused Ultrasound Stimulation, LIFU)
+- <style>Ultrasound stimulation (Low-Intensity Focused Ultrasound Stimulation, LIFU){text-align: left}</style>
 - Transcranial Magnetic Stimulation (TMS)
 - Sensory Stimulation, e.g., (Rapid) Frequency Tagging
 - Brain Network Analysis
