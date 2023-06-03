@@ -7,6 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-people-group" %}Team
 
+{% include section.html dark="hp_bgwhite_icon1" %}
+
 ## Join the Team!&nbsp;:heartpulse:
 
 ### 🔔 **We are hiring now! (*Deadline: 5th June 2023*) [Check it out](https://www.neureca.org/2023/05/10/funded-phd-studentship.html){:target="_blank"}!**
@@ -22,8 +24,6 @@ nav:
 <!-- {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %} -->
 
 **Power of Synergies!** Teamwork is essential for unlocking the power of synergies, allowing individuals to leverage their strengths and achieve greater success than they could on their own. Furthremore, we embrace **the value of diversity** and **inclusive environments for research**, which is essential for fostering innovative and impactful research.
-
-{% include section.html dark="hp_bgwhite_icon1" %}
 
 ### {% include icon.html icon="fa-solid fa-user-check" %}Postdoctoral Researcher
 - Dr. Tara Ghafari (co-supervision)
