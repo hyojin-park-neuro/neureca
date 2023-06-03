@@ -22,6 +22,8 @@ nav:
 
 - [Talk, Dept. of Brain and Cognitive Sciences, Seoul National University](http://bcs.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=136){:target="_blank"}, Seoul, South Korea. 5 Jan 2023.
 
+{% include section.html %}
+
 # 2022
 - Talk, Korea Institute of Science and Technology (KIST), Seoul, South Korea. 30 Dec 2022.
 
@@ -47,6 +49,8 @@ nav:
 - [Talk, MRC Cognition and Brain Sciences Unit (MRC CBU) Chaucer Club Seminar, University of Cambridge.](https://talks.cam.ac.uk/talk/index/167645){:target="_blank"} 3 Feb 2022. 
 "Neural dynamics of natural speech perception via Natural Language Processing (NLP) models"
 
+{% include section.html %}
+
 # 2021
 - BBSRC funded Midlands Integrative Biosciences Training Partnership (MIBTP) approved! PhD Funding available: Please apply here! (1 Nov 2021 - 9 Jan 2022) Project details can be found on the FindAPhD website.
 
@@ -62,10 +66,14 @@ nav:
 
 - Hosting  a School Seminar: Prof. [Edmund Lalor](https://www.urmc.rochester.edu/people/30415577-edmund-c-lalor){:target="_blank"} at the University of Rochester will give a talk titled "Modelling the electrophysiology of hierarchical speech and language processing" at the School of Psychology Seminar Series, 24 Feb 2021.
 
+{% include section.html %}
+
 # 2020
 - Hosting a CHBH Seminar: Prof. [Nathan Weisz](https://www.plus.ac.at/psychology/ueber-uns/internal-organisation/division-of-physiological-psychology/team/salzburg-brain-dynamics-lab/weisz-nathan-en/?lang=en){:target="_blank"} at the University of Salzburg will give a talk titled "Predictive listening as double-edged sword" at the CHBH seminar series, 25 Jun 2020.
 
 - Hosting a School Seminar: Prof. [Riikka Mottonen](https://researchportal.helsinki.fi/en/persons/riikka-kaisa-marjaana-m%C3%B6tt%C3%B6nen){:target="_blank"} at the University of Nottingham will give a talk titled "Stimulating the talking and listening brain" at the School of Psychology Seminar Series, 12 Feb 2020.
+
+{% include section.html %}
 
 # 2019
 - Talk, School of Psychology, University of Nottingham. 6 Nov 2019.
@@ -88,6 +96,8 @@ nav:
 
 - Brain Awareness Week (BAW) Mar 11-17 2019. Centre for Human Brain Health (CHBH), University of Birmingham. Dr. Hyojin Park will guide the tour to the MEG and give a quick presentation about MEG facility.
 
+{% include section.html %}
+
 # 2018
 - 🏆 Selected to participate in the ***Rising Stars Programme***, Life and Environmental Sciences, University of Birmingham. 2018-2019.
 
@@ -109,6 +119,8 @@ nav:
 
 - [Inaugural MEG (Magnetoencephalography) Symposium at the CHBH](https://www.neureca.org/2018/05/11/meg-inauguration.html), 11 May 2018. [Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at the CHBH.](https://meguk.ac.uk/events/inaugural-meg-symposium-at-the-university-of-birmingham/){:target="_blank"}
 
+{% include section.html %}
+
 # 2017
 - Talk, Cyprus University of Technology, Limassol, Cyprus. 6 Nov 2017. Title: "Application of MEG in cognitive neuroscience research". Lecture for the Postgraduate Program MSc Brain & Cognitive Science at the Faculty of Health Sciences, Cyprus University of Technology (invited by Prof. Maria Kambanaros).
 
@@ -118,12 +130,16 @@ nav:
 
 - Talk, MEG UK 2017, Oxford, UK. Mar 2017. Title: "Analysis of neuronal oscillatory communication: entrainment, coupling and directionality in cognitive paradigm" <https://www.ohba.ox.ac.uk/files/news/meguk_program.pdf>{:target="_blank"}
 
+{% include section.html %}
+
 # 2016
 - 🏆 Selected to participate in the ***Nature Masterclass***! 13-14 Oct 2016, University of Glasgow.
 
 - 🏆 [**Young Investigator Award (YIA)** from the BIOMAG (The 20th International Conference on Biomagnetism)](https://www.neureca.org/2016/10/01/biomag-yia.html). 1-6 Oct 2016. Seoul, South Korea. Dr. Hyojin Park received the prestigious YIA! 
 
 - 🏆 [***Merit Award*** from the OHBM (Organization for Human Brain Mapping)](https://www.neureca.org/2016/06/26/ohbm-award.html). 26-30 Jun 2016. Geneva, Switzerland. Dr. Hyojin Park received the Merit Award! 
+
+{% include section.html %}
 
 # 2015
 - 🏆 [***Merit Award*** from the OHBM (Organization for Human Brain Mapping)](https://www.neureca.org/2015/06/14/ohbm-award.html). 14-18 Jun 2015. Honolulu, Hawaii. Dr. Hyojin Park received the Merit Award! 
