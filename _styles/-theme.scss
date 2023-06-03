@@ -22,7 +22,7 @@
   --gray: #808080;
   --overlay: #ffffff10;
 }
-[data-dark="hp1"] {
+[data-dark="hp_bgwhite"] {
   --primary: #7EB9BF;
   --secondary: #A0D9D9;
   --text: #000000;
@@ -32,7 +32,17 @@
   --gray: #808080;
   --overlay: #00000020;
 }
-[data-dark="hp2"] {
+[data-dark="hp_bgwhite_icon"] {
+  --primary: #7EB9BF;
+  --secondary: #A0D9D9;
+  --text: #000000;
+  --background: #ffffff;
+  --background-alt: #ffffff;
+  --light-gray: #f37021;
+  --gray: #808080;
+  --overlay: #00000020;
+}
+[data-dark="hp_bggray_icon"] {
   --primary: #7EB9BF;
   --secondary: #A0D9D9;
   --text: #000000;
@@ -42,7 +52,7 @@
   --gray: #808080;
   --overlay: #00000020;
 }
-[data-dark="hp3"] {
+[data-dark="hp_twitter"] {
   --primary: #7EB9BF;
   --secondary: #A0D9D9;
   --text: #000000;
