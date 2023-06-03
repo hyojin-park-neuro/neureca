@@ -9,9 +9,8 @@ nav:
 
 ### Our goal is to conduct high-quality research. We believe this is essential for making meaningful contributions to our field and advancing knowledge! 🧠🧠🧠
 
-{% include section.html dark="hp2" %}
+{% include section.html dark="hp_bggray_icon" %}
 
-## {% include icon.html icon="fa-solid fa-lightbulb" %}Highlighted
 ## {% include icon.html icon="fa-solid fa-highlighter" %}Highlighted
 
 {% include citation.html lookup="Get the gist of the story: Neural map of topic keywords in multi-speaker environment" style="rich" %}
