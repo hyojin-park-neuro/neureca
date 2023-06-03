@@ -52,6 +52,7 @@ number="1"
 
 {% capture col1 %}
 ## {% include icon.html icon="fa-solid fa-brain" %}Research Topics
+<left>
 - AudioVisual Perception
 - Sensory-Motor Interaction
 - Auditory and Visual (speech) Tracking
@@ -68,10 +69,12 @@ number="1"
 - Modulation of Brain Activity using Rhythmic Stimulation
 - Audiovisual Speech & Language Development/Changes across Lifespan
 - Cognitive Strategy Development
+</left>
 {% endcapture %}
 
 {% capture col2 %}
 ## {% include icon.html icon="fa-solid fa-screwdriver-wrench" %}Techniques & Approaches
+<left>
 - [SQUID-MEG (Magnetoencephalography)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx){:target="_blank"}
 - [OPM-MEG (Optically-Pumped Magnetometers)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/opm.aspx){:target="_blank"}
 - Electroencephalography (EEG)
@@ -86,6 +89,7 @@ number="1"
 - Encoding & Decoding
 - Natural Language Processing (NLP)
 - Large Language Models (LLMs)
+</left>
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
