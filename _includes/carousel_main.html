@@ -25,7 +25,7 @@
           </div>
         {% endfor %}
         <div class="carousel__track">
-          <ul class="carousel-inner" role="listbox">
+          <ul>
             {% for item in page.carousels[number].images %}
             <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
             <p class="text-top-image2">{{ item.caption }}</p>
@@ -188,8 +188,8 @@
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;
     
 /*   transition: -webkit-animation: zoom 6s; */
-/*   animation-name: zoom; */
-/*   animation-duration: 6s; */
+  animation-name: zoom;
+  animation-duration: 6s;
 /*   animation-fill-mode: backwards; */
 /*   animation-iteration-count: 1;   */
 }
