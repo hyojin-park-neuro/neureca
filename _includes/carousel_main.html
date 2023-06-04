@@ -27,10 +27,10 @@
         <div class="carousel__track">
           <ul>
             {% for item in page.carousels[number].images %}
-              <div class="carousel-inner" role="listbox">  
-              <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
-              <p class="text-top-image2">{{ item.caption }}</p>
-              </div>
+            <div class="carousel-inner" role="listbox">  
+            <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
+            <p class="text-top-image2">{{ item.caption }}</p>
+            </div>
             {% endfor %}
           </ul>
         </div>
