@@ -486,7 +486,7 @@
 -->
 
 <div class="carousel__holder">
-    <div id="carousel0" class="carousel carousel-inner" role="listbox">
+    <div id="carousel0" class="carousel">
         
           <input class="carousel__activator" type="radio" name="carousel0" id="0a" checked>
         
@@ -544,7 +544,7 @@
               <label class="carousel__control carousel__control--forward" for="0a"></label>
           </div>
         
-        <div class="carousel__track">
+        <div class="carousel__track" role="listbox">
           <ul>
             
             <li class="carousel__slide" style="background-image: url('/images/carousel/main_comms_1.svg');">
@@ -838,10 +838,10 @@
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;
     
 /*   transition: -webkit-animation: zoom 6s; */
-/*   animation-name: zoom; */
-/*   animation-duration: 6s; */
+  animation-name: zoom;
+  animation-duration: 6s;
 /*   animation-fill-mode: backwards; */
-/*   animation-iteration-count: 5;   */
+  animation-iteration-count: 5;  
 }
     
 .text-top-image1 {
