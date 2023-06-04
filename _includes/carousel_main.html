@@ -4,7 +4,7 @@
 <div class="carousel__holder">
     <div id="carousel{{ number }}" class="carousel">
         {% for item in page.carousels[number].images %}
-          <input class="carousel__activator carousel-inner" type="radio" name="carousel{{ number }}" id="{{ number }}{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
+          <input class="carousel__activator" type="radio" name="carousel{{ number }}" id="{{ number }}{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
         {% endfor %}
         {% for item in page.carousels[number].images %}
           {% if forloop.index == forloop.length %}
@@ -19,7 +19,7 @@
             {% assign previndex = forloop.index0 | minus: 1 %}
           {% endif %}
           {% assign prevletter = letters[previndex] %}
-          <div class="carousel__controls">
+          <div class="carousel__controls carousel-inner">
               <label class="carousel__control carousel__control--backward" for="{{ number }}{{ prevletter }}"></label>
               <label class="carousel__control carousel__control--forward" for="{{ number }}{{ nextletter }}"></label>
           </div>
