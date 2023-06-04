@@ -2,9 +2,9 @@
 {% assign letters = letterstring | split: ',' %}
 {% assign number = include.number | minus: 1 %}
 <div class="carousel__holder">
-    <div id="carousel{{ number }}" class="carousel">
+    <div id="carousel{{ number }}" class="carousel carousel-inner" role="listbox">
         {% for item in page.carousels[number].images %}
-          <input class="carousel__activator carousel-inner" role="listbox" type="radio" name="carousel{{ number }}" id="{{ number }}{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
+          <input class="carousel__activator" type="radio" name="carousel{{ number }}" id="{{ number }}{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
         {% endfor %}
         {% for item in page.carousels[number].images %}
           {% if forloop.index == forloop.length %}
@@ -59,6 +59,18 @@
   }
 }
 .carousel-inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+       
+  transition: -webkit-transform 1.5s ease 0s;
+  transition: transform 1.5s ease 0s;
+  transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;
+    
   -webkit-animation: zoom 6s;
   animation: zoom 6s;
   animation-iteration-count: 5;  
@@ -189,8 +201,8 @@
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;
     
 /*   transition: -webkit-animation: zoom 6s; */
-  animation-name: zoom;
-  animation-duration: 6s;
+/*   animation-name: zoom; */
+/*   animation-duration: 6s; */
 /*   animation-fill-mode: backwards; */
 /*   animation-iteration-count: 5;   */
 }
