@@ -486,17 +486,17 @@
 -->
 
 <div class="carousel__holder">
-    <div id="carousel0" class="carousel">
+    <div id="carousel0" class="carousel carousel-inner" role="listbox">
         
-          <input class="carousel__activator carousel-inner" role="listbox" type="radio" name="carousel0" id="0a" checked>
+          <input class="carousel__activator" type="radio" name="carousel0" id="0a" checked>
         
-          <input class="carousel__activator carousel-inner" role="listbox" type="radio" name="carousel0" id="0b">
+          <input class="carousel__activator" type="radio" name="carousel0" id="0b">
         
-          <input class="carousel__activator carousel-inner" role="listbox" type="radio" name="carousel0" id="0c">
+          <input class="carousel__activator" type="radio" name="carousel0" id="0c">
         
-          <input class="carousel__activator carousel-inner" role="listbox" type="radio" name="carousel0" id="0d">
+          <input class="carousel__activator" type="radio" name="carousel0" id="0d">
         
-          <input class="carousel__activator carousel-inner" role="listbox" type="radio" name="carousel0" id="0e">
+          <input class="carousel__activator" type="radio" name="carousel0" id="0e">
         
         
           
@@ -604,6 +604,18 @@
   }
 }
 .carousel-inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+       
+  transition: -webkit-transform 1.5s ease 0s;
+  transition: transform 1.5s ease 0s;
+  transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;
+    
   -webkit-animation: zoom 6s;
   animation: zoom 6s;
   animation-iteration-count: 5;  
@@ -826,8 +838,8 @@
   transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;
     
 /*   transition: -webkit-animation: zoom 6s; */
-  animation-name: zoom;
-  animation-duration: 6s;
+/*   animation-name: zoom; */
+/*   animation-duration: 6s; */
 /*   animation-fill-mode: backwards; */
 /*   animation-iteration-count: 5;   */
 }
