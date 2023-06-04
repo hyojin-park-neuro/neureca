@@ -24,8 +24,8 @@
               <label class="carousel__control carousel__control--forward" for="{{ number }}{{ nextletter }}"></label>
           </div>
         {% endfor %}
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel__track">
+        <div class="carousel__track">
+          <div class="carousel-inner" role="listbox">          
             <ul>
               {% for item in page.carousels[number].images %}
               <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
