@@ -56,7 +56,7 @@ number="1"
 - Auditory and Visual (Speech) Tracking
 - Audio-Visual (Speech) Integration
 - Speech Production
-- Interpersonal Communication (Brain-to-Brain coupling)
+- Interpersonal Communication (Brain-to-Brain Coupling)
 - Sensory-Motor Interaction
 - (Age-related) Hearing Loss
 - Deafness
