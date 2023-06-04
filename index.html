@@ -608,6 +608,11 @@
     transform: scale(1.5, 1.5);
   }
 }
+.carousel-inner .item > img {
+  -webkit-animation: zoom 6s;
+  animation: zoom 6s;
+}
+    
 @keyframes textslide {
     from{
         left:-100px;
@@ -632,10 +637,6 @@
     50%  {opacity: 1;}
     100% {opacity: 0; display: none;}
 }
-/* .carousel__slide .item > img { */
-/*   -webkit-animation: zoom 6s; */
-/*   animation: zoom 6s; */
-/* } */
     
 .carousel__holder {width: 100%; position: relative; padding-bottom: 40%; margin: 1rem 0 1rem;}
 .carousel {
