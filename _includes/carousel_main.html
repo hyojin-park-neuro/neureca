@@ -25,14 +25,14 @@
           </div>
         {% endfor %}
         <div class="carousel__track">
-          <div class="carousel-inner" role="listbox">          
-            <ul>
+          <ul>
+            <div class="carousel-inner" role="listbox">  
               {% for item in page.carousels[number].images %}
               <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
               <p class="text-top-image2">{{ item.caption }}</p>
               {% endfor %}
-            </ul>
-          </div>
+            </div>
+          </ul>
         </div>
         <div class="carousel__indicators">
             {% for item in page.carousels[number].images %}
