@@ -53,19 +53,19 @@ number="1"
 {% capture col1 %}
 ## {% include icon.html icon="fa-solid fa-brain" %}Research Topics
 - AudioVisual Perception
-- Sensory-Motor Interaction
-- Auditory and Visual (speech) Tracking
+- Auditory and Visual (Speech) Tracking
 - Audio-Visual (Speech) Integration
-- (Age-related) Hearing Loss
-- Deafness
-- [Mild Traumatic Brain Injury (mTBI)](https://www.birmingham.ac.uk/research/metabolism-systems/translational-brain-science/mtbi-predict/mtbi-predict.aspx){:target="_blank"}
-- Brain Reorganisation following Sensory Loss
-- Cross-modal Plasticity
 - Speech Production
 - Interpersonal Communication (Brain-to-Brain coupling)
+- Sensory-Motor Interaction
+- (Age-related) Hearing Loss
+- Deafness
+- Brain Reorganisation following Sensory Loss
+- Cross-modal Plasticity
 - Brain-Body-Environment Coupling
-- <div style="text-align: left">(Micro-)Saccadic Eye Movements and Audiovisual Attention</div>
 - Modulation of Brain Activity using Rhythmic Stimulation
+- [Mild Traumatic Brain Injury (mTBI)](https://www.birmingham.ac.uk/research/metabolism-systems/translational-brain-science/mtbi-predict/mtbi-predict.aspx){:target="_blank"}
+- <div style="text-align: left">(Micro-)Saccadic Eye Movements and Audiovisual Attention</div>
 - <div style="text-align: left">Audiovisual Speech/Language Development & Neural Plasticity across Lifespan</div>
 - Cognitive Strategy Development
 {% endcapture %}
