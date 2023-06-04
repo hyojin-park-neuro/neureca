@@ -24,13 +24,15 @@
               <label class="carousel__control carousel__control--forward" for="{{ number }}{{ nextletter }}"></label>
           </div>
         {% endfor %}
+        <div class="carousel-inner" role="listbox">
         <div class="carousel__track">
           <ul>
             {% for item in page.carousels[number].images %}
-            <li class="carousel__slide carousel-inner" role="listbox" style="background-image: url('{{ item.image }}');"></li>
+            <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
             <p class="text-top-image2">{{ item.caption }}</p>
             {% endfor %}
           </ul>
+        </div>
         </div>
         <div class="carousel__indicators">
             {% for item in page.carousels[number].images %}
