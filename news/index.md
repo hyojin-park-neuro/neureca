@@ -28,7 +28,7 @@ nav:
 - Talk, Korea Institute of Science and Technology (KIST), Seoul, South Korea. 30 Dec 2022.
 
 - [BIOMAG (The 22nd International Conference on Biomagnetism)](https://www.neureca.org/2022/08/28/biomag-bham.html). 28 Aug-1 Sep 2022, Birmingham, UK
-    - Symposium Chair. Symposium title: "Rhythms in Auditory, Visual, and Audiovisual Speech Processing: Multisensory representations in unisensory cortices and beyond". 
+    - Symposium Chair. Symposium title: "Rhythms in Auditory, Visual, and Audiovisual Speech Processing: Multisensory representations in unisensory cortices and beyond" (Chair: Dr. Hyojin Park, Speakers: Hyojin Park, Nicola Molinaro, Nina Suess, Emmanuel Biau, Anne Keitel) 
     - Talk at Symposium "The temporal relationship between auditory and visual speech signals in naturalistic speech and their interactive spatial representations in the brain"
     - Talk at European MEG Society Satellite Workshop (28 Aug) titled “Investigation of human language with MEG: from research to clinical applications”. "Top-down and bottom-up processing in cortical entrainment to continuous speech"
 
