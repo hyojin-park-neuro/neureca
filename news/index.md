@@ -56,7 +56,7 @@ nav:
 
 - Co-PI of the Grant "Mild Traumatic Brain Injury Biomarker Study, a prospective cohort biomarker study of military and civilian participants with mTBI: mTBI-Predict" funded by Ministry of Defence (MOD), UK. Postdoc Position available: We are hiring a postdoctoral researcher. Please apply here!
 
-- BIOMAG 2022 (The 22nd International Conference on Biomagnetism) Symposium proposal accepted! Symposium title: "Rhythms in Auditory, Visual, and Audiovisual Speech Processing: Multisensory representations in unisensory cortices and beyond" (Chair: Dr Hyojin Park, Speakers: Hyojin Park, Nicola Molinaro, Nina Suess, Emmanuel Biau, Anne Keitel).
+- BIOMAG 2022 (The 22nd International Conference on Biomagnetism) Symposium proposal accepted! Symposium title: "Rhythms in Auditory, Visual, and Audiovisual Speech Processing: Multisensory representations in unisensory cortices and beyond" (Chair: Dr. Hyojin Park, Speakers: Hyojin Park, Nicola Molinaro, Nina Suess, Emmanuel Biau, Anne Keitel).
 
 - Talk, Hallym University Medical Center, Anyang, South Korea. 7 Jul 2021.
 
