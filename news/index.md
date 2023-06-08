@@ -10,7 +10,7 @@ nav:
 # 2023
 - 🎉 New Paper! Our paper will be published in eLife - [preprint here](https://www.biorxiv.org/content/10.1101/2022.05.05.490770v1){:target="_blank"}!!
 
-- 🔔 **We are hiring! Please apply!!** [Competition Funded PhD Studentship](https://www.neureca.org/2023/05/10/funded-phd-studentship.html)
+- 🔔 **We are hiring! Please apply!!** [Competition Funded PhD Studentship](https://www.neureca.org/2023/05/10/funded-phd-studentship.html) (Deadline: 5th June)
 
 - Dr. Hyojin Park attended [OSL-Dynamics Workshop](https://osl-dynamics.readthedocs.io/en/latest/index.html){:target="_blank"} at the Oxford Centre for Human Brain Activity (OHBA) group at the University of Oxford. 24-25 Apr 2023.
 
