@@ -1,3 +1,20 @@
+- id: doi.org/10.7554/eLife.89703
+  type: paper
+  date: 2023-9-18
+  image: https://prod--epp.elifesciences.org/iiif/2/89703%2Fv1%2F490770v1_fig1.tif/full/max/0/default.jpg
+  tags:
+    - audiovisual speech
+    - semantic gist
+    - topic
+    - keywords
+    - topic model
+    - latent dirichlet allocation (LDA)
+    - multi-speaker
+    - natural language processing (NLP)
+    - large language model (LLMs)
+    - MEG/EEG
+    
+
 - id: doi:10.1101/2023.05.15.540818
   type: paper
   date: 2023-5-15
