@@ -1,5 +1,29 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.7554/eLife.89703
+  title: 'Get the gist of the story: Neural map of topic keywords in multi-speaker
+    environment'
+  authors:
+  - Hyojin Park
+  - Joachim Gross
+  publisher: eLife Sciences Publications, Ltd
+  date: '2023-09-18'
+  link: https://doi.org/gsrr6j
+  type: paper
+  image: https://prod--epp.elifesciences.org/iiif/2/89703%2Fv1%2F490770v1_fig1.tif/full/max/0/default.jpg
+  tags:
+  - audiovisual speech
+  - semantic gist
+  - topic
+  - keywords
+  - topic model
+  - latent dirichlet allocation (LDA)
+  - multi-speaker
+  - natural language processing (NLP)
+  - large language model (LLMs)
+  - MEG/EEG
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1101/2023.05.15.540818
   title: Lip movements and lexical features improve speech tracking differently for
     clear and multi-speaker speech
