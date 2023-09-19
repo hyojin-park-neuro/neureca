@@ -13,7 +13,7 @@ nav:
 
 ## {% include icon.html icon="fa-solid fa-highlighter" %}Highlighted
 
-{% include citation.html lookup="Get the gist of the story: Neural map of topic keywords in multi-speaker environment" style="rich" %}
+{% include citation.html lookup="Differential roles of delta and theta oscillations in understanding semantic gist during natural audiovisual speech perception: Functional and anatomical evidence" style="rich" %}
 
 {% include section.html %}
 
