@@ -8,11 +8,11 @@ nav:
 # {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events
 
 # 2023
+- 🎉 New Paper! Our paper is published in eLife - [preprint here]([https://www.biorxiv.org/content/10.1101/2022.05.05.490770v1](https://doi.org/10.7554/eLife.89703.1){:target="_blank"}!!
+
 - 🎉 New Paper! Paper accepted in Journal of Cognitive Neuroscience - [preprint here](https://www.biorxiv.org/content/10.1101/2023.05.15.540818v1){:target="_blank"}!!
 
 - Dr. Hyojin Park served as an external examiner on [Patrick Reisinger's PhD defence at the Universität Salzburg](https://twitter.com/reisipat/status/1685564307914752000){:target="_blank"}!!
-
-- 🎉 New Paper! Our paper will be published in eLife - [preprint here](https://www.biorxiv.org/content/10.1101/2022.05.05.490770v1){:target="_blank"}!!
 
 - 🔔 **We are hiring! Please apply!!** [Competition Funded PhD Studentship](https://www.neureca.org/2023/05/10/funded-phd-studentship.html) (Deadline: 5th June)
 
