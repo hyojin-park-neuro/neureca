@@ -64,7 +64,7 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - [Nathan Weisz](https://www.plus.ac.at/psychology/ueber-uns/internal-organisation/division-of-physiological-psychology/team/salzburg-brain-dynamics-lab/weisz-nathan-en/?lang=en){:target="_blank"}, Centre for Cognitive Neuroscience, University of Salzburg, Austria
 - [Mathieu Bourguignon](https://crcn.ulb.ac.be/members/?q=121){:target="_blank"}, Université libre de Bruxelles, Belgium
 - [Alejandro Perez](https://sites.google.com/view/alejandroperez/about?authuser=0){:target="_blank"}, MRC Cognition and Brain Science Unit, University of Cambridge, UK
-- [Joo-Hyun Song](https://research.clps.brown.edu/songlab/){:target="_blank"}, Department of Cognitive, Linguistic, and Psychological Sciences, Brown University, US
+- [Joo-Hyun Song](https://research.clps.brown.edu/songlab/){:target="_blank"}, Department of Cognitive, Linguistic, and Psychological Sciences, Brown University, USA
 - [Fei He](https://pureportal.coventry.ac.uk/en/persons/fei-he){:target="_blank"}, Centre for Computational Science and Mathematical Modelling, School of Computing, Electronics, and Mathematics, Coventry University, UK
 
 ## {% include icon.html icon="fa-solid fa-users-between-lines" %}Local Collaborators
