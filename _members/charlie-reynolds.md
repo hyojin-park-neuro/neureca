@@ -1,6 +1,6 @@
 ---
 name: Charlie Reynolds
-image: images/photo.jpg
+image: images/photo.png
 role: phd
 group: alum
 links:
