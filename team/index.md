@@ -31,7 +31,7 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - Dr. Tara Ghafari (co-supervision)
 
 ### {% include icon.html icon="fa-solid fa-user-graduate" %}Postgraduate Students
-- [Charlie Reynolds](https://www.neureca.org/members/hyojin-park.html){:target="_blank"}
+- [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}
 - Choi Yu
 - Victoria Gorneva 
 
