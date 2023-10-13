@@ -2,6 +2,13 @@
 name: Charlie Reynolds
 image: images/photo_charlie_reynolds.png
 role: phd
+aliases:
+  - Charlie Reynolds
+  - Reynolds, Charlie 
+  - C. Reynolds
+  - C Reynolds
+  - Reynolds C.
+  - Reynolds C  
 links:
   linkedin: charlie-reynolds-89901a224
 ---
