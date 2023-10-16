@@ -67,8 +67,8 @@ number="1"
 - [Mild Traumatic Brain Injury (mTBI)](https://www.birmingham.ac.uk/research/metabolism-systems/translational-brain-science/mtbi-predict/mtbi-predict.aspx){:target="_blank"}
 - <div style="text-align: left">(Micro-)Saccadic Eye Movements and Audiovisual Attention</div>
 - <div style="text-align: left">Audiovisual Speech/Language Development & Neural Plasticity across Lifespan</div>
+- <div style="text-align: left">Disorganised thoughts and speech processing in psychosis</div>
 - Cognitive Strategy Development
-- Disorganised thoughts and speech processing in psychosis
 {% endcapture %}
 
 {% capture col2 %}
