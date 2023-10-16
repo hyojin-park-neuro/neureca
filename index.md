@@ -68,6 +68,7 @@ number="1"
 - <div style="text-align: left">(Micro-)Saccadic Eye Movements and Audiovisual Attention</div>
 - <div style="text-align: left">Audiovisual Speech/Language Development & Neural Plasticity across Lifespan</div>
 - Cognitive Strategy Development
+- Disorganised thoughts and speech processing in psychosis
 {% endcapture %}
 
 {% capture col2 %}
