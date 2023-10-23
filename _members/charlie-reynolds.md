@@ -10,6 +10,7 @@ aliases:
   - Reynolds C.
   - Reynolds C  
 links:
+  email: cxr377@student.bham.ac.uk
   linkedin: charlie-reynolds-89901a224
 ---
 
