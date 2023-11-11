@@ -8,6 +8,10 @@ nav:
 # {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events
 
 # 2023
+- We currently have **multiple competition-based PhD positions** available! Please email me with your CV to discuss further!
+  Research topic: Audiovisual integration and development, Language development, Cross-modal correspondence
+  Techniques: Large Language Models, Natural Language Processing and MEG/OPM-MEG
+
 - 🔔 [**New PhD position available - Please apply!!**](https://warwick.ac.uk/fac/cross_fac/mibtp/phd/integrated_understanding_of_health/optimising_neurocognitive_strategies){:target="_blank"} Please email me with your CV! (Deadline: 5th Dec 2023)
 
 - Dr. Hyojin Park participated in the groundbreaking [first whole-head OPM-MEG data recording at the CHBH](https://twitter.com/HyojinParkNeuro/status/1721602322613055533){:target="_blank"}! Exciting developments lie ahead!!
