@@ -8,6 +8,10 @@ nav:
 # {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events
 
 # 2023
+- Dr. Hyojin Park participated in the groundbreaking [first whole-head OPM-MEG data recording at the CHBH](https://twitter.com/HyojinParkNeuro/status/1721602322613055533){:target="_blank"}! Exciting developments lie ahead!!
+
+- Dr. Hyojin Park attended the MEG UKI 2023 Conference in Dublin, Ireland (https://meguk.ac.uk/meg-uki-2023-conference/){:target="_blank"} (27-28 Oct 2023). 
+
 - 🎉 New Paper! Our paper has been published in [eLife](https://doi.org/10.7554/eLife.89703.1){:target="_blank"}!!
 
 - 🎉 New Paper! Paper accepted in Journal of Cognitive Neuroscience - [preprint here](https://www.biorxiv.org/content/10.1101/2023.05.15.540818v1){:target="_blank"}!!
