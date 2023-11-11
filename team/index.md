@@ -14,7 +14,7 @@ nav:
 {%
   include alert.html
   type="info"
-  content="**We currently have multiple competition-based PhD positions available! Please email me with your CV to discuss further!**"
+  content="**We currently have multiple competition-based PhD positions available! Please email me your CV, and we can discuss the details further!**"
 %}
 
 {%
