@@ -32,20 +32,30 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 
 ### {% include icon.html icon="fa-solid fa-user-graduate" %}Postgraduate Students
 - [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}
-- Choi Yu
-- Victoria Gorneva 
+- Yaxi Luo
+- Xiangqi Zhou
 
 ### {% include icon.html icon="fa-solid fa-user-gear" %}Undergraduate Students
-- Abbie Evans
-- Valentina Kurti
-- Tamseel Naveed
-- Daisy Weston
-- Ellie Robson
-- Jasmin Wrighton
+- Jack Gibbins
+- Samira Hussein
+- Mengquan Liu
+- Holly Walker
+
 
 ### {% include icon.html icon="fa-solid fa-users-rays" %}Alumni
-- Gabriel Byczynski
-- Zhuoxin Xiao
+*Postgraduate*
+- Choi Yu (2022-23)
+- Victoria Gorneva (2022-23) 
+- Gabriel Byczynski (2021-22)
+- Zhuoxin Xiao (2021-22)
+
+*Undergraduate*
+- Abbie Evans (2022-23)
+- Valentina Kurti (2022-23)
+- Tamseel Naveed (2022-23)
+- Daisy Weston (2022-23)
+- Ellie Robson (2022-23)
+- Jasmin Wrighton (2022-23)
 
 {% include section.html %}
 
