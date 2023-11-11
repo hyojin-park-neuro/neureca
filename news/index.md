@@ -8,9 +8,11 @@ nav:
 # {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events
 
 # 2023
+- 🔔 [**New PhD position available - Please apply!!**](https://warwick.ac.uk/fac/cross_fac/mibtp/phd/integrated_understanding_of_health/optimising_neurocognitive_strategies){:target="_blank"} Please email me with your CV! (Deadline: 5th Dec 2023)
+
 - Dr. Hyojin Park participated in the groundbreaking [first whole-head OPM-MEG data recording at the CHBH](https://twitter.com/HyojinParkNeuro/status/1721602322613055533){:target="_blank"}! Exciting developments lie ahead!!
 
-- Dr. Hyojin Park attended the MEG UKI 2023 Conference in Dublin, Ireland (https://meguk.ac.uk/meg-uki-2023-conference/){:target="_blank"} (27-28 Oct 2023). 
+- Dr. Hyojin Park attended the [MEG UKI 2023 Conference in Dublin, Ireland](https://meguk.ac.uk/meg-uki-2023-conference/){:target="_blank"} (27-28 Oct 2023). 
 
 - 🎉 New Paper! Our paper has been published in [eLife](https://doi.org/10.7554/eLife.89703.1){:target="_blank"}!!
 
@@ -18,7 +20,7 @@ nav:
 
 - Dr. Hyojin Park served as an external examiner on [Patrick Reisinger's PhD defence at the Universität Salzburg](https://twitter.com/reisipat/status/1685564307914752000){:target="_blank"}!!
 
-- 🔔 **We are hiring! Please apply!!** [Competition Funded PhD Studentship](https://www.neureca.org/2023/05/10/funded-phd-studentship.html) (Deadline: 5th June)
+- 🔔 **We are hiring! Please apply!!** [Competition Funded PhD Studentship](https://www.neureca.org/2023/05/10/funded-phd-studentship.html) (Deadline: 5th Jun 2023)
 
 - Dr. Hyojin Park attended [OSL-Dynamics Workshop](https://osl-dynamics.readthedocs.io/en/latest/index.html){:target="_blank"} at the Oxford Centre for Human Brain Activity (OHBA) group at the University of Oxford. 24-25 Apr 2023.
 
