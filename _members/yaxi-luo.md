@@ -12,4 +12,4 @@ aliases:
 links:
   email: yxl1835@student.bham.ac.uk
 ---
-Yaxi Luo is a postgraduate student who majored in MSc psychology under the supervision of [Dr. Hyojin Park](https://www.neureca.org/team/){:target="_blank"}. She majored in applied psychology at the Southwest University of Science and Technology located in Sichuan Province in China
+Yaxi Luo is a postgraduate student who pursued an MSc in Psychology under the supervision of [Dr. Hyojin Park](https://www.neureca.org/team/){:target="_blank"}. She completed her undergraduate studies in Applied Psychology at Southwest University of Science and Technology, located in Sichuan Province, China.
