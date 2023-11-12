@@ -8,9 +8,9 @@ nav:
 # {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events
 
 # 2023
-- We currently have **multiple competition-based PhD positions** available! Please email me with your CV to discuss further!
-  Research topic: Audiovisual integration and development, Language development, Cross-modal correspondence etc.
-  Techniques: Large Language Models, Natural Language Processing and MEG/OPM-MEG
+- We currently have **multiple competition-based PhD positions** available! Please email me with your CV to discuss further!\
+  ***Research topic***: Audiovisual integration and development, Language development, Cross-modal correspondence etc.\
+  ***Techniques***: MEG/OPM-MEG, Computational Modeling, Natural Language Processing using Large Language Models
 
 - 🔔 [**New PhD position available - Please apply!!**](https://warwick.ac.uk/fac/cross_fac/mibtp/phd/integrated_understanding_of_health/optimising_neurocognitive_strategies){:target="_blank"} Please email me with your CV! (Deadline: 5th Dec 2023)
 
