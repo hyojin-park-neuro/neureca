@@ -1,6 +1,6 @@
 ---
 name: Charlie Reynolds
-image: images/photo_charlie_reynolds.png
+image: images/photo_members/photo_charlie_reynolds.png
 role: phd
 aliases:
   - Charlie Reynolds
