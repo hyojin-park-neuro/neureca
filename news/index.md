@@ -7,13 +7,17 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events
 
-# 2023
+🔔 
 - We currently have **multiple competition-based PhD positions** available! Please email me with your CV to discuss further!\
   ***Research topic***: Audiovisual integration and development, Language/Speech development, Cross-modal correspondence etc.\
   ***Techniques***: MEG/OPM-MEG, Computational Modeling using machine learning and deep learning, Natural Language Processing using Large Language Models
 
-- 🔔 [**New PhD position available - Please apply!!**](https://warwick.ac.uk/fac/cross_fac/mibtp/phd/integrated_understanding_of_health/optimising_neurocognitive_strategies){:target="_blank"} Please email me with your CV! (Deadline: 5th Dec 2023)
+- [**New PhD position available - Please apply!!**](https://warwick.ac.uk/fac/cross_fac/mibtp/phd/integrated_understanding_of_health/optimising_neurocognitive_strategies){:target="_blank"} Please email me with your CV! (Deadline: 5th Dec 2023)
 
+
+# 2023
+- Dr. Hyojin Park gave a seminar talk at the Institute for Biomagnetism and Biosignalanalysis (IBb), University of Munster (15-17 Nov 2023). 
+  
 - Dr. Hyojin Park participated in the groundbreaking [first whole-head OPM-MEG data recording at the CHBH](https://twitter.com/HyojinParkNeuro/status/1721602322613055533){:target="_blank"}! Exciting developments lie ahead!!
 
 - Dr. Hyojin Park attended the [MEG UKI 2023 Conference in Dublin, Ireland](https://meguk.ac.uk/meg-uki-2023-conference/){:target="_blank"} (27-28 Oct 2023). 
