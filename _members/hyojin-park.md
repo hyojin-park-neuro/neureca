@@ -1,6 +1,6 @@
 ---
 name: Hyojin Park
-image: images/hyojin_park_1.jpg
+image: images/photo_members/photo_hyojin_park_5.jpg
 role: pi
 aliases:
   - Hyojin Park
