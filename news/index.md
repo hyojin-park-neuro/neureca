@@ -8,7 +8,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events
 
 🔔🔔🔔
-- We currently have **multiple competition-based PhD positions** available! Please email me with your CV to discuss further!\
+- We currently have [**multiple competition-based PhD positions** available!](https://www.neureca.org/2023/11/27/funded-phd-studentship.html) Please email me with your CV to discuss further!\
   ***Research topic***: Audiovisual integration and development, Language/Speech development, Cross-modal correspondence etc.\
   ***Techniques***: MEG/OPM-MEG, Computational Modeling using machine learning and deep learning, Natural Language Processing using Large Language Models
   
