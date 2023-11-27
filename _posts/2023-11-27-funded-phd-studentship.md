@@ -13,7 +13,7 @@ Please send an email to the primary supervisor (Dr. Hyojin Park, <mailto:h.park@
 **Neural underpinnings of naturalistic speech rhythms underlying disorganised thought processing and the impact of vocal emotions on emotional states in clinical high-risk using OPM-MEG** <br>
 - Secondary Supervisor: Dr Jack Rogers (UoB) <https://www.primed-plus.org/> <br>
 - Supervisory Team: Prof Rachel Upthegrove (UoB), Prof Matthew Broome (UoB), Dr Elizabeth Liddle (UoN) and Prof Peter Liddle (UoN) <br>
-- Funder: MRC AIM DTP (Application deadline: 12 January 2024) <br>
+- Funder: MRC AIM DTP (Application deadline: 12th January 2024) <br>
 - [AIM website](https://more.bham.ac.uk/mrc-aim/phd-opportunities/){:target="_blank"} <br>
 - [FindAPhD](https://www.findaphd.com/phds/project/neural-underpinnings-of-naturalistic-speech-rhythms-underlying-disorganised-thought-processing-and-the-impact-of-vocal-emotions-on-emotional-states-in-clinical-high-risk-using-opm-meg/?p166013){:target="_blank"}
 
