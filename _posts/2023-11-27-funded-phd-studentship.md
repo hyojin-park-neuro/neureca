@@ -4,9 +4,8 @@ author: Hyojin Park
 tags: job, PhD, MEG, OPM-MEG, CHBH, CDS
 last_modified_at: ""
 ---
-Open to UK home and international students
-Please send an email to the primary supervisor (Dr. Hyojin Park, <mailto:h.park@bham.ac.uk>) by December 15, 2023 before the formal application deadline (see below).
-See more information on <https://www.neureca.org/>
+Open to UK home and international students\
+Please send an email to the primary supervisor (Dr. Hyojin Park, <mailto:h.park@bham.ac.uk>) by December 15, 2023 before the formal application deadline (see below).\
 
 {% include section.html %}
 
