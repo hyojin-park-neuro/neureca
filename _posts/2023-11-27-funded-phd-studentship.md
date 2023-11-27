@@ -1,5 +1,5 @@
 ---
-title: 🔔 Join Us! Multiple PhD positions at the NEURECA Lab using OPM-MEG, CHBH, University of Birmingham
+title: 🔔 Join Us! Multiple PhD positions at the NEURECA Lab, CHBH, University of Birmingham
 author: Hyojin Park
 tags: job, PhD, MEG, OPM-MEG, CHBH, CDS
 last_modified_at: ""
@@ -9,7 +9,7 @@ Please send an email to the primary supervisor (Dr. Hyojin Park, <mailto:h.park@
 
 {% include section.html %}
 
-1. Neural underpinnings of naturalistic speech rhythms underlying disorganised thought processing and the impact of vocal emotions on emotional states in clinical high-risk using OPM-MEG <br>
+1. **Neural underpinnings of naturalistic speech rhythms underlying disorganised thought processing and the impact of vocal emotions on emotional states in clinical high-risk using OPM-MEG** <br>
 Secondary Supervisor: Dr Jack Rogers (UoB) <https://www.primed-plus.org/> <br>
 Supervisory Team: Prof Rachel Upthegrove (UoB), Prof Matthew Broome (UoB), Dr Elizabeth Liddle (UoN) and Prof Peter Liddle (UoN) <br>
 Funder: MRC AIM DTP (Application deadline: 12 January 2024) <br>
@@ -18,7 +18,7 @@ FindAPhD: https://www.findaphd.com/phds/project/neural-underpinnings-of-naturali
 
 {% include section.html %}
 
-2. Optimising Neurocognitive Strategies for Efficient Communication in Young and Older Adults using Large Language Models and OPM-MEG <br>
+2. **Optimising Neurocognitive Strategies for Efficient Communication in Young and Older Adults using Large Language Models and OPM-MEG** <br>
 Secondary Supervisors: Dr. Katrien Segaert (School of Psychology, <https://katriensegaert.com/>{:target="_blank"}), Dr. Jianbo Jiao (School of Computer Science, <https://jianbojiao.com/>{:target="_blank"}) <br>
 Funder: BBSRC MIBTP (Application deadline: 4th January 2024) <br>
 MIBTP website: https://warwick.ac.uk/fac/cross_fac/mibtp/phd/integrated_understanding_of_health/optimising_neurocognitive_strategies
