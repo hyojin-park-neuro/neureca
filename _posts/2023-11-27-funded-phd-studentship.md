@@ -47,4 +47,4 @@ Applicants should have a strong background in neuroscience, mental health resear
 - Knowledge of general statistics for data analysis 
 - Notes: These are skills that will be required to complete the PhD. However, we will also consider applicants who do not yet have these skills but are highly motivated to learn them during the project.
 
-Informal enquiries should be directed to the project supervisor Dr Hyojin Park <mailto:h.park@bham.ac.uk>
+Informal enquiries should be directed to the primary supervisor Dr Hyojin Park <mailto:h.park@bham.ac.uk>
