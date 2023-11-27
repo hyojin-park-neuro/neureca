@@ -9,7 +9,7 @@ nav:
 
 🔔🔔🔔
 - We currently have [**multiple competition-based PhD positions available!**](https://www.neureca.org/2023/11/27/funded-phd-studentship.html) Please email me with your CV to discuss further!\
-  ***Research topic***: Audiovisual integration and development, Language/Speech development, Cross-modal correspondence etc.\
+  ***Research topic***: Audiovisual integration and development, Language/Speech development, Cross-modal correspondence, Disorganised thought processing and speech prediction in Clinical High Risk (CHR) etc.\
   ***Techniques***: MEG/OPM-MEG, Computational Modeling using machine learning and deep learning, Natural Language Processing using Large Language Models
   
 - [**New PhD position funded by MRC AIM DTP available - Please apply!!**](https://www.findaphd.com/phds/project/neural-underpinnings-of-naturalistic-speech-rhythms-underlying-disorganised-thought-processing-and-the-impact-of-vocal-emotions-on-emotional-states-in-clinical-high-risk-using-opm-meg/?p166013){:target="_blank"} Please email me with your CV! (Deadline: 15th Dec 2023)
