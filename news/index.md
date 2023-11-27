@@ -12,7 +12,7 @@ nav:
   ***Research topic***: Audiovisual integration and development, Language/Speech development, Cross-modal correspondence etc.\
   ***Techniques***: MEG/OPM-MEG, Computational Modeling using machine learning and deep learning, Natural Language Processing using Large Language Models
   
-- [**New PhD position funded by MRC AIM DTP available - Please apply!!**]([https://warwick.ac.uk/fac/cross_fac/mibtp/phd/integrated_understanding_of_health/optimising_neurocognitive_strategies](https://www.findaphd.com/phds/project/neural-underpinnings-of-naturalistic-speech-rhythms-underlying-disorganised-thought-processing-and-the-impact-of-vocal-emotions-on-emotional-states-in-clinical-high-risk-using-opm-meg/?p166013)){:target="_blank"} Please email me with your CV! (Deadline: 15th Dec 2023)
+- [**New PhD position funded by MRC AIM DTP available - Please apply!!**]([https://warwick.ac.uk/fac/cross_fac/mibtp/phd/integrated_understanding_of_health/optimising_neurocognitive_strategies](https://www.findaphd.com/phds/project/neural-underpinnings-of-naturalistic-speech-rhythms-underlying-disorganised-thought-processing-and-the-impact-of-vocal-emotions-on-emotional-states-in-clinical-high-risk-using-opm-meg/?p166013){:target="_blank"} Please email me with your CV! (Deadline: 15th Dec 2023)
 - 
 - [**New PhD position funded by BBSRC MIBTP available - Please apply!!**](https://warwick.ac.uk/fac/cross_fac/mibtp/phd/integrated_understanding_of_health/optimising_neurocognitive_strategies){:target="_blank"} Please email me with your CV! (Deadline: 15th Dec 2023)
 
