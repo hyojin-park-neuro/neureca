@@ -26,7 +26,7 @@ Please send an email to the primary supervisor (Dr. Hyojin Park, <mailto:h.park@
 {% include section.html %}
 
 **Other opportunities** <br>
-[ESRC student-led open competition](https://warwick.ac.uk/fac/cross_fac/mgsdtp/studentships/howtoapply/{:target="_blank"}) and [Midlands4 Cities](https://www.midlands4cities.ac.uk/){:target="_blank"} are available, please email me for further discussion.
+[ESRC student-led open competition](https://warwick.ac.uk/fac/cross_fac/mgsdtp/studentships/howtoapply/){:target="_blank"}) and [Midlands4 Cities](https://www.midlands4cities.ac.uk/){:target="_blank"} are available, please email me for further discussion.
 
 {% include section.html %}
 
