@@ -1,5 +1,31 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1101/2024.02.01.578181
+  title: Dissociating endogenous and exogenous delta activity during natural speech
+    comprehension
+  authors:
+  - Nikos Chalas
+  - Lars Meyer
+  - Chia-Wen Lo
+  - Hyojin Park
+  - Daniel S. Kluger
+  - Omid Abbasi
+  - Christoph Kayser
+  - Robert Nitsch
+  - Joachim Gross
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-02-01'
+  link: https://doi.org/gtgq6s
+  type: paper
+  image: null
+  tags:
+  - speech comprehension
+  - delta
+  - prosodic cues
+  - encoding model
+  - MEG/EEG
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.7554/eLife.89703
   title: 'Get the gist of the story: Neural map of topic keywords in multi-speaker
     environment'
