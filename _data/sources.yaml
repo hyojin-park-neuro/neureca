@@ -7,6 +7,18 @@
     - prosodic cues
     - encoding model
     - MEG/EEG
+
+- id: doi:10.1162/jocn_a_02059
+  type: paper
+  date: 2024-1-1
+  image: https://direct.mit.edu/view-large/figure/4419301/jocn_a_02059_f001.tif
+  tags:
+    - audiovisual speech
+    - lip movement
+    - face mask
+    - speech features
+    - multi-speaker
+    - MEG/EEG
     
 
 - id: doi:10.7554/eLife.89703
