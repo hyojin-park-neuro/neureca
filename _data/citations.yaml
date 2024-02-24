@@ -25,6 +25,28 @@
   - MEG/EEG
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1162/jocn_a_02059
+  title: Neural Speech Tracking Highlights the Importance of Visual Speech in Multi-speaker
+    Situations
+  authors:
+  - Chandra L. Haider
+  - Hyojin Park
+  - Anne Hauswald
+  - Nathan Weisz
+  publisher: Journal of Cognitive Neuroscience
+  date: '2024-01-01'
+  link: https://doi.org/gtjrqq
+  type: paper
+  image: https://direct.mit.edu/view-large/figure/4419301/jocn_a_02059_f001.tif
+  tags:
+  - audiovisual speech
+  - lip movement
+  - face mask
+  - speech features
+  - multi-speaker
+  - MEG/EEG
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.7554/eLife.89703
   title: 'Get the gist of the story: Neural map of topic keywords in multi-speaker
     environment'
