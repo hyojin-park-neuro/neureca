@@ -80,7 +80,7 @@ number="1"
 - Diffusion Tensor Imaging (DTI)
 - <div style="text-align: left">Transcranial Ultrasound Stimulation (TUS)</div>
 - Transcranial Magnetic Stimulation (TMS)
-- Sensory Stimulation, e.g., Rapid Invisible Frequency Tagging (RIFT)
+- <div style="text-align: left">Sensory Stimulation, e.g., Rapid Invisible Frequency Tagging (RIFT)</div>
 - Brain Network Analysis
 - <div style="text-align: left">Information Theory Approach: Mutual Information (MI), Transfer Entropy (TE), Partial Information Decomposition (PID)</div>
 - <div style="text-align: left">Computational Neural Architecture using Machine Learning & Deep Learning Algorithms</div>
