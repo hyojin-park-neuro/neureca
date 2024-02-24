@@ -8,7 +8,10 @@ nav:
 # {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events
 
 🔔🔔🔔
-[**Postdoctoral Fellowship opportunity - Please apply!!**] Please email me with your CV for [ESRC Postdoctoral Fellowships](https://warwick.ac.uk/fac/cross_fac/mgsdtp/postdocfellowships/){:target="_blank"}
+
+[**Postdoctoral Fellowship opportunity - Please apply!!**] Please email me with your CV for [ESRC Postdoctoral Fellowships](https://warwick.ac.uk/fac/cross_fac/mgsdtp/postdocfellowships/){:target="_blank"} application!
+
+{% include section.html %}
 
 # 2024
 - Hosting a CHBH Seminar: [Prof. Maria Chait](https://www.ucl.ac.uk/ear/research/research-units/auditory-cognitive-neuroscience-lab-chait-lab){:target="_blank"} at the University College London (UCL) will give a talk (title: TBC) at the CHBH seminar series, 25 Apr 2024.
@@ -18,6 +21,8 @@ nav:
 - Hosting a [CHBH Seminar](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/events/2024/ushagoswami){:target="_blank"}: [Prof. Usha Goswami CBE](https://en.wikipedia.org/wiki/Usha_Goswami){:target="_blank"} at the University of Cambridge will give a talk titled "Dyslexia, Rhythm, Language and the Developing Brain" at the CHBH seminar series, 22 Feb 2024.
 
 - Dr. Hyojin Park gave a seminar talk at the English Language and Linguistics (ELAL) Research Seminar, Department of English Language and Linguistics, School of English, Drama and Creative StudiesUniversity of Birmingham, Birmingham, UK (31 Jan 2024). 
+
+{% include section.html %}
 
 # 2023
 - We currently have [**multiple competition-based PhD positions available!**](https://www.neureca.org/2023/11/27/funded-phd-studentship.html) Please email me with your CV to discuss further!\
