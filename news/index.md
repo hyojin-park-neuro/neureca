@@ -9,7 +9,9 @@ nav:
 
 🔔🔔🔔
 # 2024
+- Dr. Hyojin Park will give a seminar talk at the Centre for Computational Science and Mathematical Modelling (CSM), Coventry University, Coventry, UK (27 Mar 2024).
 
+- Dr. Hyojin Park gave a seminar talk at the English Language and Linguistics (ELAL) Research Seminar, Department of English Language and Linguistics, School of English, Drama and Creative StudiesUniversity of Birmingham, Birmingham, UK (31 Jan 2024). 
 
 # 2023
 - We currently have [**multiple competition-based PhD positions available!**](https://www.neureca.org/2023/11/27/funded-phd-studentship.html) Please email me with your CV to discuss further!\
