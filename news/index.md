@@ -18,7 +18,7 @@ nav:
 
 - Dr. Hyojin Park will give a seminar talk at the Centre for Computational Science and Mathematical Modelling (CSM), Coventry University, Coventry, UK (27 Mar 2024).
 
-- Hosting a [CHBH Seminar](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/events/2024/ushagoswami){:target="_blank"}: [Prof. Usha Goswami CBE](https://en.wikipedia.org/wiki/Usha_Goswami){:target="_blank"} at the University of Cambridge will give a talk titled "Dyslexia, Rhythm, Language and the Developing Brain" at the CHBH seminar series, 22 Feb 2024.
+- Hosting a [CHBH Seminar](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/events/2024/ushagoswami){:target="_blank"}: [Prof. Usha Goswami CBE FRS FBA](https://en.wikipedia.org/wiki/Usha_Goswami){:target="_blank"} at the University of Cambridge will give a talk titled "Dyslexia, Rhythm, Language and the Developing Brain" at the CHBH seminar series, 22 Feb 2024.
 
 - Dr. Hyojin Park gave a seminar talk at the English Language and Linguistics (ELAL) Research Seminar, Department of English Language and Linguistics, School of English, Drama and Creative StudiesUniversity of Birmingham, Birmingham, UK (31 Jan 2024). 
 
