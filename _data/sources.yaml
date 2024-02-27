@@ -1,3 +1,14 @@
+- id: doi:10.1101/2024.02.25.581860
+  type: paper
+  date: 2024-2-27
+  tags:
+    - audiovisual speech
+    - alpha
+    - theta
+    - attentional inhibition
+    - congruency
+    - MEG/EEG
+    
 - id: doi:10.1101/2024.02.01.578181
   type: paper
   date: 2024-2-1
