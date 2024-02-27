@@ -1,5 +1,24 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1101/2024.02.25.581860
+  title: Attentional inhibition by alpha power is modulated by faster theta rhythm
+    and audio-visual congruency during natural speech perception
+  authors:
+  - Gabriel Edwin Byczynski
+  - Hyojin Park
+  publisher: bioRxiv
+  date: '2024-02-27'
+  link: https://doi.org/gtj4mm
+  type: paper
+  tags:
+  - audiovisual speech
+  - alpha
+  - theta
+  - attentional inhibition
+  - congruency
+  - MEG/EEG
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1101/2024.02.01.578181
   title: Dissociating endogenous and exogenous delta activity during natural speech
     comprehension
