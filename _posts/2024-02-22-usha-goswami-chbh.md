@@ -1,16 +1,15 @@
 ---
-title: OHBM 2015 Merit Award
+title: Usha Goswami's Seminar at the CHBH
 author: hyojin-park
 tags:
-  - OHBM
-  - award
-  - merit award
+  - Usha Goswami
+  - CHBH Seminar
 last_modified_at: ""
 ---
-Dr. Hyojin Park received Merit Award 🏆 from the OHBM (Organization for Human Brain Mapping) held in Honolulu, Hawai, 14-18 June 2015. 
+Professor Usha Goswami CBE FRS FBA gave a seminar at the CHBH on 22nd February 2024, titled “Dyslexia, Rhythm, Language and the Developing Brain”. Many people attended the seminar, and the atmosphere was electric!
 
 {%
   include figure.html
-  image="images/blogs/ohbm2015_merit_award.png"
+  image="images/blogs/usha_goswami_chbh.png"
   width="80%"
 %}
