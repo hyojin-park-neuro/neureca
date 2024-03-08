@@ -2,7 +2,6 @@
 title: Usha Goswami's Seminar at the CHBH
 author: hyojin-park
 tags:
-  - Usha Goswami
   - CHBH Seminar
 last_modified_at: ""
 ---
