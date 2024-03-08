@@ -1,5 +1,5 @@
 ---
-title: Usha Goswami's Seminar at the CHBH
+title: Prof. Usha Goswami's Seminar at the CHBH
 author: hyojin-park
 tags:
   - CHBH Seminar
