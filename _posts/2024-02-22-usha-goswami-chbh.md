@@ -10,6 +10,6 @@ Professor Usha Goswami CBE FRS FBA gave a seminar at the CHBH on 22nd February 2
 
 {%
   include figure.html
-  image="images/blogs/usha_goswami_chbh.png"
+  image="images/blogs/20240222_usha_goswami_chbh.jpg"
   width="80%"
 %}
