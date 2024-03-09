@@ -1,5 +1,6 @@
 ---
 title: Prof. Usha Goswami's Seminar at the CHBH
+image: https://www.neureca.org/images/blogs/20240222_usha_goswami_chbh.jpg
 author: hyojin-park
 tags:
   - CHBH Seminar
