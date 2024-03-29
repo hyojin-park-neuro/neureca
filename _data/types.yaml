@@ -97,8 +97,8 @@ github:
 
 twitter:
   icon: fa-brands fa-x-twitter
-  text: X
-  tooltip: Twitter
+  text: X-twitter
+  tooltip: X-twitter
   link: https://twitter.com/$VALUE
 
 facebook:
