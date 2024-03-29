@@ -21,6 +21,15 @@
     - encoding model
     - MEG/EEG
 
+- id: doi:10.1038/s41433-023-02845-w
+  type: paper
+  date: 2024-1-18
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41433-023-02845-w/MediaObjects/41433_2023_2845_Fig1_HTML.png?as=webp
+  tags:
+    - mTBI
+    - traumatic brain injury
+    - eye
+
 - id: doi:10.1162/jocn_a_02059
   type: paper
   date: 2024-1-1
