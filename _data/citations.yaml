@@ -46,6 +46,109 @@
   - MEG/EEG
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1038/s41433-023-02845-w
+  title: A systematic review of optical coherence tomography findings in adults with
+    mild traumatic brain injury
+  authors:
+  - Hannah S. Lyons
+  - Matilde Sassani
+  - Yousef Hyder
+  - James L. Mitchell
+  - Mark Thaller
+  - Susan P. Mollan
+  - Alexandra J. Sinclair
+  - Alexandra Sinclair
+  - Aliza Finch
+  - Adam Hampshire
+  - Alice Sitch
+  - Ali Mazaheri
+  - Andrew Bagshaw
+  - Andy Palmer
+  - Asha Strom
+  - Alice Waitt
+  - Andreas Yiangou
+  - Ahmed Abdel-Hay
+  - Alexander Bennett
+  - Amy Clark
+  - Angus Hunter
+  - Barry Seemungal
+  - Caroline Witton
+  - Caroline Dooley
+  - Deborah Bird
+  - Davinia Fernandez-Espejo
+  - Dave Smith
+  - Dan Ford
+  - Daniel Sherwood
+  - Donna Holding
+  - Duncan Wilson
+  - Edward Palmer
+  - John Golding
+  - Hamid Dehghani
+  - Hyojin Park
+  - Hannah Lyons
+  - Hazel Smith
+  - Helen Brunger
+  - Henrietta Ellis
+  - Iman Idrees
+  - Ian Varley
+  - Jessica Hubbard
+  - Jun Cao
+  - Jon Deeks
+  - James Mitchell
+  - Jan Novak
+  - Jamie Pringle
+  - John Terry
+  - Jack Rogers
+  - Tim Read
+  - Jessikah Fildes
+  - Karen Mullinger
+  - Lisa Hill
+  - Marco Aurisicchio
+  - Mark Thaller
+  - Martin Wilson
+  - Mark Pearce
+  - Matilde Sassani
+  - Matthew Brookes
+  - Mohammad Mahmud
+  - Ray Rayhan
+  - Ned Jenkinson
+  - Niki Karavitaki
+  - Nick Capewell
+  - Olivia Grech
+  - Ole Jensen
+  - Pete Hellyer
+  - Philip Woodgate
+  - Sebastian Coleman
+  - Raymond Reynolds
+  - Richard J. Blanch
+  - Katie Morris
+  - Ryan Ottridge
+  - Rachel Upthegrove
+  - Ronan Dardis
+  - Ruwan Wanni Arachchige
+  - Sarah Berhane
+  - Sam Lucas
+  - Sophie Prosser
+  - Shayan Sharifi
+  - Shreshth Dharm-Datta
+  - Susan Mollan
+  - Toby Ellmers
+  - Tara Ghafari
+  - Tony Goldstone
+  - Waheeda Hawa
+  - Yidian Gao
+  - Richard J. Blanch
+  publisher: Eye
+  date: '2024-01-18'
+  link: https://doi.org/gtpk83
+  type: paper
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41433-023-02845-w/MediaObjects/41433_2023_2845_Fig1_HTML.png?as=webp
+  tags:
+  - mTBI
+  - traumatic brain injury
+  - eye
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1162/jocn_a_02059
   title: Neural Speech Tracking Highlights the Importance of Visual Speech in Multi-speaker
     Situations
