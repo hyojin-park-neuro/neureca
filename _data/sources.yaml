@@ -27,7 +27,10 @@
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41433-023-02845-w/MediaObjects/41433_2023_2845_Fig1_HTML.png?as=webp
   tags:
     - mTBI
+    - mild traumatic brain injury
     - traumatic brain injury
+    - OCT
+    - optical coherence tomography
     - eye
 
 - id: doi:10.1162/jocn_a_02059
@@ -42,7 +45,6 @@
     - multi-speaker
     - MEG/EEG
     
-
 - id: doi:10.7554/eLife.89703
   type: paper
   date: 2023-9-18
@@ -59,7 +61,6 @@
     - large language model (LLMs)
     - MEG/EEG
     
-
 - id: doi:10.1101/2023.05.15.540818
   type: paper
   date: 2023-5-15
@@ -71,7 +72,6 @@
     - speech features
     - multi-speaker
     - MEG/EEG
-
 
 - id: doi:10.1101/2022.06.21.497061
   type: paper
@@ -88,7 +88,6 @@
     - MEG/EEG
     - DTI
     
-
 - id: doi:10.1016/j.neuroimage.2022.119044
   type: paper
   date: 2022-5-15
@@ -101,7 +100,6 @@
     - speech envelope
     - MEG/EEG
     
-   
 - id: doi:10.1101/2022.05.05.490770
   type: paper
   date: 2022-5-5
@@ -118,7 +116,6 @@
     - large language model (LLMs)
     - MEG/EEG
 
-
 - id: doi:10.1016/j.crneur.2021.100014
   type: paper
   date: 2021-5-19
@@ -131,7 +128,6 @@
     - phase
     - MEG/EEG
     
-
 - id: doi:10.1371/journal.pbio.2006558
   type: paper
   date: 2018-8-6
@@ -149,7 +145,6 @@
     - redundancy
     - MEG/EEG
     
-    
 - id: doi:10.1080/23273798.2018.1506589
   type: paper
   date: 2018-9-26
@@ -164,7 +159,6 @@
     - beta
     - MEG/EEG
     
-   
 - id: doi:10.1038/srep41592
   type: paper
   date: 2017-2-7
@@ -179,8 +173,7 @@
     - graph filtration
     - persistent homology
     - MEG/EEG
-    
-    
+        
 - id: doi:10.1523/ENEURO.0334-16.2016
   type: paper
   date: 2017-1-16
@@ -191,7 +184,6 @@
     - spurious coupling
     - brain oscillations
     - MEG/EEG    
-
 
 - id: doi:10.1038/srep28092
   type: paper
@@ -206,7 +198,6 @@
     - phase-amplitude coupling
     - MEG/EEG
     
-        
 - id: doi:10.7554/eLife.14521
   type: paper
   date: 2016-5-5
@@ -219,8 +210,7 @@
     - speech intelligibility
     - coherence
     - MEG/EEG
-    
-    
+        
 - id: doi:10.1016/j.cub.2015.04.049
   type: paper
   date: 2015-6-15
@@ -235,7 +225,6 @@
     - transfer entropy
     - MEG/EEG
     
-    
 - id: doi:10.1002/hbm.22452
   type: paper
   date: 2014-2-12
@@ -248,7 +237,6 @@
     - no-remember
     - alpha
     - MEG/EEG    
-    
     
 - id: doi:10.1089/brain.2011.0046
   type: paper
@@ -263,7 +251,6 @@
     - brain oscillations
     - MEG/EEG       
     
-    
 - id: doi:10.1007/s00259-008-0808-z
   type: paper
   date: 2008-5-20
@@ -276,4 +263,3 @@
     - functional connectivity
     - metabolic connectivity
     - FDG-PET
-
