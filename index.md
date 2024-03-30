@@ -67,8 +67,10 @@ number="1"
 - [Mild Traumatic Brain Injury (mTBI)](https://www.birmingham.ac.uk/research/metabolism-systems/translational-brain-science/mtbi-predict/mtbi-predict.aspx){:target="_blank"}
 - <div style="text-align: left">(Micro-)Saccadic Eye Movements and Audiovisual Attention</div>
 - <div style="text-align: left">Audiovisual Speech/Language Development & Neural Plasticity across Lifespan</div>
-- <div style="text-align: left">Disorganised thoughts and speech processing in psychosis</div>
+- <div style="text-align: left">Disorganised thoughts and (internal) speech processing in psychosis</div>
 - Cognitive Strategy Development
+- Cross-modal Correspondence
+- Synesthesia
 {% endcapture %}
 
 {% capture col2 %}
@@ -78,7 +80,7 @@ number="1"
 - Electroencephalography (EEG)
 - Functional Magnetic Resonance Imaging (fMRI)
 - Diffusion Tensor Imaging (DTI)
-- <div style="text-align: left">Transcranial Ultrasound Stimulation (TUS)</div>
+- <div style="text-align: left">Focused Ultrasound Stimulation (FUS)</div>
 - Transcranial Magnetic Stimulation (TMS)
 - <div style="text-align: left">Sensory Stimulation, e.g., Rapid Invisible Frequency Tagging (RIFT)</div>
 - Brain Network Analysis
