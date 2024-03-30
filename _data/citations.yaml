@@ -145,7 +145,10 @@
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41433-023-02845-w/MediaObjects/41433_2023_2845_Fig1_HTML.png?as=webp
   tags:
   - mTBI
+  - mild traumatic brain injury
   - traumatic brain injury
+  - OCT
+  - optical coherence tomography
   - eye
   plugin: sources.py
   file: sources.yaml
