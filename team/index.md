@@ -74,7 +74,7 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - [Gregor Thut](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/gregorthut/){:target="_blank"}, School of Psychology & Institute of Neuroscience and Psychology, University of Glasgow, UK
 - [Hyo-Jeong Lee](https://scholar.google.co.kr/citations?user=x-pSzCoAAAAJ&hl=en){:target="_blank"}, Department of Otolaryngology, Hallym University College of Medicine, Hallym University Medical Center, Anyang, South Korea 
 - [Hyekyoung Lee](https://scholar.google.com/citations?user=3ZNKO84AAAAJ&hl=en){:target="_blank"}, Department of Nuclear Medicine, Seoul National University Hospital, Seoul, South Korea
-- [Simon Hanslmayr](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/simonhanslmayr/){:target="_blank"}, School of Psychology, University of Glasgow, UK
+- [Simon Hanslmayr](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/simonhanslmayr/){:target="_blank"}, School of Psychology, [CoOLab](https://hanslmayr.github.io//){:target="_blank"}, University of Glasgow, UK
 - [Emmanuel Biau](https://www.liverpool.ac.uk/population-health/staff/emmanuel-biau/){:target="_blank"}, Institute of Population Health, University of Liverpool, UK
 - [Aline Villavicencio](https://www.sheffield.ac.uk/dcs/people/academic/aline-villavicencio){:target="_blank"}, Department of Computer Science, University of Sheffield, UK
 - [Hyungmin Kim](https://sites.google.com/view/tunnelatkist){:target="_blank"}, Korea Institute of Science and Technology (KIST), Seoul, South Korea
