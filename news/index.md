@@ -16,7 +16,7 @@ nav:
 # 2024
 - Hosting a CHBH Seminar: [Prof. Maria Chait](https://www.ucl.ac.uk/ear/research/research-units/auditory-cognitive-neuroscience-lab-chait-lab){:target="_blank"} at the University College London (UCL) will give a talk (title: TBC) at the CHBH seminar series, 25 Apr 2024.
 
-- Dr. Hyojin Park will give [a seminar talk at the Centre for Computational Science and Mathematical Modelling (CSM)](https://www.linkedin.com/posts/cu-csm_welcome-to-dr-hyojin-parks-research-group-activity-7178786572681502721-DNDE?utm_source=share&utm_medium=member_desktop){:target="_blank"}, Coventry University, Coventry, UK (27 Mar 2024).
+- Dr. Hyojin Park gave [a seminar talk at the Centre for Computational Science and Mathematical Modelling (CSM)](https://www.linkedin.com/posts/cu-csm_welcome-to-dr-hyojin-parks-research-group-activity-7178786572681502721-DNDE?utm_source=share&utm_medium=member_desktop){:target="_blank"}, Coventry University, Coventry, UK (27 Mar 2024).
 
 - Hosting a [CHBH Seminar](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/events/2024/ushagoswami){:target="_blank"}: [Prof. Usha Goswami CBE FRS FBA](https://en.wikipedia.org/wiki/Usha_Goswami){:target="_blank"} at the University of Cambridge will give a talk titled "Dyslexia, Rhythm, Language and the Developing Brain" at the CHBH seminar series, 22 Feb 2024. [Check out the blog!](https://www.neureca.org/2024/02/22/usha-goswami-chbh.html){:target="_blank"}
 
