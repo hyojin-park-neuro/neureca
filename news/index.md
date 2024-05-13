@@ -16,7 +16,7 @@ nav:
 # 2024
 - Hosting a CHBH Seminar: [Prof. Maria Chait](https://www.ucl.ac.uk/ear/research/research-units/auditory-cognitive-neuroscience-lab-chait-lab){:target="_blank"} at the University College London (UCL) will give a talk (title: TBC) at the CHBH seminar series, 20 Jun 2024.
 
-- Come and Join the [CCNi 15th Anniversary event](https://www.eventbrite.co.uk/e/ccni-15th-anniversary-tickets-866169074017) at the University of Glasgow! Dr. Hyojin Park will give a talk in the alumni session: "Neural mechanisms underlying naturalistic speech processing using MEG, Natural Language Processing (NLP) and rapid invisible frequency tagging (RIFT)"
+- Come and join the [CCNi 15th Anniversary event](https://www.eventbrite.co.uk/e/ccni-15th-anniversary-tickets-866169074017){:target="_blank"} at the University of Glasgow! Dr. Hyojin Park will give a talk in the alumni session: "Neural mechanisms underlying naturalistic speech processing using MEG, Natural Language Processing (NLP) and rapid invisible frequency tagging (RIFT)"
 
 - Dr. Hyojin Park gave [a seminar talk at the Centre for Computational Science and Mathematical Modelling (CSM)](https://www.linkedin.com/posts/cu-csm_welcome-to-dr-hyojin-parks-research-group-activity-7178786572681502721-DNDE?utm_source=share&utm_medium=member_desktop){:target="_blank"}, Coventry University, Coventry, UK (27 Mar 2024).
 
