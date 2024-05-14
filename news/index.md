@@ -35,7 +35,7 @@ nav:
   
 - [**New PhD position funded by BBSRC MIBTP available - Please apply!!**](https://warwick.ac.uk/fac/cross_fac/mibtp/phd/integrated_understanding_of_health/optimising_neurocognitive_strategies){:target="_blank"} Please email me with your CV! (Deadline: 15th Dec 2023)
   
-- Dr. Hyojin Park gave a seminar talk at the Institute for Biomagnetism and Biosignalanalysis (IBB), University of Munster (15-17 Nov 2023). 
+- Dr. Hyojin Park gave a seminar talk at the Institute for Biomagnetism and Biosignalanalysis (IBB), University of Muenster, Muenster, Germany (15-17 Nov 2023). 
   
 - Dr. Hyojin Park participated in the groundbreaking [first whole-head OPM-MEG data recording at the CHBH](https://twitter.com/HyojinParkNeuro/status/1721602322613055533){:target="_blank"}! Exciting developments lie ahead!!
 
