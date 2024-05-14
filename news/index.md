@@ -18,7 +18,7 @@ nav:
 
 - Come and join the [Centre for Cognitive Neuroimaging (CCNi) 15th Anniversary event](https://www.eventbrite.co.uk/e/ccni-15th-anniversary-tickets-866169074017){:target="_blank"}, at the School of Psychology & Neuroscience, University of Glasgow on Thu, 6 Jun 2024! Dr. Hyojin Park will give a talk in the alumni session: "Neural mechanisms underlying naturalistic speech processing with MEG/OPM-MEG using Natural Language Processing (NLP) and Rapid Invisible Frequency Tagging (RIFT) techniques"
 
-- Dr. Hyojin Park gave a seminar talk at the Psycholinguistics Group, University of Birmingham, Birmingham, UK. Brain Rhythms during audiovisual natural language processing (including research plans for developmental approach). 3 May 2024.
+- Dr. Hyojin Park gave a seminar talk at the Psycholinguistics Group, University of Birmingham, Birmingham, UK. "Brain Rhythms during audiovisual natural language processing (including research plans for developmental approach)". 3 May 2024.
 
 - Dr. Hyojin Park gave [a seminar talk at the Centre for Computational Science and Mathematical Modelling (CSM)](https://www.linkedin.com/posts/cu-csm_welcome-to-dr-hyojin-parks-research-group-activity-7178786572681502721-DNDE?utm_source=share&utm_medium=member_desktop){:target="_blank"}, Coventry University, Coventry, UK (27 Mar 2024).
 
