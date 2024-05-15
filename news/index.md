@@ -40,6 +40,7 @@ nav:
 - Dr. Hyojin Park gave a seminar talk at the Institute for Biomagnetism and Biosignalanalysis (IBB), University of Muenster, Muenster, Germany (15-17 Nov 2023). 
   
 - Dr. Hyojin Park participated in the groundbreaking [first whole-head OPM-MEG data recording at the CHBH](https://twitter.com/HyojinParkNeuro/status/1721602322613055533){:target="_blank"}! Exciting developments lie ahead!!
+{% include figure.html image="images/photo_members/photo_hyojin_park_6.jpg" width="60%" %}
 
 - Dr. Hyojin Park attended the [MEG UKI 2023 Conference in Dublin, Ireland](https://meguk.ac.uk/meg-uki-2023-conference/){:target="_blank"} (27-28 Oct 2023). 
 
