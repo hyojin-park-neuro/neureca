@@ -20,7 +20,7 @@ nav:
 {%
   include alert.html
   type="info"
-  content="**Highly motivated *PhD Students* and *Postdoctoral Scientists* are welcome to join Dr. Hyojin Park’s research group! Please feel free to [contact the PI](mailto:h.park@bham.ac.uk) to discuss further regarding funding opportunities!**"
+  content="**Highly motivated *PhD Students & UG/MSc-level Research Assistants (RA)* and *Postdoctoral Scientists* are welcome to join Dr. Hyojin Park’s research group! Please feel free to [contact the PI](mailto:h.park@bham.ac.uk) to discuss further regarding funding opportunities!**"
 %}
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
