@@ -9,7 +9,7 @@ nav:
 
 🔔🔔🔔
 
-**Highly motivated PhD Students and Postdoctoral Scientists** are welcome to join Dr. Hyojin Park’s research group! Please feel free to contact the PI to discuss further regarding funding opportunities!
+**Highly motivated PhD Students/MSc Research Assistants (RA) and Postdoctoral Scientists** are welcome to join Dr. Hyojin Park’s research group! Please feel free to contact the PI to discuss further regarding funding opportunities!
 
 {% include section.html %}
 
