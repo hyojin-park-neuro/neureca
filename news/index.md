@@ -14,7 +14,7 @@ nav:
 {% include section.html %}
 
 # 2024
-- Hosting a CHBH Seminar: [Prof. Maria Chait](https://www.ucl.ac.uk/ear/research/research-units/auditory-cognitive-neuroscience-lab-chait-lab){:target="_blank"} at the University College London (UCL) will give a talk (title: TBC) at the CHBH seminar series, 20 Jun 2024.
+- Hosting a CHBH Seminar: [Prof. Maria Chait](https://www.ucl.ac.uk/ear/research/research-units/auditory-cognitive-neuroscience-lab-chait-lab){:target="_blank"} at the University College London (UCL) will give a talk (title: Neural Mechanisms for Tracking Uncertainty in Rapidly Unfolding Sound Sequences – evidence from M/EEG in human listeners) at the CHBH seminar series, 20 Jun 2024.
 
 - Come and join the [Centre for Cognitive Neuroimaging (CCNi) 15th Anniversary event](https://www.eventbrite.co.uk/e/ccni-15th-anniversary-tickets-866169074017){:target="_blank"}, at the School of Psychology & Neuroscience, University of Glasgow on Thu, 6 Jun 2024! Dr. Hyojin Park will give a talk in the alumni session: "Neural mechanisms underlying naturalistic speech processing with MEG/OPM-MEG using Natural Language Processing (NLP) and Rapid Invisible Frequency Tagging (RIFT) techniques"
 
