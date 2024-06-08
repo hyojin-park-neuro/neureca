@@ -14,7 +14,7 @@ nav:
 {% include section.html %}
 
 # 2024
-- 🎉 Congratulations! [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}'s abstract has been accepted for an oral presentation at [BIOMAG 2024](https://www.biomag2024.org/cms/){:target="_blank"}. Well done, Charlie! Abstract titled "Seeing Speech in a New Light: Augmenting Speech Performance using Rapid Invisible Frequency Tagging (RIFT) and MEG"
+- 🎉 Congratulations! [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}' abstract has been accepted for an oral presentation at [BIOMAG 2024](https://www.biomag2024.org/cms/){:target="_blank"}. Well done, Charlie! Abstract titled "Seeing Speech in a New Light: Augmenting Speech Performance using Rapid Invisible Frequency Tagging (RIFT) and MEG"
 
 - Hosting a CHBH Seminar: [Prof. Maria Chait](https://www.ucl.ac.uk/ear/research/research-units/auditory-cognitive-neuroscience-lab-chait-lab){:target="_blank"} at the University College London (UCL) will give a talk (title: "Neural Mechanisms for Tracking Uncertainty in Rapidly Unfolding Sound Sequences – evidence from M/EEG in human listeners") at the CHBH seminar series, 20 Jun 2024.
 
