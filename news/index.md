@@ -22,7 +22,7 @@ nav:
 
 - Dr. Hyojin Park gave a seminar talk at the Psycholinguistics Group, University of Birmingham, Birmingham, UK. "Brain Rhythms during audiovisual natural language processing (including research plans for developmental approach)". 3 May 2024.
 
-- 🎉 Congratulations! Dr. Hyojin Park secured [MRC-AIM funding](https://more.bham.ac.uk/mrc-aim/?utm_source&utm_campaign&utm_medium)){:target="_blank"} for a new PhD student!
+- 🎉 Congratulations! Dr. Hyojin Park secured [MRC-AIM funding](https://more.bham.ac.uk/mrc-aim/?utm_source&utm_campaign&utm_medium){:target="_blank"} for a new PhD student!
 
 - Dr. Hyojin Park gave [a seminar talk at the Centre for Computational Science and Mathematical Modelling (CSM)](https://www.linkedin.com/posts/cu-csm_welcome-to-dr-hyojin-parks-research-group-activity-7178786572681502721-DNDE?utm_source=share&utm_medium=member_desktop){:target="_blank"}, Coventry University, Coventry, UK (27 Mar 2024).
 
