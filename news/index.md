@@ -14,11 +14,15 @@ nav:
 {% include section.html %}
 
 # 2024
+- 🎉 Congratulations! [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}'s abstract has been accepted for an oral presentation at [BIOMAG 2024](https://www.biomag2024.org/cms/){:target="_blank"}. Well done, Charlie! Abstract titled "Seeing Speech in a New Light: Augmenting Speech Performance using Rapid Invisible Frequency Tagging (RIFT) and MEG"
+
 - Hosting a CHBH Seminar: [Prof. Maria Chait](https://www.ucl.ac.uk/ear/research/research-units/auditory-cognitive-neuroscience-lab-chait-lab){:target="_blank"} at the University College London (UCL) will give a talk (title: "Neural Mechanisms for Tracking Uncertainty in Rapidly Unfolding Sound Sequences – evidence from M/EEG in human listeners") at the CHBH seminar series, 20 Jun 2024.
 
 - Come and join the [Centre for Cognitive Neuroimaging (CCNi) 15th Anniversary event](https://www.eventbrite.co.uk/e/ccni-15th-anniversary-tickets-866169074017){:target="_blank"}, at the School of Psychology & Neuroscience, University of Glasgow on Thu, 6 Jun 2024! Dr. Hyojin Park will give a talk in the alumni session: "Neural mechanisms underlying naturalistic speech processing with MEG/OPM-MEG using Natural Language Processing (NLP) and Rapid Invisible Frequency Tagging (RIFT) techniques"
 
 - Dr. Hyojin Park gave a seminar talk at the Psycholinguistics Group, University of Birmingham, Birmingham, UK. "Brain Rhythms during audiovisual natural language processing (including research plans for developmental approach)". 3 May 2024.
+
+- 🎉 Congratulations! Dr. Hyojin Park secured [MRC-AIM funding](https://more.bham.ac.uk/mrc-aim/?utm_source&utm_campaign&utm_medium)){:target="_blank"} for a new PhD student!
 
 - Dr. Hyojin Park gave [a seminar talk at the Centre for Computational Science and Mathematical Modelling (CSM)](https://www.linkedin.com/posts/cu-csm_welcome-to-dr-hyojin-parks-research-group-activity-7178786572681502721-DNDE?utm_source=share&utm_medium=member_desktop){:target="_blank"}, Coventry University, Coventry, UK (27 Mar 2024).
 
