@@ -33,9 +33,6 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 
 {% include section.html dark="hp_bgwhite_icon1" %}
 
-### {% include icon.html icon="fa-solid fa-user-check" %}Postdoctoral Researcher
-- Dr. Tara Ghafari (co-supervision)
-
 ### {% include icon.html icon="fa-solid fa-user-graduate" %}Postgraduate Students
 - [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}
 - Jack Craig
