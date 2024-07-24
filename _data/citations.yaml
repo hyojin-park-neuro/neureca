@@ -19,10 +19,12 @@
   type: paper
   image: https://ars.els-cdn.com/content/image/1-s2.0-S096098222400856X-gr1.jpg
   tags:
+  - speech-brain coupling
+  - prosody
+  - syntax
   - speech comprehension
   - delta
-  - prosodic cues
-  - encoding model
+  - temporal response function
   - MEG/EEG
   plugin: sources.py
   file: sources.yaml
