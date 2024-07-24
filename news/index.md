@@ -18,7 +18,7 @@ nav:
 
 - 🎉 Congratulations! [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}' abstract has been accepted for an oral presentation at [BIOMAG 2024](https://www.biomag2024.org/cms/){:target="_blank"}. Well done, Charlie! Abstract titled "Seeing Speech in a New Light: Augmenting Speech Performance using Rapid Invisible Frequency Tagging (RIFT) and MEG"
 
-- Hosting a CHBH Seminar: [Prof. Maria Chait](https://www.ucl.ac.uk/ear/research/research-units/auditory-cognitive-neuroscience-lab-chait-lab){:target="_blank"} at the University College London (UCL) will give a talk (title: "Neural Mechanisms for Tracking Uncertainty in Rapidly Unfolding Sound Sequences – evidence from M/EEG in human listeners") at the CHBH seminar series, 20 Jun 2024.
+- Hosting a CHBH Seminar: [Prof. Maria Chait](https://www.ucl.ac.uk/ear/research/research-units/auditory-cognitive-neuroscience-lab-chait-lab){:target="_blank"} at the University College London (UCL) will give a talk (title: "Neural Mechanisms for Tracking Uncertainty in Rapidly Unfolding Sound Sequences – evidence from M/EEG in human listeners") at the CHBH seminar series, 20 Jun 2024 - postponed.
 
 - Come and join the [Centre for Cognitive Neuroimaging (CCNi) 15th Anniversary event](https://www.eventbrite.co.uk/e/ccni-15th-anniversary-tickets-866169074017){:target="_blank"}, at the School of Psychology & Neuroscience, University of Glasgow on Thu, 6 Jun 2024! Dr. Hyojin Park will give a talk in the alumni session: "Neural mechanisms underlying naturalistic speech processing with MEG/OPM-MEG using Natural Language Processing (NLP) and Rapid Invisible Frequency Tagging (RIFT) techniques"
 
