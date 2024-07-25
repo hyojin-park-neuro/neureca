@@ -47,16 +47,16 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - Holly Walker
 
 ### {% include icon.html icon="fa-solid fa-users-rays" %}Alumni
-*{% include icon.html icon="fa-solid fa-user-check" %}Post-doctoral Researcher*
+*{% include icon.html icon="fa-solid fa-user-check" %} Post-doctoral Researcher*
 - Tara Ghafari
   
-*{% include icon.html icon="fa-solid fa-user-graduate" %}Postgraduate Students*
+*{% include icon.html icon="fa-solid fa-user-graduate" %} Postgraduate Students*
 - Choi Yu (2022-23)
 - Victoria Gorneva (2022-23) 
 - Gabriel Byczynski (2021-22)
 - Zhuoxin Xiao (2021-22)
 
-*{% include icon.html icon="fa-solid fa-user-gear" %}Undergraduate Students*
+*{% include icon.html icon="fa-solid fa-user-gear" %} Undergraduate Students*
 - Abbie Evans (2022-23)
 - Valentina Kurti (2022-23)
 - Tamseel Naveed (2022-23)
