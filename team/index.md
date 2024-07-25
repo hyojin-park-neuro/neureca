@@ -47,7 +47,7 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - Holly Walker
 
 ### {% include icon.html icon="fa-solid fa-users-rays" %}Alumni
-***{% include icon.html icon="fa-solid fa-user-check" %}  Post-doctoral Researcher***
+***{% include icon.html icon="fa-solid fa-user-check" %}  Post-doctoral Researchers***
 - Tara Ghafari
   
 ***{% include icon.html icon="fa-solid fa-user-graduate" %}  Postgraduate Students***
