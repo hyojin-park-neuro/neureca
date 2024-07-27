@@ -71,6 +71,7 @@ number="1"
 - Cognitive Strategy Development
 - Cross-modal Correspondence
 - Synesthesia
+- Music and Art Perception
 {% endcapture %}
 
 {% capture col2 %}
