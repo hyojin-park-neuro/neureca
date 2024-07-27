@@ -87,9 +87,9 @@
 }
 
 :root {
-  --title: "Alice", serif;
-  --heading: "Open Sans", sans-serif;
-  --body: "Open Sans", sans-serif;
+  --title: "Aptos", serif;
+  --heading: "Aptos", sans-serif;
+  --body: "Aptos", sans-serif;
   --code: "Roboto Mono", monospace;
   --medium: 1rem;
   --large: 1.2rem;
