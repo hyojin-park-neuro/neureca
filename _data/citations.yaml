@@ -13,11 +13,12 @@
   date: '2024-09-14'
   link: https://doi.org/gz8gnf
   type: paper
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S096098222400856X-gr1.jpg
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/09/14/2024.09.13.612424/F1.large.jpg?width=800&height=600&carousel=1
   tags:
-  - speech-brain coupling
-  - prosody
-  - syntax
+  - audiovisual speech
+  - theta
+  - memory
+  - MEG/EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.cub.2024.06.072
