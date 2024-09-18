@@ -1,5 +1,24 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1101/2024.09.13.612424
+  title: Neocortical and hippocampal theta oscillations track audiovisual integration
+    and replay of speech memories
+  authors:
+  - Emmanuel Biau
+  - Danying Wang
+  - Hyojin Park
+  - Ole Jensen
+  - Simon Hanslmayr
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-09-14'
+  link: https://doi.org/gz8gnf
+  type: paper
+  tags:
+  - speech-brain coupling
+  - prosody
+  - syntax
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.cub.2024.06.072
   title: Dissociating prosodic from syntactic delta activity during natural speech
     comprehension
