@@ -1,11 +1,12 @@
 - id: doi:10.1101/2024.09.13.612424
   type: paper
   date: 2024-9-14
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S096098222400856X-gr1.jpg
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/09/14/2024.09.13.612424/F1.large.jpg?width=800&height=600&carousel=1
   tags:
-    - speech-brain coupling
-    - prosody
-    - syntax
+    - audiovisual speech
+    - theta
+    - memory
+    - MEG/EEG
 
     
 - id: doi:10.1016/j.cub.2024.06.072
