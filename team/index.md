@@ -83,6 +83,7 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - [Alejandro Perez](https://sites.google.com/view/alejandroperez/about?authuser=0){:target="_blank"}, MRC Cognition and Brain Science Unit, University of Cambridge, UK
 - [Joo-Hyun Song](https://research.clps.brown.edu/songlab/){:target="_blank"}, Department of Cognitive, Linguistic, and Psychological Sciences, Brown University, USA
 - [Fei He](https://pureportal.coventry.ac.uk/en/persons/fei-he){:target="_blank"}, Centre for Computational Science and Mathematical Modelling, School of Computing, Electronics, and Mathematics, Coventry University, UK
+- [Junho Park](https://pureportal.coventry.ac.uk/en/persons/junho-park){:target="_blank"}, Centre for Fluid and Complex Systems, Coventry University, UK
 
 ## {% include icon.html icon="fa-solid fa-users-between-lines" %}Local Collaborators
 
