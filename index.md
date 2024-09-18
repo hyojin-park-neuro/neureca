@@ -17,8 +17,8 @@ carousels:
       caption: "For People of All Ages"
 ---
 
-<h2 style="text-align:center;color: #586A8C;font-size:25px;">Welcome to Dr. Hyojin Park's Research Group - <span style="font-family:'Marcellus';font-size:25px;font-weight:bold">NEURECA</span></h2>
-<p style="text-align:center;color: #586A8C;font-size:30px;font-weight:bold;">Neural Representations & Computational Architecture of<br>Multi-modal Communication across Lifespan</p>
+<h2 style="text-align:center;color: #000000;font-size:25px;">Welcome to Dr. Hyojin Park's Research Group - <span style="font-family:'Marcellus';font-size:25px;font-weight:bold">NEURECA</span></h2>
+<p style="text-align:center;color: #000000;font-size:30px;font-weight:bold;">Neural Representations & Computational Architecture of<br>Multi-modal Communication across Lifespan</p>
 
 1. Our mission is to conduct rigorous research and push the boundaries of what is currently known, with the ultimate goal of improving human communication and enhancing quality of life.
 
