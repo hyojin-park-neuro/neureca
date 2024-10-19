@@ -48,7 +48,7 @@ MSc Psychology, MSc Cognitive Neuroimaging and Data Science Programs
 - MATLAB Programming (Module Lead) - past
 
 Undergraduate Modules
-- Language and Communication (Year2)
+- Language and Communication (Year 2)
 
 
 ### {% include icon.html icon="fa-solid fa-school" %}Institutional Responsibilities 
