@@ -42,10 +42,14 @@ Researcher ID: C-6267-2017 <br>
 {% include section.html %}
 
 ### {% include icon.html icon="fa-solid fa-chalkboard-user" %}Teaching 
-In Brain Imaging and Cognitive Neuroscience (BICN), Computational Neuroscience and Cognitive Robotics (CNCR), Psychology MSc Programs, School of Psychology
-- Data Science for Brain and Behaviour II
-- MATLAB Programming - Module Lead
-- Application of Electrophysiological Approaches in Cognitive Neuroscience (guest lectures)
+MSc Psychology, MSc Cognitive Neuroimaging and Data Science Programs, School of Psychology
+- Application of Electrophysiological Approaches in Cognitive Neuroscience (Module Lead)
+- Research Methods and Skills in Psychology - MEG Practical
+- MATLAB Programming (Module Lead) - past
+
+Undergraduate Modules
+- Language and Communication (Year2)
+
 
 ### {% include icon.html icon="fa-solid fa-school" %}Institutional Responsibilities 
 - [Modality Lead for MEG at the Centre for Human Brain Health (CHBH)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx){:target="_blank"}, University of Birmingham
