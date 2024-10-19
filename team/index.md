@@ -84,6 +84,7 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 
 ## {% include icon.html icon="fa-solid fa-users-line" %}Collaborators
 
+- [Ole Jensen](https://neuosc.com/){:target="_blank"}, Department of Experimental Psychology & Department of Psychiatry, University of Oxford, UK
 - [Robin A. A. Ince](http://www.robinince.net/about.html){:target="_blank"}, Institute of Neuroscience and Psychology, University of Glasgow, UK
 - [Joachim Gross](https://www.uni-muenster.de/OCCMuenster/members/joachim-gross.html){:target="_blank"}, Institute for Biomagnetism and Biosignalanalysis, University of Muenster, Germany
 - [Gregor Thut](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/gregorthut/){:target="_blank"}, School of Psychology & Institute of Neuroscience and Psychology, University of Glasgow, UK
@@ -103,7 +104,6 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 
 ## {% include icon.html icon="fa-solid fa-users-between-lines" %}Local Collaborators
 
-- [Ole Jensen](https://www.birmingham.ac.uk/staff/profiles/psychology/jensen-ole.aspx){:target="_blank"}, School of Psychology, Co-Director of the CHBH, [Neuronal Oscillations Research Group](https://neuosc.com/){:target="_blank"}
 - [Katrien Segaert](https://www.birmingham.ac.uk/staff/profiles/psychology/segaert-katrien.aspx){:target="_blank"}, School of Psychology, CHBH, [Neuroscience of Language Lab](https://www.katriensegaert.com/){:target="_blank"}
 - [Jack Rogers](https://www.birmingham.ac.uk/staff/profiles/psychology/rogers-jack.aspx){:target="_blank"}, School of Psychology, Institute for Mental Health (IMH), [Psychosis Risk Immune Multimodal Early Detection Plus Research Group](https://www.primed-plus.org/){:target="_blank"}
 - [Andrew J Bremner](https://www.birmingham.ac.uk/staff/profiles/psychology/bremner-andrewj){:target="_blank"}, School of Psychology, [Centre for Developmental Science (CDS)](https://www.birmingham.ac.uk/research/centre-for-developmental-science){:target="_blank"}, [Birmingham BabyLab](https://www.birmingham.ac.uk/research/activity/babylab){:target="_blank"}
