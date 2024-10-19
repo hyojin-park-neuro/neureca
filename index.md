@@ -79,7 +79,7 @@ number="1"
 - [SQUID-MEG (Magnetoencephalography)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx){:target="_blank"}
 - [OPM-MEG (Optically-Pumped Magnetometers)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/opm.aspx){:target="_blank"}
 - Electroencephalography (EEG)
-- Functional Magnetic Resonance Imaging (fMRI)
+- [Functional Near-Infrared Spectroscopy (fNIRS)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/fnirs){:target="_blank"}
 - Diffusion Tensor Imaging (DTI)
 - <div style="text-align: left">Focused Ultrasound Stimulation (FUS)</div>
 - Transcranial Magnetic Stimulation (TMS)
