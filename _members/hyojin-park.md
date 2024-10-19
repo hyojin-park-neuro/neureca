@@ -42,7 +42,7 @@ Researcher ID: C-6267-2017 <br>
 {% include section.html %}
 
 ### {% include icon.html icon="fa-solid fa-chalkboard-user" %}Teaching 
-MSc Psychology, MSc Cognitive Neuroimaging and Data Science Programs, School of Psychology
+MSc Psychology, MSc Cognitive Neuroimaging and Data Science Programs
 - Application of Electrophysiological Approaches in Cognitive Neuroscience (Module Lead)
 - Research Methods and Skills in Psychology - MEG Practical
 - MATLAB Programming (Module Lead) - past
