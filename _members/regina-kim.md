@@ -1,6 +1,6 @@
 ---
 name: Regina Sungkyeong Kim
-image: images/photo_members/photo_regina-sungkyeong-kim.jpg
+image: images/photo_members/photo_regina_sungkyeong_kim.jpg
 role: ra
 aliases:
   - Regina Sungkyeong Kim
