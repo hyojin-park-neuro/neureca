@@ -42,7 +42,7 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - Jack Griffiths
 - Latifah Parara
 
-### {% include icon.html icon="fa-solid fa-user-graduate" %}Research Assistants
+### {% include icon.html icon="fa-solid fa-people-carry-box" %}Research Assistants
 - [Regina Sungkyeong Kim](https://www.neureca.org/members/regina-kim.html){:target="_blank"}
 
 ### {% include icon.html icon="fa-solid fa-user-gear" %}Undergraduate Students
