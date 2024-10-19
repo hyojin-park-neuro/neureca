@@ -37,29 +37,42 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}
 - [Jack Craig](https://www.neureca.org/members/jack-craig.html){:target="_blank"}
 - [Xin Wang](https://www.neureca.org/members/xin-wang.html){:target="_blank"}
-- [Yaxi Luo](https://www.neureca.org/members/yaxi-luo.html){:target="_blank"}
-- [Xiangqi Zhou](https://www.neureca.org/members/xiangqi-zhou.html){:target="_blank"}
+- Alexander Zust
+- Christopher Fairhurst
+- Jack Griffiths
+- Latifah Parara
 
 ### {% include icon.html icon="fa-solid fa-user-graduate" %}Research Assistants
 - [Regina Sungkyeong Kim](https://www.neureca.org/members/regina-kim.html){:target="_blank"}
 
 ### {% include icon.html icon="fa-solid fa-user-gear" %}Undergraduate Students
-- Jack Gibbins
-- Samira Hussein
-- Mengquan Liu
-- Holly Walker
+- Abby Korter
+- Amber Hanan
+- Matilda Halliwell
+- Yiyang Xu
+- Binal Kaur
+- Mohammed Rabeti
+- Thomas Auld
+- Thomas Roberts
+
 
 ### {% include icon.html icon="fa-solid fa-users-rays" %}Alumni
 ***{% include icon.html icon="fa-solid fa-user-check" %}  Post-doctoral Researchers***
 - Tara Ghafari (co-supervision)
   
 ***{% include icon.html icon="fa-solid fa-user-graduate" %}  Postgraduate Students***
+- [Xiangqi Zhou (2023-24)](https://www.neureca.org/members/xiangqi-zhou.html){:target="_blank"}
+- [Yaxi Luo (2023-24)](https://www.neureca.org/members/yaxi-luo.html){:target="_blank"}
 - Choi Yu (2022-23)
 - Victoria Gorneva (2022-23) 
 - Gabriel Byczynski (2021-22)
 - Zhuoxin Xiao (2021-22)
 
 ***{% include icon.html icon="fa-solid fa-user-gear" %}  Undergraduate Students***
+- Jack Gibbins (2023-24)
+- Samira Hussein (2023-24)
+- Mengquan Liu (2023-24)
+- Holly Walker (2023-24)
 - Abbie Evans (2022-23)
 - Valentina Kurti (2022-23)
 - Tamseel Naveed (2022-23)
