@@ -35,10 +35,13 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 
 ### {% include icon.html icon="fa-solid fa-user-graduate" %}Postgraduate Students
 - [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}
-- Jack Craig
-- Xin Wang
+- [Jack Craig](https://www.neureca.org/members/jack-craig.html){:target="_blank"}
+- [Xin Wang](https://www.neureca.org/members/xin-wang.html){:target="_blank"}
 - [Yaxi Luo](https://www.neureca.org/members/yaxi-luo.html){:target="_blank"}
 - [Xiangqi Zhou](https://www.neureca.org/members/xiangqi-zhou.html){:target="_blank"}
+
+### {% include icon.html icon="fa-solid fa-user-graduate" %}Research Assistants
+- [Regina Sungkyeong Kim](https://www.neureca.org/members/regina-kim.html){:target="_blank"}
 
 ### {% include icon.html icon="fa-solid fa-user-gear" %}Undergraduate Students
 - Jack Gibbins
