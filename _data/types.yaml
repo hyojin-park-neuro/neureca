@@ -7,12 +7,16 @@ pi:
   description: Principal Investigator
 
 postdoc:
-  icon: fa-solid fa-glasses
+  icon: fa-solid fa-user-check
   description: Postdoctoral Researcher
 
 phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
+
+ra:
+  icon: fa-solid fa-people-carry-box
+  description: Research Assistant
 
 undergrad:
   icon: fa-solid fa-user-graduate
