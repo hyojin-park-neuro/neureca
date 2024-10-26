@@ -19,6 +19,6 @@ Alexander Züst is a postgraduate master student in Cognitive Neuroimaging and D
 
 He completed his bachelor’s degree at the Zurich University of Applied Sciences (ZHAW) in mechatronics system engineering with a specialization in biomedical engineering in 2020. His bachelor thesis under the supervision of Dr. Hoenecke was focused on the development of MI and ErrP BCIs.
 
-He is a founder of the deep-tech start-up company and ETH Zurich spin-off Zurich Soft Robotics. In 2022- 2023, he was a research assistant at the complex medical systems group of the institute of applied mathematics and physics (IAMP) of the ZHAW School of Engineering where he worked on projects for the improvement of 4D-CBCT images for cancer diagnosis using AI.
+He is a founder of the deep-tech start-up company and ETH Zurich spin-off [Zurich Soft Robotics](https://www.solskin.swiss/en){:target="_blank"}. In 2022- 2023, he was a research assistant at the [complex medical systems group](https://www.zhaw.ch/en/engineering/institutes-centres/iamp/applied-complex-systems-science/#c119744){:target="_blank"} of the institute of applied mathematics and physics (IAMP) of the ZHAW School of Engineering where he worked on projects for the improvement of 4D-CBCT images for cancer diagnosis using AI.
 
 His research interests are in brain-computer interfaces and understanding neural processes in vitro neuron cultures for biocomputing.
