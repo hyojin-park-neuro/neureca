@@ -37,10 +37,10 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}
 - [Jack Craig](https://www.neureca.org/members/jack-craig.html){:target="_blank"}
 - [Xin Wang](https://www.neureca.org/members/xin-wang.html){:target="_blank"}
-- Alexander Zust
+- [Alexander Zust](https://www.neureca.org/members/alexander-zust.html){:target="_blank"}
 - Christopher Fairhurst
 - Jack Griffiths
-- Latifah Parara
+- [Latifah Parara](https://www.neureca.org/members/latifah-parara.html){:target="_blank"}
 
 ### {% include icon.html icon="fa-solid fa-people-carry-box" %}Research Assistants
 - [Regina Sungkyeong Kim](https://www.neureca.org/members/regina-kim.html){:target="_blank"}
