@@ -18,6 +18,10 @@ ra:
   icon: fa-solid fa-people-carry-box
   description: Research Assistant
 
+msc:
+  icon: fa-solid fa-graduation-cap
+  description: MSc Student
+  
 undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
