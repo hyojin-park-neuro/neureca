@@ -1,7 +1,7 @@
 ---
 name: Xiangqi Zhou
 image: images/photo_members/photo_xiangqi_zhou.jpg
-role: MSc
+role: msc
 aliases:
   - Xiangqi Zhou
   - Zhou, Xiangqi 
