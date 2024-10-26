@@ -1,7 +1,7 @@
 ---
 name: Latifah Parara
 image: images/photo_members/photo_latifah_parara.jpg
-role: phd
+role: msc
 aliases:
   - Latifah Parara
   - Parara, Latifah 
