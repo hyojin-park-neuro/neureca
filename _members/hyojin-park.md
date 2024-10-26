@@ -50,6 +50,7 @@ MSc Psychology, MSc Cognitive Neuroimaging and Data Science Programs
 Undergraduate Modules
 - Language and Communication (Year 2)
 
+Supervision of Undergraduate and Master's Projects
 
 ### {% include icon.html icon="fa-solid fa-school" %}Institutional Responsibilities 
 - [Modality Lead for MEG at the Centre for Human Brain Health (CHBH)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx){:target="_blank"}, University of Birmingham
