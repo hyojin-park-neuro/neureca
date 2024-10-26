@@ -1,7 +1,7 @@
 ---
 name: Yaxi Luo
 image: images/photo_members/photo_yaxi_luo.jpg
-role: MSc
+role: msc
 aliases:
   - Yaxi Luo
   - Luo, Yaxi 
