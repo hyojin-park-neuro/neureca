@@ -14,6 +14,10 @@ nav:
 {% include section.html %}
 
 # 2024
+- We currently have multiple competition-based PhD positions available! Please email me with your CV to discuss further!
+[BBSRC MIBTP (deadline: 16 Jan 2025)](https://warwick.ac.uk/fac/cross_fac/mibtp/phd/supervisors/hpark/){:target="_blank"} [Applications](https://warwick.ac.uk/fac/cross_fac/mibtp/){:target="_blank"} Click "Accepting Applications for October 2025"
+[ESRC student-led (deadline: 21 Jan 2025)](https://warwick.ac.uk/fac/cross_fac/mgsdtp/studentships/){:target="_blank"}
+
 - Paper published in Current Biology! ["Dissociating prosodic from syntactic delta activity during natural speech comprehension" by Chalas et al.](https://doi.org/10.1016/j.cub.2024.06.072){:target="_blank"}
 
 - 🎉 Congratulations! [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}' abstract has been accepted for an oral presentation at [BIOMAG 2024](https://www.biomag2024.org/cms/){:target="_blank"}. Well done, Charlie! Abstract titled "Seeing Speech in a New Light: Augmenting Speech Performance using Rapid Invisible Frequency Tagging (RIFT) and MEG"
