@@ -46,9 +46,9 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - [Regina Sungkyeong Kim](https://www.neureca.org/members/regina-kim.html){:target="_blank"}
 
 ### {% include icon.html icon="fa-solid fa-user-gear" %}Undergraduate Students
-- Abby Korter
+- [Abby Korter](https://www.neureca.org/members/abby-korter.html){:target="_blank"}
 - Amber Hanan
-- Matilda Halliwell
+- [Matilda Halliwell](https://www.neureca.org/members/matilda-halliwell.html){:target="_blank"}
 - Yiyang Xu
 - Binal Kaur
 - Mohammed Rabeti
