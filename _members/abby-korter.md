@@ -1,7 +1,7 @@
 ---
 name: Abby Korter
 image: images/photo_members/photo_abby_korter.jpg
-role: ug
+role: undergrad
 aliases:
   - Abby Korter
   - Korter, Abby 
