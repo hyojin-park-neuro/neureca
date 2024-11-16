@@ -14,8 +14,8 @@ nav:
 {% include section.html %}
 
 # 2024
-- We currently have multiple competition-based PhD positions available! Please email me with your CV to discuss further!
-[BBSRC MIBTP (deadline: 16 Jan 2025)](https://warwick.ac.uk/fac/cross_fac/mibtp/phd/supervisors/hpark/){:target="_blank"} [Applications](https://warwick.ac.uk/fac/cross_fac/mibtp/){:target="_blank"} Click "Accepting Applications for October 2025"
+- We currently have multiple competition-based PhD positions available! Please email me with your CV to discuss further!<br>
+[BBSRC MIBTP (deadline: 16 Jan 2025)](https://warwick.ac.uk/fac/cross_fac/mibtp/phd/supervisors/hpark/){:target="_blank"} [Applications](https://warwick.ac.uk/fac/cross_fac/mibtp/){:target="_blank"} Click "Accepting Applications for October 2025"<br>
 [ESRC student-led (deadline: 21 Jan 2025)](https://warwick.ac.uk/fac/cross_fac/mgsdtp/studentships/){:target="_blank"}
 
 - Paper published in Current Biology! ["Dissociating prosodic from syntactic delta activity during natural speech comprehension" by Chalas et al.](https://doi.org/10.1016/j.cub.2024.06.072){:target="_blank"}
