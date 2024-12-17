@@ -53,7 +53,7 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - Binal Kaur
 - Mohammed Rabeti
 - Thomas Auld
-- Thomas Roberts
+- [Thomas Roberts](https://www.neureca.org/members/thomas-roberts.html){:target="_blank"}
 
 
 ### {% include icon.html icon="fa-solid fa-users-rays" %}Alumni
