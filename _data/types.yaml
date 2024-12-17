@@ -11,7 +11,7 @@ postdoc:
   description: Postdoctoral Researcher
 
 phd:
-  icon: fa-solid fa-graduation-cap
+  icon: fa-solid fa-user-graduate
   description: PhD Student
 
 ra:
@@ -19,7 +19,7 @@ ra:
   description: Research Assistant
 
 msc:
-  icon: fa-solid fa-graduation-cap
+  icon: fa-solid fa-user-graduate
   description: MSc Student
   
 undergrad:
