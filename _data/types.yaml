@@ -23,7 +23,7 @@ msc:
   description: MSc Student
   
 undergrad:
-  icon: fa-solid fa-user-graduate
+  icon: fa-solid fa-user-gear
   description: Undergraduate Student
 
 programmer:
