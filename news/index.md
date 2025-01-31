@@ -12,7 +12,7 @@ nav:
 
 🔔🔔🔔
 **NEURECA Group featured in a podcast!**
-![Audio](https://your-website.com/audio/sample.mp3)
+![Audio](https://www.dropbox.com/scl/fi/i5tfp2dqb5my5ztmfrmga/NEURECA_-Neural-Communication-Research.wav?rlkey=ne0omwixv36ak32ccv1sslvh6&dl=0)
 
 {% include section.html %}
 
