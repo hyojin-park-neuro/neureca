@@ -13,6 +13,11 @@ nav:
 
 {% include section.html %}
 
+# 2025
+- We are hiring a part-time Research Assistant (RA) [Please email me with your CV to discuss further!](https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/6367?keyword=6367&mode=location)<br>
+
+- Paper accepted in Brain Communications. "Current and prospective roles of magnetic resonance imaging in mild traumatic brain injury" by Sassani et al. 
+
 # 2024
 - We currently have multiple competition-based PhD positions available! Please email me with your CV to discuss further!<br>
 [BBSRC MIBTP (deadline: 16 Jan 2025)](https://warwick.ac.uk/fac/cross_fac/mibtp/phd/supervisors/hpark/){:target="_blank"} [Applications](https://warwick.ac.uk/fac/cross_fac/mibtp/){:target="_blank"} Click "Accepting Applications for October 2025"<br>
