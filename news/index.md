@@ -13,6 +13,9 @@ nav:
 
 {% include section.html %}
 
+**NEURECA Group featured in a podcast!**
+
+
 # 2025
 - We are hiring a part-time Research Assistant (RA) [Please email me with your CV to discuss further!](https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/6367?keyword=6367&mode=location){:target="_blank"}
 
