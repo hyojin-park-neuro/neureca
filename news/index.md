@@ -7,14 +7,10 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events
 
-🔔🔔🔔
-
-**Highly motivated PhD Students & UG/MSc-level Research Assistants (RA) and Postdoctoral Scientists** are welcome to join Dr. Hyojin Park’s research group! Please feel free to contact the PI to discuss further regarding funding opportunities!
+🔔🔔🔔 **Highly motivated PhD Students & UG/MSc-level Research Assistants (RA) and Postdoctoral Scientists** are welcome to join Dr. Hyojin Park’s research group! Please feel free to contact the PI to discuss further regarding funding opportunities!
+🔔🔔🔔 **NEURECA Group featured in a podcast!**
 
 {% include section.html %}
-
-**NEURECA Group featured in a podcast!**
-
 
 # 2025
 - We are hiring a part-time Research Assistant (RA) [Please email me with your CV to discuss further!](https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/6367?keyword=6367&mode=location){:target="_blank"}
