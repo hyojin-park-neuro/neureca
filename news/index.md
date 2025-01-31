@@ -14,7 +14,7 @@ nav:
 **[NEURECA Group featured in a podcast!](https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio){:target="_blank"}** (powered by Gemini 😉) 
 
 <audio controls>
-  <source src="images/audio/NEURECA_Research.mp3" type="audio/mpeg">
+  <source src="images/audio/NEURECA_Research.mp3" type="audio/mp3">
 </audio>
 
 ![Audio](images/audio/NEURECA_Research.mp3)
