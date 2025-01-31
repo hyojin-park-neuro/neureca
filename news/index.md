@@ -11,7 +11,7 @@ nav:
 **Highly motivated PhD Students & UG/MSc-level Research Assistants (RA) and Postdoctoral Scientists** are welcome to join Dr. Hyojin Park’s research group! Please feel free to contact the PI to discuss further regarding funding opportunities!<br>
 
 🔔🔔🔔
-**[NEURECA Group featured in a podcast!](https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio)**
+**[NEURECA Group featured in a podcast!](https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio)** (powered by Gemini :wink:) 
 
 ![Audio](https://www.dropbox.com/scl/fi/i5tfp2dqb5my5ztmfrmga/NEURECA_-Neural-Communication-Research.wav?rlkey=ne0omwixv36ak32ccv1sslvh6&dl=0)
 
