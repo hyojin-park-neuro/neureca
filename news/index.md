@@ -12,6 +12,7 @@ nav:
 
 🔔🔔🔔
 **NEURECA Group featured in a podcast!**
+![Audio](https://your-website.com/audio/sample.mp3)
 
 {% include section.html %}
 
