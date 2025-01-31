@@ -7,8 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events
 
-🔔🔔🔔 **Highly motivated PhD Students & UG/MSc-level Research Assistants (RA) and Postdoctoral Scientists** are welcome to join Dr. Hyojin Park’s research group! Please feel free to contact the PI to discuss further regarding funding opportunities!
-🔔🔔🔔 **NEURECA Group featured in a podcast!**
+🔔🔔**Highly motivated PhD Students & UG/MSc-level Research Assistants (RA) and Postdoctoral Scientists** are welcome to join Dr. Hyojin Park’s research group! Please feel free to contact the PI to discuss further regarding funding opportunities!<br>
+🔔🔔**NEURECA Group featured in a podcast!**
 
 {% include section.html %}
 
