@@ -52,7 +52,7 @@ Undergraduate Modules
 
 Research Projects
 - Year 3 (Undergraduate) Group Research Project
-- Master students' research Project
+- Master students' Research Project
 
 ### {% include icon.html icon="fa-solid fa-chalkboard-user" %}Personal Tutorial
 - Year 1 (Undergraduate)
