@@ -104,7 +104,7 @@ github:
   link: https://github.com/$VALUE
 
 twitter:
-  icon: images/x-twitter.svg
+  icon: /images/x-twitter.svg
   text: X
   tooltip: X
   link: https://x.com/$VALUE
