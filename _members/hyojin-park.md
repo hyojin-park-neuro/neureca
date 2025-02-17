@@ -41,7 +41,7 @@ Researcher ID: C-6267-2017 <br>
 
 {% include section.html %}
 
-### {% include icon.html icon="fa-solid fa-chalkboard-user" %}Teaching 
+### {% include icon.html icon="fa-solid fa-chalkboard-user" %}Teaching and Supervision
 MSc Psychology, MSc Cognitive Neuroimaging and Data Science Programs
 - Application of Electrophysiological Approaches in Cognitive Neuroscience (Module Lead)
 - Research Methods and Skills in Psychology - MEG Practical
@@ -50,7 +50,15 @@ MSc Psychology, MSc Cognitive Neuroimaging and Data Science Programs
 Undergraduate Modules
 - Language and Communication (Year 2)
 
-Supervision of Undergraduate and Master's Projects
+Research Projects
+- Year 3 (Undergraduate) Group Research Project
+- Master students' research Project
+
+### {% include icon.html icon="fa-solid fa-chalkboard-user" %}Personal Tutorial
+- Year 1 (Undergraduate)
+- Year 2 (Undergraduate)
+- Year 3 (Undergraduate)
+- Master students
 
 ### {% include icon.html icon="fa-solid fa-school" %}Institutional Responsibilities 
 - [Modality Lead for MEG at the Centre for Human Brain Health (CHBH)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx){:target="_blank"}, University of Birmingham
