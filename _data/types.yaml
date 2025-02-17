@@ -104,7 +104,7 @@ github:
   link: https://github.com/$VALUE
 
 twitter:
-  icon: /images/x-twitter.svg
+  icon: https://github.com/hyojin-park-neuro/neureca/blob/cf28373b273854884dc1b6aab249fbf6eb3820ed/images/x-twitter.svg
   text: X
   tooltip: X
   link: https://x.com/$VALUE
