@@ -104,10 +104,10 @@ github:
   link: https://github.com/$VALUE
 
 twitter:
-  icon: fa-brands fa-x-twitter
-  text: Twitter
-  tooltip: Twitter
-  link: https://twitter.com/$VALUE
+  icon: fa-brands fa-square-x-twitter
+  text: X
+  tooltip: X
+  link: https://x.com/$VALUE
 
 facebook:
   icon: fa-brands fa-facebook
