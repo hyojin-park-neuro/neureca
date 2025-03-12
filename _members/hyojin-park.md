@@ -54,7 +54,7 @@ Research Projects
 - Year 3 (Undergraduate) Group Research Project
 - Master students' Research Project
 
-### {% include icon.html icon="fa-solid fa-children" %}Personal Tutorial
+### {% include icon.html icon="fa-solid fa-children" %}Personal Academic Tutorial
 - Year 1 (Undergraduate)
 - Year 2 (Undergraduate)
 - Year 3 (Undergraduate)
