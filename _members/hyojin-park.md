@@ -50,9 +50,9 @@ MSc Psychology, MSc Cognitive Neuroimaging and Data Science Programs
 Undergraduate Modules
 - Language and Communication (Year 2)
 
-Research Projects
-- Year 3 (Undergraduate) Group Research Project
-- Master students' Research Project
+Research Projects Supervision
+- Undergraduate (Year 3) Final Thesis Project
+- Msc Final Thesis Project
 
 ### {% include icon.html icon="fa-solid fa-children" %}Personal Academic Tutorial
 - Year 1 (Undergraduate)
