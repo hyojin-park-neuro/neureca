@@ -1,3 +1,15 @@
+- id: doi:10.1093/braincomms/fcaf120
+  type: paper
+  date: 2025-3-25
+  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/braincomms/PAP/10.1093_braincomms_fcaf120/1/m_fcaf120_ga.jpeg?Expires=1746616800&Signature=Xp59WkMUi5jDrgur~Ml3POAdFp0GuTrUzUnLJxwfOKmcRuwCM48KoCWNwoBS30RRyVDWeu7xvhpQpq~im-KD8PnOrotupB-lasE0dTEsPZCpE-IVtNmQQRxbOnb-SvbF080m7FSjpIZPzajR15PIPE-EYZghmrSumWlEXfNtc~oGBA-7AEigIsFn3qveWkNWe-~mZjYBrnpp7A297I8TFhpbqob4Z3u~Gq24UmOLDsVJgjFrTEGQjrSq8o~-kY3EaNwOmur9KbuVwJa7VetxeeJHshs-L6VYp9~k5JMmn~9SRvWq0onL3EOfyVrZB-JvywxZO5ZCgKBduUUwgC0drQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  tags:
+    - mild traumatic brain injury
+    - mtbi
+    - concussion
+    - biomarkers
+    - magnetic resonance imaging
+    - magnetic resonance spectroscopy
+
 - id: doi:10.1101/2024.09.13.612424
   type: paper
   date: 2024-9-14
@@ -7,7 +19,6 @@
     - theta
     - memory
     - MEG/EEG
-
     
 - id: doi:10.1016/j.cub.2024.06.072
   type: paper
