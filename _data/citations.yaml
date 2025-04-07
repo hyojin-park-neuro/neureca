@@ -1,5 +1,101 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1093/braincomms/fcaf120
+  title: Current and prospective roles of magnetic resonance imaging in mild traumatic
+    brain injury
+  authors:
+  - Matilde Sassani
+  - Tara Ghafari
+  - Pradeepa R W Arachchige
+  - Iman Idrees
+  - Yidian Gao
+  - Alice Waitt
+  - Samuel R C Weaver
+  - Ali Mazaheri
+  - Hannah S Lyons
+  - Olivia Grech
+  - Mark Thaller
+  - Caroline Witton
+  - Andrew P Bagshaw
+  - Martin Wilson
+  - Hyojin Park
+  - Matthew Brookes
+  - Jan Novak
+  - Susan P Mollan
+  - Lisa J Hill
+  - Samuel J E Lucas
+  - James L Mitchell
+  - Alexandra J Sinclair
+  - Aliza Finch
+  - Adam Hampshire
+  - Alice Sitch
+  - Ali Mazaheri
+  - Andrew P Bagshaw
+  - Asha Strom
+  - Alice Waitt
+  - Andreas Yiangou
+  - Alexander Bennett
+  - Angus Hunter
+  - Caroline Witton
+  - "Davinia Fern\xE1ndez-Espejo"
+  - Dan Ford
+  - Duncan Wilson
+  - Hamid Dehghani
+  - Hyojin Park
+  - Hannah S Lyons
+  - Helen Brunger
+  - Henrietta Ellis
+  - Iman Idrees
+  - Ian Varley
+  - Jessica Hubbard
+  - Jun Cao
+  - Jon Deeks
+  - James L Mitchell
+  - Jan Novak
+  - Jamie Pringle
+  - John Terry
+  - Jack Rogers
+  - Jessikah Fildes
+  - Karen Mullinger
+  - Lisa J Hill
+  - Mark Thaller
+  - Martin Wilson
+  - Matilde Sassani
+  - Matthew Brookes
+  - Ned Jenkinson
+  - Ole Jensen
+  - Pete Hellyer
+  - Sebastian Coleman
+  - Raymond Reynolds
+  - Richard Blanch
+  - Katie Morris
+  - Ryan Ottridge
+  - Rachel Upthegrove
+  - Pradeepa R W Arachchige
+  - Sarah Berhane
+  - Samuel J E Lucas
+  - Sophie Prosser
+  - Shreshth Dharm-Datta
+  - Tara Ghafari
+  - Waheeda Hawa
+  - Yidian Gao
+  - Alexandra J Sinclair
+  - Karen Mullinger
+  - "Davinia Fern\xE1ndez-Espejo"
+  publisher: Brain Communications
+  date: '2025-03-25'
+  link: https://doi.org/g9dnm8
+  type: paper
+  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/braincomms/PAP/10.1093_braincomms_fcaf120/1/m_fcaf120_ga.jpeg?Expires=1746616800&Signature=Xp59WkMUi5jDrgur~Ml3POAdFp0GuTrUzUnLJxwfOKmcRuwCM48KoCWNwoBS30RRyVDWeu7xvhpQpq~im-KD8PnOrotupB-lasE0dTEsPZCpE-IVtNmQQRxbOnb-SvbF080m7FSjpIZPzajR15PIPE-EYZghmrSumWlEXfNtc~oGBA-7AEigIsFn3qveWkNWe-~mZjYBrnpp7A297I8TFhpbqob4Z3u~Gq24UmOLDsVJgjFrTEGQjrSq8o~-kY3EaNwOmur9KbuVwJa7VetxeeJHshs-L6VYp9~k5JMmn~9SRvWq0onL3EOfyVrZB-JvywxZO5ZCgKBduUUwgC0drQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  tags:
+  - mild traumatic brain injury
+  - mtbi
+  - concussion
+  - biomarkers
+  - magnetic resonance imaging
+  - magnetic resonance spectroscopy
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1101/2024.09.13.612424
   title: Neocortical and hippocampal theta oscillations track audiovisual integration
     and replay of speech memories
