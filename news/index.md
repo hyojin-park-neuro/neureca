@@ -16,6 +16,10 @@ nav:
 {% include section.html %}
 
 # 2025
+- Dr. Hyojin Park is invited to give a lecture at [Cambridge Speech Decoding Workshop](https://sites.google.com/cam.ac.uk/speechdecodingworkshop/home){:target="_blank"} at the MRC Cognition and Brain Sciences Unit, University of Cambridge. 
+
+- Paper accepted in Journal of Neuroscience! "Neocortical and hippocampal theta oscillations track audiovisual integration and replay of speech memories" by Emmanuel Biau, Danying Wang, Hyojin Park, Ole Jensen, and Simon Hanslmayr.
+
 - Paper accepted in Journal of Neuroscience! "Neocortical and hippocampal theta oscillations track audiovisual integration and replay of speech memories" by Emmanuel Biau, Danying Wang, Hyojin Park, Ole Jensen, and Simon Hanslmayr.
   
 - We are hiring a part-time Research Assistant (RA) [Please email me with your CV to discuss further!](https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/6367?keyword=6367&mode=location){:target="_blank"}
