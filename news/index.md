@@ -17,6 +17,8 @@ nav:
 
 # 2025
 - Join [OPM-FLUX Toolkit](https://www.neuosc.com/fluxtoolkit2025){:target="_blank"} on 9-12th June 2025 at the St. Catherine's College, University of Oxford!
+
+- We are excited about our symposium in [British Neuroscience Association (BNA) Meeting 2025 in Liverpool on 27-30 April](https://meetings.bna.org.uk/bna2025/){:target="_blank"}, please come to ["Symposium 35: Neural entrainment and cognition: from memory to natural speech"](https://meetings.bna.org.uk/bna2025/programme-1/programme/){:target="_blank"}!
   
 - Dr. Hyojin Park is invited to give a lecture at [Cambridge Speech Decoding Workshop](https://sites.google.com/cam.ac.uk/speechdecodingworkshop/home){:target="_blank"} at the MRC Cognition and Brain Sciences Unit, University of Cambridge on Friday 16th May 2025.
 
