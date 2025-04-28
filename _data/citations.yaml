@@ -107,7 +107,7 @@
   date: '2025-03-20'
   link: https://doi.org/g9gvf2
   type: paper
-  image: null
+  image: images/fallback.svg
   tags:
   - fNIRS
   - FD-fNIRS
