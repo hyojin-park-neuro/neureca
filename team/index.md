@@ -29,7 +29,7 @@ nav:
 {% include section.html %}
 
 <p style="text-align:center;"><strong>Power of Synergies!</strong><br>
-Teamwork is essential for unlocking the power of synergies, allowing individuals to leverage their strengths and achieve greater success than they could on their own. Furthremore, we embrace <strong>the value of diversity</strong> and <strong>inclusive environments for research</strong>, which is essential for fostering innovative and impactful research.</p>
+Teamwork is essential for unlocking the power of synergies, allowing individuals to leverage their strengths and achieve greater success than they could on their own. Furthermore, we embrace <strong>the value of diversity</strong> and <strong>inclusive environments for research</strong>, which is essential for fostering innovative and impactful research.</p>
 
 {% include section.html dark="hp_bgwhite_icon1" %}
 
