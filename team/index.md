@@ -47,7 +47,7 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - Valentina Kurti
 
 ### {% include icon.html icon="fa-solid fa-people-carry-box" %}Internship Students
-- Sekwang Jeong
+- [Sekwang Jeong](https://www.neureca.org/members/sekwang-jeong.html){:target="_blank"}
 
 ### {% include icon.html icon="fa-solid fa-user-gear" %}Undergraduate Students
 - [Abby Korter](https://www.neureca.org/members/abby-korter.html){:target="_blank"}
