@@ -33,6 +33,9 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 
 {% include section.html dark="hp_bgwhite_icon1" %}
 
+{% include list.html data="members" component="portrait" filters="role: postdoc, group: " %} {% include list.html data="members" component="portrait" filters="role: phd, group: " %} {% include list.html data="members" component="portrait" filters="role: msc, group: " %} {% include list.html data="members" component="portrait" filters="role: undergrad, group: " %} {% include list.html data="members" component="portrait" filters="role: intern, group: " %} 
+
+
 ### {% include icon.html icon="fa-solid fa-user-graduate" %}Postgraduate Students
 - [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}
 - [Jack Craig](https://www.neureca.org/members/jack-craig.html){:target="_blank"}
