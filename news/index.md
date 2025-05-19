@@ -20,6 +20,8 @@ nav:
 
 - Dr. Hyojin Park is invited to give a lecture at [Cambridge Speech Decoding Workshop](https://sites.google.com/cam.ac.uk/speechdecodingworkshop/home){:target="_blank"} at the MRC Cognition and Brain Sciences Unit, University of Cambridge on Friday 16th May 2025.
 
+- Dr. Hyojin Park is invited to give a lecture at [Brain & Cognitive Science Community](https://bcscommunity123.wixstudio.com/bcsc){:target="_blank"} in South Korea on Thursday 1st May 2025.
+
 - We are excited about our symposium in [British Neuroscience Association (BNA) Meeting 2025 in Liverpool on 27-30th April](https://meetings.bna.org.uk/bna2025/){:target="_blank"}, please come to ["Symposium 35: Neural entrainment and cognition: from memory to natural speech"](https://meetings.bna.org.uk/bna2025/programme-1/programme/){:target="_blank"}!
 
 - Paper accepted in Journal of Neuroscience! "Neocortical and hippocampal theta oscillations track audiovisual integration and replay of speech memories" by Emmanuel Biau, Danying Wang, Hyojin Park, Ole Jensen, and Simon Hanslmayr.
