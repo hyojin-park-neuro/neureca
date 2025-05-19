@@ -1,7 +1,7 @@
 ---
 name: Sekwang Jeong
 image: images/photo_members/photo_sekwang_jeong.jpg
-role: undergrad
+role: intern
 aliases:
   - Sekwang Jeong
   - Jeong, Sekwang 
