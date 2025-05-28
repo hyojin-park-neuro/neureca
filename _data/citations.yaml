@@ -1,5 +1,27 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: https://doi.org/10.1523/JNEUROSCI.1797-24.2025
+  title: Neocortical and Hippocampal Theta Oscillations Track Audiovisual Integration
+    and Replay of Speech Memories
+  authors:
+  - Emmanuel Biau
+  - Danying Wang
+  - Hyojin Park
+  - Ole Jensen
+  - Simon Hanslmayr
+  publisher: Journal of Neuroscience
+  date: '2025-05-21'
+  link: https://www.jneurosci.org/content/45/21/e1797242025
+  type: paper
+  image: https://www.jneurosci.org/content/jneuro/45/21/e1797242025/F1.large.jpg?width=800&height=600&carousel=1
+  tags:
+  - audiovisual speech
+  - memory
+  - theta
+  - hippocampus
+  - MEG/EEG
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1093/braincomms/fcaf120
   title: Current and prospective roles of magnetic resonance imaging in mild traumatic
     brain injury
