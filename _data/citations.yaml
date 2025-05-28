@@ -1,6 +1,6 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: https://doi.org/10.1523/JNEUROSCI.1797-24.2025
+- id: doi:10.1523/JNEUROSCI.1797-24.2025
   title: Neocortical and Hippocampal Theta Oscillations Track Audiovisual Integration
     and Replay of Speech Memories
   authors:
@@ -9,9 +9,9 @@
   - Hyojin Park
   - Ole Jensen
   - Simon Hanslmayr
-  publisher: Journal of Neuroscience
+  publisher: The Journal of Neuroscience
   date: '2025-05-21'
-  link: https://www.jneurosci.org/content/45/21/e1797242025
+  link: https://doi.org/g9mjzx
   type: paper
   image: https://www.jneurosci.org/content/jneuro/45/21/e1797242025/F1.large.jpg?width=800&height=600&carousel=1
   tags:
