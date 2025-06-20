@@ -39,7 +39,7 @@ nav:
 
 - 🎉 Congratulations! [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}' abstract has been accepted for an oral presentation at [BIOMAG 2024](https://www.biomag2024.org/cms/){:target="_blank"}. Well done, Charlie! Abstract titled "Seeing Speech in a New Light: Augmenting Speech Performance using Rapid Invisible Frequency Tagging (RIFT) and MEG"
 
-- Hosting a CHBH Seminar: [Prof. Maria Chait](https://www.ucl.ac.uk/ear/research/research-units/auditory-cognitive-neuroscience-lab-chait-lab){:target="_blank"} at the University College London (UCL) will give a talk (title: "Neural Mechanisms for Tracking Uncertainty in Rapidly Unfolding Sound Sequences – evidence from M/EEG in human listeners") at the CHBH seminar series, 20 Jun 2024 - postponed.
+- Hosting a CHBH Seminar: [Prof. Maria Chait](https://profiles.ucl.ac.uk/3865-maria-chait){:target="_blank"} at the University College London (UCL) will give a talk (title: "Neural Mechanisms for Tracking Uncertainty in Rapidly Unfolding Sound Sequences – evidence from M/EEG in human listeners") at the CHBH seminar series, 20 Jun 2024 - postponed.
 
 - Come and join the [Centre for Cognitive Neuroimaging (CCNi) 15th Anniversary event](https://www.eventbrite.co.uk/e/ccni-15th-anniversary-tickets-866169074017){:target="_blank"}, at the School of Psychology & Neuroscience, University of Glasgow on Thu, 6 Jun 2024! Dr. Hyojin Park will give a talk in the alumni session: "Neural mechanisms underlying naturalistic speech processing with MEG/OPM-MEG using Natural Language Processing (NLP) and Rapid Invisible Frequency Tagging (RIFT) techniques"
 
@@ -49,7 +49,7 @@ nav:
 
 - Dr. Hyojin Park gave [a seminar talk at the Centre for Computational Science and Mathematical Modelling (CSM)](https://www.linkedin.com/posts/cu-csm_welcome-to-dr-hyojin-parks-research-group-activity-7178786572681502721-DNDE?utm_source=share&utm_medium=member_desktop){:target="_blank"}, Coventry University, Coventry, UK (27 Mar 2024).
 
-- Hosting a [CHBH Seminar](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/events/2024/ushagoswami){:target="_blank"}: [Prof. Usha Goswami CBE FRS FBA](https://en.wikipedia.org/wiki/Usha_Goswami){:target="_blank"} at the University of Cambridge will give a talk titled "Dyslexia, Rhythm, Language and the Developing Brain" at the CHBH seminar series, 22 Feb 2024. [Check out the blog!](https://www.neureca.org/2024/02/22/usha-goswami-chbh.html){:target="_blank"}
+- Hosting a [CHBH Seminar](https://www.birmingham.ac.uk/research/centres-institutes/human-brain-health/events){:target="_blank"}: [Prof. Usha Goswami CBE FRS FBA](https://en.wikipedia.org/wiki/Usha_Goswami){:target="_blank"} at the University of Cambridge will give a talk titled "Dyslexia, Rhythm, Language and the Developing Brain" at the CHBH seminar series, 22 Feb 2024. [Check out the blog!](https://www.neureca.org/2024/02/22/usha-goswami-chbh.html){:target="_blank"}
 
 - [**Postdoctoral Fellowship opportunity - Please apply!!**] Please email me with your CV for [ESRC Postdoctoral Fellowships](https://warwick.ac.uk/fac/cross_fac/mgsdtp/postdocfellowships/){:target="_blank"} application (deadline: 16 May 2024)!
 
@@ -68,7 +68,7 @@ nav:
   
 - Dr. Hyojin Park gave a seminar talk at the Institute for Biomagnetism and Biosignalanalysis (IBB), University of Muenster, Muenster, Germany (15-17 Nov 2023). 
   
-- Dr. Hyojin Park participated in the groundbreaking [first whole-head OPM-MEG data recording at the CHBH](https://twitter.com/HyojinParkNeuro/status/1721602322613055533){:target="_blank"}! Exciting developments lie ahead!!
+- Dr. Hyojin Park participated in the groundbreaking first whole-head OPM-MEG data recording at the CHBH! Exciting developments lie ahead!!
 {% include figure.html image="images/photo_members/photo_hyojin_park_6.jpg" width="40%" %}
 
 - Dr. Hyojin Park attended the [MEG UKI 2023 Conference in Dublin, Ireland](https://meguk.ac.uk/meg-uki-2023-conference/){:target="_blank"} (27-28 Oct 2023). 
