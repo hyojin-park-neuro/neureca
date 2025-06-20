@@ -64,7 +64,7 @@ number="1"
 - Cross-modal Plasticity
 - Brain-Body-Environment Coupling
 - Modulation of Brain Activity using Rhythmic Stimulation
-- [Mild Traumatic Brain Injury (mTBI)](https://www.birmingham.ac.uk/research/metabolism-systems/translational-brain-science/mtbi-predict/mtbi-predict.aspx){:target="_blank"}
+- [Mild Traumatic Brain Injury (mTBI)](https://www.birmingham.ac.uk/research/metabolism-systems/translational-brain-science/mtbi-predict){:target="_blank"}
 - <div style="text-align: left">(Micro-)Saccadic Eye Movements and Audiovisual Attention</div>
 - <div style="text-align: left">Audiovisual Speech/Language Development & Neural Plasticity across Lifespan</div>
 - <div style="text-align: left">Disorganised thoughts and (internal) speech processing in psychosis</div>
@@ -76,8 +76,8 @@ number="1"
 
 {% capture col2 %}
 ## {% include icon.html icon="fa-solid fa-screwdriver-wrench" %}Techniques & Approaches
-- [SQUID-MEG (Magnetoencephalography)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/meg.aspx){:target="_blank"}
-- [OPM-MEG (Optically-Pumped Magnetometers)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/opm.aspx){:target="_blank"}
+- [SQUID-MEG (Magnetoencephalography)](https://www.birmingham.ac.uk/research/centres-institutes/human-brain-health/faciities/magnetoencephalography){:target="_blank"}
+- [OPM-MEG (Optically-Pumped Magnetometers)](https://www.birmingham.ac.uk/research/centres-institutes/human-brain-health/faciities/optically-pumped-magnetometers){:target="_blank"}
 - Electroencephalography (EEG)
 - [Functional Near-Infrared Spectroscopy (fNIRS)](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/chbh-research-facilities/fnirs){:target="_blank"}
 - Diffusion Tensor Imaging (DTI)
