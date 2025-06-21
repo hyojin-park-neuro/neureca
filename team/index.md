@@ -43,33 +43,33 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 {% endcomment %}
 
 ### {% include icon.html icon="fa-solid fa-user-graduate" %}Postgraduate Students
-- [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}
-- [Jack Craig](https://www.neureca.org/members/jack-craig.html){:target="_blank"}
-- [Xin Wang](https://www.neureca.org/members/xin-wang.html){:target="_blank"}
-- [Alexander Zust](https://www.neureca.org/members/alexander-zust.html){:target="_blank"}
+- [Charlie Reynolds](/members/charlie-reynolds.html){:target="_blank"}
+- [Jack Craig](/members/jack-craig.html){:target="_blank"}
+- [Xin Wang](/members/xin-wang.html){:target="_blank"}
+- [Alexander Zust](/members/alexander-zust.html){:target="_blank"}
 - Christopher Fairhurst
 - Jack Griffiths
-- [Latifah Parara](https://www.neureca.org/members/latifah-parara.html){:target="_blank"}
+- [Latifah Parara](/members/latifah-parara.html){:target="_blank"}
 
 ### {% include icon.html icon="fa-solid fa-people-carry-box" %}Research Assistants
-- [Regina Sungkyeong Kim](https://www.neureca.org/members/regina-kim.html){:target="_blank"}
+- [Regina Sungkyeong Kim](/members/regina-kim.html){:target="_blank"}
 - Valentina Kurti
 - Robert Harrison
 - Shrisha Sathishkumar
 
 ### {% include icon.html icon="fa-solid fa-people-carry-box" %}Internship Students
-- [Sekwang Jeong](https://www.neureca.org/members/sekwang-jeong.html){:target="_blank"}
+- [Sekwang Jeong](/members/sekwang-jeong.html){:target="_blank"}
 - Amirah Mia
 
 ### {% include icon.html icon="fa-solid fa-user-gear" %}Undergraduate Students
-- [Abby Korter](https://www.neureca.org/members/abby-korter.html){:target="_blank"}
-- [Amber Hanan](https://www.neureca.org/members/amber-hanan.html){:target="_blank"}
-- [Matilda Halliwell](https://www.neureca.org/members/matilda-halliwell.html){:target="_blank"}
+- [Abby Korter](/members/abby-korter.html){:target="_blank"}
+- [Amber Hanan](/members/amber-hanan.html){:target="_blank"}
+- [Matilda Halliwell](/members/matilda-halliwell.html){:target="_blank"}
 - Yiyang Xu
 - Binal Kaur
 - Mohammed Rabeti
 - Thomas Auld
-- [Thomas Roberts](https://www.neureca.org/members/thomas-roberts.html){:target="_blank"}
+- [Thomas Roberts](/members/thomas-roberts.html){:target="_blank"}
 
 
 ### {% include icon.html icon="fa-solid fa-users-rays" %}Alumni
@@ -77,8 +77,8 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - Tara Ghafari (co-supervision)
   
 ***{% include icon.html icon="fa-solid fa-user-graduate" %}  Postgraduate Students***
-- [Xiangqi Zhou (2023-24)](https://www.neureca.org/members/xiangqi-zhou.html){:target="_blank"}
-- [Yaxi Luo (2023-24)](https://www.neureca.org/members/yaxi-luo.html){:target="_blank"}
+- [Xiangqi Zhou (2023-24)](/members/xiangqi-zhou.html){:target="_blank"}
+- [Yaxi Luo (2023-24)](/members/yaxi-luo.html){:target="_blank"}
 - Choi Yu (2022-23)
 - Victoria Gorneva (2022-23) 
 - Gabriel Byczynski (2021-22)
@@ -101,7 +101,7 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 ## {% include icon.html icon="fa-solid fa-users-line" %}Collaborators
 
 - [Ole Jensen](https://neuosc.com/){:target="_blank"}, Department of Experimental Psychology & Department of Psychiatry, University of Oxford, UK
-- [Robin A. A. Ince](http://www.robinince.net/about.html){:target="_blank"}, Institute of Neuroscience and Psychology, University of Glasgow, UK
+- [Robin A. A. Ince](http://www.robinince.net){:target="_blank"}, Institute of Neuroscience and Psychology, University of Glasgow, UK
 - [Joachim Gross](https://www.uni-muenster.de/OCCMuenster/members/joachim-gross.html){:target="_blank"}, Institute for Biomagnetism and Biosignalanalysis, University of Muenster, Germany
 - [Gregor Thut](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/gregorthut/){:target="_blank"}, School of Psychology & Institute of Neuroscience and Psychology, University of Glasgow, UK
 - [Hyo-Jeong Lee](https://scholar.google.co.kr/citations?user=x-pSzCoAAAAJ&hl=en){:target="_blank"}, Department of Otolaryngology, Hallym University College of Medicine, Hallym University Medical Center, Anyang, South Korea 
