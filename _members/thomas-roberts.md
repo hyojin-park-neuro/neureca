@@ -11,9 +11,9 @@ aliases:
   - Roberts T  
 links:
   email: txr124@student.bham.ac.uk
-  linkedin: thomasneuro  
-  github: TommyTeapot
+  linkedin: TommyTNeuro  
+  github: TommyTNeuro
 ---
 
-Thomas Roberts is a fourth-year undergraduate Psychology student completing his final year project under the supervision of Dr. Hyojin Park. His research focuses on the cultural influences on pseudoneglect. During his year abroad at Korea University (고려대학교), Thomas developed his skills in data science and computational neuroscience methods, sparking a strong interest in pursuing a career in this field. He is particularly interested in leveraging Python and advanced neuroimaging techniques to transform clinical psychology and neuroscience into more data-driven disciplines.
+Thomas Roberts is a fourth-year undergraduate Psychology student completing his final year project under the supervision of [Dr. Hyojin Park](/member/hyojin-park.html){:target="_black"}. His research focuses on the cultural influences on pseudoneglect. During his year abroad at Korea University (고려대학교), Thomas developed his skills in data science and computational neuroscience methods, sparking a strong interest in pursuing a career in this field. He is particularly interested in leveraging Python and advanced neuroimaging techniques to transform clinical psychology and neuroscience into more data-driven disciplines.
 

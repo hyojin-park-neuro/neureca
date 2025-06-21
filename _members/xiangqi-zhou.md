@@ -14,4 +14,4 @@ links:
   instagram: xiangqizhou84
 
 ---
-Xiangqi Zhou is a postgraduate student in MSc Psychology at the School of Psychology, University of Birmingham, under the supervision of [Dr. Hyojin Park](https://www.neureca.org/team/){:target="_blank"}. Prior to his current studies, he obtained a bachelor’s degree in computer science from South China Agricultural University.
+Xiangqi Zhou is a postgraduate student in MSc Psychology at the School of Psychology, University of Birmingham, under the supervision of [Dr. Hyojin Park](/members/hyojin-park.html){:target="_blank"}. Prior to his current studies, he obtained a bachelor’s degree in computer science from South China Agricultural University.
