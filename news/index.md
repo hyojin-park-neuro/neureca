@@ -16,6 +16,8 @@ nav:
 {% include section.html %}
 
 # 2025
+- Paper accepted in Trends in Cognitive Science! "Confronting the Connectivity Crisis in M/EEG Research" by Ole Jensen, Hyojin Park, and Oscar Ferrante.
+
 - Join [OPM-FLUX Toolkit](https://www.neuosc.com/fluxtoolkit2025){:target="_blank"} on 9-12th June 2025 at the St. Catherine's College, University of Oxford!
 
 - Dr. Hyojin Park is invited to give a lecture at [Cambridge Speech Decoding Workshop](https://sites.google.com/cam.ac.uk/speechdecodingworkshop/home){:target="_blank"} at the MRC Cognition and Brain Sciences Unit, University of Cambridge on Friday 16th May 2025.
