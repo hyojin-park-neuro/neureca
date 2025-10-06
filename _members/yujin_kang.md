@@ -1,16 +1,16 @@
 ---
-name: Abby Korter
-image: images/photo_members/photo_abby_korter.jpg
-role: undergrad
+name: Yujin Kang
+image: images/photo_members/photo_yujin_kang.jpg
+role: intern
 aliases:
-  - Abby Korter
-  - Korter, Abby 
-  - A. Korter
-  - A Korter
-  - Korter A.
-  - Korter A  
+  - Yujin Kang
+  - Kang, Yujin 
+  - Y. Kang
+  - Y Kang
+  - Kang Y.
+  - Kang Y  
 links:
-  email: alk188@student.bham.ac.uk
+  email: y.kang@bham.ac.uk; zinzin32@cau.ac.kr
 ---
 
-I am a Human Neuroscience BSc student at the University of Birmingham, working within Hyojin's team for my final year dissertation project. I did my year abroad at Queensland University of Technology (QUT) in Australia, and am back in Birmingham for my 3rd year! My final year project will involve looking at human cross-modal emotional responses to art and music.
+Yujin Kang is a second-year Ph.D. student under the supervision of Dr. Yoon-Sik Cho at Chung-Ang University, South Korea. Her research focuses on probing and enhancing the reasoning capabilities of Large Language Models (LLMs), with particular attention to their vulnerabilities and robustness in real-world applications. She is especially interested in the intersection of LLM reasoning, security, and privacy, exploring how advanced LLMs behave in complex decision-making environments where safety, trust, and domain specificity are critical.
