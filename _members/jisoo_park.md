@@ -1,16 +1,16 @@
 ---
-name: Abby Korter
-image: images/photo_members/photo_abby_korter.jpg
-role: undergrad
+name: Jisoo Park
+image: images/photo_members/photo_jisoo_park.png
+role: intern
 aliases:
-  - Abby Korter
-  - Korter, Abby 
-  - A. Korter
-  - A Korter
-  - Korter A.
-  - Korter A  
+  - Jisoo Park
+  - Park, Jisoo 
+  - J. Park
+  - J Park
+  - Park J.
+  - Park J  
 links:
-  email: alk188@student.bham.ac.uk
+  email: j.park.5@bham.ac.uk; cosmopark624@gmail.com
 ---
 
-I am a Human Neuroscience BSc student at the University of Birmingham, working within Hyojin's team for my final year dissertation project. I did my year abroad at Queensland University of Technology (QUT) in Australia, and am back in Birmingham for my 3rd year! My final year project will involve looking at human cross-modal emotional responses to art and music.
+Jisoo Park is a first-year PhD student in Artificial Intelligence at Chung-Ang University, South Korea. She joined the CHBH at the School of Psychology as a visiting researcher from Sep 2025 to Nov 2025. Her research focuses on multimodal computer vision and speech processing. Under supervision of Prof. Hyojin Park, she engaged in listened speech decoding (decoding speech waveform from EEG signals) research. 
