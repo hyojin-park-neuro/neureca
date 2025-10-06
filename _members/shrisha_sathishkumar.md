@@ -1,16 +1,16 @@
 ---
-name: Abby Korter
-image: images/photo_members/photo_abby_korter.jpg
-role: undergrad
+name: Shrisha Sathishkumar
+image: images/photo_members/photo_shrisha_sathishkumar.jpg
+role: ra
 aliases:
-  - Abby Korter
-  - Korter, Abby 
-  - A. Korter
-  - A Korter
-  - Korter A.
-  - Korter A  
+  - Shrisha Sathishkumar
+  - Sathishkumar, Shrisha 
+  - S. Sathishkumar
+  - S Sathishkumar
+  - Sathishkumar S.
+  - Sathishkumar S  
 links:
-  email: alk188@student.bham.ac.uk
+  email: s.sathishkumar@bham.ac.uk
 ---
 
-I am a Human Neuroscience BSc student at the University of Birmingham, working within Hyojin's team for my final year dissertation project. I did my year abroad at Queensland University of Technology (QUT) in Australia, and am back in Birmingham for my 3rd year! My final year project will involve looking at human cross-modal emotional responses to art and music.
+Shrisha holds a Bachelor’s in Biomedical Engineering and a Master’s in Computational Neuroscience & Cognitive Robotics from the University of Birmingham. She is currently working on a neurolinguistic MEG research under Dr. Hyojin Park, focusing on how brain feels language. This project explores how Figurative Language like iconicity and metaphor shape speech comprehension—testing whether the brain responds differently when the “ratings” of words are reshuffled, even though the speech itself stays the same. Neural analyses are combined with modern word embeddings (text-embedding-3-large, sBERT, GloVe) and prompt engineering (GPT-4) to investigate how the brain encodes and interprets language. She likes to think of it as decoding not just what we hear, but how we experience it.
