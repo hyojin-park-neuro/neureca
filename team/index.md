@@ -54,12 +54,13 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 ### {% include icon.html icon="fa-solid fa-people-carry-box" %}Research Assistants
 - [Regina Sungkyeong Kim](/members/regina-kim.html){:target="_blank"}
 - Valentina Kurti
-- Robert Harrison
-- Shrisha Sathishkumar
+- [Shrisha Sathishkumar](/members/shrisha-sathishkumar.html){:target="_blank"}
 
 ### {% include icon.html icon="fa-solid fa-people-carry-box" %}Internship Students
 - [Sekwang Jeong](/members/sekwang-jeong.html){:target="_blank"}
-- Amirah Mia
+- [Yujin Kang](/members/yujin-kang.html){:target="_blank"}
+- [Byungjun Kim](/members/byungjun-kim.html){:target="_blank"}
+- [Jisoo Park](/members/jisoo-park.html){:target="_blank"}
 
 ### {% include icon.html icon="fa-solid fa-user-gear" %}Undergraduate Students
 - [Abby Korter](/members/abby-korter.html){:target="_blank"}

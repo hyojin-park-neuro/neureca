@@ -1,3 +1,12 @@
+- id: doi:10.1016/j.tics.2025.09.001
+  type: paper
+  date: 2025-9-18
+  image: https://www.cell.com/cms/10.1016/j.tics.2025.09.001/asset/30e73b50-c908-447e-b1b9-7940f16dc292/main.assets/gr1_lrg.jpg
+  tags:
+    - MEG/EEG
+    - connectivity
+    - coherence
+
 - id: doi:10.1523/JNEUROSCI.1797-24.2025
   type: paper
   date: 2025-5-21

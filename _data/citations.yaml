@@ -1,5 +1,22 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.tics.2025.09.001
+  title: Confronting the connectivity crisis in human M/EEG research
+  authors:
+  - Ole Jensen
+  - Hyojin Park
+  - Oscar Ferrante
+  publisher: Trends in Cognitive Sciences
+  date: '2025-09-18'
+  link: https://doi.org/g952fq
+  type: paper
+  image: https://www.cell.com/cms/10.1016/j.tics.2025.09.001/asset/30e73b50-c908-447e-b1b9-7940f16dc292/main.assets/gr1_lrg.jpg
+  tags:
+  - MEG/EEG
+  - connectivity
+  - coherence
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1523/JNEUROSCI.1797-24.2025
   title: Neocortical and Hippocampal Theta Oscillations Track Audiovisual Integration
     and Replay of Speech Memories
