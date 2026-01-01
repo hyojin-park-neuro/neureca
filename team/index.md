@@ -63,15 +63,14 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - [Jisoo Park](/members/jisoo-park.html){:target="_blank"}
 
 ### {% include icon.html icon="fa-solid fa-user-gear" %}Undergraduate Students
-- [Abby Korter](/members/abby-korter.html){:target="_blank"}
-- [Amber Hanan](/members/amber-hanan.html){:target="_blank"}
-- [Matilda Halliwell](/members/matilda-halliwell.html){:target="_blank"}
-- Yiyang Xu
-- Binal Kaur
-- Mohammed Rabeti
-- Thomas Auld
-- [Thomas Roberts](/members/thomas-roberts.html){:target="_blank"}
-
+- Clarence Alabi
+- Cai Day
+- Andrew Opuni
+- Eleanor Page
+- Noa Levy
+- Woojae Shin
+- Cameron Wallace
+- Yu-Zhen Wong
 
 ### {% include icon.html icon="fa-solid fa-users-rays" %}Alumni
 ***{% include icon.html icon="fa-solid fa-user-check" %}  Post-doctoral Researchers***
@@ -86,6 +85,14 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - Zhuoxin Xiao (2021-22)
 
 ***{% include icon.html icon="fa-solid fa-user-gear" %}  Undergraduate Students***
+- [Abby Korter](/members/abby-korter.html){:target="_blank"} (2024-25) 
+- [Amber Hanan](/members/amber-hanan.html){:target="_blank"} (2024-25)
+- [Matilda Halliwell](/members/matilda-halliwell.html){:target="_blank"} (2024-25)
+- Yiyang Xu (2024-25)
+- Binal Kaur (2024-25)
+- Mohammed Rabeti (2024-25)
+- Thomas Auld (2024-25)
+- [Thomas Roberts](/members/thomas-roberts.html){:target="_blank"} (2024-25)
 - Jack Gibbins (2023-24)
 - Samira Hussein (2023-24)
 - Mengquan Liu (2023-24)
