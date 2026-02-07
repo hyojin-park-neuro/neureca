@@ -16,9 +16,7 @@ nav:
 {% include section.html %}
 
 # 2026
-- We are recruiting participants! Please see this [poster](https://github.com/hyojin-park-neuro/neureca/blob/main/images/projects/project_ug_2025-26_poster.png){:target="_blank"}! 
-
-- We are recruiting participants! Please see this [poster](https://raw.githubusercontent.com/hyojin-park-neuro/neureca/refs/heads/main/images/projects/project_ug_2025-26_poster.png){:target="_blank"}!
+- We are recruiting research participants in [a fascinating study](https://raw.githubusercontent.com/hyojin-park-neuro/neureca/refs/heads/main/images/projects/project_ug_2025-26_poster.png){:target="_blank"}!
 
 - Paper published in Journal of Neural Engineering! ["Modulating speech tracking through brain state-dependent changes in audio loudness"](https://iopscience.iop.org/article/10.1088/1741-2552/ae30ab/meta){:target="_blank"}
 
