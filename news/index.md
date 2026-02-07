@@ -15,8 +15,11 @@ nav:
 
 {% include section.html %}
 
+# 2026
+- Paper published in Journal of Neural Engineering! ["Modulating speech tracking through brain state-dependent changes in audio loudness"](https://iopscience.iop.org/article/10.1088/1741-2552/ae30ab/meta){:target="_blank"}
+
 # 2025
-- Paper accepted in Trends in Cognitive Science! "Confronting the Connectivity Crisis in M/EEG Research" by Ole Jensen, Hyojin Park, and Oscar Ferrante.
+- Paper published in Trends in Cognitive Science! ["Confronting the Connectivity Crisis in M/EEG Research"](https://doi.org/10.1016/j.tics.2025.09.001){:target="_blank"} by Ole Jensen, Hyojin Park, and Oscar Ferrante.
 
 - Join [OPM-FLUX Toolkit](https://www.neuosc.com/fluxtoolkit2025){:target="_blank"} on 9-12th June 2025 at the St. Catherine's College, University of Oxford!
 
