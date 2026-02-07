@@ -16,6 +16,8 @@ nav:
 {% include section.html %}
 
 # 2026
+- Our [symposium](https://www.cogneurosociety.org/symposia/?sym=81){:target="_blank"} has been accepted in the Cognitive Neuroscience Society (CNS) Meeting in Vancouver (March 7-10, 2026)! 
+
 - We are recruiting research participants in [a fascinating study](https://raw.githubusercontent.com/hyojin-park-neuro/neureca/refs/heads/main/images/projects/project_ug_2025-26_poster.png){:target="_blank"}!
 
 - Paper published in Journal of Neural Engineering! ["Modulating speech tracking through brain state-dependent changes in audio loudness"](https://iopscience.iop.org/article/10.1088/1741-2552/ae30ab/meta){:target="_blank"}
