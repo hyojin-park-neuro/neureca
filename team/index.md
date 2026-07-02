@@ -46,15 +46,15 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - [Charlie Reynolds](/members/charlie-reynolds.html){:target="_blank"}
 - [Jack Craig](/members/jack-craig.html){:target="_blank"}
 - [Xin Wang](/members/xin-wang.html){:target="_blank"}
-- [Alexander Zust](/members/alexander-zust.html){:target="_blank"}
-- Christopher Fairhurst
-- Jack Griffiths
-- [Latifah Parara](/members/latifah-parara.html){:target="_blank"}
+- Thomas Roberts
+- Younggyu Lee
+- Jaya Sharma
 
 ### {% include icon.html icon="fa-solid fa-people-carry-box" %}Research Assistants
 - [Regina Sungkyeong Kim](/members/regina-kim.html){:target="_blank"}
 - Valentina Kurti
 - [Shrisha Sathishkumar](/members/shrisha-sathishkumar.html){:target="_blank"}
+- Thomas King
 
 ### {% include icon.html icon="fa-solid fa-people-carry-box" %}Internship Students
 - [Sekwang Jeong](/members/sekwang-jeong.html){:target="_blank"}
@@ -77,6 +77,10 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - Tara Ghafari (co-supervision)
   
 ***{% include icon.html icon="fa-solid fa-user-graduate" %}  Postgraduate Students***
+- [Alexander Zust (2024-25)](/members/alexander-zust.html){:target="_blank"}
+- Christopher Fairhurst (2024-25)
+- Jack Griffiths (2024-25)
+- [Latifah Parara (2024-25)](/members/latifah-parara.html){:target="_blank"}
 - [Xiangqi Zhou (2023-24)](/members/xiangqi-zhou.html){:target="_blank"}
 - [Yaxi Luo (2023-24)](/members/yaxi-luo.html){:target="_blank"}
 - Choi Yu (2022-23)
