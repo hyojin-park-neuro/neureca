@@ -1,3 +1,13 @@
+- id: doi:10.1088/1741-2552/ae30ab
+  type: paper
+  date: 2026-1-6
+  image: https://content.cld.iop.org/journals/1741-2552/23/1/016001/revision2/jneae30abf3_lr.jpg
+  tags:
+    - speech tracking
+    - short-term memory
+    - EEG
+    - brain state-dependent stimulation (BSDS)
+    
 - id: doi:10.1016/j.tics.2025.09.001
   type: paper
   date: 2025-9-18
