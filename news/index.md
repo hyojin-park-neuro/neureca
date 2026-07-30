@@ -12,9 +12,7 @@ nav:
 
 🔔🔔🔔
 **[NEURECA Group featured in a podcast!](https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio){:target="_blank"}** (powered by Gemini 😉) 
-
 {% include section.html %}
-
 # 2026
 - Dr. Hyojin Park is invited to give a talk at the BrainLink X-Lab Day–Technology Exchange through Brain Circulation Network. Andong, South Korea. 11-13 November 2026.
 
@@ -35,9 +33,7 @@ nav:
 - We are recruiting research participants in [a fascinating study](https://raw.githubusercontent.com/hyojin-park-neuro/neureca/refs/heads/main/images/projects/project_ug_2025-26_poster.png){:target="_blank"}!
 
 - Paper published in Journal of Neural Engineering! ["Modulating speech tracking through brain state-dependent changes in audio loudness"](https://iopscience.iop.org/article/10.1088/1741-2552/ae30ab/meta){:target="_blank"}
-
 {% include section.html %}
-
 # 2025
 - Dr. Hyojin Park is invited to give a talk at the Department of Biomedical Science, Chosun University, Gwangju, South Korea. "Decoding Speech: Brain Rhythms, Multisensory Integration, and Natural Language Processing (NLP) Approaches". 18 November 2025. 
 
@@ -72,9 +68,7 @@ nav:
 - We are hiring a part-time Research Assistant (RA) [Please email me with your CV to discuss further!](https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/6367?keyword=6367&mode=location){:target="_blank"}
 
 - Paper accepted in Brain Communications! ["Current and prospective roles of magnetic resonance imaging in mild traumatic brain injury" by Sassani et al](https://academic.oup.com/braincomms/advance-article/doi/10.1093/braincomms/fcaf120/8093004?login=true){:target="_blank"}.
-
 {% include section.html %}
-
 # 2024
 - We currently have multiple competition-based PhD positions available! Please email me with your CV to discuss further!<br>
 [BBSRC MIBTP (deadline: 16 Jan 2025)](https://warwick.ac.uk/fac/cross_fac/mibtp/phd/supervisors/hpark/){:target="_blank"} [Applications](https://warwick.ac.uk/fac/cross_fac/mibtp/){:target="_blank"} Click "Accepting Applications for October 2025"<br>
@@ -99,9 +93,7 @@ nav:
 - [**Postdoctoral Fellowship opportunity - Please apply!!**] Please email me with your CV for [ESRC Postdoctoral Fellowships](https://warwick.ac.uk/fac/cross_fac/mgsdtp/postdocfellowships/){:target="_blank"} application (deadline: 16 May 2024)!
 
 - Dr. Hyojin Park gave a seminar talk at the English Language and Linguistics (ELAL) Research Seminar, Department of English Language and Linguistics, School of English, Drama and Creative Studies, University of Birmingham, Birmingham, UK (31 Jan 2024). 
-
 {% include section.html %}
-
 # 2023
 - We currently have [**multiple competition-based PhD positions available!**](https://www.neureca.org/2023/11/27/funded-phd-studentship.html) Please email me with your CV to discuss further!\
   ***Research topic***: Audiovisual integration and development, Language/Speech development, Cross-modal correspondence, Disorganised thought processing and speech prediction in Clinical High Risk (CHR) etc.\
@@ -137,9 +129,7 @@ nav:
 - Talk, Auditory Research Society, Seoul, South Korea. 10 Jan 2023.
 
 - [Talk, Dept. of Brain and Cognitive Sciences, Seoul National University](http://bcs.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=136){:target="_blank"}, Seoul, South Korea. 5 Jan 2023.
-
 {% include section.html %}
-
 # 2022
 - Talk, Korea Institute of Science and Technology (KIST), Seoul, South Korea. 30 Dec 2022.
 
@@ -164,9 +154,7 @@ nav:
 
 - [Talk, MRC Cognition and Brain Sciences Unit (MRC CBU) Chaucer Club Seminar, University of Cambridge.](https://talks.cam.ac.uk/talk/index/167645){:target="_blank"} 3 Feb 2022. 
 "Neural dynamics of natural speech perception via Natural Language Processing (NLP) models"
-
 {% include section.html %}
-
 # 2021
 - BBSRC funded Midlands Integrative Biosciences Training Partnership (MIBTP) approved! PhD Funding available: Please apply here! (1 Nov 2021 - 9 Jan 2022) Project details can be found on the FindAPhD website.
 
@@ -181,16 +169,12 @@ nav:
 - Hosting a School Seminar: Prof. [Soo-Eun Chang](https://medicine.umich.edu/dept/psychiatry/soo-eun-chang-phd){:target="_blank"} at the University of Michigan will give a talk titled "Rhythm and timing investigations in developmental stuttering" at the School of Psychology Seminar Series, 5 May 2021.
 
 - Hosting  a School Seminar: Prof. [Edmund Lalor](https://www.urmc.rochester.edu/people/30415577-edmund-c-lalor){:target="_blank"} at the University of Rochester will give a talk titled "Modelling the electrophysiology of hierarchical speech and language processing" at the School of Psychology Seminar Series, 24 Feb 2021.
-
 {% include section.html %}
-
 # 2020
 - Hosting a CHBH Seminar: Prof. [Nathan Weisz](https://www.plus.ac.at/psychology/ueber-uns/internal-organisation/division-of-physiological-psychology/team/salzburg-brain-dynamics-lab/weisz-nathan-en/?lang=en){:target="_blank"} at the University of Salzburg will give a talk titled "Predictive listening as double-edged sword" at the CHBH seminar series, 25 Jun 2020.
 
 - Hosting a School Seminar: Prof. [Riikka Mottonen](https://researchportal.helsinki.fi/en/persons/riikka-kaisa-marjaana-m%C3%B6tt%C3%B6nen){:target="_blank"} at the University of Nottingham will give a talk titled "Stimulating the talking and listening brain" at the School of Psychology Seminar Series, 12 Feb 2020.
-
 {% include section.html %}
-
 # 2019
 - Talk, School of Psychology, University of Nottingham. 6 Nov 2019.
 
@@ -211,9 +195,7 @@ nav:
 - Talk, MEG UK, Cardiff, UK. 15-17 Apr 2019. Title: "Multivariate information theory analysis reveals spatiotemporal properties of audiovisual speech integration".
 
 - Brain Awareness Week (BAW) Mar 11-17 2019. Centre for Human Brain Health (CHBH), University of Birmingham. Dr. Hyojin Park will guide the tour to the MEG and give a quick presentation about MEG facility.
-
 {% include section.html %}
-
 # 2018
 - 🏆 Selected to participate in the ***Rising Stars Programme***, Life and Environmental Sciences, University of Birmingham. 2018-2019.
 
@@ -234,9 +216,7 @@ nav:
 - Talk, Institute of Neuroscience, Newcastle University Medical School, 24 May 2018. "Neural oscillatory mechanisms in dynamic information representation during natural audiovisual speech perception" (invited by Prof. Christopher Petkov).
 
 - [Inaugural MEG (Magnetoencephalography) Symposium at the CHBH](https://www.neureca.org/2018/05/11/meg-inauguration.html), 11 May 2018. [Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at the CHBH.](https://meguk.ac.uk/events/inaugural-meg-symposium-at-the-university-of-birmingham/){:target="_blank"}
-
 {% include section.html %}
-
 # 2017
 - Talk, Cyprus University of Technology, Limassol, Cyprus. 6 Nov 2017. Title: "Application of MEG in cognitive neuroscience research". Lecture for the Postgraduate Program MSc Brain & Cognitive Science at the Faculty of Health Sciences, Cyprus University of Technology (invited by Prof. Maria Kambanaros).
 
@@ -245,21 +225,16 @@ nav:
 - Talk, CNS (Cognitive Neuroscience Society), San Francisco, CA, USA. 25-28 Mar 2017. Title: "Neural decomposition of synergistic and redundant information in interaction between audiovisual speech rhythms and brain oscillations".
 
 - Talk, MEG UK 2017, Oxford, UK. Mar 2017. Title: "Analysis of neuronal oscillatory communication: entrainment, coupling and directionality in cognitive paradigm" <https://www.ohba.ox.ac.uk/files/news/meguk_program.pdf>{:target="_blank"}
-
 {% include section.html %}
-
 # 2016
 - 🏆 Selected to participate in the ***Nature Masterclass***! 13-14 Oct 2016, University of Glasgow.
 
 - 🏆 [**Young Investigator Award (YIA)** from the BIOMAG (The 20th International Conference on Biomagnetism)](https://www.neureca.org/2016/10/01/biomag-yia.html). 1-6 Oct 2016. Seoul, South Korea. Dr. Hyojin Park received the prestigious YIA! 
 
 - 🏆 [***Merit Award*** from the OHBM (Organization for Human Brain Mapping)](https://www.neureca.org/2016/06/26/ohbm-award.html). 26-30 Jun 2016. Geneva, Switzerland. Dr. Hyojin Park received the Merit Award! 
-
 {% include section.html %}
-
 # 2015
 - 🏆 [***Merit Award*** from the OHBM (Organization for Human Brain Mapping)](https://www.neureca.org/2015/06/14/ohbm-award.html). 14-18 Jun 2015. Honolulu, Hawaii. Dr. Hyojin Park received the Merit Award! 
-
 {% include section.html %}
 
 <p style="text-align:center;"><em>Talks</em>: Only invited talks and invited spoken conference presentations since 2017</p>
