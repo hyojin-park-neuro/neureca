@@ -47,14 +47,17 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - [Jack Craig](/members/jack-craig.html){:target="_blank"}
 - [Xin Wang](/members/xin-wang.html){:target="_blank"}
 - Thomas Roberts
-- Younggyu Lee
+- [Younggyu Lee](/members/younggyu-lee.html){:target="_blank"}
 - Jaya Sharma
+- [Jay Poh](/members/jay-poh.html){:target="_blank"}
 
 ### {% include icon.html icon="fa-solid fa-people-carry-box" %}Research Assistants
 - [Regina Sungkyeong Kim](/members/regina-kim.html){:target="_blank"}
 - Valentina Kurti
 - [Shrisha Sathishkumar](/members/shrisha-sathishkumar.html){:target="_blank"}
 - Thomas King
+- Maryam Frej
+- Abigail Entwistle
 
 ### {% include icon.html icon="fa-solid fa-people-carry-box" %}Internship Students
 - [Sekwang Jeong](/members/sekwang-jeong.html){:target="_blank"}
