@@ -20,7 +20,7 @@ nav:
 
 - Dr. Hyojin Park is invited to give a talk at "Symposium on the Cognitive and Neural Mechanism of Reading", supported by the Royal Society, Beijing, China. "Neural Processing of Linguistic Meaning: From Discourse Topics to Iconicity". 26-27 August 2026.
 
-- Dr. Hyojin Park will chair a symposium at the BIOMAG 2026 (The 24th International Conference on Biomagnetism), Beijing, China. Symposium on "Cognitive Insights into Attention and Cross-Modal Integration from Rapid Invisible Frequency Tagging". Also, she will give a talk titled "Enhancing Speech Comprehension via Cross-Modal Integration with Rapid Invisible Frequency Tagging (RIFT)". 23-25 August 2026.
+- Dr. Hyojin Park will chair a symposium at the BIOMAG 2026 (The 24th International Conference on Biomagnetism), Beijing, China. Symposium on ["Cognitive Insights into Attention and Cross-Modal Integration from Rapid Invisible Frequency Tagging"](https://biomag2026.scimeeting.cn/en/web/index/31426_3427436){:target="_blank"}. Also, she will give a talk titled "Enhancing Speech Comprehension via Cross-Modal Integration with Rapid Invisible Frequency Tagging (RIFT)". 23-25 August 2026.
 
 - Dr. Hyojin Park is invited to give a talk at the UST (University of Science & Technology) Global Mentoring Conference, Seoul, South Korea. 21 July 2026.
 
