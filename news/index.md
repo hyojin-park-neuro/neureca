@@ -16,7 +16,7 @@ nav:
 {% include section.html %}
 
 # 2026
-- Dr. Hyojin Park is invited to give a talk at the BrainLink X-Lab Day - Technology Exchange through Brain Circulation Network. Andong, South Korea. 11-13 November 2026.
+- Dr. Hyojin Park is invited to give a talk at the BrainLink X-Lab Day–Technology Exchange through Brain Circulation Network. Andong, South Korea. 11-13 November 2026.
 
 - Dr. Hyojin Park is invited to give a talk at "Symposium on the Cognitive and Neural Mechanism of Reading", supported by the Royal Society, Beijing, China. "Neural Processing of Linguistic Meaning: From Discourse Topics to Iconicity". 26-27 August 2026.
 
