@@ -1,3 +1,17 @@
+- id: doi:10.64898/2026.07.08.737094
+  type: paper
+  date: 2026-7-13
+  image: https://www.biorxiv.org/content/biorxiv/early/2026/07/13/2026.07.08.737094/F1.large.jpg?width=800&height=600&carousel=1
+  tags:
+      - audiovisual
+      - speech
+      - language
+      - comprehension
+      - frequency tagging
+      - intermodulation
+      - interaction
+      - MEG/EEG
+
 - id: doi:10.1088/1741-2552/ae30ab
   type: paper
   date: 2026-1-6
