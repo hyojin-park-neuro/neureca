@@ -1,5 +1,30 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.64898/2026.07.08.737094
+  title: Augmenting Speech Comprehension using Rapid Frequency Tagging
+  authors:
+  - Charlie Reynolds
+  - Yali Pan
+  - Ana Pesquita
+  - Ole Jensen
+  - Katrien Segaert
+  - Hyojin Park
+  publisher: openRxiv
+  date: '2026-07-13'
+  link: https://doi.org/hcc5sb
+  type: paper
+  image: https://www.biorxiv.org/content/biorxiv/early/2026/07/13/2026.07.08.737094/F1.large.jpg?width=800&height=600&carousel=1
+  tags:
+  - audiovisual
+  - speech
+  - language
+  - comprehension
+  - frequency tagging
+  - intermodulation
+  - interaction
+  - MEG/EEG
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1088/1741-2552/ae30ab
   title: Modulating speech tracking through brain state-dependent changes in audio
     loudness
