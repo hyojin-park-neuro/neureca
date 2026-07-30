@@ -1,6 +1,6 @@
 ---
 name: Younggyu Lee
-image: images/photo_members/photo_younggyu_lee.jpg
+image: images/photo_members/photo_younggyu_lee.JPG
 role: msc
 aliases:
   - Younggyu Lee
