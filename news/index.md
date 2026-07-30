@@ -36,6 +36,8 @@ nav:
 
 - Paper published in Journal of Neural Engineering! ["Modulating speech tracking through brain state-dependent changes in audio loudness"](https://iopscience.iop.org/article/10.1088/1741-2552/ae30ab/meta){:target="_blank"}
 
+{% include section.html %}
+
 # 2025
 - Dr. Hyojin Park is invited to give a talk at the Department of Biomedical Science, Chosun University, Gwangju, South Korea. "Decoding Speech: Brain Rhythms, Multisensory Integration, and Natural Language Processing (NLP) Approaches". 18 November 2025. 
 
