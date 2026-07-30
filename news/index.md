@@ -51,7 +51,7 @@ nav:
 
 - Charlie Reynolds is invited to give a talk at the Society for the Neurobiology of Language (SNL), Washington DC, US. "Seeing Speech in a New Light: Augmenting Speech Performance using Rapid Invisible Frequency Tagging (RIFT)". 12-14 September 2025. {% include figure.html image="images/photo_members/photo_charlie_reynolds_snl2025.jpg" width="40%" %}
 
-- Dr. Hyojin Park is invited to the MEDAL Summer School in Computational Modelling as a round-table panellist. University of Birmingham. 23-27 June 2025.
+- Dr. Hyojin Park is invited to the MEDAL Summer School in Computational Modelling as a Round-Table panellist. University of Birmingham. 23-27 June 2025.
 
 - Paper published in Trends in Cognitive Science! ["Confronting the Connectivity Crisis in M/EEG Research"](https://doi.org/10.1016/j.tics.2025.09.001){:target="_blank"} by Ole Jensen, Hyojin Park, and Oscar Ferrante.
 
