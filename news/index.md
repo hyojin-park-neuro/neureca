@@ -16,6 +16,15 @@ nav:
 {% include section.html %}
 
 # 2026
+Invited talk, The BrainLink X-Lab Day - Technology Exchange through Brain Circulation Network. Andong, South Korea. 11-13 November 2026 (upcoming)
+Invited talk, Symposium on the Cognitive and Neural Mechanism of Reading, supported by the Royal Society (organizers: Ole Jensen, Xingshan Li, Yali Pan), Beijing, China. Neural Processing of Linguistic Meaning: From Discourse Topics to Iconicity. 26-27 August 2026. (upcoming)
+Symposium Chair and Talk, BIOMAG 2026 (The 24th International Conference on Biomagnetism), Beijing, China. Symposium: Cognitive Insights into Attention and Cross-Modal Integration from Rapid Invisible Frequency Tagging. Talk: Enhancing Speech Comprehension via Cross-Modal Integration with Rapid Invisible Frequency Tagging (RIFT). 23-25 August 2026. (upcoming)
+Invited talk, UST (University of Science & Technology) Global Mentoring Conference, Seoul, South Korea. How the Brain Makes Sense of Natural Speech: From rhythmic tracking to meaning extraction and causal enhancement of comprehension. 21 July 2026.
+Invited talk and Tutoring, OPM-FLUX Toolkit, St. Catherine’s College, University of Oxford. 13-16 July 2026.
+Invited talk, International Neuropsychological Symposium (INS), Crete, Greece. How the Brain Makes Sense of Natural Speech: From rhythmic tracking to meaning extraction and causal enhancement of comprehension. 22-26 June 2026. Elected as a member of the International Neuropsychological Symposium (INS) Meetings. 
+Symposium Chair and Talk, Cognitive Neuroscience Society (CNS), Vancouver, Canada. Cognitive Insights into Attention and Cross-Modal Integration from Rapid Invisible Frequency Tagging. 7-10 March 2026.
+
+
 - Our [symposium](https://www.cogneurosociety.org/symposia/?sym=81){:target="_blank"} has been accepted in the Cognitive Neuroscience Society (CNS) Meeting in Vancouver (March 7-10, 2026)! 
 
 - We are recruiting research participants in [a fascinating study](https://raw.githubusercontent.com/hyojin-park-neuro/neureca/refs/heads/main/images/projects/project_ug_2025-26_poster.png){:target="_blank"}!
@@ -23,6 +32,24 @@ nav:
 - Paper published in Journal of Neural Engineering! ["Modulating speech tracking through brain state-dependent changes in audio loudness"](https://iopscience.iop.org/article/10.1088/1741-2552/ae30ab/meta){:target="_blank"}
 
 # 2025
+- Dr. Hyojin Park is invited to give a talk at the Department of Biomedical Science, Chosun University, Gwangju, South Korea. "Decoding Speech: Brain Rhythms, Multisensory Integration, and Natural Language Processing (NLP) Approaches". 18 November 2025. 
+
+- Dr. Hyojin Park is invited to give a talk at Konkuk University Medical Center, Seoul, South Korea. 18 November 2025. 
+
+- Dr. Hyojin Park is invited to give a talk at the KIAS (Korea Institute for Advanced Study) Gugak Workshop: Gugak in the Era of Data & Computation I (KIAS Transdisciplinary Research Program). Seoul, South Korea. "Sound Colours Sight: Music Drives Cross-Modal Emotional Transfer". 15 November 2025.
+
+- Dr. Hyojin Park is invited to give a talk at the Human Brain Function Laboratory, Seoul University Hospital, Seoul, South Korea. 13 November 2025. 
+
+- Dr. Hyojin Park is invited to give a talk at the POSTECH MINDS Seminar. POSTECH, Pohang, South Korea. 11 November 2025.
+
+- Dr. Hyojin Park is invited to give a talk at the School of Computer Science and Electrical Engineering, Handong Global University, Pohang, South Korea. "Decoding Speech: Brain Rhythms, Multisensory Integration, and Natural Language Processing (NLP) Approaches". 10 November 2025. 
+
+- Dr. Hyojin Park is invited to give a talk at Korea Institute of Radiological & Medical Sciences (KIRAMS), Seoul, South Korea. "Brain rhythms and natural language processing". 7 November 2025. 
+
+- Charlie Reynolds will give a talk at the Society for the Neurobiology of Language (SNL), Washington DC, US. "Seeing Speech in a New Light: Augmenting Speech Performance using Rapid Invisible Frequency Tagging (RIFT)". 12-14 September 2025.
+
+- Dr. Hyojin Park is invited to the MEDAL Summer School in Computational Modelling as a round-table panellist. University of Birmingham. 23-27 June 2025.
+
 - Paper published in Trends in Cognitive Science! ["Confronting the Connectivity Crisis in M/EEG Research"](https://doi.org/10.1016/j.tics.2025.09.001){:target="_blank"} by Ole Jensen, Hyojin Park, and Oscar Ferrante.
 
 - Join [OPM-FLUX Toolkit](https://www.neuosc.com/fluxtoolkit2025){:target="_blank"} on 9-12th June 2025 at the St. Catherine's College, University of Oxford!
