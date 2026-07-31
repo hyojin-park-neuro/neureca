@@ -10,10 +10,12 @@ aliases:
   - Roberts T.
   - Roberts T  
 links:
+  home-page: https://tommytneuro.github.io/
+  orcid: 0009-0004-3158-0578
   email: txr124@student.bham.ac.uk
   linkedin: TommyTNeuro  
   github: TommyTNeuro
 ---
 
-Thomas Roberts is a fourth-year undergraduate Psychology student completing his final year project under the supervision of [Dr. Hyojin Park](/member/hyojin-park.html){:target="_black"}. His research focuses on the cultural influences on pseudoneglect. During his year abroad at Korea University (고려대학교), Thomas developed his skills in data science and computational neuroscience methods, sparking a strong interest in pursuing a career in this field. He is particularly interested in leveraging Python and advanced neuroimaging techniques to transform clinical psychology and neuroscience into more data-driven disciplines.
+Thomas Roberts is a MSc student in Cognitive Neuroimaging and Data Science (Computational Neuroscience) completing their dissertation project under the supervision of [Dr. Hyojin Park](/member/hyojin-park.html){:target="_black"}. Thomas is a trained MEG Operator, has developed tools for High-Performance Computing for neuroimaging, and high-performance stimulus presentation. Their research focuses on comparing the motor and perception theories of inner speech using source-localised MEG data. During their year abroad at Korea University (고려대학교), Thomas developed their skills in neural engineering pushing them to a career in brain computer interfaces. They are particularly interested in language and motor based BCI's and is pursuing PhDs in this area. 
 

@@ -46,7 +46,7 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 - [Charlie Reynolds](/members/charlie-reynolds.html){:target="_blank"}
 - [Jack Craig](/members/jack-craig.html){:target="_blank"}
 - [Xin Wang](/members/xin-wang.html){:target="_blank"}
-- Thomas Roberts
+- [Thomas Roberts](/members/thomas-roberts.html){:target="_blank"}
 - [Younggyu Lee](/members/younggyu-lee.html){:target="_blank"}
 - Jaya Sharma
 - [Jay Poh](/members/jay-poh.html){:target="_blank"}
