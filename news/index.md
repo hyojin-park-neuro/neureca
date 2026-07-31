@@ -20,6 +20,8 @@ nav:
 
 - Dr. Hyojin Park is invited to give a talk at "Symposium on the Cognitive and Neural Mechanism of Reading", supported by the Royal Society, Beijing, China. "Neural Processing of Linguistic Meaning: From Discourse Topics to Iconicity". 26-27 August 2026.
 
+- 🎉 Congratulations! [Xin Wang](https://www.neureca.org/members/xin-wang.html){:target="_blank"} is invited to give an [oral session at the BIOMAG 2026](https://biomag2026.scimeeting.cn/en/web/index/31426_3427437){:target="_blank"} (The 24th International Conference on Biomagnetism), Beijing, China, presenting her exciting work titled "Exploring Cardiac Phase Relationships in Reading-related Saccades during Natural Reading". 23-25 August 2026.
+  
 - Dr. Hyojin Park will chair a symposium at the BIOMAG 2026 (The 24th International Conference on Biomagnetism), Beijing, China. [Symposium on "Cognitive Insights into Attention and Cross-Modal Integration from Rapid Invisible Frequency Tagging"](https://biomag2026.scimeeting.cn/en/web/index/31426_3427436){:target="_blank"}. Also, she will give a talk titled "Enhancing Speech Comprehension via Cross-Modal Integration with Rapid Invisible Frequency Tagging (RIFT)". 23-25 August 2026.
 
 - Dr. Hyojin Park is invited to give a talk at the UST (University of Science & Technology) Global Mentoring Conference, Seoul, South Korea. 21 July 2026.
@@ -53,7 +55,7 @@ nav:
 
 - Dr. Hyojin Park is invited to give a talk at Korea Institute of Radiological & Medical Sciences (KIRAMS), Seoul, South Korea. "Brain rhythms and natural language processing". 7 November 2025. 
 
-- Charlie Reynolds is invited to give a talk at the Society for the Neurobiology of Language (SNL), Washington DC, US. "Seeing Speech in a New Light: Augmenting Speech Performance using Rapid Invisible Frequency Tagging (RIFT)". 12-14 September 2025.
+- 🎉 Congratulations! [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"} is invited to give a talk at the Society for the Neurobiology of Language (SNL), Washington DC, US. "Seeing Speech in a New Light: Augmenting Speech Performance using Rapid Invisible Frequency Tagging (RIFT)". 12-14 September 2025.
 {% include figure.html image="images/photo_members/photo_charlie_reynolds_snl2025.jpg" width="40%" %}
 
 - Dr. Hyojin Park is invited to the [MEDAL Summer School in Computational Modelling](https://medal.ut.ee/event/medal-summer-school-in-computational-linguistics/){:target="_blank"} as a Round-Table panellist. University of Birmingham. 23-27 June 2025.
