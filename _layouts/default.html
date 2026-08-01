@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-dark="false">
   {% include head.html %}
-  <body>
+  <body{% if page.url == "/team/" %} class="team-page"{% endif %}>
     {% include header.html %}
     <main>
       {% include content.html content=content %}
