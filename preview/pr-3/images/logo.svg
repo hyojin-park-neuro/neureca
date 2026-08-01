@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title description">
-  <title id="title">NEURECA H and N monogram</title>
-  <desc id="description">A combined H and N monogram representing Hyojin and NEURECA.</desc>
-  <path d="M9 6V42M39 6V42" fill="none" stroke="#191b1b" stroke-width="2.7" stroke-linecap="square"/>
-  <path d="M9 24H39" fill="none" stroke="#455452" stroke-width="2.7" stroke-linecap="square"/>
-  <path d="M9 6L39 42" fill="none" stroke="#685564" stroke-width="2.7" stroke-linecap="square"/>
-  <circle cx="24" cy="24" r="2.8" fill="#685564"/>
-</svg>
