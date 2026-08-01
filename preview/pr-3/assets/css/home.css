@@ -72,8 +72,8 @@
 }
 
 #neureca-outward-labels-repaired-photos-v26 .v26-hmark {
-  width: 3.2rem;
-  height: 3.2rem;
+  width: 3.7rem;
+  height: 3.7rem;
   flex: 0 0 auto;
   overflow: visible;
   color: var(--foreground);
@@ -132,9 +132,9 @@
 
 #neureca-outward-labels-repaired-photos-v26 .v26-wordmark {
   display: inline-block;
-  font-size: 1.12rem;
+  font-size: 1.22rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
 }
 
 #neureca-outward-labels-repaired-photos-v26 .v26-submark {

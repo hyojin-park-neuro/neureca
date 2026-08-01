@@ -47,4 +47,14 @@ button {
   flex-direction: row-reverse;
 }
 
+.contact-page main .button {
+  background: #c7d9d6;
+  color: #2c403d;
+}
+
+.contact-page main .button:hover {
+  background: #b4cbc7;
+  color: #243633;
+}
+
 /*# sourceMappingURL=button.css.map */
