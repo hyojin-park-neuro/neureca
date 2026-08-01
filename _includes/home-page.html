@@ -47,7 +47,6 @@
 
     <section class="v26-brain-column" aria-label="Interactive anatomical word brain">
       <div class="v26-stage" id="v26-stage" role="img" aria-label="A slowly rotating three-dimensional anatomical brain made from brain-region abbreviations. Drag to rotate and point at an area to identify it.">
-        <span class="v26-stage-label text-small text-muted">Typographic anatomy · left lateral</span>
         {% include home-brain-fallback.html %}
         <canvas id="v26-canvas"></canvas>
       </div>
@@ -67,7 +66,7 @@
 
     <div class="v26-team-stage" id="v26-team-stage" aria-label="Current NEURECA members animate and settle into an H">
       <svg class="v26-team-mark" viewBox="0 0 100 100" role="img" aria-label="Guide lines for the H-shaped team arrangement" preserveAspectRatio="none">
-        <path d="M24 7V93 M76 7V93 M24 50H76" fill="none" stroke="currentColor" stroke-width="0.5"></path>
+        <path d="M16 7V93 M84 7V93 M16 50H84" fill="none" stroke="currentColor" stroke-width="0.5"></path>
       </svg>
 
       {% for person in site.data.home_team %}
