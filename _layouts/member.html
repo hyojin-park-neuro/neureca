@@ -2,21 +2,36 @@
 layout: default
 ---
 
-{% capture floatcontent %}
+{% assign type = site.data.types[page.role] %}
 
-{% include portrait.html lookup=page.slug %}
+<div class="member-profile-hero">
+  <div class="member-profile-photo">
+    <img
+      src="{{ page.image | relative_url }}"
+      alt="{{ page.name }}"
+      loading="eager"
+      {% include fallback.html %}
+    >
+  </div>
 
-<div>
-  {% for link in page.links %}
-    {% assign key = link[0] %}
-    {% assign value = link[1] %}
-    {% include button.html type=key link=value style="bare" %}<br>
-  {% endfor %}
+  <div class="member-profile-intro">
+    <p class="member-profile-kicker">NEURECA Team</p>
+    <h1>{{ page.name }}</h1>
+    {% if page.role %}
+      <p class="member-profile-role">{{ type.description | default: page.role }}</p>
+    {% endif %}
+
+    {% if page.links %}
+      <div class="member-profile-links" aria-label="{{ page.name }} links">
+        {% for link in page.links %}
+          {% assign key = link[0] %}
+          {% assign value = link[1] %}
+          {% include button.html type=key link=value style="bare" %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
 </div>
-
-{% endcapture %}
-
-{% include float.html content=floatcontent %}
 
 {{ content }}
 
@@ -32,16 +47,9 @@ layout: default
   research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
 {%- endcapture %}
 
-<a href="{{ search | relative_url }}">
-  Search for {{ page.name | default: page.title }}'s papers on the Research page
-</a>
-
-{% capture search -%}
-  blog/?search={{ page.name }}
-{%- endcapture %}
-
-<!-- 
-<a href="{{ search | relative_url }}">
-  See {{ page.name | default: page.title }}'s posts on the Blog page
-</a>
- -->
+<div class="member-profile-footer">
+  <a class="member-profile-back" href="{{ '/team/' | relative_url }}">← Back to Team</a>
+  <a href="{{ search | relative_url }}">
+    Search for {{ page.name | default: page.title }}'s papers
+  </a>
+</div>

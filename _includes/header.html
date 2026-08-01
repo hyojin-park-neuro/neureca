@@ -1,57 +1,34 @@
-{% assign image = page.header | default: site.header | relative_url %}
-{% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
-
-{% assign svg = "images/logo.svg" | file_exists %}
-{% assign png = "images/logo.png" | file_exists %}
-{% assign jpg = "images/logo.jpg" | file_exists %}
-{% assign logo = svg | default: png | default: jpg | default: nil %}
-
 <header
-  class="background"
-  style="--image: url('{{ image }}')"
-  {% if dark == true or dark == false %}
-    data-dark="{{ dark }}"
-  {% endif %}
-  {% if page.url == "/" %}
-    data-big
-  {% endif %}
+  class="site-header"
+  data-dark="false"
 >
   <a href="{{ "/" | relative_url }}" class="home">
-    {% if logo %}
-      <span class="logo">
-        {% if svg %}
-          {{ svg | file_read }}
-        {% else %}
-          <img src="{{ logo | relative_url }}" alt="logo">
-        {% endif %}
-      </span>
-    {% endif %}
-    {% if site.logo-text != false %}
-      <span class="title" data-tooltip="Home">
-        {% if site.title and site.show-title != false %}
-          <span>{{ site.title }}</span>
-        {% endif %}
-        {% if site.subtitle and site.show-subtitle != false %}
-          <span>{{ site.subtitle }}</span>
-        {% endif %}
-      </span>
-    {% endif %}
+    <span class="logo">
+      <img src="{{ '/images/logo.svg' | relative_url }}" alt="NEURECA H and N monogram">
+    </span>
+    <span class="title" data-tooltip="Home">
+      <span class="wordmark">NEURECA</span>
+      <span class="submark">Hyojin Park’s Research Group</span>
+      <span class="brand-meaning">Sound · Vision · Context</span>
+    </span>
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide navigation">
 
-  <nav>
+  <nav aria-label="Main navigation">
+    {% assign current_url = page.url %}
     {% assign pages = site.pages
-      | where_exp: "page", "page.nav"
+      | where_exp: "item", "item.nav"
       | sort: "nav.order"
     %}
-    {% for page in pages %}
-      {% if page.nav %}
+    {% for nav_page in pages %}
+      {% if nav_page.nav %}
         <a
-          href="{{ page.dir | relative_url }}"
-          data-tooltip="{{ page.nav.tooltip }}"
+          href="{{ nav_page.dir | relative_url }}"
+          data-tooltip="{{ nav_page.nav.tooltip }}"
+          {% if current_url == nav_page.url %}aria-current="page"{% endif %}
         >
-          {{ page.title }}
+          {{ nav_page.title }}
         </a>
       {% endif %}
     {% endfor %}
