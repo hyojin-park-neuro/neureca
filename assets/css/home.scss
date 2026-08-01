@@ -31,7 +31,6 @@
 
     #neureca-outward-labels-repaired-photos-v26 > .v26-nav,
     #neureca-outward-labels-repaired-photos-v26 > .v26-hero,
-    #neureca-outward-labels-repaired-photos-v26 > .v26-team,
     #neureca-outward-labels-repaired-photos-v26 > .v26-foot {
       width: min(100%, 100rem);
       margin-inline: auto;
@@ -282,18 +281,23 @@
     #neureca-outward-labels-repaired-photos-v26 .v26-detail-text { min-width: 0; }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-team {
+      width: 100%;
+      margin-inline: 0;
       padding-block: clamp(3rem, 8vw, 6rem);
       border-top: 1px solid var(--border);
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-team-head {
       display: block;
-      margin-left: clamp(-2rem, -2vw, -.85rem);
+      width: 100%;
+      margin-left: 0;
+      text-align: left !important;
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-team-kicker,
     #neureca-outward-labels-repaired-photos-v26 .v26-team-note {
       margin: 0;
+      text-align: left !important;
       letter-spacing: .09em;
       text-transform: uppercase;
     }
@@ -313,6 +317,7 @@
       line-height: 1;
       letter-spacing: -.025em;
       white-space: nowrap;
+      text-align: left !important;
       padding: 0;
       border: 0;
     }
@@ -405,8 +410,6 @@
 
     #neureca-outward-labels-repaired-photos-v26 .v26-member.is-queued {
       --member-scale: .84;
-      left: 50%;
-      top: 49%;
       opacity: 0;
     }
 
@@ -490,7 +493,7 @@
       left: 50%;
       top: calc(100% + .2rem);
       width: max-content;
-      max-width: 7rem;
+      max-width: 6rem;
       display: grid;
       gap: .05rem;
       text-align: center;
@@ -510,20 +513,20 @@
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-member.is-left-stem .v26-member-label {
-      left: auto;
-      right: calc(100% + .4rem);
-      top: 50%;
-      bottom: auto;
-      text-align: right;
-      transform: translateY(-50%);
-    }
-
-    #neureca-outward-labels-repaired-photos-v26 .v26-member.is-right-stem .v26-member-label {
       left: calc(100% + .4rem);
       right: auto;
       top: 50%;
       bottom: auto;
       text-align: left;
+      transform: translateY(-50%);
+    }
+
+    #neureca-outward-labels-repaired-photos-v26 .v26-member.is-right-stem .v26-member-label {
+      left: auto;
+      right: calc(100% + .4rem);
+      top: 50%;
+      bottom: auto;
+      text-align: right;
       transform: translateY(-50%);
     }
 
@@ -541,20 +544,20 @@
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-member.is-left-junction .v26-member-label {
-      left: auto;
-      right: calc(100% + .4rem);
-      top: 50%;
-      bottom: auto;
-      text-align: right;
-      transform: translateY(-50%);
-    }
-
-    #neureca-outward-labels-repaired-photos-v26 .v26-member.is-right-junction .v26-member-label {
       left: calc(100% + .4rem);
       right: auto;
       top: 50%;
       bottom: auto;
       text-align: left;
+      transform: translateY(-50%);
+    }
+
+    #neureca-outward-labels-repaired-photos-v26 .v26-member.is-right-junction .v26-member-label {
+      left: auto;
+      right: calc(100% + .4rem);
+      top: 50%;
+      bottom: auto;
+      text-align: right;
       transform: translateY(-50%);
     }
 
