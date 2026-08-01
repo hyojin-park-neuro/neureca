@@ -29,7 +29,7 @@
 #neureca-outward-labels-repaired-photos-v26 > .v26-hero,
 #neureca-outward-labels-repaired-photos-v26 > .v26-team,
 #neureca-outward-labels-repaired-photos-v26 > .v26-foot {
-  width: min(100%, 96rem);
+  width: min(100%, 100rem);
   margin-inline: auto;
 }
 
@@ -65,15 +65,15 @@
 }
 
 #neureca-outward-labels-repaired-photos-v26 .v26-brand {
-  gap: 0.8rem;
+  gap: 0.95rem;
   min-width: 0;
   color: var(--foreground);
   text-decoration: none;
 }
 
 #neureca-outward-labels-repaired-photos-v26 .v26-hmark {
-  width: 2.7rem;
-  height: 2.7rem;
+  width: 3.2rem;
+  height: 3.2rem;
   flex: 0 0 auto;
   overflow: visible;
   color: var(--foreground);
@@ -89,18 +89,18 @@
 
 #neureca-outward-labels-repaired-photos-v26 .v26-hn-stems {
   stroke: currentColor;
-  stroke-width: 2.15;
+  stroke-width: 2.7;
 }
 
 #neureca-outward-labels-repaired-photos-v26 .v26-hn-crossbar {
   stroke: var(--v26-brain-base);
-  stroke-width: 2.15;
+  stroke-width: 2.7;
   transition: stroke 180ms ease;
 }
 
 #neureca-outward-labels-repaired-photos-v26 .v26-hn-diagonal {
   stroke: var(--v26-brain-hover);
-  stroke-width: 2.15;
+  stroke-width: 2.7;
   transition: stroke 180ms ease;
 }
 
@@ -132,8 +132,9 @@
 
 #neureca-outward-labels-repaired-photos-v26 .v26-wordmark {
   display: inline-block;
-  font-weight: 500;
-  letter-spacing: 0.18em;
+  font-size: 1.12rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
 }
 
 #neureca-outward-labels-repaired-photos-v26 .v26-submark {
@@ -158,8 +159,8 @@
 
 #neureca-outward-labels-repaired-photos-v26 .v26-hero {
   display: grid;
-  grid-template-columns: minmax(0, 0.94fr) minmax(0, 1.16fr);
-  gap: clamp(1rem, 2.5vw, 3rem);
+  grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.32fr);
+  gap: clamp(0.75rem, 1.6vw, 2rem);
   align-items: start;
   padding-block: clamp(2rem, 6vw, 5rem);
 }
@@ -170,10 +171,16 @@
 }
 
 #neureca-outward-labels-repaired-photos-v26 .v26-definition {
-  max-width: 54ch;
+  max-width: none;
   margin: 0 0 1.2rem;
-  letter-spacing: 0.09em;
+  letter-spacing: 0.045em;
+  line-height: 1.45;
   text-transform: uppercase;
+}
+
+#neureca-outward-labels-repaired-photos-v26 .v26-definition span {
+  display: block;
+  white-space: nowrap;
 }
 
 #neureca-outward-labels-repaired-photos-v26 h1 {
@@ -181,8 +188,8 @@
   max-width: none;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: clamp(2.35rem, 3.55vw, 3.9rem);
-  line-height: 1.01;
+  font-size: clamp(2rem, 2.65vw, 3.2rem);
+  line-height: 1.04;
   letter-spacing: -0.035em;
   text-wrap: initial;
 }
@@ -211,13 +218,13 @@
 
 #neureca-outward-labels-repaired-photos-v26 .v26-brain-column {
   min-width: 0;
-  margin-top: clamp(-1.25rem, -1.5vw, -0.5rem);
+  margin-top: clamp(-1.75rem, -2vw, -0.75rem);
 }
 
 #neureca-outward-labels-repaired-photos-v26 .v26-stage {
   position: relative;
   width: 100%;
-  aspect-ratio: 1.08/1;
+  aspect-ratio: 1.16/1;
   overflow: hidden;
   cursor: grab;
   color: var(--v26-brain-base);
@@ -327,9 +334,9 @@
 
 #neureca-outward-labels-repaired-photos-v26 .v26-team-stage {
   position: relative;
-  min-height: clamp(50rem, 105vw, 54rem);
-  margin-top: 1.5rem;
-  width: min(100%, 92rem);
+  min-height: clamp(52rem, 70vw, 58rem);
+  margin-top: 2rem;
+  width: 100%;
   margin-inline: auto;
   overflow: visible;
   isolation: isolate;
@@ -375,7 +382,7 @@
   width: 100%;
   height: 100%;
   color: var(--border);
-  opacity: 0.22;
+  opacity: 0.34;
   pointer-events: none;
   transform: translate(-50%, -50%);
   transition: opacity 700ms ease, transform 700ms ease;
@@ -387,7 +394,7 @@
 }
 
 #neureca-outward-labels-repaired-photos-v26 .v26-team-stage.is-complete .v26-team-mark {
-  opacity: 0.34;
+  opacity: 0.48;
   transform: translate(-50%, -50%);
 }
 
@@ -397,7 +404,7 @@
   z-index: 2;
   left: var(--member-x);
   top: var(--member-y);
-  width: clamp(3rem, 7%, 3.3rem);
+  width: clamp(3.65rem, 5.2vw, 4.75rem);
   color: var(--foreground);
   cursor: pointer;
   text-decoration: none;
@@ -606,7 +613,7 @@
   color: var(--v26-brain-hover);
 }
 
-@media (max-width: 680px) {
+@media (max-width: 760px) {
   #neureca-outward-labels-repaired-photos-v26 .v26-hero {
     grid-template-columns: 1fr;
   }
@@ -614,6 +621,9 @@
     padding-top: 0;
   }
   #neureca-outward-labels-repaired-photos-v26 .v26-hero-line {
+    white-space: normal;
+  }
+  #neureca-outward-labels-repaired-photos-v26 .v26-definition span {
     white-space: normal;
   }
   #neureca-outward-labels-repaired-photos-v26 h1 {
@@ -624,7 +634,7 @@
     margin-top: 1rem;
   }
 }
-@media (max-width: 560px) {
+@media (max-width: 760px) {
   #neureca-outward-labels-repaired-photos-v26 .v26-navlinks {
     display: none;
   }

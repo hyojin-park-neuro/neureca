@@ -85,7 +85,7 @@
         resize();
         var width = state.width;
         var height = state.height;
-        var scale = Math.min(width / 205, height / 165) * 0.92;
+        var scale = Math.min(width / 205, height / 165) * 1.06;
         var centerX = width * 0.51;
         var centerY = height * 0.49;
         var selected = state.pinned >= 0 ? state.pinned : state.hover;
