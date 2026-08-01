@@ -74,7 +74,7 @@
   flex-wrap: wrap;
   gap: 0.85rem;
   font-family: inherit;
-  font-size: clamp(0.72rem, 1.05vw, 0.82rem);
+  font-size: clamp(0.86rem, 1.15vw, 0.98rem);
   text-transform: none;
 }
 
