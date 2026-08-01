@@ -6,15 +6,18 @@ footer {
   gap: 20px;
   padding: 40px;
   line-height: var(--spacing);
-  box-shadow: var(--shadow);
+  background: #ffffff;
+  border-top: 1px solid #d9dbd5;
+  box-shadow: none;
+  color: #5d6563;
 }
 
 footer a {
-  color: var(--text) !important;
+  color: #191b1b !important;
 }
 
 footer a:hover {
-  color: var(--primary) !important;
+  color: #685564 !important;
 }
 
 footer .icon {
