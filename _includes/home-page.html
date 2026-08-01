@@ -1,0 +1,105 @@
+<div id="neureca-outward-labels-repaired-photos-v26" aria-label="NEURECA homepage">
+  <header class="v26-nav">
+    <a class="v26-brand" href="{{ '/' | relative_url }}" aria-label="NEURECA, Hyojin Park’s Research Group — home">
+      <svg class="v26-hmark" viewBox="0 0 48 48" role="img" aria-label="Combined H and N monogram for Hyojin and NEURECA">
+        <path class="v26-hn-stems" d="M9 6V42 M39 6V42"></path>
+        <path class="v26-hn-crossbar" d="M9 24H39"></path>
+        <path class="v26-hn-diagonal" d="M9 6L39 42"></path>
+        <circle class="v26-hn-node" cx="24" cy="24" r="2.8"></circle>
+      </svg>
+      <span class="v26-brand-copy">
+        <span class="v26-wordmark" aria-label="NEURECA">NEURECA</span>
+        <span class="v26-submark text-small text-muted">Hyojin Park’s Research Group</span>
+        <span class="v26-brand-meaning text-small">Sound · Vision · Context</span>
+      </span>
+    </a>
+
+    <nav class="v26-navlinks text-small" aria-label="Main navigation">
+      <a href="{{ '/research/' | relative_url }}">Research</a>
+      <a href="{{ '/team/' | relative_url }}">People</a>
+      <a href="{{ '/news/' | relative_url }}">News</a>
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+    </nav>
+  </header>
+
+  <main class="v26-hero">
+    <section class="v26-copy" id="v26-research" aria-labelledby="v26-title">
+      <p class="v26-definition text-small text-muted">Neural Representations &amp; Computational Architecture of Multi-modal Communication across Lifespan</p>
+      <h1 id="v26-title">
+        <span class="v26-hero-line">Decoding how the brain</span>
+        <span class="v26-hero-line">constructs meaning from</span>
+        <span class="v26-hero-line">sound, vision and context.</span>
+      </h1>
+      <p class="v26-lede">Our mission is to conduct rigorous research and push the boundaries of what is currently known, with the ultimate goal of improving human communication and enhancing quality of life.</p>
+      <div class="v26-methods text-small" aria-label="Methods and approaches">
+        <span>MEG</span>
+        <span>OPM-MEG</span>
+        <span>EEG</span>
+        <span>RIFT</span>
+        <span>Eye tracking</span>
+        <span>Computational modelling</span>
+      </div>
+    </section>
+
+    <section class="v26-brain-column" aria-label="Interactive anatomical word brain">
+      <div class="v26-stage" id="v26-stage" role="img" aria-label="A slowly rotating three-dimensional anatomical brain made from brain-region abbreviations. Drag to rotate and point at an area to identify it.">
+        <span class="v26-stage-label text-small text-muted">Typographic anatomy · left lateral</span>
+        {% include home-brain-fallback.html %}
+        <canvas id="v26-canvas"></canvas>
+      </div>
+      <div class="v26-detail" aria-live="polite">
+        <strong class="v26-detail-name text-small" id="v26-detail-name">Explore the brain</strong>
+        <span class="v26-detail-text text-small text-muted" id="v26-detail-text">Drag to rotate; hover or tap to reveal the region and its connection to NEURECA research.</span>
+      </div>
+    </section>
+  </main>
+
+  <section class="v26-team" id="v26-people" aria-labelledby="v26-team-title">
+    <div class="v26-team-head">
+      <p class="v26-team-kicker text-small text-muted">The NEURECA collective</p>
+      <h2 id="v26-team-title">Many minds. One shared question.</h2>
+      <p class="v26-team-note text-small text-muted">Distinct perspectives · a shared pursuit</p>
+    </div>
+
+    <div class="v26-team-stage" id="v26-team-stage" aria-label="Current NEURECA members animate and settle into an H">
+      <svg class="v26-team-mark" viewBox="0 0 100 100" role="img" aria-label="Guide lines for the H-shaped team arrangement" preserveAspectRatio="none">
+        <path d="M24 7V93 M76 7V93 M24 50H76" fill="none" stroke="currentColor" stroke-width="0.35"></path>
+      </svg>
+
+      {% for person in site.data.home_team %}
+        <a
+          class="v26-member{% unless person.image %} is-placeholder{% endunless %}"
+          href="{{ person.url | relative_url }}"
+          data-name="{{ person.name }}"
+          data-role="{{ person.role }}"
+          aria-label="{{ person.name }}, {{ person.role }}"
+        >
+          {% if person.image %}
+            <span class="v26-member-image">
+              <img src="{{ person.image | relative_url }}" alt="{{ person.name }}" loading="lazy" decoding="async">
+            </span>
+          {% else %}
+            {% assign given_name = person.name | split: " " | first %}
+            <span class="v26-member-image v26-member-placeholder">
+              <svg viewBox="0 0 48 58" aria-hidden="true">
+                <path d="M9 5V47 M39 5V47 M9 26H39 M9 5L39 47" fill="none" stroke="currentColor" stroke-width="1.5"></path>
+                <circle cx="24" cy="26" r="2.5" fill="currentColor"></circle>
+              </svg>
+              <span class="v26-member-token text-small">{{ given_name }}</span>
+            </span>
+          {% endif %}
+          <span class="v26-member-label text-small"><strong class="v26-name-full">{{ person.name }}</strong></span>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <footer class="v26-foot text-small text-muted">
+    <span>Natural communication · neural dynamics · meaning</span>
+    <span>&copy; {{ site.time | date: "%Y" }} NEURECA</span>
+  </footer>
+
+  <span class="v26-color-probe base" aria-hidden="true"></span>
+  <span class="v26-color-probe hover" aria-hidden="true"></span>
+</div>
