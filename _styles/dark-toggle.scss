@@ -31,10 +31,12 @@
   left: calc(100% - 12px);
 }
 
-.contact-page .dark-toggle {
+.contact-page .dark-toggle,
+.member-page .dark-toggle {
   background: #c7d9d6;
 }
 
-.contact-page .dark-toggle:after {
+.contact-page .dark-toggle:after,
+.member-page .dark-toggle:after {
   color: #2c403d;
 }
