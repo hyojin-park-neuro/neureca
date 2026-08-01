@@ -169,6 +169,7 @@
     #neureca-outward-labels-repaired-photos-v26 .v26-definition {
       max-width: none;
       margin: 0 0 1.2rem;
+      font-size: clamp(.82rem, .95vw, .95rem);
       letter-spacing: .045em;
       line-height: 1.45;
       text-transform: uppercase;
@@ -197,7 +198,7 @@
 
     #neureca-outward-labels-repaired-photos-v26 .v26-lede {
       max-width: 48ch;
-      margin-block: 1.5rem;
+      margin: .7rem 0 1.25rem;
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-methods {
@@ -215,6 +216,7 @@
     #neureca-outward-labels-repaired-photos-v26 .v26-brain-column {
       min-width: 0;
       margin-top: clamp(-1.75rem, -2vw, -.75rem);
+      background: #ffffff;
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-stage {
@@ -226,6 +228,7 @@
       color: var(--v26-brain-base);
       touch-action: none;
       isolation: isolate;
+      background: #ffffff;
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-stage.is-dragging { cursor: grabbing; }
@@ -259,6 +262,7 @@
     #neureca-outward-labels-repaired-photos-v26 canvas {
       z-index: 3;
       display: block;
+      background: transparent !important;
     }
 
     #neureca-outward-labels-repaired-photos-v26.v26-live .v26-fallback { visibility: hidden; }
@@ -284,7 +288,7 @@
 
     #neureca-outward-labels-repaired-photos-v26 .v26-team-head {
       display: block;
-      margin-left: -.75rem;
+      margin-left: clamp(-2rem, -2vw, -.85rem);
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-team-kicker,
@@ -407,10 +411,8 @@
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-member.is-featured {
-      --member-scale: 1.72;
+      --member-scale: 1.28;
       z-index: 6;
-      left: 50%;
-      top: 49%;
       opacity: 1;
     }
 
@@ -488,7 +490,7 @@
       left: 50%;
       top: calc(100% + .2rem);
       width: max-content;
-      max-width: 8.5rem;
+      max-width: 7rem;
       display: grid;
       gap: .05rem;
       text-align: center;
@@ -562,13 +564,7 @@
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-member.is-featured .v26-member-label {
-      left: 50%;
-      right: auto;
-      top: calc(100% + .2rem);
-      bottom: auto;
-      text-align: center;
       opacity: 1;
-      transform: translateX(-50%);
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-foot {
