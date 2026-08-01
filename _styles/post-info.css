@@ -21,7 +21,7 @@
 }
 
 .post-info a:hover {
-  color: #F37021;
+  color: var(--secondary);
 }
 
 .post-info > span {
