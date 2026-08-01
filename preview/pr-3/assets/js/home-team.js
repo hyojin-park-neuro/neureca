@@ -76,7 +76,7 @@
         });
 
         for (var index = 0; index < crossCount; index += 1) {
-          crossX.push(crossCount === 1 ? 50 : 16 + (68 * index / (crossCount - 1)));
+          crossX.push(crossCount === 1 ? 50 : 10 + (80 * index / (crossCount - 1)));
         }
 
         placeMember(center, 50, 50);
@@ -98,8 +98,8 @@
           var useLeft = index % 2 === 0 ? row % 2 === 0 : row % 2 !== 0;
           (useLeft ? left : right).push(member);
         });
-        placeVerticalSplit(left, 16, "is-left-stem");
-        placeVerticalSplit(right, 84, "is-right-stem");
+        placeVerticalSplit(left, 10, "is-left-stem");
+        placeVerticalSplit(right, 90, "is-right-stem");
       }
 
       members = interleaveMembers(members);
