@@ -1,0 +1,107 @@
+[data-dark=false] {
+  --primary: #7EB9BF;
+  --secondary: #A0D9D9;
+  --text: #000000;
+  --background: #ffffff;
+  --background-alt: #fafafa;
+  --light-gray: #e0e0e0;
+  --gray: #808080;
+  --overlay: #00000020;
+}
+
+[data-dark=true] {
+  --primary: #7EB9BF;
+  --secondary: #A0D9D9;
+  --text: #ffffff;
+  --background: #181818;
+  --background-alt: #1c1c1c;
+  --light-gray: #404040;
+  --gray: #808080;
+  --overlay: #ffffff10;
+}
+
+[data-dark=hp_bgwhite] {
+  --primary: #7EB9BF;
+  --secondary: #A0D9D9;
+  --text: #000000;
+  --background: #ffffff;
+  --background-alt: #ffffff;
+  --light-gray: #e0e0e0;
+  --gray: #808080;
+  --overlay: #00000020;
+}
+
+[data-dark=hp_bgwhite_icon1] {
+  --primary: #7EB9BF;
+  --secondary: #A0D9D9;
+  --text: #000000;
+  --background: #ffffff;
+  --background-alt: #ffffff;
+  --light-gray: #f37021;
+  --gray: #808080;
+  --overlay: #00000020;
+}
+
+[data-dark=hp_bggray_icon1] {
+  --primary: #7EB9BF;
+  --secondary: #A0D9D9;
+  --text: #000000;
+  --background: #fafafa;
+  --background-alt: #fafafa;
+  --light-gray: #f37021;
+  --gray: #808080;
+  --overlay: #00000020;
+}
+
+[data-dark=hp_bgwhite_icon2] {
+  --primary: #7EB9BF;
+  --secondary: #A0D9D9;
+  --text: #000000;
+  --background: #ffffff;
+  --background-alt: #ffffff;
+  --light-gray: #A0D9D9;
+  --gray: #808080;
+  --overlay: #00000020;
+}
+
+[data-dark=hp_bggray_icon2] {
+  --primary: #7EB9BF;
+  --secondary: #A0D9D9;
+  --text: #000000;
+  --background: #fafafa;
+  --background-alt: #fafafa;
+  --light-gray: #A0D9D9;
+  --gray: #808080;
+  --overlay: #00000020;
+}
+
+[data-dark=hp_twitter] {
+  --primary: #7EB9BF;
+  --secondary: #A0D9D9;
+  --text: #000000;
+  --background: #D5E5F2;
+  --background-alt: #D5E5F2;
+  --light-gray: #e0e0e0;
+  --gray: #808080;
+  --overlay: #00000020;
+}
+
+:root {
+  --title: "Alice", serif;
+  --heading: "Aptos", sans-serif;
+  --body: "Aptos", sans-serif;
+  --code: "Roboto Mono", monospace;
+  --medium: 1rem;
+  --large: 1.2rem;
+  --xl: 1.4rem;
+  --xxl: 1.6rem;
+  --thin: 200;
+  --regular: 400;
+  --semi-bold: 500;
+  --bold: 600;
+  --spacing: 2;
+  --rounded: 3px;
+  --shadow: 0 0 10px 0 var(--overlay);
+}
+
+/*# sourceMappingURL=-theme.css.map */
