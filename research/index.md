@@ -10,7 +10,7 @@ nav:
 ### Our goal is to conduct high-quality research. We believe this is essential for making meaningful contributions to our field and advancing knowledge! 🧠🧠🧠
 
 {% include search-box.html %}
-
+{% include tags.html tags=site.tags %}
 {% include search-info.html %}
 
 {% include section.html dark="hp_bgwhite_icon2" %}
