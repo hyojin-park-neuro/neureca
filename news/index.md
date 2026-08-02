@@ -11,9 +11,7 @@ nav:
 
 {% include neureca-icon.html name="mic-signal" %} **[NEURECA Group featured in a podcast!](https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio){:target="_blank"}** (powered by Gemini {% include neureca-icon.html name="sparkles" %})
 
-{% include section.html %}
-
-# 2026
+## 2026
 - Dr. Hyojin Park is invited to give a talk at the BrainLink X-Lab Day–Technology Exchange through Brain Circulation Network. Andong, South Korea. 11-13 November 2026.
 
 - Dr. Hyojin Park is invited to give a talk at "Symposium on the Cognitive and Neural Mechanism of Reading", supported by the Royal Society, Beijing, China. "Neural Processing of Linguistic Meaning: From Discourse Topics to Iconicity". 26-27 August 2026.
@@ -36,9 +34,7 @@ nav:
 
 - Paper published in Journal of Neural Engineering! ["Modulating speech tracking through brain state-dependent changes in audio loudness"](https://iopscience.iop.org/article/10.1088/1741-2552/ae30ab/meta){:target="_blank"}
 
-{% include section.html %}
-
-# 2025
+## 2025
 - Dr. Hyojin Park is invited to give a talk at the Department of Biomedical Science, Chosun University, Gwangju, South Korea. "Decoding Speech: Brain Rhythms, Multisensory Integration, and Natural Language Processing (NLP) Approaches". 18 November 2025. 
 
 - Dr. Hyojin Park is invited to give a talk at Konkuk University Medical Center, Seoul, South Korea. 18 November 2025. 
@@ -74,9 +70,7 @@ nav:
 
 - Paper accepted in Brain Communications! ["Current and prospective roles of magnetic resonance imaging in mild traumatic brain injury" by Sassani et al](https://academic.oup.com/braincomms/advance-article/doi/10.1093/braincomms/fcaf120/8093004?login=true){:target="_blank"}.
 
-{% include section.html %}
-
-# 2024
+## 2024
 - We currently have multiple competition-based PhD positions available! Please email me with your CV to discuss further!<br>
 [BBSRC MIBTP (deadline: 16 Jan 2025)](https://warwick.ac.uk/fac/cross_fac/mibtp/phd/supervisors/hpark/){:target="_blank"} [Applications](https://warwick.ac.uk/fac/cross_fac/mibtp/){:target="_blank"} Click "Accepting Applications for October 2025"<br>
 [ESRC student-led (deadline: 21 Jan 2025)](https://warwick.ac.uk/fac/cross_fac/mgsdtp/studentships/){:target="_blank"}
