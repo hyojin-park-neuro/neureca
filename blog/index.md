@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-pen-nib" %} Blog & Stories Unveiled!
 
-<!-- {% include section.html %} -->
+<!--{% include section.html %}-->
 
 {% include search-box.html %}
 
@@ -15,6 +15,6 @@ nav:
 
 {% include search-info.html %}
 
-<!-- {% include section.html %} -->
+<!--{% include section.html %}-->
 
 {% include list.html data="posts" component="post-excerpt" %}
