@@ -12,6 +12,14 @@ span.icon > svg {
   height: 1em;
 }
 
+span.icon.neureca-icon {
+  color: #455452;
+}
+
+html[data-dark=true] span.icon.neureca-icon {
+  color: #c7d9d6;
+}
+
 .team-page main .icon {
   color: #6d8984;
 }
