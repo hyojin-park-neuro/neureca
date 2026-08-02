@@ -62,8 +62,8 @@ carousels:
 
 {% include section.html dark="hp_twitter" %}
 
-<a href="https://twitter.com/HyojinParkNeuro?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @HyojinParkNeuro</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<a class="twitter-timeline" data-width="100%" data-height="1000%" href="https://twitter.com/HyojinParkNeuro?ref_src=twsrc%5Etfw">Tweets by HyojinParkNeuro</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://x.com/HyojinParkNeuro" class="twitter-follow-button" data-show-count="false">Follow @HyojinParkNeuro on X</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-width="100%" data-height="1000%" href="https://x.com/HyojinParkNeuro">Posts by HyojinParkNeuro on X</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 {% include section.html %}
 
@@ -111,4 +111,3 @@ sed do eiusmod tempor
   include figure.html
   image="images/logo_uob_3.png"
 %}
-

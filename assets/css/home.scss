@@ -4,7 +4,8 @@
 .neureca-home-page {
   display: block;
   min-height: 100vh;
-  background: #ffffff;
+  background: var(--background);
+  color: var(--text);
   text-align: left;
 }
 
@@ -51,6 +52,7 @@
 
     #neureca-outward-labels-repaired-photos-v26 .v26-nav,
     #neureca-outward-labels-repaired-photos-v26 .v26-brand,
+    #neureca-outward-labels-repaired-photos-v26 .v26-nav-actions,
     #neureca-outward-labels-repaired-photos-v26 .v26-navlinks,
     #neureca-outward-labels-repaired-photos-v26 .v26-methods,
     #neureca-outward-labels-repaired-photos-v26 .v26-detail {
@@ -66,88 +68,39 @@
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-brand {
-      gap: .95rem;
       min-width: 0;
       color: var(--foreground);
       text-decoration: none;
     }
 
-    #neureca-outward-labels-repaired-photos-v26 .v26-hmark {
-      width: 3.7rem;
-      height: 3.7rem;
+    #neureca-outward-labels-repaired-photos-v26 .v26-lockup {
+      display: block;
+      width: clamp(21rem, 29vw, 27rem);
+      height: auto;
+      aspect-ratio: 4 / 1;
       flex: 0 0 auto;
       overflow: visible;
-      color: var(--foreground);
-    }
-
-    #neureca-outward-labels-repaired-photos-v26 .v26-hn-stems,
-    #neureca-outward-labels-repaired-photos-v26 .v26-hn-crossbar,
-    #neureca-outward-labels-repaired-photos-v26 .v26-hn-diagonal {
-      fill: none;
-      stroke-linecap: square;
-      vector-effect: non-scaling-stroke;
-    }
-
-    #neureca-outward-labels-repaired-photos-v26 .v26-hn-stems {
-      stroke: currentColor;
-      stroke-width: 2.7;
-    }
-
-    #neureca-outward-labels-repaired-photos-v26 .v26-hn-crossbar {
-      stroke: var(--v26-brain-base);
-      stroke-width: 2.7;
-      transition: stroke 180ms ease;
-    }
-
-    #neureca-outward-labels-repaired-photos-v26 .v26-hn-diagonal {
-      stroke: var(--v26-brain-hover);
-      stroke-width: 2.7;
-      transition: stroke 180ms ease;
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-hn-node {
-      fill: var(--v26-brain-hover);
       transform-box: fill-box;
       transform-origin: center;
-      transition: fill 180ms ease, transform 180ms ease;
+      animation: v26-node-intro 1440ms ease-in-out .35s 3;
     }
 
-    #neureca-outward-labels-repaired-photos-v26 .v26-brand:hover .v26-hn-crossbar { stroke: var(--v26-brain-hover); }
-
-    #neureca-outward-labels-repaired-photos-v26 .v26-brand:hover .v26-hn-diagonal { stroke: var(--v26-brain-base); }
-
-    #neureca-outward-labels-repaired-photos-v26 .v26-brand:hover .v26-hn-node {
-      fill: var(--v26-brain-base);
-      transform: scale(1.18);
-    }
-
-    #neureca-outward-labels-repaired-photos-v26 .v26-brand-copy {
-      display: grid;
-      gap: .15rem;
-      min-width: 0;
-    }
-
-    #neureca-outward-labels-repaired-photos-v26 .v26-wordmark {
-      display: inline-block;
-      font-size: 1.22rem;
-      font-weight: 700;
-      letter-spacing: .05em;
-    }
-
-    #neureca-outward-labels-repaired-photos-v26 .v26-submark {
-      letter-spacing: .1em;
-      text-transform: uppercase;
-    }
-
-    #neureca-outward-labels-repaired-photos-v26 .v26-brand-meaning {
-      color: var(--foreground);
-      letter-spacing: .075em;
-      text-transform: uppercase;
+    @keyframes v26-node-intro {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.16); }
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-navlinks {
       gap: .95rem;
-      font-size: clamp(.86rem, 1.15vw, .98rem);
+      font-size: calc(clamp(.78rem, 1vw, .86rem) + 1px);
+    }
+
+    #neureca-outward-labels-repaired-photos-v26 .v26-nav-actions {
+      gap: 1rem;
+      justify-content: flex-end;
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-navlinks a {
@@ -199,8 +152,8 @@
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-lede {
-      max-width: 48ch;
-      margin: .7rem 0 1.25rem;
+      max-width: 64ch;
+      margin: .35rem 0 1.25rem;
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-methods {
@@ -218,7 +171,7 @@
     #neureca-outward-labels-repaired-photos-v26 .v26-brain-column {
       min-width: 0;
       margin-top: clamp(-1.75rem, -2vw, -.75rem);
-      background: #ffffff;
+      background: var(--background);
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-stage {
@@ -230,7 +183,7 @@
       color: var(--v26-brain-base);
       touch-action: none;
       isolation: isolate;
-      background: #ffffff;
+      background: var(--background);
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-stage.is-dragging { cursor: grabbing; }
@@ -596,6 +549,30 @@
     #neureca-outward-labels-repaired-photos-v26 .v26-color-probe.base { color: var(--v26-brain-base); }
     #neureca-outward-labels-repaired-photos-v26 .v26-color-probe.hover { color: var(--v26-brain-hover); }
 
+    html[data-dark="true"] #neureca-outward-labels-repaired-photos-v26 {
+      --foreground: #ffffff;
+      --background: #181818;
+      --border: #404040;
+      --muted-foreground: #b9c1bf;
+    }
+
+    html[data-dark="true"] #neureca-outward-labels-repaired-photos-v26 .v26-hn-stems {
+      stroke: #ffffff;
+    }
+
+    html[data-dark="true"] #neureca-outward-labels-repaired-photos-v26 .v26-wordmark,
+    html[data-dark="true"] #neureca-outward-labels-repaired-photos-v26 .v26-meaning {
+      fill: #ffffff;
+    }
+
+    html[data-dark="true"] #neureca-outward-labels-repaired-photos-v26 .v26-submark {
+      fill: #b9c1bf;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      #neureca-outward-labels-repaired-photos-v26 .v26-hn-node { animation: none; }
+    }
+
     @media (max-width: 760px) {
       #neureca-outward-labels-repaired-photos-v26 .v26-hero { grid-template-columns: 1fr; }
       #neureca-outward-labels-repaired-photos-v26 .v26-copy { padding-top: 0; }
@@ -610,6 +587,7 @@
 
     @media (max-width: 760px) {
       #neureca-outward-labels-repaired-photos-v26 .v26-navlinks { display: none; }
+      #neureca-outward-labels-repaired-photos-v26 .v26-lockup { width: min(22rem, calc(100vw - 6rem)); }
       #neureca-outward-labels-repaired-photos-v26 .v26-hero { grid-template-columns: 1fr; }
       #neureca-outward-labels-repaired-photos-v26 .v26-copy { padding-top: 0; }
       #neureca-outward-labels-repaired-photos-v26 .v26-stage { aspect-ratio: 1 / 1; }

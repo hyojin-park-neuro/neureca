@@ -26,6 +26,10 @@ undergrad:
   icon: fa-solid fa-user-gear
   description: Undergraduate Student
 
+intern:
+  icon: fa-solid fa-people-carry-box
+  description: Research Intern
+
 programmer:
   icon: fa-solid fa-code
   description: Programmer
@@ -104,7 +108,7 @@ github:
   link: https://github.com/$VALUE
 
 twitter:
-  icon: fa-brands fa-twitter
+  icon: x-twitter.svg
   text: X
   tooltip: X
   link: https://x.com/$VALUE
