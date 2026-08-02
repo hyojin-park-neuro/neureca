@@ -7,11 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events
 
-{% include neureca-icon.html name="signal" %}
-**Highly motivated PhD Students & UG/MSc-level Research Assistants (RA) and Postdoctoral Scientists** are welcome to join Dr. Hyojin Park’s research group! Please feel free to contact the PI to discuss further regarding funding opportunities!<br>
+{% include neureca-icon.html name="signal" %} **Highly motivated PhD Students & UG/MSc-level Research Assistants (RA) and Postdoctoral Scientists** are welcome to join Dr. Hyojin Park’s research group! Please feel free to contact the PI to discuss further regarding funding opportunities!<br>
 
-{% include neureca-icon.html name="mic-signal" %}
-**[NEURECA Group featured in a podcast!](https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio){:target="_blank"}** (powered by Gemini {% include neureca-icon.html name="sparkles" %})
+{% include neureca-icon.html name="mic-signal" %} **[NEURECA Group featured in a podcast!](https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio){:target="_blank"}** (powered by Gemini {% include neureca-icon.html name="sparkles" %})
 
 {% include section.html %}
 
