@@ -30,12 +30,12 @@
 
 .contact-page .dark-toggle,
 .member-page .dark-toggle {
-  background: #c7d9d6;
+  background: #455452;
 }
 
 .contact-page .dark-toggle:after,
 .member-page .dark-toggle:after {
-  color: #2c403d;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=dark-toggle.css.map */
