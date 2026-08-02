@@ -23,6 +23,6 @@ nav:
 
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
 
-## {% include icon.html icon="fa-solid fa-book-open-reader" %}[A selection of published works](https://github.com/hyojin-park-neuro/intro-published)
+## {% include icon.html icon="fa-solid fa-book-open-reader" %}A selection of published works
 
 {% include list.html component="card" data="projects" filters="group: published" %}
