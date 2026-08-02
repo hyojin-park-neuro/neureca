@@ -6,8 +6,7 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-people-group" %}Team
-<p style="text-align:left;"><strong>Power of Synergies!</strong><br>
-Teamwork is essential for unlocking the power of synergies, allowing individuals to leverage their strengths and achieve greater success than they could on their own. Furthermore, we embrace <strong>the value of diversity</strong> and <strong>inclusive environments for research</strong>, which is essential for fostering innovative and impactful research.</p>
+<p style="text-align:left;"><strong>Power of Synergies!</strong> Teamwork is essential for unlocking the power of synergies, allowing individuals to leverage their strengths and achieve greater success than they could on their own. Furthermore, we embrace <strong>the value of diversity</strong> and <strong>inclusive environments for research</strong>, which is essential for fostering innovative and impactful research.</p>
 
 ## Join the Team!&nbsp;{% include neureca-icon.html name="heart-pulse" %}
 
@@ -27,12 +26,6 @@ Teamwork is essential for unlocking the power of synergies, allowing individuals
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 <!-- {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %} -->
-
-{% include section.html %}
-
-
-
-{% include section.html dark="hp_bgwhite_icon1" %}
 
 {% comment %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: " %} 
