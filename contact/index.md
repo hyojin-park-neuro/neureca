@@ -48,8 +48,6 @@ carousels:
   link="https://campusmap.bham.ac.uk//search/projects/23/5d6f49301e1f64009327b7cd"
 %}
 
-{% include section.html %}
-
 {% capture content %}
 {% include figure.html image="images/chbh_1.png" %}
 {% include figure.html image="images/chbh_2.png" %}
@@ -64,8 +62,6 @@ carousels:
 
 <a href="https://x.com/HyojinParkNeuro" class="twitter-follow-button" data-show-count="false">Follow @HyojinParkNeuro on X</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <a class="twitter-timeline" data-width="100%" data-height="1000%" href="https://x.com/HyojinParkNeuro">Posts by HyojinParkNeuro on X</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-{% include section.html %}
 
 {% capture col1 %}
 ### {% include icon.html icon="fa-solid fa-address-card" %}***Postal Address***
@@ -94,8 +90,6 @@ sed do eiusmod tempor
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html %}
 
 {%
   include carousel.html
