@@ -21,7 +21,7 @@ nav:
 {%
   include alert.html
   type="info"
-  content="**<span style='color:#ffffff;'>Highly motivated PhD Students & UG/MSc-level Research Assistants and Postdoctoral Scientists are welcome to join the Team! Please feel free to [contact the PI](mailto:h.park@bham.ac.uk) to discuss funding opportunities!**"
+  content="**<span style='color:#ffffff;'>Highly motivated PhD Students & UG/MSc-level Research Assistants and Postdoctoral Scientists are welcome to join the Team! Please feel free to [contact the PI](mailto:h.park@bham.ac.uk) to discuss funding opportunities!**</span>"
 %}
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
