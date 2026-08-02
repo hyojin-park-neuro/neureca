@@ -58,13 +58,8 @@ carousels:
 {% endcapture %}
 {% include grid.html style="square" content=content %}
 
-{% include section.html dark="hp_twitter" %}
-
-<a href="https://x.com/HyojinParkNeuro" class="twitter-follow-button" data-show-count="false">Follow @HyojinParkNeuro on X</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<a class="twitter-timeline" data-width="100%" data-height="1000%" href="https://x.com/HyojinParkNeuro">Posts by HyojinParkNeuro on X</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 {% capture col1 %}
-### {% include icon.html icon="fa-solid fa-address-card" %}**Postal Address**
+### {% include icon.html icon="fa-solid fa-address-card" %}Postal Address
 > School of Psychology <br>
 > Centre for Human Brain Health (CHBH) <br>
 > University of Birmingham <br>
@@ -74,7 +69,7 @@ carousels:
 {% endcapture %}
 
 {% capture col2 %}
-### {% include icon.html icon="fa-solid fa-location-dot" %}**Visiting Address**
+### {% include icon.html icon="fa-solid fa-location-dot" %}Visiting Address
 > Office 102 <br>
 > Centre for Human Brain Health (CHBH) <br>
 > University of Birmingham <br>
