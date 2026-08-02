@@ -7,9 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-people-group" %}Team
 
-## Join the Team!&nbsp;:heartpulse:
+## Join the Team!&nbsp;{% include neureca-icon.html name="heart-pulse" %}
 
-### 🔔🔔🔔 
+### {% include neureca-icon.html name="signal" %}
 
 {%
   include alert.html

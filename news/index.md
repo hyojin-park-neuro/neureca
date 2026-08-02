@@ -7,11 +7,11 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %} News & Events
 
-🔔🔔🔔
+{% include neureca-icon.html name="signal" %}
 **Highly motivated PhD Students & UG/MSc-level Research Assistants (RA) and Postdoctoral Scientists** are welcome to join Dr. Hyojin Park’s research group! Please feel free to contact the PI to discuss further regarding funding opportunities!<br>
 
-🔔🔔🔔
-**[NEURECA Group featured in a podcast!](https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio){:target="_blank"}** (powered by Gemini 😉) 
+{% include neureca-icon.html name="mic-signal" %}
+**[NEURECA Group featured in a podcast!](https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio){:target="_blank"}** (powered by Gemini {% include neureca-icon.html name="sparkles" %})
 
 {% include section.html %}
 
@@ -20,7 +20,7 @@ nav:
 
 - Dr. Hyojin Park is invited to give a talk at "Symposium on the Cognitive and Neural Mechanism of Reading", supported by the Royal Society, Beijing, China. "Neural Processing of Linguistic Meaning: From Discourse Topics to Iconicity". 26-27 August 2026.
 
-- 🎉 Congratulations! [Xin Wang](https://www.neureca.org/members/xin-wang.html){:target="_blank"} is invited to give an [oral session at the BIOMAG 2026](https://biomag2026.scimeeting.cn/en/web/index/31426_3427437){:target="_blank"} (The 24th International Conference on Biomagnetism), Beijing, China, presenting her exciting work titled "Exploring Cardiac Phase Relationships in Reading-related Saccades during Natural Reading". 23-25 August 2026.
+- {% include neureca-icon.html name="party-popper" %} Congratulations! [Xin Wang](https://www.neureca.org/members/xin-wang.html){:target="_blank"} is invited to give an [oral session at the BIOMAG 2026](https://biomag2026.scimeeting.cn/en/web/index/31426_3427437){:target="_blank"} (The 24th International Conference on Biomagnetism), Beijing, China, presenting her exciting work titled "Exploring Cardiac Phase Relationships in Reading-related Saccades during Natural Reading". 23-25 August 2026.
   
 - Dr. Hyojin Park will chair a symposium at the BIOMAG 2026 (The 24th International Conference on Biomagnetism), Beijing, China. [Symposium on "Cognitive Insights into Attention and Cross-Modal Integration from Rapid Invisible Frequency Tagging"](https://biomag2026.scimeeting.cn/en/web/index/31426_3427436){:target="_blank"}. Also, she will give a talk titled "Enhancing Speech Comprehension via Cross-Modal Integration with Rapid Invisible Frequency Tagging (RIFT)". 23-25 August 2026.
 
@@ -55,7 +55,7 @@ nav:
 
 - Dr. Hyojin Park is invited to give a talk at Korea Institute of Radiological & Medical Sciences (KIRAMS), Seoul, South Korea. "Brain rhythms and natural language processing". 7 November 2025. 
 
-- 🎉 Congratulations! [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"} is invited to give a talk at the Society for the Neurobiology of Language (SNL), Washington DC, US. "Seeing Speech in a New Light: Augmenting Speech Performance using Rapid Invisible Frequency Tagging (RIFT)". 12-14 September 2025.
+- {% include neureca-icon.html name="party-popper" %} Congratulations! [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"} is invited to give a talk at the Society for the Neurobiology of Language (SNL), Washington DC, US. "Seeing Speech in a New Light: Augmenting Speech Performance using Rapid Invisible Frequency Tagging (RIFT)". 12-14 September 2025.
 {% include figure.html image="images/photo_members/photo_charlie_reynolds_snl2025.jpg" width="40%" %}
 
 - Dr. Hyojin Park is invited to the [MEDAL Summer School in Computational Modelling](https://medal.ut.ee/event/medal-summer-school-in-computational-linguistics/){:target="_blank"} as a Round-Table panellist. University of Birmingham. 23-27 June 2025.
@@ -85,7 +85,7 @@ nav:
 
 - Paper published in Current Biology! ["Dissociating prosodic from syntactic delta activity during natural speech comprehension" by Chalas et al.](https://doi.org/10.1016/j.cub.2024.06.072){:target="_blank"}
 
-- 🎉 Congratulations! [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}' abstract has been accepted for an oral presentation at [BIOMAG 2024](https://www.biomag2024.org/cms/){:target="_blank"}. Well done, Charlie! Abstract titled "Seeing Speech in a New Light: Augmenting Speech Performance using Rapid Invisible Frequency Tagging (RIFT) and MEG"
+- {% include neureca-icon.html name="party-popper" %} Congratulations! [Charlie Reynolds](https://www.neureca.org/members/charlie-reynolds.html){:target="_blank"}' abstract has been accepted for an oral presentation at [BIOMAG 2024](https://www.biomag2024.org/cms/){:target="_blank"}. Well done, Charlie! Abstract titled "Seeing Speech in a New Light: Augmenting Speech Performance using Rapid Invisible Frequency Tagging (RIFT) and MEG"
 
 - Hosting a CHBH Seminar: [Prof. Maria Chait](https://profiles.ucl.ac.uk/3865-maria-chait){:target="_blank"} at the University College London (UCL) will give a talk (title: "Neural Mechanisms for Tracking Uncertainty in Rapidly Unfolding Sound Sequences – evidence from M/EEG in human listeners") at the CHBH seminar series, 20 Jun 2024 - postponed.
 
@@ -93,7 +93,7 @@ nav:
 
 - Dr. Hyojin Park gave a seminar talk at the Psycholinguistics Group, University of Birmingham, Birmingham, UK. "Brain Rhythms during audiovisual natural language processing (including research plans for developmental approach)". 3 May 2024.
 
-- 🎉 Congratulations! Dr. Hyojin Park secured [MRC-AIM funding](https://more.bham.ac.uk/mrc-aim/?utm_source&utm_campaign&utm_medium){:target="_blank"} for a new PhD student!
+- {% include neureca-icon.html name="party-popper" %} Congratulations! Dr. Hyojin Park secured [MRC-AIM funding](https://more.bham.ac.uk/mrc-aim/?utm_source&utm_campaign&utm_medium){:target="_blank"} for a new PhD student!
 
 - Dr. Hyojin Park gave [a seminar talk at the Centre for Computational Science and Mathematical Modelling (CSM)](https://www.linkedin.com/posts/cu-csm_welcome-to-dr-hyojin-parks-research-group-activity-7178786572681502721-DNDE?utm_source=share&utm_medium=member_desktop){:target="_blank"}, Coventry University, Coventry, UK (27 Mar 2024).
 
@@ -121,13 +121,13 @@ nav:
 
 - Dr. Hyojin Park attended the [MEG UKI 2023 Conference in Dublin, Ireland](https://meguk.ac.uk/meg-uki-2023-conference/){:target="_blank"} (27-28 Oct 2023). 
 
-- 🎉 New Paper! Our paper has been published in [eLife](https://doi.org/10.7554/eLife.89703.1){:target="_blank"}!!
+- {% include neureca-icon.html name="party-popper" %} New Paper! Our paper has been published in [eLife](https://doi.org/10.7554/eLife.89703.1){:target="_blank"}!!
 
-- 🎉 New Paper! Paper accepted in Journal of Cognitive Neuroscience - [preprint here](https://www.biorxiv.org/content/10.1101/2023.05.15.540818v1){:target="_blank"}!!
+- {% include neureca-icon.html name="party-popper" %} New Paper! Paper accepted in Journal of Cognitive Neuroscience - [preprint here](https://www.biorxiv.org/content/10.1101/2023.05.15.540818v1){:target="_blank"}!!
 
 - Dr. Hyojin Park served as an external examiner on [Patrick Reisinger's PhD defence at the Universität Salzburg](https://twitter.com/reisipat/status/1685564307914752000){:target="_blank"}!!
 
-- 🔔 **We are hiring! Please apply!!** [Competition Funded PhD Studentship](https://www.neureca.org/2023/05/10/funded-phd-studentship.html) (Deadline: 5th Jun 2023)
+- {% include neureca-icon.html name="signal" %} **We are hiring! Please apply!!** [Competition Funded PhD Studentship](https://www.neureca.org/2023/05/10/funded-phd-studentship.html) (Deadline: 5th Jun 2023)
 
 - Dr. Hyojin Park attended [OSL-Dynamics Workshop](https://osl-dynamics.readthedocs.io/en/latest/index.html){:target="_blank"} at the Oxford Centre for Human Brain Activity (OHBA) group at the University of Oxford. 24-25 Apr 2023.
 
@@ -163,7 +163,7 @@ nav:
 
 - Talk, BACN (British Association for Cognitive Neuroscience). Birmingham, UK. 25 May 2022. "Spatio-Temporal Neural Map of Representation of Topic Keywords during Natural Auditory Speech Perception"
 
-- Brain Awareness Week (BAW) Mar 14-20 2022. [Gabe (Gabriel Byczynski, MSc student in the group) talking about audiovisual speech integration!](https://www.neureca.org/2022/03/14/baw-gabe.html) 👈 Check out his YouTube video! 🎬
+- Brain Awareness Week (BAW) Mar 14-20 2022. [Gabe (Gabriel Byczynski, MSc student in the group) talking about audiovisual speech integration!](https://www.neureca.org/2022/03/14/baw-gabe.html) {% include neureca-icon.html name="external-link" %} Check out his YouTube video! {% include neureca-icon.html name="video" %}
 
 - [Talk, MRC Cognition and Brain Sciences Unit (MRC CBU) Chaucer Club Seminar, University of Cambridge.](https://talks.cam.ac.uk/talk/index/167645){:target="_blank"} 3 Feb 2022. 
 "Neural dynamics of natural speech perception via Natural Language Processing (NLP) models"
@@ -218,7 +218,7 @@ nav:
 {% include section.html %}
 
 # 2018
-- 🏆 Selected to participate in the ***Rising Stars Programme***, Life and Environmental Sciences, University of Birmingham. 2018-2019.
+- {% include neureca-icon.html name="award" %} Selected to participate in the ***Rising Stars Programme***, Life and Environmental Sciences, University of Birmingham. 2018-2019.
 
 - Member of Local Organising Committee & Award Committee of the BIOMAG 2022 (The 22nd International Conference on Biomagnetism), Birmingham, UK. 2018-2022.
 
@@ -252,16 +252,16 @@ nav:
 {% include section.html %}
 
 # 2016
-- 🏆 Selected to participate in the ***Nature Masterclass***! 13-14 Oct 2016, University of Glasgow.
+- {% include neureca-icon.html name="award" %} Selected to participate in the ***Nature Masterclass***! 13-14 Oct 2016, University of Glasgow.
 
-- 🏆 [**Young Investigator Award (YIA)** from the BIOMAG (The 20th International Conference on Biomagnetism)](https://www.neureca.org/2016/10/01/biomag-yia.html). 1-6 Oct 2016. Seoul, South Korea. Dr. Hyojin Park received the prestigious YIA! 
+- {% include neureca-icon.html name="award" %} [**Young Investigator Award (YIA)** from the BIOMAG (The 20th International Conference on Biomagnetism)](https://www.neureca.org/2016/10/01/biomag-yia.html). 1-6 Oct 2016. Seoul, South Korea. Dr. Hyojin Park received the prestigious YIA!
 
-- 🏆 [***Merit Award*** from the OHBM (Organization for Human Brain Mapping)](https://www.neureca.org/2016/06/26/ohbm-award.html). 26-30 Jun 2016. Geneva, Switzerland. Dr. Hyojin Park received the Merit Award!
+- {% include neureca-icon.html name="award" %} [***Merit Award*** from the OHBM (Organization for Human Brain Mapping)](https://www.neureca.org/2016/06/26/ohbm-award.html). 26-30 Jun 2016. Geneva, Switzerland. Dr. Hyojin Park received the Merit Award!
 
 {% include section.html %}
 
 # 2015
-- 🏆 [***Merit Award*** from the OHBM (Organization for Human Brain Mapping)](https://www.neureca.org/2015/06/14/ohbm-award.html). 14-18 Jun 2015. Honolulu, Hawaii. Dr. Hyojin Park received the Merit Award!
+- {% include neureca-icon.html name="award" %} [***Merit Award*** from the OHBM (Organization for Human Brain Mapping)](https://www.neureca.org/2015/06/14/ohbm-award.html). 14-18 Jun 2015. Honolulu, Hawaii. Dr. Hyojin Park received the Merit Award!
 
 {% include section.html %}
 
