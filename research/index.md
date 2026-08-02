@@ -15,7 +15,7 @@ nav:
 
 {% include citation.html lookup="Differential roles of delta and theta oscillations in understanding semantic gist during natural audiovisual speech perception: Functional and anatomical evidence" style="rich" %}
 
-## All
+## 
 
 {% include search-box.html %}
 
