@@ -69,11 +69,11 @@ nav:
 - Cameron Wallace
 - Yu-Zhen Wong
 
-### {% include icon.html icon="fa-solid fa-users-rays" %}Alumni
-***{% include icon.html icon="fa-solid fa-user-check" %}  Post-doctoral Researchers***
+## {% include icon.html icon="fa-solid fa-users-rays" %}Alumni
+**{% include icon.html icon="fa-solid fa-user-check" %}  Post-doctoral Researchers**
 - Tara Ghafari (co-supervision)
   
-***{% include icon.html icon="fa-solid fa-user-graduate" %}  Postgraduate Students***
+**{% include icon.html icon="fa-solid fa-user-graduate" %}  Postgraduate Students**
 - [Alexander Zust (2024-25)](/members/alexander-zust.html){:target="_blank"}
 - Christopher Fairhurst (2024-25)
 - Jack Griffiths (2024-25)
@@ -85,7 +85,7 @@ nav:
 - Gabriel Byczynski (2021-22)
 - Zhuoxin Xiao (2021-22)
 
-***{% include icon.html icon="fa-solid fa-user-gear" %}  Undergraduate Students***
+**{% include icon.html icon="fa-solid fa-user-gear" %}  Undergraduate Students**
 - [Abby Korter](/members/abby-korter.html){:target="_blank"} (2024-25) 
 - [Amber Hanan](/members/amber-hanan.html){:target="_blank"} (2024-25)
 - [Matilda Halliwell](/members/matilda-halliwell.html){:target="_blank"} (2024-25)
