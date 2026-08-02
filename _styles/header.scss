@@ -76,7 +76,7 @@ $collapse: 860px;
   flex-wrap: wrap;
   gap: .85rem;
   font-family: inherit;
-  font-size: clamp(.78rem, 1vw, .86rem);
+  font-size: calc(clamp(.78rem, 1vw, .86rem) + 1px);
   text-transform: none;
 }
 

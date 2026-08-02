@@ -95,7 +95,7 @@
 
     #neureca-outward-labels-repaired-photos-v26 .v26-navlinks {
       gap: .95rem;
-      font-size: clamp(.78rem, 1vw, .86rem);
+      font-size: calc(clamp(.78rem, 1vw, .86rem) + 1px);
     }
 
     #neureca-outward-labels-repaired-photos-v26 .v26-nav-actions {
