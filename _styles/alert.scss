@@ -35,3 +35,17 @@
 .alert-content > *:last-child {
   margin-bottom: 0;
 }
+
+.team-page .alert {
+  background: #c7d9d6;
+  color: #191b1b;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.team-page .alert:before {
+  display: none;
+}
+
+.team-page .alert > .icon {
+  color: #455452;
+}
