@@ -23,7 +23,7 @@
           data-tooltip="{{ nav_page.nav.tooltip }}"
           {% if current_url == nav_page.url %}aria-current="page"{% endif %}
         >
-          {{ nav_page.title }}
+          {{ nav_page.title | upcase }}
         </a>
       {% endif %}
     {% endfor %}
