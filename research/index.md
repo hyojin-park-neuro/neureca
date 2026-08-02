@@ -9,8 +9,18 @@ nav:
 
 ### Our goal is to conduct high-quality research. We believe this is essential for making meaningful contributions to our field and advancing knowledge! 🧠🧠🧠
 
+{% assign research_tags = "" | split: "" %}
+
+{% for citation in site.data.citations %}
+  {% if citation.tags %}
+    {% assign research_tags = research_tags | concat: citation.tags %}
+  {% endif %}
+{% endfor %}
+
+{% assign research_tags = research_tags | uniq | sort %}
+
 {% include search-box.html %}
-{% include tags.html tags=site.tags %}
+{% include tags.html tags=research_tags %}
 {% include search-info.html %}
 
 {% include section.html dark="hp_bgwhite_icon2" %}
