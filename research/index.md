@@ -9,7 +9,7 @@ nav:
 
 ### Our goal is to conduct high-quality research. We believe this is essential for making meaningful contributions to our field and advancing knowledge! 🧠🧠🧠
 
-{% include section.html dark="hp_bggray_icon1" %}
+{% include section.html dark="hp_bggray_icon2" %}
 
 ## {% include icon.html icon="fa-solid fa-highlighter" %}Highlighted
 
