@@ -1,5 +1,6 @@
 ---
-title: 🔔 Join Us! Competition Funded PhD Project <br> (Open to UK Home and International Students) - <em>Completed</em>
+title: Join Us! Competition Funded PhD Project <br> (Open to UK Home and International Students) - <em>Completed</em>
+icon: signal
 author: Hyojin Park, Katrien Segaert
 tags: job, PhD, MEG, OPM-MEG, CHBH, CDS
 last_modified_at: ""
