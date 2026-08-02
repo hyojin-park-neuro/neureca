@@ -9,13 +9,13 @@ nav:
 
 ## Join the Team!&nbsp;{% include neureca-icon.html name="heart-pulse" %}
 
-### {% include neureca-icon.html name="signal" %}
+<!-- ### {% include neureca-icon.html name="signal" %} -->
 
-{%
+<!-- {%
   include alert.html
   type="info"
   content="**We currently have multiple competition-based PhD positions available! Please email me with your CV to discuss the details further!**"
-%}
+%} -->
 
 {%
   include alert.html
