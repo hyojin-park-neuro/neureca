@@ -105,8 +105,6 @@ nav:
 - Ellie Robson (2022-23)
 - Jasmin Wrighton (2022-23)
 
-{% include section.html %}
-
 ## {% include icon.html icon="fa-solid fa-users-line" %}Collaborators
 
 - [Ole Jensen](https://neuosc.com/){:target="_blank"}, Department of Experimental Psychology & Department of Psychiatry, University of Oxford, UK
