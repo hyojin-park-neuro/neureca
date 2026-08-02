@@ -7,7 +7,7 @@
   height: 25px;
   margin: 0;
   border-radius: 999px;
-  background: var(--primary);
+  background: #455452;
   -webkit-appearance: none;
   appearance: none;
   transition-property: background;
@@ -18,7 +18,7 @@
   position: absolute;
   left: 12px;
   top: 50%;
-  color: var(--text);
+  color: #ffffff;
   font-size: 15px;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
@@ -29,14 +29,4 @@
 .dark-toggle:checked:after {
   content: "\f186";
   left: calc(100% - 12px);
-}
-
-.contact-page .dark-toggle,
-.member-page .dark-toggle {
-  background: #455452;
-}
-
-.contact-page .dark-toggle:after,
-.member-page .dark-toggle:after {
-  color: #ffffff;
 }
