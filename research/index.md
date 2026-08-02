@@ -9,17 +9,17 @@ nav:
 
 ### Our goal is to conduct high-quality research. We believe this is essential for making meaningful contributions to our field and advancing knowledge! 🧠🧠🧠
 
-{% include section.html dark="hp_bgwhite_icon2" %}
+{% include search-box.html %}
 
+{% include search-info.html %}
+
+{% include section.html dark="hp_bgwhite_icon2" %}
 ## {% include icon.html icon="fa-solid fa-highlighter" %}Highlighted
 
 {% include citation.html lookup="Differential roles of delta and theta oscillations in understanding semantic gist during natural audiovisual speech perception: Functional and anatomical evidence" style="rich" %}
 
-
-
-{% include search-box.html %}
-
-{% include search-info.html %}
+{% include section.html dark="hp_bgwhite_icon2" %}
+## {% include icon.html icon="fa-solid fa-highlighter" %}Publications
 
 {% include list.html data="citations" component="citation" style="rich" %}
 
