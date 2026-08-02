@@ -1,17 +1,23 @@
 <div id="neureca-outward-labels-repaired-photos-v26" aria-label="NEURECA homepage">
   <header class="v26-nav">
     <a class="v26-brand" href="{{ '/' | relative_url }}" aria-label="NEURECA, Hyojin Park’s Research Group — home">
-      <svg class="v26-hmark" viewBox="0 0 48 48" role="img" aria-label="Combined H and N monogram for Hyojin and NEURECA">
-        <path class="v26-hn-stems" d="M9 6V42 M39 6V42"></path>
-        <path class="v26-hn-crossbar" d="M9 24H39"></path>
-        <path class="v26-hn-diagonal" d="M9 6L39 42"></path>
-        <circle class="v26-hn-node" cx="24" cy="24" r="2.8"></circle>
+      <svg class="v26-lockup" viewBox="0 0 720 180" role="img" aria-label="NEURECA — Hyojin Park’s Research Group — Sound, Vision, Meaning">
+        <g transform="translate(10 8) scale(3.4)">
+          <defs>
+            <clipPath id="v26-diagonal-inner"><rect x="10" y="4" width="28" height="40"></rect></clipPath>
+            <clipPath id="v26-mark-outer"><rect x="7.85" y="4.65" width="32.3" height="38.7"></rect></clipPath>
+          </defs>
+          <path d="M5 1.2L43 46.8" fill="none" stroke="#685564" stroke-width="2.7" stroke-linecap="square" clip-path="url(#v26-diagonal-inner)" transform="rotate(2 24 24)"></path>
+          <path d="M7 24H41" fill="none" stroke="#455452" stroke-width="2.7" stroke-linecap="butt" clip-path="url(#v26-mark-outer)"></path>
+          <path d="M9.25 6V42M38.75 6V42" fill="none" stroke="#191b1b" stroke-width="2.7" stroke-linecap="square"></path>
+          <circle class="v26-hn-node" cx="24" cy="24" r="2.8" fill="#685564"></circle>
+        </g>
+        <g transform="translate(168 0)" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+          <text x="0" y="70" font-size="48" font-weight="700" letter-spacing="2.4" fill="#191b1b">NEURECA</text>
+          <text x="1" y="112" font-size="16" letter-spacing="1.6" fill="#5d6563">HYOJIN PARK’S RESEARCH GROUP</text>
+          <text x="1" y="142" font-size="15.5" letter-spacing="1.35" fill="#191b1b">SOUND · VISION · MEANING</text>
+        </g>
       </svg>
-      <span class="v26-brand-copy">
-        <span class="v26-wordmark" aria-label="NEURECA">NEURECA</span>
-        <span class="v26-submark text-small text-muted">Hyojin Park’s Research Group</span>
-        <span class="v26-brand-meaning text-small">Sound · Vision · Context</span>
-      </span>
     </a>
 
     <nav class="v26-navlinks text-small" aria-label="Main navigation">

@@ -27,23 +27,20 @@ $collapse: 860px;
 }
 
 .site-header .home {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: .95rem;
+  display: block;
   min-width: 0;
 }
 
 .site-header .logo {
-  width: 3.2rem;
-  height: 3.2rem;
-  flex: 0 0 auto;
+  display: block;
+  width: clamp(14.5rem, 21vw, 18rem);
+  aspect-ratio: 4 / 1;
 }
 
 .site-header .logo img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .site-header .title {
@@ -163,12 +160,6 @@ $collapse: 860px;
 
 @media (max-width: 430px) {
   .site-header .logo {
-    width: 2.8rem;
-    height: 2.8rem;
-  }
-
-  .site-header .submark,
-  .site-header .brand-meaning {
-    display: none;
+    width: min(13.5rem, calc(100vw - 5rem));
   }
 }
