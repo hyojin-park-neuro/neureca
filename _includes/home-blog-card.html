@@ -11,16 +11,24 @@
   {% if has_visual %}
     <a class="v26-card-media" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title }}" data-image-carousel>
       {% if post.images and post.images.size > 0 %}
-        {% for image in post.images %}<img class="v26-card-image{% if forloop.first %} is-active{% endif %}" src="{{ image | relative_url }}" alt="" loading="lazy" decoding="async">{% endfor %}
+        {% for image in post.images %}
+          {% if image contains '://' %}{% assign image_url = image %}{% else %}{% assign image_url = image | relative_url %}{% endif %}
+          <img class="v26-card-image{% if forloop.first %} is-active{% endif %}" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
+        {% endfor %}
       {% elsif post.image %}
-        <img class="v26-card-image is-active" src="{{ post.image | relative_url }}" alt="" loading="lazy" decoding="async">
+        {% if post.image contains '://' %}{% assign image_url = post.image %}{% else %}{% assign image_url = post.image | relative_url %}{% endif %}
+        <img class="v26-card-image is-active" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
       {% elsif post.banner %}
-        <img class="v26-card-image is-active" src="{{ post.banner | relative_url }}" alt="" loading="lazy" decoding="async">
+        {% if post.banner contains '://' %}{% assign image_url = post.banner %}{% else %}{% assign image_url = post.banner | relative_url %}{% endif %}
+        <img class="v26-card-image is-active" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
       {% elsif has_content_images %}
         {% for part in content_parts offset: 1 limit: 5 %}
           {% assign src_part = part | split: 'src="' | last %}
           {% assign image_src = src_part | split: '"' | first %}
-          {% if image_src and image_src != '' %}<img class="v26-card-image{% if forloop.first %} is-active{% endif %}" src="{{ image_src | relative_url }}" alt="" loading="lazy" decoding="async">{% endif %}
+          {% if image_src and image_src != '' %}
+            {% if image_src contains '://' %}{% assign image_url = image_src %}{% else %}{% assign image_url = image_src | relative_url %}{% endif %}
+            <img class="v26-card-image{% if forloop.first %} is-active{% endif %}" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
+          {% endif %}
         {% endfor %}
       {% endif %}
     </a>
@@ -29,7 +37,15 @@
   <div class="v26-card-body">
     {% if post.tags and post.tags.size > 0 %}
       <div class="v26-card-tags" aria-label="Keywords">
-        {% for tag in post.tags limit: 4 %}<span>{{ tag | replace: ',', '' }}</span>{% endfor %}
+        {% for tag in post.tags limit: 4 %}
+          {% assign clean_tag = tag | strip | replace: ',', '' %}
+          {% assign normalized_tag = clean_tag | downcase %}
+          {% if normalized_tag == 'meg/eeg' %}
+            <span>MEG</span><span>EEG</span>
+          {% else %}
+            <span>{% include tag-label.html tag=tag %}</span>
+          {% endif %}
+        {% endfor %}
       </div>
     {% endif %}
     <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>

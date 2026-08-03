@@ -7,23 +7,16 @@
 %}
 {% assign link = include.link | default: page.dir | absolute_url %}
 {% if tags.size > 0 or include.repo %}
-  <div
-    class="tags"
-    {% if include.repo %}
-      data-repo="{{ include.repo }}"
-    {% endif %}
-    {% if link %}
-      data-link="{{ link }}"
-    {% endif %}
-  >
+  <div class="tags"{% if include.repo %} data-repo="{{ include.repo }}"{% endif %}{% if link %} data-link="{{ link }}"{% endif %}>
     {% for tag in tags %}
-      <a
-        href="{{ link }}?search=&quot;tag: {{ tag }}&quot;"
-        class="tag"
-        data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
-      >
-        {{ tag }}
-      </a>
+      {% assign clean_tag = tag | strip | replace: ',', '' %}
+      {% assign normalized_tag = clean_tag | downcase %}
+      {% if normalized_tag == 'meg/eeg' %}
+        <a href="{{ link }}?search=&quot;tag: {{ tag }}&quot;" class="tag">MEG</a>
+        <a href="{{ link }}?search=&quot;tag: {{ tag }}&quot;" class="tag">EEG</a>
+      {% else %}
+        <a href="{{ link }}?search=&quot;tag: {{ tag }}&quot;" class="tag">{% include tag-label.html tag=tag %}</a>
+      {% endif %}
     {% endfor %}
   </div>
 {% endif %}

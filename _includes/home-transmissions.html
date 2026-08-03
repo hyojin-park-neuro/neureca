@@ -1,9 +1,8 @@
-{% assign carousel_posts = site.posts | slice: 0, 9 %}
 <section class="v26-transmissions" aria-labelledby="v26-transmissions-title" data-post-carousel>
   <div class="v26-transmissions-head">
     <div class="v26-transmissions-title-block">
       <p class="v26-transmissions-kicker">LATEST FROM NEURECA</p>
-      <h2 id="v26-transmissions-title">News &amp; Insights</h2>
+      <h2 id="v26-transmissions-title">Insights &amp; Stories</h2>
     </div>
     <a class="v26-all-stories" href="{{ '/blog/' | relative_url }}">View all posts</a>
   </div>
@@ -12,16 +11,11 @@
     <button class="v26-post-arrow v26-post-arrow-prev" type="button" data-post-prev aria-label="Previous blog posts">←</button>
     <div class="v26-post-viewport">
       <div class="v26-post-track" data-post-track>
-        {% for post in carousel_posts %}
+        {% for post in site.posts %}
           {% include home-blog-card.html post=post %}
         {% endfor %}
       </div>
     </div>
     <button class="v26-post-arrow v26-post-arrow-next" type="button" data-post-next aria-label="Next blog posts">→</button>
-  </div>
-
-  <div class="v26-connect" data-home-connect>
-    <span class="text-small">CONNECT WITH NEURECA</span>
-    {% include social-links.html %}
   </div>
 </section>
