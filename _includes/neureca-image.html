@@ -3,5 +3,7 @@
 {% if include.image == 'images/neureca.png' or include.image == '/images/neureca.png' %}{% assign use_logo = true %}{% endif %}
 <span class="neureca-image-frame{% if include.class %} {{ include.class }}{% endif %}">
   {% unless use_logo %}<img src="{{ include.image | relative_url }}" alt="{{ include.alt | default: '' }}" loading="lazy" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">{% endunless %}
-  <span class="neureca-image-fallback"{% unless use_logo %} hidden{% endunless %}>{% include neureca-logo-mark.html %}</span>
+  <span class="neureca-image-fallback"{% unless use_logo %} hidden{% endunless %}>
+    <img src="{{ 'images/paper_thumbnail_fd_fnirs.svg' | relative_url }}" alt="NEURECA lab logo" loading="lazy">
+  </span>
 </span>
