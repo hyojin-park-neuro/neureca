@@ -11,7 +11,12 @@ nav:
 
 {% include search-box.html %}
 
-{% include tags.html tags="publication, resource, website" %}
+<div class="tags" data-link="{{ page.dir | absolute_url }}">
+  {% assign project_page_tags = "publication,resource,website" | split: ',' %}
+  {% for tag in project_page_tags %}
+    <a href="{{ page.dir | absolute_url }}?search=&quot;tag: {{ tag }}&quot;" class="tag">{{ tag }}</a>
+  {% endfor %}
+</div>
 
 {% include search-info.html %}
 
