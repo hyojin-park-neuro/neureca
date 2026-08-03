@@ -7,12 +7,7 @@
     aria-label="{{ include.title | default: "card link" }}"
     class="card-image"
   >
-    <img
-      src="{{ include.image | relative_url }}"
-      alt="{{ include.title | default: "card image" }}"
-      loading="lazy"
-      {% include fallback.html %}
-    >
+    {% include neureca-image.html image=include.image alt=include.title %}
   </a>
 
   <div class="card-text">
@@ -30,16 +25,8 @@
     </a>
     {% endif %}
 
-    {% if include.subtitle %}
-      <span class="card-subtitle">{{ include.subtitle }}</span>
-    {% endif %}
-
-    {% if include.description %}
-      {{ include.description | markdownify }}
-    {% endif %}
-
-    {% if include.tags or include.repo %}
-      {% include tags.html tags=include.tags repo=include.repo %}
-    {% endif %}
+    {% if include.subtitle %}<span class="card-subtitle">{{ include.subtitle }}</span>{% endif %}
+    {% if include.description %}{{ include.description | markdownify }}{% endif %}
+    {% if include.tags or include.repo %}{% include tags.html tags=include.tags repo=include.repo %}{% endif %}
   </div>
 </div>

@@ -1,0 +1,10 @@
+{% assign animated = include.animated | default: true %}
+<span class="neureca-logo-mark{% if animated %} is-animated{% endif %}{% if include.size %} is-{{ include.size }}{% endif %}" role="img" aria-label="NEURECA logo">
+  <svg viewBox="0 0 48 48" aria-hidden="true">
+    <defs><clipPath id="neureca-logo-diagonal"><rect x="10" y="4" width="28" height="40"/></clipPath></defs>
+    <path class="neureca-logo-diagonal" d="M5 1.2L43 46.8" fill="none" stroke="currentColor" stroke-width="2.7" stroke-linecap="square" clip-path="url(#neureca-logo-diagonal)" transform="rotate(2 24 24)"/>
+    <path class="neureca-logo-cross" d="M7 24H41" fill="none" stroke="currentColor" stroke-width="2.7"/>
+    <path class="neureca-logo-stems" d="M9.25 6V42M38.75 6V42" fill="none" stroke="currentColor" stroke-width="2.7" stroke-linecap="square"/>
+    <circle class="neureca-logo-node" cx="24" cy="24" r="2.8" fill="currentColor"/>
+  </svg>
+</span>

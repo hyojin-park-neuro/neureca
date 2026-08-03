@@ -1,0 +1,8 @@
+<span class="neureca-image-frame{% if include.class %} {{ include.class }}{% endif %}">
+  {% if include.image %}
+    <img src="{{ include.image | relative_url }}" alt="{{ include.alt | default: '' }}" loading="lazy" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+    <span class="neureca-image-fallback" hidden>{% include neureca-logo-mark.html %}</span>
+  {% else %}
+    <span class="neureca-image-fallback">{% include neureca-logo-mark.html %}</span>
+  {% endif %}
+</span>
