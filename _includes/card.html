@@ -27,6 +27,14 @@
 
     {% if include.subtitle %}<span class="card-subtitle">{{ include.subtitle }}</span>{% endif %}
     {% if include.description %}{{ include.description | markdownify }}{% endif %}
-    {% if include.tags or include.repo %}{% include tags.html tags=include.tags repo=include.repo %}{% endif %}
+    {% if include.tags or include.repo %}
+      <div class="tags"{% if include.repo %} data-repo="{{ include.repo }}"{% endif %} data-link="{{ page.dir | absolute_url }}">
+        {% assign card_tags = include.tags | object_items | join: ',' | split: ',' | array_filter | uniq %}
+        {% for tag in card_tags %}
+          {% assign clean_tag = tag | strip | replace: ',', '' %}
+          <a href="{{ page.dir | absolute_url }}?search=&quot;tag: {{ tag }}&quot;" class="tag">{{ clean_tag }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
   </div>
 </div>
