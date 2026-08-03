@@ -4,7 +4,7 @@ icon: award
 author: hyojin-park
 tags:
   - BIOMAG
-  - award
+  - Award
   - YIA
 last_modified_at: ""
 carousels:
