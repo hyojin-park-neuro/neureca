@@ -1,10 +1,6 @@
 (() => {
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  const connect = document.querySelector('[data-home-connect]');
-  const teamStage = document.querySelector('#v26-team-stage');
-  if (connect && teamStage) teamStage.insertAdjacentElement('afterend', connect);
-
   document.querySelectorAll('[data-image-carousel]').forEach((carousel) => {
     const images = Array.from(carousel.querySelectorAll('.v26-card-image'));
     if (images.length < 2 || reduceMotion) return;
@@ -50,7 +46,7 @@
     carousel.addEventListener('mouseleave', restart);
     carousel.addEventListener('focusin', () => window.clearInterval(timer));
     carousel.addEventListener('focusout', restart);
-    window.addEventListener('resize', () => { update(); restart(); });
+    window.addEventListener('resize', () => { index = 0; update(); restart(); });
     update();
     restart();
   });

@@ -57,10 +57,10 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: clamp(2.35rem, 4.6vw, 4.7rem);
-  line-height: 0.98;
+  font-size: clamp(1.85rem, 3vw, 3rem);
+  line-height: 1;
   font-weight: 400;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.025em;
 }
 
 #neureca-outward-labels-repaired-photos-v26 .v26-all-stories {
@@ -131,8 +131,8 @@
 
 #neureca-outward-labels-repaired-photos-v26 .v26-card-media {
   position: relative;
-  flex: 0 0 30%;
-  min-width: 7.5rem;
+  flex: 0 0 27%;
+  min-width: 6.5rem;
   overflow: hidden;
   background: color-mix(in srgb, var(--foreground) 4%, var(--background));
 }
@@ -237,13 +237,17 @@
   text-decoration: none;
 }
 
-#neureca-outward-labels-repaired-photos-v26 .v26-connect {
+#neureca-outward-labels-repaired-photos-v26 .v26-team {
+  padding-bottom: 0;
+}
+
+#neureca-outward-labels-repaired-photos-v26 .v26-team .v26-connect {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
   width: 100%;
-  margin: 2.25rem auto 0.5rem;
+  margin: clamp(4.75rem, 7vw, 6.5rem) auto clamp(0.9rem, 1.7vw, 1.4rem);
   color: var(--muted-foreground);
   letter-spacing: 0.11em;
 }
@@ -270,7 +274,7 @@
     flex-direction: column;
   }
   #neureca-outward-labels-repaired-photos-v26 .v26-transmissions h2 {
-    font-size: clamp(2.2rem, 12vw, 3.5rem);
+    font-size: clamp(1.8rem, 9vw, 2.7rem);
   }
   #neureca-outward-labels-repaired-photos-v26 .v26-post-carousel-shell {
     padding-inline: 2.9rem;
@@ -280,11 +284,13 @@
     min-height: 24rem;
   }
   #neureca-outward-labels-repaired-photos-v26 .v26-card-media {
-    flex-basis: 28%;
-    min-width: 7rem;
+    flex-basis: 25%;
+    min-width: 6.25rem;
   }
-  #neureca-outward-labels-repaired-photos-v26 .v26-connect {
+  #neureca-outward-labels-repaired-photos-v26 .v26-team .v26-connect {
     flex-direction: column;
+    margin-top: 4.2rem;
+    margin-bottom: 1rem;
   }
 }
 @media (max-width: 520px) {
@@ -293,7 +299,7 @@
   }
   #neureca-outward-labels-repaired-photos-v26 .v26-card-media {
     flex-basis: auto;
-    min-height: 8.5rem;
+    min-height: 8rem;
     width: 100%;
   }
 }
