@@ -39,12 +39,7 @@
       <div class="v26-card-tags" aria-label="Keywords">
         {% for tag in post.tags limit: 4 %}
           {% assign clean_tag = tag | strip | replace: ',', '' %}
-          {% assign normalized_tag = clean_tag | downcase %}
-          {% if normalized_tag == 'meg/eeg' %}
-            <span>MEG</span><span>EEG</span>
-          {% else %}
-            <span>{% include tag-label.html tag=tag %}</span>
-          {% endif %}
+          <span>{{ clean_tag }}</span>
         {% endfor %}
       </div>
     {% endif %}
