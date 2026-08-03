@@ -1,34 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
-  <title id="title">Animated NEURECA lab logo</title>
-  <desc id="desc">A scalable NEURECA signal mark with a gently pulsing centre node.</desc>
-  <style>
-    .node {
-      transform-box: fill-box;
-      transform-origin: center;
-      animation: neureca-pulse 3.6s ease-in-out infinite;
-    }
-    .signal {
-      stroke-dasharray: 320;
-      stroke-dashoffset: 320;
-      animation: neureca-draw 2.4s ease-out forwards;
-    }
-    @keyframes neureca-pulse {
-      0%, 55%, 100% { transform: scale(1); opacity: 1; }
-      68% { transform: scale(1.45); opacity: .72; }
-      82% { transform: scale(1); opacity: 1; }
-    }
-    @keyframes neureca-draw {
-      to { stroke-dashoffset: 0; }
-    }
-    @media (prefers-reduced-motion: reduce) {
-      .node, .signal { animation: none; stroke-dashoffset: 0; }
-    }
-  </style>
-  <rect width="800" height="600" rx="36" fill="#f5f8f7"/>
-  <g transform="translate(160 60) scale(10)">
-    <path class="signal" d="M5 1.2L43 46.8" fill="none" stroke="#685564" stroke-width="2.7" stroke-linecap="square"/>
-    <path d="M7 24H41" fill="none" stroke="#455452" stroke-width="2.7" stroke-linecap="butt"/>
-    <path d="M9.25 6V42M38.75 6V42" fill="none" stroke="#191b1b" stroke-width="2.7" stroke-linecap="square"/>
-    <circle class="node" cx="24" cy="24" r="2.8" fill="#685564"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">FD-fNIRS paper thumbnail</title>
+  <desc id="desc">Abstract optical measurement waves and haemodynamic response curves.</desc>
+  <rect width="800" height="600" fill="#eef4f2"/>
+  <g fill="none" stroke="#6d8984" stroke-width="10" stroke-linecap="round">
+    <path d="M80 390 C160 210 230 500 315 300 S470 180 560 330 S690 430 740 245"/>
+    <path opacity=".45" d="M80 455 C180 350 245 475 335 385 S520 290 740 365"/>
   </g>
+  <g fill="#8e7488">
+    <circle cx="165" cy="245" r="18"/><circle cx="315" cy="300" r="18"/><circle cx="560" cy="330" r="18"/><circle cx="740" cy="245" r="18"/>
+  </g>
+  <text x="70" y="120" font-family="Helvetica,Arial,sans-serif" font-size="54" font-weight="700" fill="#191b1b">FD-fNIRS</text>
+  <text x="72" y="170" font-family="Helvetica,Arial,sans-serif" font-size="28" fill="#455452">Speech haemodynamic response</text>
 </svg>
