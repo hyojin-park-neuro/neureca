@@ -2,6 +2,44 @@
 layout: default
 ---
 
+<style>
+  .post-page main .background {
+    background: transparent !important;
+    background-image: none !important;
+  }
+  .post-page main .background::before,
+  .post-page main .background::after {
+    display: none !important;
+  }
+  .neureca-audio-cta {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+    padding: 1.25rem 1.4rem;
+    border: 1px solid color-mix(in srgb, currentColor 22%, transparent);
+    background: linear-gradient(135deg, color-mix(in srgb, #6d8984 13%, transparent), color-mix(in srgb, #685564 10%, transparent));
+    color: inherit;
+    text-decoration: none;
+    transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+  }
+  .neureca-audio-cta:hover,
+  .neureca-audio-cta:focus-visible {
+    transform: translateY(-2px);
+    border-color: #6d8984;
+    box-shadow: 0 16px 44px color-mix(in srgb, currentColor 10%, transparent);
+  }
+  .neureca-audio-cta__icon { width: 2rem; height: 2rem; }
+  .neureca-audio-cta__copy { display: grid; gap: .25rem; }
+  .neureca-audio-cta__copy small { letter-spacing: .12em; text-transform: uppercase; opacity: .68; }
+  .neureca-audio-cta__action { white-space: nowrap; text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; }
+  @media (max-width: 560px) {
+    .neureca-audio-cta { grid-template-columns: auto 1fr; }
+    .neureca-audio-cta__action { grid-column: 2; }
+  }
+</style>
+
 <h1 class="center">{% if page.icon %}{% include neureca-icon.html name=page.icon %}{% endif %}{{ page.title }}</h1>
 
 {%

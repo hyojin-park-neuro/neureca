@@ -1,0 +1,46 @@
+{% assign latest_posts = site.posts | slice: 0, 3 %}
+<section class="v26-transmissions" aria-labelledby="v26-transmissions-title">
+  <div class="v26-transmissions-orbit" aria-hidden="true"></div>
+  <div class="v26-transmissions-head">
+    <div>
+      <p class="v26-transmissions-kicker text-small">NEURECA TRANSMISSIONS</p>
+      <h2 id="v26-transmissions-title">Signals from the frontier.</h2>
+      <p class="v26-transmissions-intro">New findings, ideas and conversations from the evolving edge of brain research.</p>
+    </div>
+    <a class="v26-all-stories" href="{{ '/blog/' | relative_url }}">Explore all stories <span aria-hidden="true">↗</span></a>
+  </div>
+
+  <div class="v26-transmissions-grid">
+    {% for post in latest_posts %}
+      {% assign is_audio = false %}
+      {% if post.tags contains 'podcast' or post.tags contains 'audio' %}{% assign is_audio = true %}{% endif %}
+      <article class="v26-transmission-card{% if forloop.first %} is-featured{% endif %}{% if is_audio %} is-audio{% endif %}">
+        <a class="v26-transmission-link" href="{{ post.url | relative_url }}" aria-label="{% if is_audio %}Listen to{% else %}Read{% endif %} {{ post.title }}">
+          <div class="v26-transmission-visual">
+            {% if post.image %}
+              <img src="{{ post.image | relative_url }}" alt="" loading="lazy" decoding="async">
+            {% elsif post.banner %}
+              <img src="{{ post.banner | relative_url }}" alt="" loading="lazy" decoding="async">
+            {% else %}
+              <span class="v26-signal-visual" aria-hidden="true"><i></i><i></i><i></i></span>
+            {% endif %}
+          </div>
+          <div class="v26-transmission-copy">
+            <div class="v26-transmission-meta text-small">
+              {% if post.tags and post.tags.size > 0 %}<span>{{ post.tags | first }}</span>{% endif %}
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+            </div>
+            <h3>{{ post.title }}</h3>
+            {% if post.excerpt %}<p>{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>{% endif %}
+            <span class="v26-transmission-action">{% if is_audio %}Listen now{% else %}Read story{% endif %} <span aria-hidden="true">↗</span></span>
+          </div>
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+
+  <div class="v26-connect">
+    <span class="text-small">CONNECT WITH NEURECA</span>
+    {% include social-links.html %}
+  </div>
+</section>
