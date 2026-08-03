@@ -20,6 +20,8 @@
   - Language
   - Comprehension
   - Frequency Tagging
+  - Rapid Invisible Frequency Tagging
+  - RIFT
   - Intermodulation
   - Interaction
   - MEG
@@ -179,8 +181,9 @@
   - mTBI
   - Concussion
   - Biomarkers
-  - Magnetic Resonance Imaging
+  - MRI
   - Magnetic Resonance Spectroscopy
+  - MRS
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1117/12.3043098
@@ -248,6 +251,7 @@
   - Speech Comprehension
   - Delta
   - Temporal Response Function
+  - mTRF
   - MEG
   - EEG
   plugin: sources.py
@@ -398,11 +402,11 @@
   type: paper
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41433-023-02845-w/MediaObjects/41433_2023_2845_Fig1_HTML.png?as=webp
   tags:
-  - mTBI
   - Mild Traumatic Brain Injury
+  - mTBI
   - Traumatic Brain Injury
-  - OCT
   - Optical Coherence Tomography
+  - OCT
   - Eye
   plugin: sources.py
   file: sources.yaml
@@ -446,10 +450,13 @@
   - Topic
   - Keywords
   - Topic Model
-  - Latent Dirichlet Allocation (LDA)
+  - Latent Dirichlet Allocation
+  - LDA
   - Multi-Speaker
-  - Natural Language Processing (NLP)
-  - Large Language Model (LLMs)
+  - Natural Language Processing
+  - NLP
+  - Large Language Model
+  - LLM
   - MEG
   - EEG
   plugin: sources.py
@@ -543,10 +550,13 @@
   - Topic
   - Keywords
   - Topic Model
-  - Latent Dirichlet Allocation (LDA)
+  - Latent Dirichlet Allocation
+  - LDA
   - Multi-Speaker
-  - Natural Language Processing (NLP)
-  - Large Language Model (LLMs)
+  - Natural Language Processing
+  - NLP
+  - Large Language Model
+  - LLM
   - MEG
   - EEG
   plugin: sources.py
@@ -670,6 +680,7 @@
   image: https://www.eneuro.org/content/eneuro/3/6/ENEURO.0334-16.2016/F1.large.jpg?width=800&height=600&carousel=1
   tags:
   - Cross-Frquency Coupling
+  - CFC
   - Phase-Amplitude Coupling
   - Spurious Coupling
   - Brain Oscillations
@@ -702,6 +713,7 @@
   - Alpha
   - Gamma
   - Cross-Frequency Coupling
+  - CFC
   - Phase-Amplitude Coupling
   - MEG
   - EEG
@@ -806,6 +818,7 @@
   - Visuospatial Memory
   - Memory Maintenance
   - Cross-Freuqnecy Coupling
+  - CFC
   - STG
   - Brain Oscillations
   - MEG
