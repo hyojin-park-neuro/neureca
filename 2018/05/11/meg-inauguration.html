@@ -315,7 +315,7 @@
 
 </head>
 
-  <body class="page">
+  <body class="page post-page">
     <header class="site-header" data-dark="false">
   <a href="/" class="home">
     <span class="logo">
@@ -394,8 +394,46 @@
   
   
 
-  <section class="background" data-size="page" data-dark="">
-    <h1 class="center">Inaugural MEG Symposium, CHBH</h1>
+  <section class="background" data-size=".78rem" data-dark="" style="--image: url('/transparent%20!important')">
+    <style>
+  .post-page main .background {
+    background: transparent !important;
+    background-image: none !important;
+  }
+  .post-page main .background::before,
+  .post-page main .background::after {
+    display: none !important;
+  }
+  .neureca-audio-cta {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+    padding: 1.25rem 1.4rem;
+    border: 1px solid color-mix(in srgb, currentColor 22%, transparent);
+    background: linear-gradient(135deg, color-mix(in srgb, #6d8984 13%, transparent), color-mix(in srgb, #685564 10%, transparent));
+    color: inherit;
+    text-decoration: none;
+    transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+  }
+  .neureca-audio-cta:hover,
+  .neureca-audio-cta:focus-visible {
+    transform: translateY(-2px);
+    border-color: #6d8984;
+    box-shadow: 0 16px 44px color-mix(in srgb, currentColor 10%, transparent);
+  }
+  .neureca-audio-cta__icon { width: 2rem; height: 2rem; }
+  .neureca-audio-cta__copy { display: grid; gap: .25rem; }
+  .neureca-audio-cta__copy small { letter-spacing: .12em; text-transform: uppercase; opacity: .68; }
+  .neureca-audio-cta__action { white-space: nowrap; text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; }
+  @media (max-width: 560px) {
+    .neureca-audio-cta { grid-template-columns: auto 1fr; }
+    .neureca-audio-cta__action { grid-column: 2; }
+  }
+</style>
+
+<h1 class="center">Inaugural MEG Symposium, CHBH</h1>
 
 <div class="post-info">
   
@@ -968,17 +1006,12 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
 
     </main>
     <footer class="site-footer" data-dark="false" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
   <div>
+    <div class="neureca-social-links" aria-label="NEURECA social links">
+  
     
-      
-      
-      
+    
+    
 
 
 
@@ -990,10 +1023,10 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   </div>
 
 
+  
     
-      
-      
-      
+    
+    
 
 
 
@@ -1005,10 +1038,10 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   </div>
 
 
+  
     
-      
-      
-      
+    
+    
 
 
 
@@ -1020,10 +1053,10 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   </div>
 
 
+  
     
-      
-      
-      
+    
+    
 
 
 
@@ -1035,10 +1068,10 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   </div>
 
 
+  
     
-      
-      
-      
+    
+    
 
 
 
@@ -1050,10 +1083,10 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   </div>
 
 
+  
     
-      
-      
-      
+    
+    
 
 
 
@@ -1065,10 +1098,10 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   </div>
 
 
+  
     
-      
-      
-      
+    
+    
 
 
 
@@ -1080,10 +1113,10 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   </div>
 
 
+  
     
-      
-      
-      
+    
+    
 
 
 
@@ -1095,7 +1128,12 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   </div>
 
 
-    
+  
+  <a class="button bare neureca-bluesky-link" href="https://bsky.app/profile/hyojinpark.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky" data-tooltip="Bluesky">
+    <svg viewbox="0 0 24 24" role="img" aria-hidden="true"><path d="M12 10.8C10.91 8.68 7.95 4.72 5.2 2.72 2.56.8 1.55 1.13.9 1.43.15 1.77 0 2.93 0 3.61c0 .69.38 5.68.62 6.51.81 2.8 3.69 3.75 6.33 3.45-4.62.68-8.72 2.35-3.34 8.34 5.92 6.13 8.12-1.31 8.39-2.99.27 1.68 2.47 9.12 8.39 2.99 5.38-5.99 1.28-7.66-3.34-8.34 2.64.3 5.52-.65 6.33-3.45.24-.83.62-5.82.62-6.51 0-.68-.15-1.84-.9-2.18-.65-.3-1.66-.63-4.3 1.29-2.75 2-5.71 5.96-6.8 8.08Z" fill="currentColor"></path></svg>
+  </a>
+</div>
+
   </div>
 
   <div>
