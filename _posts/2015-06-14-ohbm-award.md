@@ -8,7 +8,7 @@ tags:
   - Merit Award
 last_modified_at: ""
 ---
-Dr. Hyojin Park received Merit Award {% include neureca-icon.html name="award" %} from the OHBM (Organization for Human Brain Mapping) held in Honolulu, Hawai, 14-18 June 2015.
+Dr. Hyojin Park received the Merit Award {% include neureca-icon.html name="award" %} from the OHBM (Organization for Human Brain Mapping) held in Honolulu, Hawai, 14-18 June 2015.
 
 {%
   include figure.html
