@@ -1,0 +1,45 @@
+{% assign post = include.post %}
+{% assign is_audio = false %}
+{% if post.url contains 'podcast' or post.tags contains 'podcast' or post.tags contains 'audio' %}{% assign is_audio = true %}{% endif %}
+{% assign content_parts = post.content | split: '<img' %}
+{% assign has_content_images = false %}
+{% if content_parts.size > 1 %}{% assign has_content_images = true %}{% endif %}
+{% assign has_visual = false %}
+{% if post.images and post.images.size > 0 %}{% assign has_visual = true %}{% elsif post.image or post.banner or has_content_images %}{% assign has_visual = true %}{% endif %}
+
+<article class="v26-blog-card{% unless has_visual %} is-text-only{% endunless %}" data-blog-card>
+  {% if has_visual %}
+    <a class="v26-card-media" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title }}" data-image-carousel>
+      {% if post.images and post.images.size > 0 %}
+        {% for image in post.images %}<img class="v26-card-image{% if forloop.first %} is-active{% endif %}" src="{{ image | relative_url }}" alt="" loading="lazy" decoding="async">{% endfor %}
+      {% elsif post.image %}
+        <img class="v26-card-image is-active" src="{{ post.image | relative_url }}" alt="" loading="lazy" decoding="async">
+      {% elsif post.banner %}
+        <img class="v26-card-image is-active" src="{{ post.banner | relative_url }}" alt="" loading="lazy" decoding="async">
+      {% elsif has_content_images %}
+        {% for part in content_parts offset: 1 limit: 5 %}
+          {% assign src_part = part | split: 'src="' | last %}
+          {% assign image_src = src_part | split: '"' | first %}
+          {% if image_src and image_src != '' %}<img class="v26-card-image{% if forloop.first %} is-active{% endif %}" src="{{ image_src | relative_url }}" alt="" loading="lazy" decoding="async">{% endif %}
+        {% endfor %}
+      {% endif %}
+    </a>
+  {% endif %}
+
+  <div class="v26-card-body">
+    {% if post.tags and post.tags.size > 0 %}
+      <div class="v26-card-tags" aria-label="Keywords">
+        {% for tag in post.tags limit: 4 %}<span>{{ tag | replace: ',', '' }}</span>{% endfor %}
+      </div>
+    {% endif %}
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    {% if post.excerpt %}<p>{{ post.excerpt | strip_html | strip_newlines | truncate: 165 }}</p>{% endif %}
+    <div class="v26-card-footer">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+      <div class="v26-card-actions">
+        <a class="v26-card-read" href="{{ post.url | relative_url }}">Read more <span aria-hidden="true">→</span></a>
+        {% if is_audio %}<a class="v26-card-audio" href="https://notebook.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/artifact/45100428-5236-4c1c-b4ad-55e5e579ea80?utm_source=nlm_web_share&utm_medium=google_oo&utm_campaign=art_share_1&utm_content=&utm_smc=nlm_web_share_google_oo_art_share_1_" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">▶</span> Listen to audio</a>{% endif %}
+      </div>
+    </div>
+  </div>
+</article>
