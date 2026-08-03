@@ -2,7 +2,7 @@
 title: Join Us! Multiple PhD positions at the NEURECA Lab, CHBH, University of Birmingham
 icon: signal
 author: Hyojin Park
-tags: job, PhD, MEG, OPM-MEG, CHBH, CDS
+tags: Job, PhD, MEG, OPM-MEG, CHBH, CDS
 last_modified_at: ""
 ---
 Open to UK home and international students <br>
