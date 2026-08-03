@@ -1,38 +1,44 @@
 {% assign latest_posts = site.posts | slice: 0, 3 %}
 <section class="v26-transmissions" aria-labelledby="v26-transmissions-title">
-  <div class="v26-transmissions-orbit" aria-hidden="true"></div>
   <div class="v26-transmissions-head">
     <div>
-      <p class="v26-transmissions-kicker text-small">NEURECA TRANSMISSIONS</p>
-      <h2 id="v26-transmissions-title">Signals from the frontier.</h2>
-      <p class="v26-transmissions-intro">New findings, ideas and conversations from the evolving edge of brain research.</p>
+      <p class="v26-transmissions-kicker text-small">FROM THE BLOG</p>
+      <h2 id="v26-transmissions-title">Ideas, stories and discoveries.</h2>
     </div>
-    <a class="v26-all-stories" href="{{ '/blog/' | relative_url }}">Explore all stories <span aria-hidden="true">↗</span></a>
+    <a class="v26-all-stories" href="{{ '/blog/' | relative_url }}">View all <span aria-hidden="true">→</span></a>
   </div>
 
   <div class="v26-transmissions-grid">
     {% for post in latest_posts %}
-      {% assign is_audio = false %}
-      {% if post.tags contains 'podcast' or post.tags contains 'audio' %}{% assign is_audio = true %}{% endif %}
-      <article class="v26-transmission-card{% if forloop.first %} is-featured{% endif %}{% if is_audio %} is-audio{% endif %}">
-        <a class="v26-transmission-link" href="{{ post.url | relative_url }}" aria-label="{% if is_audio %}Listen to{% else %}Read{% endif %} {{ post.title }}">
-          <div class="v26-transmission-visual">
-            {% if post.image %}
-              <img src="{{ post.image | relative_url }}" alt="" loading="lazy" decoding="async">
-            {% elsif post.banner %}
-              <img src="{{ post.banner | relative_url }}" alt="" loading="lazy" decoding="async">
-            {% else %}
-              <span class="v26-signal-visual" aria-hidden="true"><i></i><i></i><i></i></span>
-            {% endif %}
-          </div>
+      {% assign has_visual = false %}
+      {% if post.images and post.images.size > 0 %}
+        {% assign has_visual = true %}
+      {% elsif post.image or post.banner %}
+        {% assign has_visual = true %}
+      {% endif %}
+      <article class="v26-transmission-card{% unless has_visual %} is-text-only{% endunless %}">
+        <a class="v26-transmission-link" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title }}">
+          {% if has_visual %}
+            <div class="v26-transmission-visual"{% if post.images and post.images.size > 1 %} data-blog-carousel{% endif %}>
+              {% if post.images and post.images.size > 0 %}
+                {% for image in post.images %}
+                  <img class="v26-blog-slide{% if forloop.first %} is-active{% endif %}" src="{{ image | relative_url }}" alt="" loading="lazy" decoding="async">
+                {% endfor %}
+              {% elsif post.image %}
+                <img src="{{ post.image | relative_url }}" alt="" loading="lazy" decoding="async">
+              {% elsif post.banner %}
+                <img src="{{ post.banner | relative_url }}" alt="" loading="lazy" decoding="async">
+              {% endif %}
+            </div>
+          {% endif %}
           <div class="v26-transmission-copy">
             <div class="v26-transmission-meta text-small">
               {% if post.tags and post.tags.size > 0 %}<span>{{ post.tags | first }}</span>{% endif %}
               <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
             </div>
             <h3>{{ post.title }}</h3>
-            {% if post.excerpt %}<p>{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>{% endif %}
-            <span class="v26-transmission-action">{% if is_audio %}Listen now{% else %}Read story{% endif %} <span aria-hidden="true">↗</span></span>
+            {% if post.excerpt %}<p>{{ post.excerpt | strip_html | strip_newlines | truncate: 125 }}</p>{% endif %}
+            <span class="v26-transmission-action">Read more <span aria-hidden="true">→</span></span>
           </div>
         </a>
       </article>

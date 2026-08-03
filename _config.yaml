@@ -10,42 +10,35 @@ links:
   email: h.park@bham.ac.uk
   orcid: 0000-0002-7527-8280
   google-scholar: Vyn8xRQAAAAJ
-  linkedin: hyojin-park-neureca  
+  linkedin: hyojin-park-neureca
   youtube: neureca
   instagram: neureca_research
   github: hyojin-park-neuro
   twitter: HyojinParkNeuro
-  
+  bluesky: hyojinpark.bsky.social
 
 ### jekyll settings
 
-# front matter defaults
 defaults:
-  # all markdown files
   - scope:
       path: ""
     values:
       layout: default
-  # markdown files in /_members
   - scope:
       type: "members"
     values:
       layout: member
-  # markdown files in /_posts
   - scope:
       type: "posts"
     values:
       layout: post
 
 collections:
-  # generate page for each member
   members:
     output: true
-  # generate page for each post
   posts:
     output: true
 
-# jekyll plugins
 plugins:
   - jekyll-spaceship
   - jekyll-sitemap
@@ -53,22 +46,16 @@ plugins:
   - jekyll-feed
   - jekyll-last-modified-at
 
-# code block syntax highlighting
 highlighter: rouge
-
-# jekyll theme
 theme: null
 
-# sass settings
 sass:
   sass_dir: _styles
 
-# force jekyll to include certain files/folders
 include:
   - _styles
   - _scripts
 
-# force jekyll to exclude certain files/folders
 exclude:
   - _archive
   - README.md
