@@ -1,8 +1,7 @@
+{% assign use_logo = false %}
+{% unless include.image %}{% assign use_logo = true %}{% endunless %}
+{% if include.image == 'images/neureca.png' or include.image == '/images/neureca.png' %}{% assign use_logo = true %}{% endif %}
 <span class="neureca-image-frame{% if include.class %} {{ include.class }}{% endif %}">
-  {% if include.image %}
-    <img src="{{ include.image | relative_url }}" alt="{{ include.alt | default: '' }}" loading="lazy" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
-    <span class="neureca-image-fallback" hidden>{% include neureca-logo-mark.html %}</span>
-  {% else %}
-    <span class="neureca-image-fallback">{% include neureca-logo-mark.html %}</span>
-  {% endif %}
+  {% unless use_logo %}<img src="{{ include.image | relative_url }}" alt="{{ include.alt | default: '' }}" loading="lazy" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">{% endunless %}
+  <span class="neureca-image-fallback"{% unless use_logo %} hidden{% endunless %}>{% include neureca-logo-mark.html %}</span>
 </span>
