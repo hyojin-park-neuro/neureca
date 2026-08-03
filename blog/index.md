@@ -9,7 +9,14 @@ nav:
 
 {% include search-box.html %}
 
-{% include tags.html tags=site.tags %}
+{% if site.tags.size > 0 %}
+  <div class="tags" data-link="{{ page.dir | absolute_url }}">
+    {% for tag in site.tags %}
+      {% assign tag_name = tag[0] | strip | replace: ',', '' %}
+      <a href="{{ page.dir | absolute_url }}?search=&quot;tag: {{ tag[0] }}&quot;" class="tag">{{ tag_name }}</a>
+    {% endfor %}
+  </div>
+{% endif %}
 
 {% include search-info.html %}
 
