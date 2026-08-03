@@ -2,51 +2,42 @@
 <section class="v26-transmissions" aria-labelledby="v26-transmissions-title">
   <div class="v26-transmissions-head">
     <div>
-      <p class="v26-transmissions-kicker text-small">FROM THE BLOG</p>
-      <h2 id="v26-transmissions-title">Ideas, stories and discoveries.</h2>
+      <p class="v26-transmissions-kicker text-small">LATEST FROM NEURECA</p>
+      <h2 id="v26-transmissions-title">News &amp; insights</h2>
     </div>
-    <a class="v26-all-stories" href="{{ '/blog/' | relative_url }}">View all <span aria-hidden="true">→</span></a>
+    <a class="v26-all-stories" href="{{ '/blog/' | relative_url }}">View all posts <span aria-hidden="true">→</span></a>
   </div>
 
-  <div class="v26-transmissions-grid">
+  <div class="v26-transmissions-list">
     {% for post in latest_posts %}
       {% assign has_visual = false %}
-      {% if post.images and post.images.size > 0 %}
-        {% assign has_visual = true %}
-      {% elsif post.image or post.banner %}
-        {% assign has_visual = true %}
-      {% endif %}
-      <article class="v26-transmission-card{% unless has_visual %} is-text-only{% endunless %}">
-        <a class="v26-transmission-link" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title }}">
-          {% if has_visual %}
-            <div class="v26-transmission-visual"{% if post.images and post.images.size > 1 %} data-blog-carousel{% endif %}>
-              {% if post.images and post.images.size > 0 %}
-                {% for image in post.images %}
-                  <img class="v26-blog-slide{% if forloop.first %} is-active{% endif %}" src="{{ image | relative_url }}" alt="" loading="lazy" decoding="async">
-                {% endfor %}
-              {% elsif post.image %}
-                <img src="{{ post.image | relative_url }}" alt="" loading="lazy" decoding="async">
-              {% elsif post.banner %}
-                <img src="{{ post.banner | relative_url }}" alt="" loading="lazy" decoding="async">
-              {% endif %}
-            </div>
-          {% endif %}
-          <div class="v26-transmission-copy">
-            <div class="v26-transmission-meta text-small">
-              {% if post.tags and post.tags.size > 0 %}<span>{{ post.tags | first }}</span>{% endif %}
-              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
-            </div>
-            <h3>{{ post.title }}</h3>
-            {% if post.excerpt %}<p>{{ post.excerpt | strip_html | strip_newlines | truncate: 125 }}</p>{% endif %}
-            <span class="v26-transmission-action">Read more <span aria-hidden="true">→</span></span>
+      {% if post.images and post.images.size > 0 %}{% assign has_visual = true %}{% elsif post.image or post.banner %}{% assign has_visual = true %}{% endif %}
+      {% assign is_audio = false %}
+      {% if post.tags contains 'podcast' or post.tags contains 'audio' %}{% assign is_audio = true %}{% endif %}
+      <article class="v26-transmission-row{% unless has_visual %} is-text-only{% endunless %}">
+        {% if has_visual %}
+          <a class="v26-transmission-visual" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title }}"{% if post.images and post.images.size > 1 %} data-blog-carousel{% endif %}>
+            {% if post.images and post.images.size > 0 %}
+              {% for image in post.images %}<img class="v26-blog-slide{% if forloop.first %} is-active{% endif %}" src="{{ image | relative_url }}" alt="" loading="lazy" decoding="async">{% endfor %}
+            {% elsif post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy" decoding="async">
+            {% elsif post.banner %}<img src="{{ post.banner | relative_url }}" alt="" loading="lazy" decoding="async">{% endif %}
+          </a>
+        {% endif %}
+        <div class="v26-transmission-copy">
+          <div class="v26-transmission-meta text-small">
+            {% if post.tags and post.tags.size > 0 %}<span>{{ post.tags | first }}</span>{% endif %}
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
           </div>
-        </a>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          {% if post.excerpt %}<p>{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>{% endif %}
+          <div class="v26-transmission-actions">
+            <a class="v26-transmission-action" href="{{ post.url | relative_url }}">Read post <span aria-hidden="true">→</span></a>
+            {% if is_audio %}<a class="v26-audio-button" href="https://notebook.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/artifact/45100428-5236-4c1c-b4ad-55e5e579ea80?utm_source=nlm_web_share&utm_medium=google_oo&utm_campaign=art_share_1&utm_content=&utm_smc=nlm_web_share_google_oo_art_share_1_" target="_blank" rel="noopener noreferrer">Listen to audio ↗</a>{% endif %}
+          </div>
+        </div>
       </article>
     {% endfor %}
   </div>
 
-  <div class="v26-connect">
-    <span class="text-small">CONNECT WITH NEURECA</span>
-    {% include social-links.html %}
-  </div>
+  <div class="v26-connect"><span class="text-small">CONNECT WITH NEURECA</span>{% include social-links.html %}</div>
 </section>
