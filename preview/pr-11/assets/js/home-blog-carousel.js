@@ -1,6 +1,10 @@
 (() => {
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+  const connect = document.querySelector('[data-home-connect]');
+  const teamStage = document.querySelector('#v26-team-stage');
+  if (connect && teamStage) teamStage.insertAdjacentElement('afterend', connect);
+
   document.querySelectorAll('[data-image-carousel]').forEach((carousel) => {
     const images = Array.from(carousel.querySelectorAll('.v26-card-image'));
     if (images.length < 2 || reduceMotion) return;
@@ -21,12 +25,7 @@
 
     let index = 0;
     let timer;
-
-    const visibleCount = () => {
-      if (window.matchMedia('(max-width: 760px)').matches) return 1;
-      if (window.matchMedia('(max-width: 1050px)').matches) return 2;
-      return 3;
-    };
+    const visibleCount = () => window.matchMedia('(max-width: 760px)').matches ? 1 : window.matchMedia('(max-width: 1050px)').matches ? 2 : 3;
     const maxIndex = () => Math.max(0, cards.length - visibleCount());
     const update = () => {
       index = Math.min(index, maxIndex());
@@ -52,7 +51,6 @@
     carousel.addEventListener('focusin', () => window.clearInterval(timer));
     carousel.addEventListener('focusout', restart);
     window.addEventListener('resize', () => { update(); restart(); });
-
     update();
     restart();
   });
