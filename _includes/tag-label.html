@@ -5,6 +5,8 @@
   {% when 'fd-fnirs' %}FD-fNIRS
   {% when 'fnirs' %}fNIRS
   {% when 'opm-meg' %}OPM-MEG
+  {% when 'meg' %}MEG
+  {% when 'eeg' %}EEG
   {% when 'ohbm' %}OHBM
   {% when 'phd' %}PhD
   {% when 'cds' %}CDS
@@ -15,5 +17,5 @@
   {% when 'dti' %}DTI
   {% when 'brain state-dependent stimulation (bsds)' %}Brain State-Dependent Stimulation (BSDS)
   {% when 'short-term memory' %}Short-Term Memory
-  {% else %}<span class="tag-title-case">{{ clean_tag }}</span>
+  {% else %}{% assign tag_words = clean_tag | split: ' ' %}{% for word in tag_words %}{{ word | capitalize }}{% unless forloop.last %} {% endunless %}{% endfor %}
 {% endcase %}
