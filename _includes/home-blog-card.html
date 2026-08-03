@@ -1,11 +1,14 @@
 {% assign post = include.post %}
 {% assign is_audio = false %}
 {% if post.url contains 'podcast' or post.tags contains 'podcast' or post.tags contains 'audio' %}{% assign is_audio = true %}{% endif %}
-{% assign content_parts = post.content | split: '<img' %}
-{% assign has_content_images = false %}
-{% if content_parts.size > 1 %}{% assign has_content_images = true %}{% endif %}
+{% assign html_image_parts = post.content | split: '<img' %}
+{% assign figure_image_parts = post.content | split: 'image="' %}
+{% assign has_html_images = false %}
+{% assign has_figure_images = false %}
+{% if html_image_parts.size > 1 %}{% assign has_html_images = true %}{% endif %}
+{% if figure_image_parts.size > 1 %}{% assign has_figure_images = true %}{% endif %}
 {% assign has_visual = false %}
-{% if post.images and post.images.size > 0 %}{% assign has_visual = true %}{% elsif post.image or post.banner or has_content_images %}{% assign has_visual = true %}{% endif %}
+{% if post.images and post.images.size > 0 %}{% assign has_visual = true %}{% elsif has_figure_images or has_html_images or post.image or post.banner %}{% assign has_visual = true %}{% endif %}
 
 <article class="v26-blog-card{% unless has_visual %} is-text-only{% endunless %}" data-blog-card>
   {% if has_visual %}
@@ -15,21 +18,29 @@
           {% if image contains '://' %}{% assign image_url = image %}{% else %}{% assign image_url = image | relative_url %}{% endif %}
           <img class="v26-card-image{% if forloop.first %} is-active{% endif %}" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
         {% endfor %}
+      {% elsif has_figure_images %}
+        {% for part in figure_image_parts offset: 1 limit: 8 %}
+          {% assign image_src = part | split: '"' | first | strip %}
+          {% if image_src and image_src != '' %}
+            {% if image_src contains '://' %}{% assign image_url = image_src %}{% else %}{% assign image_url = image_src | relative_url %}{% endif %}
+            <img class="v26-card-image{% if forloop.first %} is-active{% endif %}" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
+          {% endif %}
+        {% endfor %}
+      {% elsif has_html_images %}
+        {% for part in html_image_parts offset: 1 limit: 8 %}
+          {% assign src_part = part | split: 'src="' | last %}
+          {% assign image_src = src_part | split: '"' | first | strip %}
+          {% if image_src and image_src != '' %}
+            {% if image_src contains '://' %}{% assign image_url = image_src %}{% else %}{% assign image_url = image_src | relative_url %}{% endif %}
+            <img class="v26-card-image{% if forloop.first %} is-active{% endif %}" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
+          {% endif %}
+        {% endfor %}
       {% elsif post.image %}
         {% if post.image contains '://' %}{% assign image_url = post.image %}{% else %}{% assign image_url = post.image | relative_url %}{% endif %}
         <img class="v26-card-image is-active" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
       {% elsif post.banner %}
         {% if post.banner contains '://' %}{% assign image_url = post.banner %}{% else %}{% assign image_url = post.banner | relative_url %}{% endif %}
         <img class="v26-card-image is-active" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
-      {% elsif has_content_images %}
-        {% for part in content_parts offset: 1 limit: 5 %}
-          {% assign src_part = part | split: 'src="' | last %}
-          {% assign image_src = src_part | split: '"' | first %}
-          {% if image_src and image_src != '' %}
-            {% if image_src contains '://' %}{% assign image_url = image_src %}{% else %}{% assign image_url = image_src | relative_url %}{% endif %}
-            <img class="v26-card-image{% if forloop.first %} is-active{% endif %}" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
-          {% endif %}
-        {% endfor %}
       {% endif %}
     </a>
   {% endif %}
