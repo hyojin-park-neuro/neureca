@@ -15,14 +15,15 @@
   type: paper
   image: https://www.biorxiv.org/content/biorxiv/early/2026/07/13/2026.07.08.737094/F1.large.jpg?width=800&height=600&carousel=1
   tags:
-  - audiovisual
-  - speech
-  - language
-  - comprehension
-  - frequency tagging
-  - intermodulation
-  - interaction
-  - MEG/EEG
+  - Audiovisual
+  - Speech
+  - Language
+  - Comprehension
+  - Frequency Tagging
+  - Intermodulation
+  - Interaction
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1088/1741-2552/ae30ab
@@ -39,10 +40,10 @@
   type: paper
   image: https://content.cld.iop.org/journals/1741-2552/23/1/016001/revision2/jneae30abf3_lr.jpg
   tags:
-  - speech tracking
-  - short-term memory
+  - Speech Tracking
+  - Short-Term Memory
   - EEG
-  - brain state-dependent stimulation (BSDS)
+  - Brain State-Dependent Stimulation (BSDS)
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.tics.2025.09.001
@@ -57,9 +58,10 @@
   type: paper
   image: https://www.cell.com/cms/10.1016/j.tics.2025.09.001/asset/30e73b50-c908-447e-b1b9-7940f16dc292/main.assets/gr1_lrg.jpg
   tags:
-  - MEG/EEG
-  - connectivity
-  - coherence
+  - MEG
+  - EEG
+  - Connectivity
+  - Coherence
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1523/JNEUROSCI.1797-24.2025
@@ -77,11 +79,12 @@
   type: paper
   image: https://www.jneurosci.org/content/jneuro/45/21/e1797242025/F3.medium.gif
   tags:
-  - audiovisual speech
-  - memory
-  - theta
-  - hippocampus
-  - MEG/EEG
+  - Audiovisual Speech
+  - Memory
+  - Theta
+  - Hippocampus
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1093/braincomms/fcaf120
@@ -172,12 +175,12 @@
   type: paper
   image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/braincomms/PAP/10.1093_braincomms_fcaf120/1/m_fcaf120_ga.jpeg?Expires=1746616800&Signature=Xp59WkMUi5jDrgur~Ml3POAdFp0GuTrUzUnLJxwfOKmcRuwCM48KoCWNwoBS30RRyVDWeu7xvhpQpq~im-KD8PnOrotupB-lasE0dTEsPZCpE-IVtNmQQRxbOnb-SvbF080m7FSjpIZPzajR15PIPE-EYZghmrSumWlEXfNtc~oGBA-7AEigIsFn3qveWkNWe-~mZjYBrnpp7A297I8TFhpbqob4Z3u~Gq24UmOLDsVJgjFrTEGQjrSq8o~-kY3EaNwOmur9KbuVwJa7VetxeeJHshs-L6VYp9~k5JMmn~9SRvWq0onL3EOfyVrZB-JvywxZO5ZCgKBduUUwgC0drQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
   tags:
-  - mild traumatic brain injury
-  - mtbi
-  - concussion
-  - biomarkers
-  - magnetic resonance imaging
-  - magnetic resonance spectroscopy
+  - Mild Traumatic Brain Injury
+  - mTBI
+  - Concussion
+  - Biomarkers
+  - Magnetic Resonance Imaging
+  - Magnetic Resonance Spectroscopy
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1117/12.3043098
@@ -191,11 +194,11 @@
   date: '2025-03-20'
   link: https://doi.org/g9gvf2
   type: paper
-  image: images/fallback.svg
+  image: images/paper_thumbnail_fd_fnirs.svg
   tags:
   - fNIRS
   - FD-fNIRS
-  - speech
+  - Speech
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/2024.09.13.612424
@@ -213,10 +216,11 @@
   type: paper
   image: https://www.biorxiv.org/content/biorxiv/early/2024/09/14/2024.09.13.612424/F1.large.jpg?width=800&height=600&carousel=1
   tags:
-  - audiovisual speech
-  - theta
-  - memory
-  - MEG/EEG
+  - Audiovisual Speech
+  - Theta
+  - Memory
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.cub.2024.06.072
@@ -238,13 +242,14 @@
   type: paper
   image: https://ars.els-cdn.com/content/image/1-s2.0-S096098222400856X-gr1.jpg
   tags:
-  - speech-brain coupling
-  - prosody
-  - syntax
-  - speech comprehension
-  - delta
-  - temporal response function
-  - MEG/EEG
+  - Speech-Brain Coupling
+  - Prosody
+  - Syntax
+  - Speech Comprehension
+  - Delta
+  - Temporal Response Function
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/2024.02.25.581860
@@ -259,12 +264,13 @@
   type: paper
   image: https://www.biorxiv.org/content/biorxiv/early/2024/02/27/2024.02.25.581860/F1.large.jpg?width=800&height=600&carousel=1
   tags:
-  - audiovisual speech
-  - alpha
-  - theta
-  - attentional inhibition
-  - congruency
-  - MEG/EEG
+  - Audiovisual Speech
+  - Alpha
+  - Theta
+  - Attentional Inhibition
+  - Congruency
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/2024.02.01.578181
@@ -286,11 +292,12 @@
   type: paper
   image: https://www.biorxiv.org/content/biorxiv/early/2024/02/01/2024.02.01.578181/F2.large.jpg?width=800&height=600&carousel=1
   tags:
-  - speech comprehension
-  - delta
-  - prosodic cues
-  - encoding model
-  - MEG/EEG
+  - Speech Comprehension
+  - Delta
+  - Prosodic Cues
+  - Encoding Model
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1038/s41433-023-02845-w
@@ -392,11 +399,11 @@
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41433-023-02845-w/MediaObjects/41433_2023_2845_Fig1_HTML.png?as=webp
   tags:
   - mTBI
-  - mild traumatic brain injury
-  - traumatic brain injury
+  - Mild Traumatic Brain Injury
+  - Traumatic Brain Injury
   - OCT
-  - optical coherence tomography
-  - eye
+  - Optical Coherence Tomography
+  - Eye
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1162/jocn_a_02059
@@ -413,12 +420,13 @@
   type: paper
   image: images/figures_papers/Haider_2024_JCoN_Fig1.png
   tags:
-  - audiovisual speech
-  - lip movement
-  - face mask
-  - speech features
-  - multi-speaker
-  - MEG/EEG
+  - Audiovisual Speech
+  - Lip Movement
+  - Face Mask
+  - Speech Features
+  - Multi-Speaker
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.7554/eLife.89703
@@ -433,16 +441,17 @@
   type: paper
   image: https://prod--epp.elifesciences.org/iiif/2/89703%2Fv1%2Fcontent%2F490770v1_fig1.tif/full/max/0/default.jpg
   tags:
-  - audiovisual speech
-  - semantic gist
-  - topic
-  - keywords
-  - topic model
-  - latent dirichlet allocation (LDA)
-  - multi-speaker
-  - natural language processing (NLP)
-  - large language model (LLMs)
-  - MEG/EEG
+  - Audiovisual Speech
+  - Semantic Gist
+  - Topic
+  - Keywords
+  - Topic Model
+  - Latent Dirichlet Allocation (LDA)
+  - Multi-Speaker
+  - Natural Language Processing (NLP)
+  - Large Language Model (LLMs)
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/2023.05.15.540818
@@ -459,12 +468,13 @@
   type: paper
   image: https://www.biorxiv.org/content/biorxiv/early/2023/05/15/2023.05.15.540818/F3.large.jpg?width=800&height=600&carousel=1
   tags:
-  - audiovisual speech
-  - lip movement
-  - face mask
-  - speech features
-  - multi-speaker
-  - MEG/EEG
+  - Audiovisual Speech
+  - Lip Movement
+  - Face Mask
+  - Speech Features
+  - Multi-Speaker
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/2022.06.21.497061
@@ -480,14 +490,15 @@
   type: paper
   image: https://www.biorxiv.org/content/biorxiv/early/2022/06/22/2022.06.21.497061/F3.large.jpg?width=800&height=600&carousel=1
   tags:
-  - semantic gist
-  - topic
-  - keywords
-  - audiovisual integration
-  - delta
-  - theta
-  - information theory
-  - MEG/EEG
+  - Semantic Gist
+  - Topic
+  - Keywords
+  - Audiovisual Integration
+  - Delta
+  - Theta
+  - Information Theory
+  - MEG
+  - EEG
   - DTI
   plugin: sources.py
   file: sources.yaml
@@ -506,12 +517,13 @@
   type: paper
   image: https://ars.els-cdn.com/content/image/1-s2.0-S1053811922001732-gr1.jpg
   tags:
-  - stimulus reconstruction
-  - face mask
-  - audiovisual speech
-  - formants
-  - speech envelope
-  - MEG/EEG
+  - Stimulus Reconstruction
+  - Face Mask
+  - Audiovisual Speech
+  - Formants
+  - Speech Envelope
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/2022.05.05.490770
@@ -526,16 +538,17 @@
   type: paper
   image: https://www.biorxiv.org/content/biorxiv/early/2022/05/05/2022.05.05.490770/F1/graphic-1.large.jpg?width=800&height=600&carousel=1
   tags:
-  - audiovisual speech
-  - semantic gist
-  - topic
-  - keywords
-  - topic model
-  - latent dirichlet allocation (LDA)
-  - multi-speaker
-  - natural language processing (NLP)
-  - large language model (LLMs)
-  - MEG/EEG
+  - Audiovisual Speech
+  - Semantic Gist
+  - Topic
+  - Keywords
+  - Topic Model
+  - Latent Dirichlet Allocation (LDA)
+  - Multi-Speaker
+  - Natural Language Processing (NLP)
+  - Large Language Model (LLMs)
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.crneur.2021.100014
@@ -552,12 +565,13 @@
   type: paper
   image: https://ars.els-cdn.com/content/image/1-s2.0-S2665945X21000103-gr4.jpg
   tags:
-  - audiovisual speech
-  - auditory detection
-  - lip movement
-  - theta
-  - phase
-  - MEG/EEG
+  - Audiovisual Speech
+  - Auditory Detection
+  - Lip Movement
+  - Theta
+  - Phase
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1371/journal.pbio.2006558
@@ -575,17 +589,18 @@
   type: paper
   image: https://journals.plos.org/plosbiology/article/figure/image?size=large&id=10.1371/journal.pbio.2006558.g002
   tags:
-  - audiovisual speech
-  - integration
+  - Audiovisual Speech
+  - Integration
   - pSTG
-  - motor cortex
-  - representational interaction
-  - information theory
-  - mutual information
-  - partial information decomposition
-  - synergy
-  - redundancy
-  - MEG/EEG
+  - Motor Cortex
+  - Representational Interaction
+  - Information Theory
+  - Mutual Information
+  - Partial Information Decomposition
+  - Synergy
+  - Redundancy
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1080/23273798.2018.1506589
@@ -601,14 +616,15 @@
   type: paper
   image: https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/plcp21/2020/plcp21.v035.i06/23273798.2018.1506589/20210511/images/large/plcp_a_1506589_f0004_oc.jpeg
   tags:
-  - speech
-  - speech tracking
-  - prediction
-  - top-down
-  - delta
-  - theta
-  - beta
-  - MEG/EEG
+  - Speech
+  - Speech Tracking
+  - Prediction
+  - Top-Down
+  - Delta
+  - Theta
+  - Beta
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1038/srep41592
@@ -629,15 +645,16 @@
   type: paper
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep41592/MediaObjects/41598_2017_Article_BFsrep41592_Fig3_HTML.jpg?as=webp
   tags:
-  - long-term memory
-  - memory encoding
-  - alpha
-  - gamma
-  - cross-frequency
-  - functional connectivity
-  - graph filtration
-  - persistent homology
-  - MEG/EEG
+  - Long-Term Memory
+  - Memory Encoding
+  - Alpha
+  - Gamma
+  - Cross-Frequency
+  - Functional Connectivity
+  - Graph Filtration
+  - Persistent Homology
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1523/ENEURO.0334-16.2016
@@ -652,11 +669,12 @@
   type: paper
   image: https://www.eneuro.org/content/eneuro/3/6/ENEURO.0334-16.2016/F1.large.jpg?width=800&height=600&carousel=1
   tags:
-  - cross-frquency coupling
-  - phase-amplitude coupling
-  - spurious coupling
-  - brain oscillations
-  - MEG/EEG
+  - Cross-Frquency Coupling
+  - Phase-Amplitude Coupling
+  - Spurious Coupling
+  - Brain Oscillations
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1038/srep28092
@@ -679,13 +697,14 @@
   type: paper
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep28092/MediaObjects/41598_2016_Article_BFsrep28092_Fig2_HTML.jpg?as=webp
   tags:
-  - long-term memory
-  - memory encoding
-  - alpha
-  - gamma
-  - cross-frequency coupling
-  - phase-amplitude coupling
-  - MEG/EEG
+  - Long-Term Memory
+  - Memory Encoding
+  - Alpha
+  - Gamma
+  - Cross-Frequency Coupling
+  - Phase-Amplitude Coupling
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.7554/eLife.14521
@@ -702,13 +721,14 @@
   type: paper
   image: https://iiif.elifesciences.org/lax/14521%2Felife-14521-fig2-v2.tif/full/,1500/0/default.jpg
   tags:
-  - audiovisual speech
-  - visual speech
-  - speeck tracking
-  - lip movement
-  - speech intelligibility
-  - coherence
-  - MEG/EEG
+  - Audiovisual Speech
+  - Visual Speech
+  - Speeck Tracking
+  - Lip Movement
+  - Speech Intelligibility
+  - Coherence
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.cub.2015.04.049
@@ -726,14 +746,15 @@
   type: paper
   image: https://ars.els-cdn.com/content/image/1-s2.0-S096098221500500X-gr1.jpg
   tags:
-  - speech tracking
-  - top-down
-  - auditory cortex
-  - motor cortex
-  - frontal cortex
-  - information theory
-  - transfer entropy
-  - MEG/EEG
+  - Speech Tracking
+  - Top-Down
+  - Auditory Cortex
+  - Motor Cortex
+  - Frontal Cortex
+  - Information Theory
+  - Transfer Entropy
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/hbm.22452
@@ -754,13 +775,14 @@
   type: paper
   image: https://onlinelibrary.wiley.com/cms/asset/429827ab-1a27-4130-9fe0-df0e6f8d2cdb/hbm22452-fig-0003-m.jpg
   tags:
-  - long-term memory
-  - irrelevant memory
-  - memory blocking
-  - remember
-  - no-remember
-  - alpha
-  - MEG/EEG
+  - Long-Term Memory
+  - Irrelevant Memory
+  - Memory Blocking
+  - Remember
+  - No-Remember
+  - Alpha
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1089/brain.2011.0046
@@ -780,13 +802,14 @@
   type: paper
   image: images/paper_thumbnail_2012_brain_connect.jpg
   tags:
-  - working memory
-  - visuospatial memory
-  - memory maintenance
-  - cross-freuqnecy coupling
+  - Working Memory
+  - Visuospatial Memory
+  - Memory Maintenance
+  - Cross-Freuqnecy Coupling
   - STG
-  - brain oscillations
-  - MEG/EEG
+  - Brain Oscillations
+  - MEG
+  - EEG
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1007/s00259-008-0808-z
@@ -807,12 +830,12 @@
   type: paper
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00259-008-0808-z/MediaObjects/259_2008_808_Fig3_HTML.gif?as=webp
   tags:
-  - resting state
-  - default mode
-  - glucose metabolism
-  - interregional correlation
-  - functional connectivity
-  - metabolic connectivity
+  - Resting State
+  - Default Mode
+  - Glucose Metabolism
+  - Interregional Correlation
+  - Functional Connectivity
+  - Metabolic Connectivity
   - FDG-PET
   plugin: sources.py
   file: sources.yaml
