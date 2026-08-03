@@ -1,0 +1,19 @@
+{% assign clean_tag = include.tag | strip | replace: ',', '' %}
+{% assign normalized_tag = clean_tag | downcase %}
+{% case normalized_tag %}
+  {% when 'mtbi' %}mTBI
+  {% when 'fd-fnirs' %}FD-fNIRS
+  {% when 'fnirs' %}fNIRS
+  {% when 'opm-meg' %}OPM-MEG
+  {% when 'ohbm' %}OHBM
+  {% when 'phd' %}PhD
+  {% when 'cds' %}CDS
+  {% when 'chbh seminar' %}CHBH Seminar
+  {% when 'neureca' %}NEURECA
+  {% when 'yia' %}YIA
+  {% when 'youtube' %}YouTube
+  {% when 'dti' %}DTI
+  {% when 'brain state-dependent stimulation (bsds)' %}Brain State-Dependent Stimulation (BSDS)
+  {% when 'short-term memory' %}Short-Term Memory
+  {% else %}<span class="tag-title-case">{{ clean_tag }}</span>
+{% endcase %}
