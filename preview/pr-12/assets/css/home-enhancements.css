@@ -237,13 +237,17 @@
   text-decoration: none;
 }
 
+#neureca-outward-labels-repaired-photos-v26 .v26-team {
+  padding-bottom: 0;
+}
+
 #neureca-outward-labels-repaired-photos-v26 .v26-team .v26-connect {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
   width: 100%;
-  margin: clamp(3rem, 6vw, 5rem) auto clamp(3rem, 6vw, 5rem);
+  margin: clamp(2.4rem, 4vw, 3.5rem) auto clamp(2.4rem, 4vw, 3.5rem);
   color: var(--muted-foreground);
   letter-spacing: 0.11em;
 }
