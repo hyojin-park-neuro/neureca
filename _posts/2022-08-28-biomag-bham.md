@@ -1,7 +1,7 @@
 ---
 title: BIOMAG 2022, Birmingham, UK
 author: hyojin-park
-tags: BIOMAG, conference, MEG, OPM-MEG
+tags: BIOMAG, Conference, MEG, OPM-MEG
 last_modified_at: ""
 carousels:
   - images: 
