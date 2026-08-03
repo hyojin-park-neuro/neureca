@@ -33,5 +33,11 @@
 </div>
 
 {% if include.tags %}
-  {% include tags.html tags=include.tags link="blog" %}
+  <div class="tags" data-link="{{ 'blog' | absolute_url }}">
+    {% assign post_tags = include.tags | object_items | join: ',' | split: ',' | array_filter | uniq %}
+    {% for tag in post_tags %}
+      {% assign clean_tag = tag | strip | replace: ',', '' %}
+      <a href="{{ 'blog' | absolute_url }}?search=&quot;tag: {{ tag }}&quot;" class="tag">{{ clean_tag }}</a>
+    {% endfor %}
+  </div>
 {% endif %}
