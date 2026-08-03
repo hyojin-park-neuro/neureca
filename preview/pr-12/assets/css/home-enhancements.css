@@ -1,3 +1,7 @@
+.tag-title-case {
+  text-transform: capitalize;
+}
+
 #neureca-outward-labels-repaired-photos-v26 {
   overflow: visible;
   padding-top: 6.85rem;
@@ -57,10 +61,10 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: clamp(2.35rem, 4.6vw, 4.7rem);
-  line-height: 0.98;
+  font-size: clamp(1.85rem, 3vw, 3rem);
+  line-height: 1;
   font-weight: 400;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.025em;
 }
 
 #neureca-outward-labels-repaired-photos-v26 .v26-all-stories {
@@ -274,7 +278,7 @@
     flex-direction: column;
   }
   #neureca-outward-labels-repaired-photos-v26 .v26-transmissions h2 {
-    font-size: clamp(2.2rem, 12vw, 3.5rem);
+    font-size: clamp(1.8rem, 9vw, 2.7rem);
   }
   #neureca-outward-labels-repaired-photos-v26 .v26-post-carousel-shell {
     padding-inline: 2.9rem;
