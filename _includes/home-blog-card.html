@@ -1,25 +1,39 @@
 {% assign post = include.post %}
 {% assign is_audio = false %}
 {% if post.url contains 'podcast' or post.tags contains 'podcast' or post.tags contains 'audio' %}{% assign is_audio = true %}{% endif %}
+
 {% assign content_parts = post.content | split: '<img' %}
 {% assign has_content_images = false %}
 {% if content_parts.size > 1 %}{% assign has_content_images = true %}{% endif %}
+
 {% assign figure_image = nil %}
-{% if post.content contains 'include figure.html' and post.content contains 'image="' %}
+{% if post.content contains 'include figure.html' %}
   {% assign figure_section = post.content | split: 'include figure.html' | last %}
-  {% assign figure_image = figure_section | split: 'image="' | last | split: '"' | first %}
+  {% if figure_section contains 'image="' %}
+    {% assign figure_image = figure_section | split: 'image="' | last | split: '"' | first %}
+  {% elsif figure_section contains "image='" %}
+    {% assign figure_image = figure_section | split: "image='" | last | split: "'" | first %}
+  {% endif %}
 {% endif %}
+
+{% assign markdown_image = nil %}
+{% if post.content contains '![' and post.content contains '](' %}
+  {% assign markdown_section = post.content | split: '](' | last %}
+  {% assign markdown_image = markdown_section | split: ')' | first | split: ' ' | first %}
+{% endif %}
+
 {% assign carousel_images = nil %}
 {% if post.carousels and post.carousels.size > 0 %}
   {% assign first_carousel = post.carousels | first %}
   {% assign carousel_images = first_carousel.images %}
 {% endif %}
+
 {% assign has_visual = false %}
 {% if post.images and post.images.size > 0 %}
   {% assign has_visual = true %}
 {% elsif carousel_images and carousel_images.size > 0 %}
   {% assign has_visual = true %}
-{% elsif post.image or post.banner or figure_image or has_content_images %}
+{% elsif post.image or post.banner or figure_image or markdown_image or has_content_images %}
   {% assign has_visual = true %}
 {% endif %}
 
@@ -28,30 +42,84 @@
     <a class="v26-card-media" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title }}" data-image-carousel>
       {% if post.images and post.images.size > 0 %}
         {% for image in post.images %}
-          {% if image contains '://' %}{% assign image_url = image %}{% else %}{% assign image_url = image | relative_url %}{% endif %}
+          {% assign image_source = image.image | default: image %}
+          {% if image_source contains '://' %}
+            {% assign image_url = image_source %}
+          {% elsif site.baseurl != '' and image_source contains site.baseurl %}
+            {% assign image_url = image_source %}
+          {% else %}
+            {% assign image_url = image_source | relative_url %}
+          {% endif %}
           <img class="v26-card-image{% if forloop.first %} is-active{% endif %}" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
         {% endfor %}
       {% elsif carousel_images and carousel_images.size > 0 %}
         {% for image_item in carousel_images %}
           {% assign image_source = image_item.image | default: image_item %}
-          {% if image_source contains '://' %}{% assign image_url = image_source %}{% else %}{% assign image_url = image_source | relative_url %}{% endif %}
+          {% if image_source contains '://' %}
+            {% assign image_url = image_source %}
+          {% elsif site.baseurl != '' and image_source contains site.baseurl %}
+            {% assign image_url = image_source %}
+          {% else %}
+            {% assign image_url = image_source | relative_url %}
+          {% endif %}
           <img class="v26-card-image{% if forloop.first %} is-active{% endif %}" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
         {% endfor %}
       {% elsif post.image %}
-        {% if post.image contains '://' %}{% assign image_url = post.image %}{% else %}{% assign image_url = post.image | relative_url %}{% endif %}
+        {% assign image_source = post.image.image | default: post.image %}
+        {% if image_source contains '://' %}
+          {% assign image_url = image_source %}
+        {% elsif site.baseurl != '' and image_source contains site.baseurl %}
+          {% assign image_url = image_source %}
+        {% else %}
+          {% assign image_url = image_source | relative_url %}
+        {% endif %}
         <img class="v26-card-image is-active" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
       {% elsif post.banner %}
-        {% if post.banner contains '://' %}{% assign image_url = post.banner %}{% else %}{% assign image_url = post.banner | relative_url %}{% endif %}
+        {% assign image_source = post.banner.image | default: post.banner %}
+        {% if image_source contains '://' %}
+          {% assign image_url = image_source %}
+        {% elsif site.baseurl != '' and image_source contains site.baseurl %}
+          {% assign image_url = image_source %}
+        {% else %}
+          {% assign image_url = image_source | relative_url %}
+        {% endif %}
         <img class="v26-card-image is-active" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
       {% elsif figure_image %}
-        {% if figure_image contains '://' %}{% assign image_url = figure_image %}{% else %}{% assign image_url = figure_image | relative_url %}{% endif %}
+        {% assign image_source = figure_image %}
+        {% if image_source contains '://' %}
+          {% assign image_url = image_source %}
+        {% elsif site.baseurl != '' and image_source contains site.baseurl %}
+          {% assign image_url = image_source %}
+        {% else %}
+          {% assign image_url = image_source | relative_url %}
+        {% endif %}
+        <img class="v26-card-image is-active" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
+      {% elsif markdown_image %}
+        {% assign image_source = markdown_image %}
+        {% if image_source contains '://' %}
+          {% assign image_url = image_source %}
+        {% elsif site.baseurl != '' and image_source contains site.baseurl %}
+          {% assign image_url = image_source %}
+        {% else %}
+          {% assign image_url = image_source | relative_url %}
+        {% endif %}
         <img class="v26-card-image is-active" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
       {% elsif has_content_images %}
         {% for part in content_parts offset: 1 limit: 5 %}
-          {% assign src_part = part | split: 'src="' | last %}
-          {% assign image_src = src_part | split: '"' | first %}
+          {% assign image_src = nil %}
+          {% if part contains 'src="' %}
+            {% assign image_src = part | split: 'src="' | last | split: '"' | first %}
+          {% elsif part contains "src='" %}
+            {% assign image_src = part | split: "src='" | last | split: "'" | first %}
+          {% endif %}
           {% if image_src and image_src != '' %}
-            {% if image_src contains '://' %}{% assign image_url = image_src %}{% else %}{% assign image_url = image_src | relative_url %}{% endif %}
+            {% if image_src contains '://' %}
+              {% assign image_url = image_src %}
+            {% elsif site.baseurl != '' and image_src contains site.baseurl %}
+              {% assign image_url = image_src %}
+            {% else %}
+              {% assign image_url = image_src | relative_url %}
+            {% endif %}
             <img class="v26-card-image{% if forloop.first %} is-active{% endif %}" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
           {% endif %}
         {% endfor %}
