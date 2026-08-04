@@ -75,6 +75,12 @@ button {
   transition: filter 160ms ease, transform 160ms ease;
 }
 
+.news-podcast-audio-button {
+  position: relative;
+  top: 0.12rem;
+  margin-left: 0.25rem;
+}
+
 .podcast-audio-button:hover,
 .podcast-audio-button:focus-visible {
   filter: brightness(0.94);
