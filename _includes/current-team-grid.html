@@ -8,11 +8,11 @@
       <div class="current-team-grid">
         {% for item in section.members %}
           {% assign profile = site.members | where: "name", item.name | first %}
-          {% assign member_image = item.image | default: profile.image | default: 'images/neureca-logo-fallback.svg' %}
+          {% assign member_image = item.image | default: profile.image | default: 'images/logo.svg' %}
           {% assign member_link = item.link | default: profile.url %}
 
           {% if member_link %}<a class="current-team-card" href="{{ member_link | relative_url }}"{% if item.link contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>{% else %}<div class="current-team-card">{% endif %}
-            <span class="current-team-photo-wrap">
+            <span class="current-team-photo-wrap{% unless profile.image or item.image %} is-fallback{% endunless %}">
               <img class="current-team-photo{% unless profile.image or item.image %} is-fallback{% endunless %}" src="{{ member_image | relative_url }}" alt="{% if profile.image or item.image %}{{ item.name }}{% else %}NEURECA logo placeholder for {{ item.name }}{% endif %}" loading="lazy" decoding="async">
             </span>
             <span class="current-team-name">{{ item.name }}</span>
@@ -66,14 +66,20 @@
   box-shadow: 0 0 0 1px rgba(109, 137, 132, 0.18);
   transition: transform 160ms ease, box-shadow 160ms ease;
 }
+.current-team-photo-wrap.is-fallback {
+  overflow: visible;
+  background: transparent;
+  box-shadow: none;
+}
 .current-team-photo {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 .current-team-photo.is-fallback {
+  width: 72%;
+  height: 72%;
   object-fit: contain;
-  padding: 14%;
 }
 .current-team-name {
   max-width: 12rem;
@@ -86,6 +92,10 @@ a.current-team-card:hover .current-team-photo-wrap,
 a.current-team-card:focus-visible .current-team-photo-wrap {
   transform: translateY(-2px);
   box-shadow: 0 5px 18px rgba(69, 84, 82, 0.18), 0 0 0 1px rgba(109, 137, 132, 0.4);
+}
+a.current-team-card:hover .current-team-photo-wrap.is-fallback,
+a.current-team-card:focus-visible .current-team-photo-wrap.is-fallback {
+  box-shadow: none;
 }
 a.current-team-card:hover .current-team-name,
 a.current-team-card:focus-visible .current-team-name {
