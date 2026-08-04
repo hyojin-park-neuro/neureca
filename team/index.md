@@ -39,40 +39,8 @@ nav:
 {% include current-team-grid.html %}
 
 ## {% include icon.html icon="fa-solid fa-users-rays" %}Alumni
-**{% include icon.html icon="fa-solid fa-user-check" %}  Post-doctoral Researchers**
-- Tara Ghafari (co-supervision)
-  
-**{% include icon.html icon="fa-solid fa-user-graduate" %}  Postgraduate Students**
-- [Alexander Zust (2024-25)](/members/alexander-zust.html){:target="_blank"}
-- Christopher Fairhurst (2024-25)
-- Jack Griffiths (2024-25)
-- [Latifah Parara (2024-25)](/members/latifah-parara.html){:target="_blank"}
-- [Xiangqi Zhou (2023-24)](/members/xiangqi-zhou.html){:target="_blank"}
-- [Yaxi Luo (2023-24)](/members/yaxi-luo.html){:target="_blank"}
-- Choi Yu (2022-23)
-- Victoria Gorneva (2022-23) 
-- Gabriel Byczynski (2021-22)
-- Zhuoxin Xiao (2021-22)
 
-**{% include icon.html icon="fa-solid fa-user-gear" %}  Undergraduate Students**
-- [Abby Korter](/members/abby-korter.html){:target="_blank"} (2024-25) 
-- [Amber Hanan](/members/amber-hanan.html){:target="_blank"} (2024-25)
-- [Matilda Halliwell](/members/matilda-halliwell.html){:target="_blank"} (2024-25)
-- Yiyang Xu (2024-25)
-- Binal Kaur (2024-25)
-- Mohammed Rabeti (2024-25)
-- Thomas Auld (2024-25)
-- [Thomas Roberts](/members/thomas-roberts.html){:target="_blank"} (2024-25)
-- Jack Gibbins (2023-24)
-- Samira Hussein (2023-24)
-- Mengquan Liu (2023-24)
-- Holly Walker (2023-24)
-- Abbie Evans (2022-23)
-- Valentina Kurti (2022-23)
-- Tamseel Naveed (2022-23)
-- Daisy Weston (2022-23)
-- Ellie Robson (2022-23)
-- Jasmin Wrighton (2022-23)
+{% include alumni-grid.html %}
 
 ## {% include icon.html icon="fa-solid fa-users-line" %}Collaborators
 
