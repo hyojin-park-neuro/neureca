@@ -58,7 +58,7 @@
 
 .citation-image > img.citation-shared-fallback {
   object-fit: contain;
-  padding: 24%;
+  padding: 27%;
   background: color-mix(in srgb, var(--background) 96%, var(--text));
 }
 
