@@ -10,7 +10,7 @@
     <a{% if citation.link %} href="{{ citation.link | relative_url }}"{% endif %} class="citation-image" aria-label="{{ citation.title | default: 'citation link' }}">
       {% assign citation_image = citation.image | default: '' %}
       {% if citation_image == '' or citation_image == 'images/logo.svg' or citation_image == '/images/logo.svg' or citation_image == 'images/neureca-logo-fallback.svg' or citation_image == '/images/neureca-logo-fallback.svg' %}
-        {% include neureca-logo-mark.html %}
+        <span class="citation-fallback-mark">{% include neureca-logo-mark.html %}</span>
       {% else %}
         <img src="{{ citation_image | relative_url }}" alt="{{ citation.title | default: '' }}" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='{{ '/images/logo.svg' | relative_url }}';this.classList.add('citation-image-fallback');">
       {% endif %}
