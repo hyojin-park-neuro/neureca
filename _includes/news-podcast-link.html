@@ -1,19 +1,19 @@
 {% if page.url == '/news/' %}
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var oldLink = document.querySelector('a[href="https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio"]');
-    if (!oldLink) return;
-
-    oldLink.href = 'https://notebook.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/artifact/45100428-5236-4c1c-b4ad-55e5e579ea80?utm_source=nlm_web_share&utm_medium=google_oo&utm_campaign=art_share_1&utm_content=&utm_smc=nlm_web_share_google_oo_art_share_1_';
-    oldLink.classList.add('podcast-audio-button');
-    oldLink.setAttribute('target', '_blank');
-    oldLink.setAttribute('rel', 'noopener noreferrer');
-    oldLink.innerHTML = '<span aria-hidden="true">▶</span> Listen to audio';
-
-    var strong = oldLink.closest('strong');
-    if (strong) {
-      strong.insertAdjacentText('beforebegin', 'NEURECA Lab introduction podcast ');
-    }
-  });
+document.addEventListener('DOMContentLoaded', function () {
+  var oldLink = document.querySelector('a[href="https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio"]');
+  if (!oldLink) return;
+  var host = oldLink.closest('strong') || oldLink;
+  var label = document.createTextNode('NEURECA Lab introduction podcast ');
+  var button = document.createElement('a');
+  button.href = 'https://notebook.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/artifact/45100428-5236-4c1c-b4ad-55e5e579ea80?utm_source=nlm_web_share&utm_medium=google_oo&utm_campaign=art_share_1&utm_content=&utm_smc=nlm_web_share_google_oo_art_share_1_';
+  button.className = 'podcast-audio-button';
+  button.target = '_blank';
+  button.rel = 'noopener noreferrer';
+  button.textContent = '▶ Listen to audio';
+  host.parentNode.insertBefore(label, host);
+  host.parentNode.insertBefore(button, host);
+  host.parentNode.removeChild(host);
+});
 </script>
 {% endif %}
