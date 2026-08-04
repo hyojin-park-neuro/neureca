@@ -95,6 +95,28 @@ sed do eiusmod tempor
   number="1"
 %}
 
+<style>
+#carousel0 .text-top-image1 {
+  display: none !important;
+}
+#carousel0::after {
+  content: "The NEURECA Group";
+  position: absolute;
+  left: 50%;
+  bottom: 2.8rem;
+  z-index: 4;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.82);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.55);
+  white-space: nowrap;
+  pointer-events: none;
+}
+</style>
 
 {%
   include figure.html
