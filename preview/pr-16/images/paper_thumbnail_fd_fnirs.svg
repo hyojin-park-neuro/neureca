@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">FD-fNIRS paper thumbnail</title>
+  <desc id="desc">Abstract optical measurement waves and haemodynamic response curves.</desc>
+  <rect width="800" height="600" fill="#eef4f2"/>
+  <g fill="none" stroke="#6d8984" stroke-width="10" stroke-linecap="round">
+    <path d="M80 390 C160 210 230 500 315 300 S470 180 560 330 S690 430 740 245"/>
+    <path opacity=".45" d="M80 455 C180 350 245 475 335 385 S520 290 740 365"/>
+  </g>
+  <g fill="#8e7488">
+    <circle cx="165" cy="245" r="18"/><circle cx="315" cy="300" r="18"/><circle cx="560" cy="330" r="18"/><circle cx="740" cy="245" r="18"/>
+  </g>
+  <text x="70" y="120" font-family="Helvetica,Arial,sans-serif" font-size="54" font-weight="700" fill="#191b1b">FD-fNIRS</text>
+  <text x="72" y="170" font-family="Helvetica,Arial,sans-serif" font-size="28" fill="#455452">Speech haemodynamic response</text>
+</svg>
