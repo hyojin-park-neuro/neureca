@@ -1,0 +1,91 @@
+@charset "UTF-8";
+button {
+  cursor: pointer;
+}
+
+.button-wrapper {
+  display: contents;
+}
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: calc(100% - 5px - 5px);
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: var(--rounded);
+  background: var(--primary);
+  color: var(--background);
+  text-align: center;
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  line-height: 1;
+  text-decoration: none;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  appearance: none;
+  transition-property: background, color;
+}
+
+.button:hover {
+  background: var(--text);
+  color: var(--background);
+}
+
+.button[data-style=bare] {
+  padding: 5px;
+  background: none;
+  color: var(--primary);
+}
+.button[data-style=bare]:hover {
+  color: var(--text);
+}
+
+.button[data-flip] {
+  flex-direction: row-reverse;
+}
+
+.contact-page main .button {
+  background: #c7d9d6;
+  color: #2c403d;
+}
+
+.contact-page main .button:hover {
+  background: #b4cbc7;
+  color: #243633;
+}
+
+main a[href="https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  margin: 0.2rem 0.25rem;
+  padding: 0.58rem 0.9rem;
+  border-radius: 999px;
+  background: var(--primary);
+  color: var(--background);
+  font-size: 0;
+  font-weight: var(--semi-bold);
+  line-height: 1;
+  text-decoration: none;
+  vertical-align: middle;
+  transition: background 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+main a[href="https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio"]::before {
+  content: "▶  Listen to audio";
+  font-size: 0.88rem;
+}
+
+main a[href="https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio"]:hover,
+main a[href="https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio"]:focus-visible {
+  background: var(--text);
+  color: var(--background);
+  transform: translateY(-1px);
+}
+
+/*# sourceMappingURL=button.css.map */
