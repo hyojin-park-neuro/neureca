@@ -46,13 +46,6 @@
   height: 100%;
 }
 
-.neureca-image-fallback .neureca-fallback-logo {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-}
-
 .card-image .neureca-image-frame {
   aspect-ratio: 3/2;
 }
