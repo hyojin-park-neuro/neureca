@@ -4,8 +4,19 @@
 {% assign content_parts = post.content | split: '<img' %}
 {% assign has_content_images = false %}
 {% if content_parts.size > 1 %}{% assign has_content_images = true %}{% endif %}
+{% assign carousel_images = nil %}
+{% if post.carousels and post.carousels.size > 0 %}
+  {% assign first_carousel = post.carousels | first %}
+  {% assign carousel_images = first_carousel.images %}
+{% endif %}
 {% assign has_visual = false %}
-{% if post.images and post.images.size > 0 %}{% assign has_visual = true %}{% elsif post.image or post.banner or has_content_images %}{% assign has_visual = true %}{% endif %}
+{% if post.images and post.images.size > 0 %}
+  {% assign has_visual = true %}
+{% elsif carousel_images and carousel_images.size > 0 %}
+  {% assign has_visual = true %}
+{% elsif post.image or post.banner or has_content_images %}
+  {% assign has_visual = true %}
+{% endif %}
 
 <article class="v26-blog-card{% unless has_visual %} is-text-only{% endunless %}" data-blog-card>
   {% if has_visual %}
@@ -13,6 +24,12 @@
       {% if post.images and post.images.size > 0 %}
         {% for image in post.images %}
           {% if image contains '://' %}{% assign image_url = image %}{% else %}{% assign image_url = image | relative_url %}{% endif %}
+          <img class="v26-card-image{% if forloop.first %} is-active{% endif %}" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
+        {% endfor %}
+      {% elsif carousel_images and carousel_images.size > 0 %}
+        {% for image_item in carousel_images %}
+          {% assign image_source = image_item.image | default: image_item %}
+          {% if image_source contains '://' %}{% assign image_url = image_source %}{% else %}{% assign image_url = image_source | relative_url %}{% endif %}
           <img class="v26-card-image{% if forloop.first %} is-active{% endif %}" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
         {% endfor %}
       {% elsif post.image %}
