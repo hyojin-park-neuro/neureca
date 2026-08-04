@@ -60,29 +60,43 @@ button {
 
 main a[href="https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio"] {
   display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.2rem 0.25rem;
+  padding: 0;
+  background: none;
+  color: var(--text);
+  font-size: 0;
+  font-weight: var(--semi-bold);
+  line-height: 1.35;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+main a[href="https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio"]::before {
+  content: "NEURECA Lab introduction podcast";
+  font-size: 1rem;
+  color: var(--text);
+}
+
+main a[href="https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio"]::after {
+  content: "▶  Listen to audio";
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.45rem;
-  margin: 0.2rem 0.25rem;
   padding: 0.58rem 0.9rem;
   border-radius: 999px;
   background: var(--primary);
   color: var(--background);
-  font-size: 0;
+  font-size: 0.88rem;
   font-weight: var(--semi-bold);
   line-height: 1;
-  text-decoration: none;
-  vertical-align: middle;
   transition: background 160ms ease, color 160ms ease, transform 160ms ease;
 }
 
-main a[href="https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio"]::before {
-  content: "▶  Listen to audio";
-  font-size: 0.88rem;
-}
-
-main a[href="https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio"]:hover,
-main a[href="https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio"]:focus-visible {
+main a[href="https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio"]:hover::after,
+main a[href="https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio"]:focus-visible::after {
   background: var(--text);
   color: var(--background);
   transform: translateY(-1px);
