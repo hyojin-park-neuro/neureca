@@ -79,10 +79,21 @@ button {
   transition: filter 160ms ease, transform 160ms ease;
 }
 
-.news-podcast-audio-button {
-  position: relative;
-  top: 0.12rem;
-  margin-left: 0.25rem;
+.news-podcast-inline {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  vertical-align: middle;
+}
+
+.news-podcast-inline .news-podcast-audio-button {
+  position: static;
+  margin: 0;
+}
+
+.news-podcast-label {
+  line-height: 1.35;
 }
 
 .podcast-audio-button:hover,
