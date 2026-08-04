@@ -861,6 +861,27 @@
 
 
     </main>
+    
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var oldLink = document.querySelector('a[href="https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio"]');
+  if (!oldLink) return;
+
+  var paragraph = oldLink.closest('p');
+  if (!paragraph) return;
+
+  var button = document.createElement('a');
+  button.href = 'https://notebook.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/artifact/45100428-5236-4c1c-b4ad-55e5e579ea80?utm_source=nlm_web_share&utm_medium=google_oo&utm_campaign=art_share_1&utm_content=&utm_smc=nlm_web_share_google_oo_art_share_1_';
+  button.className = 'podcast-audio-button';
+  button.target = '_blank';
+  button.rel = 'noopener noreferrer';
+  button.textContent = 'Listen to NEURECA Lab Intro Podcast';
+
+  paragraph.replaceChildren(button);
+});
+</script>
+
+
     <footer class="site-footer" data-dark="false" data-size="wide">
   <div>
     <div class="neureca-social-links" aria-label="NEURECA social links">
