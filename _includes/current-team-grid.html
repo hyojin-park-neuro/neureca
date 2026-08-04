@@ -1,0 +1,109 @@
+<div class="current-team-sections">
+  {% for section in site.data.current_team %}
+    <section class="current-team-section" aria-labelledby="current-team-{{ forloop.index }}">
+      <h3 id="current-team-{{ forloop.index }}" class="current-team-heading">
+        {% include icon.html icon=section.icon %}{{ section.title }}
+      </h3>
+
+      <div class="current-team-grid">
+        {% for item in section.members %}
+          {% assign profile = site.members | where: "name", item.name | first %}
+          {% assign member_image = item.image | default: profile.image | default: 'images/neureca-logo-fallback.svg' %}
+          {% assign member_link = item.link | default: profile.url %}
+
+          {% if member_link %}<a class="current-team-card" href="{{ member_link | relative_url }}"{% if item.link contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>{% else %}<div class="current-team-card">{% endif %}
+            <span class="current-team-photo-wrap">
+              <img class="current-team-photo{% unless profile.image or item.image %} is-fallback{% endunless %}" src="{{ member_image | relative_url }}" alt="{% if profile.image or item.image %}{{ item.name }}{% else %}NEURECA logo placeholder for {{ item.name }}{% endif %}" loading="lazy" decoding="async">
+            </span>
+            <span class="current-team-name">{{ item.name }}</span>
+          {% if member_link %}</a>{% else %}</div>{% endif %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+</div>
+
+<style>
+.current-team-sections {
+  display: grid;
+  gap: 2.4rem;
+  margin: 1.25rem 0 3rem;
+}
+.current-team-section {
+  min-width: 0;
+}
+.current-team-heading {
+  margin: 0 0 1.1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(109, 137, 132, 0.35);
+}
+.current-team-heading .icon {
+  margin-right: 0.45rem;
+}
+.current-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 1.65rem 1.25rem;
+}
+.current-team-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+}
+.current-team-photo-wrap {
+  display: grid;
+  width: clamp(108px, 10vw, 142px);
+  aspect-ratio: 1 / 1;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--background) 94%, var(--text));
+  box-shadow: 0 0 0 1px rgba(109, 137, 132, 0.18);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+.current-team-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.current-team-photo.is-fallback {
+  object-fit: contain;
+  padding: 14%;
+}
+.current-team-name {
+  max-width: 12rem;
+  font-size: clamp(0.9rem, 1.1vw, 1rem);
+  font-weight: 600;
+  line-height: 1.28;
+  overflow-wrap: anywhere;
+}
+a.current-team-card:hover .current-team-photo-wrap,
+a.current-team-card:focus-visible .current-team-photo-wrap {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 18px rgba(69, 84, 82, 0.18), 0 0 0 1px rgba(109, 137, 132, 0.4);
+}
+a.current-team-card:hover .current-team-name,
+a.current-team-card:focus-visible .current-team-name {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+@media (max-width: 560px) {
+  .current-team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.4rem 0.85rem;
+  }
+  .current-team-photo-wrap {
+    width: min(34vw, 128px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .current-team-photo-wrap {
+    transition: none;
+  }
+}
+</style>
