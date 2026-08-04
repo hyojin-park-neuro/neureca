@@ -36,38 +36,7 @@ nav:
 {% include list.html data="members" component="portrait" filters="role: intern, group: " %} 
 {% endcomment %}
 
-### {% include icon.html icon="fa-solid fa-user-graduate" %}Postgraduate Students
-- [Charlie Reynolds](/members/charlie-reynolds.html){:target="_blank"}
-- [Jack Craig](/members/jack-craig.html){:target="_blank"}
-- [Xin Wang](/members/xin-wang.html){:target="_blank"}
-- [Thomas Roberts](/members/thomas-roberts.html){:target="_blank"}
-- [Younggyu Lee](/members/younggyu-lee.html){:target="_blank"}
-- Jaya Sharma
-- [Jay Poh](/members/jay-poh.html){:target="_blank"}
-
-### {% include icon.html icon="fa-solid fa-people-carry-box" %}Research Assistants
-- [Regina Sungkyeong Kim](/members/regina-kim.html){:target="_blank"}
-- Valentina Kurti
-- [Shrisha Sathishkumar](/members/shrisha-sathishkumar.html){:target="_blank"}
-- Thomas King
-- Maryam Frej
-- Abigail Entwistle
-
-### {% include icon.html icon="fa-solid fa-people-carry-box" %}Internship Students
-- [Sekwang Jeong](/members/sekwang-jeong.html){:target="_blank"}
-- [Yujin Kang](/members/yujin-kang.html){:target="_blank"}
-- [Byungjun Kim](/members/byungjun-kim.html){:target="_blank"}
-- [Jisoo Park](/members/jisoo-park.html){:target="_blank"}
-
-### {% include icon.html icon="fa-solid fa-user-gear" %}Undergraduate Students
-- Clarence Alabi
-- Cai Day
-- Andrew Opuni
-- Eleanor Page
-- Noa Levy
-- Woojae Shin
-- Cameron Wallace
-- Yu-Zhen Wong
+{% include current-team-grid.html %}
 
 ## {% include icon.html icon="fa-solid fa-users-rays" %}Alumni
 **{% include icon.html icon="fa-solid fa-user-check" %}  Post-doctoral Researchers**
@@ -133,5 +102,5 @@ nav:
 - [Andrew Quinn](https://www.birmingham.ac.uk/staff/profiles/psychology/quinn-andrew.aspx){:target="_blank"}, School of Psychology, CHBH
 - [KyungMin An](https://www.birmingham.ac.uk/staff/profiles/psychology/an-kyungmin.aspx){:target="_blank"}, School of Psychology, CHBH, [Lab](https://sites.google.com/view/an-lab/home){:target="_blank"}
 - [Shin-Yi (Chloe) Chiou](https://www.birmingham.ac.uk/staff/profiles/sportex/chiou-shin-yi.aspx){:target="_blank"}, School of Sport, Exercise and Rehabilitation Sciences, [Lab](https://www.birmingham.ac.uk/schools/sport-exercise/research/projects/spinal-cord-injury/index.aspx/){:target="_blank"}
-- [Sang-Hoon Yeo](https://www.birmingham.ac.uk/staff/profiles/sportex/yeo-sang-hoon.aspx){:target="_blank"}, School of Sport, Exercise and Rehabilitation Sciences, [Sensorimotor Computation Lab](https://sites.google.com/view/yeolabprojects){:target="_blank"}
+- [Sang-Hoon Yeo](https://www.birmingham.ac.uk/staff/profiles/sportex/yeo-sang-hoon.aspx){:target="_blank"}, School of Sport, Exercise and Rehabilitation Sciences, [Sensorimotor Computation Lab](https://sites.google.com/view/yeolabprojects/){:target="_blank"}
 - [Hyung Jin Chang](https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/chang-jin-hyung.aspx){:target="_blank"}, School of Computer Science, [Intelligent Robotics Lab](https://hyungjinchang.wordpress.com/){:target="_blank"}
