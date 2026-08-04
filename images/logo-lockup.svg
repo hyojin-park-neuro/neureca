@@ -4,10 +4,9 @@
   <g transform="translate(10 8) scale(3.4)">
     <defs>
       <clipPath id="diagonal-inner"><rect x="10" y="4" width="28" height="40"/></clipPath>
-      <clipPath id="mark-outer"><rect x="7.85" y="4.65" width="32.3" height="38.7"/></clipPath>
     </defs>
     <path d="M5 1.2L43 46.8" fill="none" stroke="#685564" stroke-width="2.7" stroke-linecap="square" clip-path="url(#diagonal-inner)" transform="rotate(2 24 24)"/>
-    <path d="M7 24H41" fill="none" stroke="#455452" stroke-width="2.7" stroke-linecap="butt" clip-path="url(#mark-outer)"/>
+    <path d="M9.25 24H38.75" fill="none" stroke="#455452" stroke-width="2.7" stroke-linecap="butt"/>
     <path d="M9.25 6V42M38.75 6V42" fill="none" stroke="#191b1b" stroke-width="2.7" stroke-linecap="square"/>
     <circle cx="24" cy="24" r="2.8" fill="#685564"/>
   </g>
