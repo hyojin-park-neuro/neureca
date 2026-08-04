@@ -1,7 +1,7 @@
 <div class="current-team-sections">
   {% for section in site.data.current_team %}
     {% assign member_count = section.members.size %}
-    {% assign row_count = member_count | plus: 5 | divided_by: 6 %}
+    {% assign row_count = member_count | plus: 4 | divided_by: 5 %}
     {% if row_count < 1 %}{% assign row_count = 1 %}{% endif %}
     {% assign row_rounding = row_count | minus: 1 %}
     {% assign members_per_row = member_count | plus: row_rounding | divided_by: row_count %}
