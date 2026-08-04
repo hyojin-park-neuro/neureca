@@ -197,7 +197,7 @@
   date: '2025-03-20'
   link: https://doi.org/g9gvf2
   type: paper
-  image: images/paper_thumbnail_fd_fnirs.svg
+  image: images/neureca-logo-fallback.svg
   tags:
   - fNIRS
   - FD-fNIRS
