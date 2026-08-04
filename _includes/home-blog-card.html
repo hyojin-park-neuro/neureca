@@ -4,6 +4,11 @@
 {% assign content_parts = post.content | split: '<img' %}
 {% assign has_content_images = false %}
 {% if content_parts.size > 1 %}{% assign has_content_images = true %}{% endif %}
+{% assign figure_image = nil %}
+{% if post.content contains 'include figure.html' and post.content contains 'image="' %}
+  {% assign figure_section = post.content | split: 'include figure.html' | last %}
+  {% assign figure_image = figure_section | split: 'image="' | last | split: '"' | first %}
+{% endif %}
 {% assign carousel_images = nil %}
 {% if post.carousels and post.carousels.size > 0 %}
   {% assign first_carousel = post.carousels | first %}
@@ -14,7 +19,7 @@
   {% assign has_visual = true %}
 {% elsif carousel_images and carousel_images.size > 0 %}
   {% assign has_visual = true %}
-{% elsif post.image or post.banner or has_content_images %}
+{% elsif post.image or post.banner or figure_image or has_content_images %}
   {% assign has_visual = true %}
 {% endif %}
 
@@ -37,6 +42,9 @@
         <img class="v26-card-image is-active" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
       {% elsif post.banner %}
         {% if post.banner contains '://' %}{% assign image_url = post.banner %}{% else %}{% assign image_url = post.banner | relative_url %}{% endif %}
+        <img class="v26-card-image is-active" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
+      {% elsif figure_image %}
+        {% if figure_image contains '://' %}{% assign image_url = figure_image %}{% else %}{% assign image_url = figure_image | relative_url %}{% endif %}
         <img class="v26-card-image is-active" src="{{ image_url }}" alt="" loading="lazy" decoding="async">
       {% elsif has_content_images %}
         {% for part in content_parts offset: 1 limit: 5 %}
