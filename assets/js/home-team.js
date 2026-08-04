@@ -34,6 +34,7 @@
       function placeMember(member, x, y) {
         member.style.setProperty("--member-x", x + "%");
         member.style.setProperty("--member-y", y + "%");
+        member.setAttribute("data-layout-x", x);
       }
 
       function spread(count, start, end) {
@@ -52,6 +53,39 @@
         list.forEach(function (member, index) {
           member.classList.add(sideClass);
           placeMember(member, x, verticalY[index]);
+        });
+      }
+
+      function layoutCrossbarLabels() {
+        var stageWidth = stage.getBoundingClientRect().width;
+        if (!stageWidth) return;
+
+        var gap = 12;
+        var rowRight = [-Infinity, -Infinity];
+        var crossbarMembers = members.filter(function (member) {
+          return member.classList.contains("is-crossbar") &&
+            !member.classList.contains("is-left-junction") &&
+            !member.classList.contains("is-right-junction");
+        }).sort(function (a, b) {
+          return parseFloat(a.getAttribute("data-layout-x")) - parseFloat(b.getAttribute("data-layout-x"));
+        });
+
+        crossbarMembers.forEach(function (member) {
+          member.classList.remove("is-label-lower");
+        });
+
+        crossbarMembers.forEach(function (member) {
+          var label = member.querySelector(".v26-member-label");
+          if (!label) return;
+
+          var x = stageWidth * parseFloat(member.getAttribute("data-layout-x")) / 100;
+          var labelWidth = Math.max(label.scrollWidth, label.getBoundingClientRect().width);
+          var left = x - labelWidth / 2;
+          var right = x + labelWidth / 2;
+          var row = left >= rowRight[0] + gap ? 0 : 1;
+
+          if (row === 1) member.classList.add("is-label-lower");
+          rowRight[row] = Math.max(rowRight[row], right);
         });
       }
 
@@ -87,7 +121,6 @@
           member.classList.add("is-crossbar");
           if (index === 0) member.classList.add("is-left-junction");
           if (index === crossMembers.length - 1) member.classList.add("is-right-junction");
-          if (index === 2 || index === 3) member.classList.add("is-label-lower");
           placeMember(member, x, 50);
         });
 
@@ -100,11 +133,22 @@
         });
         placeVerticalSplit(left, 4, "is-left-stem");
         placeVerticalSplit(right, 96, "is-right-stem");
+        window.requestAnimationFrame(layoutCrossbarLabels);
       }
 
       members = interleaveMembers(members);
       assignHLayout();
       stage.classList.add("is-enhanced");
+
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(layoutCrossbarLabels);
+      }
+
+      var resizeTimer = null;
+      window.addEventListener("resize", function () {
+        window.clearTimeout(resizeTimer);
+        resizeTimer = window.setTimeout(layoutCrossbarLabels, 120);
+      });
 
       var reducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
       var compact = window.matchMedia && window.matchMedia("(max-width: 760px)").matches;
@@ -130,6 +174,7 @@
           member.classList.add("is-settled");
         });
         stage.classList.add("is-complete");
+        layoutCrossbarLabels();
 
         if (!reducedMotion && !compact) {
           schedule(resetSequence, holdDuration);
