@@ -1,0 +1,40 @@
+- title: Postgraduate Students
+  icon: fa-solid fa-user-graduate
+  members:
+    - name: Charlie Reynolds
+    - name: Jack Craig
+    - name: Xin Wang
+    - name: Thomas Roberts
+    - name: Younggyu Lee
+    - name: Jaya Sharma
+    - name: Jay Poh
+
+- title: Research Assistants
+  icon: fa-solid fa-people-carry-box
+  members:
+    - name: Regina Sungkyeong Kim
+    - name: Valentina Kurti
+    - name: Shrisha Sathishkumar
+    - name: Thomas King
+    - name: Maryam Frej
+    - name: Abigail Entwistle
+
+- title: Internship Students
+  icon: fa-solid fa-people-carry-box
+  members:
+    - name: Sekwang Jeong
+    - name: Yujin Kang
+    - name: Byungjun Kim
+    - name: Jisoo Park
+
+- title: Undergraduate Students
+  icon: fa-solid fa-user-gear
+  members:
+    - name: Clarence Alabi
+    - name: Cai Day
+    - name: Andrew Opuni
+    - name: Eleanor Page
+    - name: Noa Levy
+    - name: Woojae Shin
+    - name: Cameron Wallace
+    - name: Yu-Zhen Wong

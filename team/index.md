@@ -36,74 +36,11 @@ nav:
 {% include list.html data="members" component="portrait" filters="role: intern, group: " %} 
 {% endcomment %}
 
-### {% include icon.html icon="fa-solid fa-user-graduate" %}Postgraduate Students
-- [Charlie Reynolds](/members/charlie-reynolds.html){:target="_blank"}
-- [Jack Craig](/members/jack-craig.html){:target="_blank"}
-- [Xin Wang](/members/xin-wang.html){:target="_blank"}
-- [Thomas Roberts](/members/thomas-roberts.html){:target="_blank"}
-- [Younggyu Lee](/members/younggyu-lee.html){:target="_blank"}
-- Jaya Sharma
-- [Jay Poh](/members/jay-poh.html){:target="_blank"}
-
-### {% include icon.html icon="fa-solid fa-people-carry-box" %}Research Assistants
-- [Regina Sungkyeong Kim](/members/regina-kim.html){:target="_blank"}
-- Valentina Kurti
-- [Shrisha Sathishkumar](/members/shrisha-sathishkumar.html){:target="_blank"}
-- Thomas King
-- Maryam Frej
-- Abigail Entwistle
-
-### {% include icon.html icon="fa-solid fa-people-carry-box" %}Internship Students
-- [Sekwang Jeong](/members/sekwang-jeong.html){:target="_blank"}
-- [Yujin Kang](/members/yujin-kang.html){:target="_blank"}
-- [Byungjun Kim](/members/byungjun-kim.html){:target="_blank"}
-- [Jisoo Park](/members/jisoo-park.html){:target="_blank"}
-
-### {% include icon.html icon="fa-solid fa-user-gear" %}Undergraduate Students
-- Clarence Alabi
-- Cai Day
-- Andrew Opuni
-- Eleanor Page
-- Noa Levy
-- Woojae Shin
-- Cameron Wallace
-- Yu-Zhen Wong
+{% include current-team-grid.html %}
 
 ## {% include icon.html icon="fa-solid fa-users-rays" %}Alumni
-**{% include icon.html icon="fa-solid fa-user-check" %}  Post-doctoral Researchers**
-- Tara Ghafari (co-supervision)
-  
-**{% include icon.html icon="fa-solid fa-user-graduate" %}  Postgraduate Students**
-- [Alexander Zust (2024-25)](/members/alexander-zust.html){:target="_blank"}
-- Christopher Fairhurst (2024-25)
-- Jack Griffiths (2024-25)
-- [Latifah Parara (2024-25)](/members/latifah-parara.html){:target="_blank"}
-- [Xiangqi Zhou (2023-24)](/members/xiangqi-zhou.html){:target="_blank"}
-- [Yaxi Luo (2023-24)](/members/yaxi-luo.html){:target="_blank"}
-- Choi Yu (2022-23)
-- Victoria Gorneva (2022-23) 
-- Gabriel Byczynski (2021-22)
-- Zhuoxin Xiao (2021-22)
 
-**{% include icon.html icon="fa-solid fa-user-gear" %}  Undergraduate Students**
-- [Abby Korter](/members/abby-korter.html){:target="_blank"} (2024-25) 
-- [Amber Hanan](/members/amber-hanan.html){:target="_blank"} (2024-25)
-- [Matilda Halliwell](/members/matilda-halliwell.html){:target="_blank"} (2024-25)
-- Yiyang Xu (2024-25)
-- Binal Kaur (2024-25)
-- Mohammed Rabeti (2024-25)
-- Thomas Auld (2024-25)
-- [Thomas Roberts](/members/thomas-roberts.html){:target="_blank"} (2024-25)
-- Jack Gibbins (2023-24)
-- Samira Hussein (2023-24)
-- Mengquan Liu (2023-24)
-- Holly Walker (2023-24)
-- Abbie Evans (2022-23)
-- Valentina Kurti (2022-23)
-- Tamseel Naveed (2022-23)
-- Daisy Weston (2022-23)
-- Ellie Robson (2022-23)
-- Jasmin Wrighton (2022-23)
+{% include alumni-grid.html %}
 
 ## {% include icon.html icon="fa-solid fa-users-line" %}Collaborators
 
@@ -133,5 +70,5 @@ nav:
 - [Andrew Quinn](https://www.birmingham.ac.uk/staff/profiles/psychology/quinn-andrew.aspx){:target="_blank"}, School of Psychology, CHBH
 - [KyungMin An](https://www.birmingham.ac.uk/staff/profiles/psychology/an-kyungmin.aspx){:target="_blank"}, School of Psychology, CHBH, [Lab](https://sites.google.com/view/an-lab/home){:target="_blank"}
 - [Shin-Yi (Chloe) Chiou](https://www.birmingham.ac.uk/staff/profiles/sportex/chiou-shin-yi.aspx){:target="_blank"}, School of Sport, Exercise and Rehabilitation Sciences, [Lab](https://www.birmingham.ac.uk/schools/sport-exercise/research/projects/spinal-cord-injury/index.aspx/){:target="_blank"}
-- [Sang-Hoon Yeo](https://www.birmingham.ac.uk/staff/profiles/sportex/yeo-sang-hoon.aspx){:target="_blank"}, School of Sport, Exercise and Rehabilitation Sciences, [Sensorimotor Computation Lab](https://sites.google.com/view/yeolabprojects){:target="_blank"}
+- [Sang-Hoon Yeo](https://www.birmingham.ac.uk/staff/profiles/sportex/yeo-sang-hoon.aspx){:target="_blank"}, School of Sport, Exercise and Rehabilitation Sciences, [Sensorimotor Computation Lab](https://sites.google.com/view/yeolabprojects/){:target="_blank"}
 - [Hyung Jin Chang](https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/chang-jin-hyung.aspx){:target="_blank"}, School of Computer Science, [Intelligent Robotics Lab](https://hyungjinchang.wordpress.com/){:target="_blank"}
