@@ -5,9 +5,6 @@
   | default: include
 %}
 {% assign citation_image = citation.image %}
-{% if citation.title contains 'High framerate FD-fNIRS for auditory-inspired speech hemodynamic response function' %}
-  {% assign citation_image = 'images/paper_thumbnail_fd_fnirs.svg' %}
-{% endif %}
 
 <div class="citation">
   {% if include.style == "rich" %}
