@@ -56,6 +56,29 @@
   min-height: 100%;
 }
 
+.citation-fallback-mark {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--background) 96%, var(--text));
+}
+
+.citation-fallback-mark .neureca-logo-mark {
+  min-height: 0;
+}
+
+.citation-fallback-mark .neureca-logo-mark svg {
+  width: min(46%, 6.5rem);
+}
+
+.citation-image > img.citation-image-fallback {
+  object-fit: contain;
+  padding: 24%;
+  background: color-mix(in srgb, var(--background) 96%, var(--text));
+}
+
 html[data-dark=true] .neureca-logo-mark {
   color: #f0f4f3;
 }
