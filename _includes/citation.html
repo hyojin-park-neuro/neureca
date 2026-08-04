@@ -9,10 +9,14 @@
   {% if include.style == "rich" %}
     <a{% if citation.link %} href="{{ citation.link | relative_url }}"{% endif %} class="citation-image" aria-label="{{ citation.title | default: 'citation link' }}">
       {% assign citation_image = citation.image | default: '' %}
+      {% assign use_fallback = false %}
       {% if citation_image == '' or citation_image == 'images/logo.svg' or citation_image == '/images/logo.svg' or citation_image == 'images/neureca-logo-fallback.svg' or citation_image == '/images/neureca-logo-fallback.svg' %}
-        <span class="citation-fallback-mark">{% include neureca-logo-mark.html %}</span>
+        {% assign use_fallback = true %}
+      {% endif %}
+      {% if use_fallback %}
+        <img class="citation-shared-fallback" src="{{ '/images/logo.svg' | relative_url }}" alt="{{ citation.title | default: '' }}" loading="lazy" decoding="async">
       {% else %}
-        <img src="{{ citation_image | relative_url }}" alt="{{ citation.title | default: '' }}" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='{{ '/images/logo.svg' | relative_url }}';this.classList.add('citation-image-fallback');">
+        <img src="{{ citation_image | relative_url }}" alt="{{ citation.title | default: '' }}" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='{{ '/images/logo.svg' | relative_url }}';this.className='citation-shared-fallback';">
       {% endif %}
     </a>
   {% endif %}
