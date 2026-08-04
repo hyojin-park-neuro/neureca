@@ -1,12 +1,21 @@
 <div class="current-team-sections">
   {% for section in site.data.current_team %}
+    {% assign member_count = section.members.size %}
+    {% assign row_count = member_count | plus: 5 | divided_by: 6 %}
+    {% if row_count < 1 %}{% assign row_count = 1 %}{% endif %}
+    {% assign row_rounding = row_count | minus: 1 %}
+    {% assign members_per_row = member_count | plus: row_rounding | divided_by: row_count %}
+
     <section class="current-team-section" aria-labelledby="current-team-{{ forloop.index }}">
       <h3 id="current-team-{{ forloop.index }}" class="current-team-heading">
         {% include icon.html icon=section.icon %}{{ section.title }}
       </h3>
 
-      <div class="current-team-grid">
+      <div class="current-team-grid" data-member-count="{{ member_count }}" data-members-per-row="{{ members_per_row }}">
         {% for item in section.members %}
+          {% assign row_position = forloop.index0 | modulo: members_per_row %}
+          {% if row_position == 0 %}<div class="current-team-row">{% endif %}
+
           {% assign profile = site.members | where: "name", item.name | first %}
           {% assign member_image = item.image | default: profile.image | default: 'images/logo.svg' %}
           {% assign member_link = item.link | default: profile.url %}
@@ -19,6 +28,9 @@
             </span>
             <span class="current-team-name">{{ item.name }}</span>
           {% if member_link %}</a>{% else %}</div>{% endif %}
+
+          {% assign next_position = forloop.index | modulo: members_per_row %}
+          {% if next_position == 0 or forloop.last %}</div>{% endif %}
         {% endfor %}
       </div>
     </section>
@@ -44,12 +56,20 @@
 }
 .current-team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 1.65rem;
+}
+.current-team-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   gap: 1.65rem 1.25rem;
+  width: 100%;
 }
 .current-team-card {
   display: flex;
+  width: clamp(130px, 14vw, 168px);
   min-width: 0;
+  flex: 0 1 clamp(130px, 14vw, 168px);
   flex-direction: column;
   align-items: center;
   gap: 0.7rem;
@@ -98,10 +118,25 @@ a.current-team-card:focus-visible .current-team-name {
   text-decoration: underline;
   text-underline-offset: 0.18em;
 }
+@media (max-width: 760px) {
+  .current-team-row {
+    flex-wrap: wrap;
+  }
+  .current-team-card {
+    width: min(40vw, 168px);
+    flex-basis: min(40vw, 168px);
+  }
+}
 @media (max-width: 560px) {
   .current-team-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.4rem;
+  }
+  .current-team-row {
     gap: 1.4rem 0.85rem;
+  }
+  .current-team-card {
+    width: calc(50% - 0.425rem);
+    flex-basis: calc(50% - 0.425rem);
   }
   .current-team-photo-wrap {
     width: min(34vw, 128px);
