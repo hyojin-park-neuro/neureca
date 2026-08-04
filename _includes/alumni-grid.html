@@ -1,0 +1,55 @@
+<div class="alumni-sections">
+  {% for section in site.data.alumni %}
+    <section class="alumni-section" aria-labelledby="alumni-{{ forloop.index }}">
+      <h3 id="alumni-{{ forloop.index }}" class="alumni-heading">
+        {% include icon.html icon=section.icon %}{{ section.title }}
+      </h3>
+      <div class="alumni-grid">
+        {% for item in section.members %}
+          {% assign profile = site.members | where: "name", item.name | first %}
+          {% assign member_link = item.link | default: profile.url %}
+          <div class="alumni-item">
+            {% if member_link %}<a href="{{ member_link | relative_url }}">{{ item.name }}</a>{% else %}<span>{{ item.name }}</span>{% endif %}
+            {% if item.years %}<span class="alumni-meta">({{ item.years }})</span>{% endif %}
+            {% if item.note %}<span class="alumni-meta">({{ item.note }})</span>{% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+</div>
+
+<style>
+.alumni-sections {
+  display: grid;
+  gap: 1.8rem;
+  margin: 1rem 0 2.5rem;
+}
+.alumni-heading {
+  margin: 0 0 0.85rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(109, 137, 132, 0.28);
+}
+.alumni-heading .icon {
+  margin-right: 0.45rem;
+}
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem 2rem;
+}
+.alumni-item {
+  min-width: 0;
+  line-height: 1.45;
+}
+.alumni-meta {
+  margin-left: 0.25rem;
+  color: var(--text-light, #666);
+  font-size: 0.92em;
+}
+@media (max-width: 640px) {
+  .alumni-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
