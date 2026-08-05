@@ -439,6 +439,15 @@
     padding-bottom: 0 !important;
     aspect-ratio: 4 / 3;
   }
+  .post-page .blog-carousel--show-full {
+    width: min(82%, 54rem);
+  }
+  .post-page .blog-carousel--show-full .carousel__slide {
+    background-color: var(--background-alt);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   .post-page .blog-video-wide {
     display: block;
     width: min(100%, 860px);
@@ -449,7 +458,8 @@
   @media (max-width: 560px) {
     .neureca-audio-cta { grid-template-columns: auto 1fr; }
     .neureca-audio-cta__action { grid-column: 2; }
-    .post-page .blog-carousel--compact { width: 100%; }
+    .post-page .blog-carousel--compact,
+    .post-page .blog-carousel--show-full { width: 100%; }
   }
 </style>
 
@@ -532,7 +542,7 @@
 <p>Every single student has made remarkable strides in such a remarkably brief span of time! <be>
 Well done, Jack, Mengquan, Holly and Samira!</be></p>
 
-<div class="carousel__holder blog-carousel--compact">
+<div class="carousel__holder blog-carousel--compact blog-carousel--show-full">
     <div id="carousel0" class="carousel">
         
           <input class="carousel__activator" type="radio" name="carousel0" id="0a" checked>
