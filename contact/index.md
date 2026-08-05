@@ -118,7 +118,14 @@ sed do eiusmod tempor
 }
 </style>
 
+<style>
+.contact-page img[src$="logo_uob_chbh.svg"] {
+  border-radius: 0;
+  box-shadow: none;
+}
+</style>
+
 {%
   include figure.html
-  image="images/logo_uob_3.png"
+  image="images/logo_uob_chbh.svg"
 %}
