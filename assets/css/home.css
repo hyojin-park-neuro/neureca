@@ -110,6 +110,43 @@
   text-decoration: none;
 }
 
+#neureca-outward-labels-repaired-photos-v26 .v26-mobile-nav {
+  display: none;
+  position: relative;
+}
+
+#neureca-outward-labels-repaired-photos-v26 .v26-mobile-nav summary {
+  color: var(--foreground);
+  cursor: pointer;
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  list-style: none;
+}
+
+#neureca-outward-labels-repaired-photos-v26 .v26-mobile-nav summary::-webkit-details-marker {
+  display: none;
+}
+
+#neureca-outward-labels-repaired-photos-v26 .v26-mobile-nav nav {
+  position: absolute;
+  top: calc(100% + 0.75rem);
+  right: 0;
+  display: grid;
+  min-width: 10rem;
+  padding: 0.55rem;
+  border: 1px solid var(--border);
+  background: var(--background);
+  box-shadow: 0 0.75rem 1.8rem color-mix(in srgb, var(--foreground) 14%, transparent);
+}
+
+#neureca-outward-labels-repaired-photos-v26 .v26-mobile-nav nav a {
+  padding: 0.55rem 0.7rem;
+  color: var(--foreground);
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+}
+
 #neureca-outward-labels-repaired-photos-v26 .v26-hero {
   display: grid;
   grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.32fr);
@@ -166,9 +203,17 @@
   font-size: 0.9rem;
 }
 
-#neureca-outward-labels-repaired-photos-v26 .v26-methods span {
+#neureca-outward-labels-repaired-photos-v26 .v26-methods span,
+#neureca-outward-labels-repaired-photos-v26 .v26-methods a {
+  color: inherit;
   letter-spacing: 0.08em;
+  text-decoration: none;
   text-transform: uppercase;
+}
+
+#neureca-outward-labels-repaired-photos-v26 .v26-methods a:hover,
+#neureca-outward-labels-repaired-photos-v26 .v26-methods a:focus-visible {
+  color: var(--primary);
 }
 
 #neureca-outward-labels-repaired-photos-v26 .v26-brain-column {
@@ -614,6 +659,9 @@ html[data-dark=true] #neureca-outward-labels-repaired-photos-v26 .v26-submark {
   #neureca-outward-labels-repaired-photos-v26 .v26-navlinks {
     display: none;
   }
+  #neureca-outward-labels-repaired-photos-v26 .v26-mobile-nav {
+    display: block;
+  }
   #neureca-outward-labels-repaired-photos-v26 .v26-lockup {
     width: min(22rem, 100vw - 6rem);
   }
@@ -682,7 +730,9 @@ html[data-dark=true] #neureca-outward-labels-repaired-photos-v26 .v26-submark {
     width: 58%;
   }
   #neureca-outward-labels-repaired-photos-v26 .v26-foot {
+    align-items: center;
     flex-direction: column;
+    text-align: center;
   }
 }
 @media (prefers-reduced-motion: reduce) {

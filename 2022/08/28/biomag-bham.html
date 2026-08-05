@@ -433,9 +433,32 @@
   .neureca-audio-cta__copy { display: grid; gap: .25rem; }
   .neureca-audio-cta__copy small { letter-spacing: .12em; text-transform: uppercase; opacity: .68; }
   .neureca-audio-cta__action { white-space: nowrap; text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; }
+  .post-page .blog-carousel--compact {
+    width: min(88%, 58rem);
+    margin-inline: auto;
+    padding-bottom: 0 !important;
+    aspect-ratio: 4 / 3;
+  }
+  .post-page .blog-carousel--show-full {
+    width: min(82%, 54rem);
+  }
+  .post-page .blog-carousel--show-full .carousel__slide {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .post-page .blog-video-wide {
+    display: block;
+    width: min(100%, 860px);
+    height: auto;
+    margin: 1.5rem auto;
+    aspect-ratio: 16 / 9;
+  }
   @media (max-width: 560px) {
     .neureca-audio-cta { grid-template-columns: auto 1fr; }
     .neureca-audio-cta__action { grid-column: 2; }
+    .post-page .blog-carousel--compact,
+    .post-page .blog-carousel--show-full { width: 100%; }
   }
 </style>
 
@@ -882,6 +905,20 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
   animation-direction: ease-in;
 /*   transition-delay: 3s; */
   display: block;
+}
+.post-page .text-top-image1 {
+  top: auto;
+  bottom: 2.8rem;
+  z-index: 4;
+  font-size: .72rem;
+  font-weight: 300;
+  letter-spacing: .08em;
+  line-height: 1;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .55);
+  animation: none;
+  opacity: .82;
+  white-space: nowrap;
+  pointer-events: none;
 }
 .text-top-image2 {
   position: absolute;

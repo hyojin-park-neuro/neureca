@@ -267,7 +267,10 @@
     padding-top: 5.8rem;
   }
   #neureca-outward-labels-repaired-photos-v26 .v26-lockup {
-    width: clamp(15.5rem, 52vw, 18rem);
+    width: min(16rem, 100vw - 7rem);
+  }
+  #neureca-outward-labels-repaired-photos-v26 .v26-nav-actions {
+    gap: 0.6rem;
   }
   #neureca-outward-labels-repaired-photos-v26 .v26-transmissions-head {
     align-items: flex-start;
@@ -288,9 +291,11 @@
     min-width: 6.25rem;
   }
   #neureca-outward-labels-repaired-photos-v26 .v26-team .v26-connect {
+    align-items: center;
     flex-direction: column;
     margin-top: 4.2rem;
     margin-bottom: 1rem;
+    text-align: center;
   }
 }
 @media (max-width: 520px) {

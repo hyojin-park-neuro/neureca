@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-08-04T22:27:51+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>Dr. Hyojin Park&apos;s Research Group</subtitle><entry><title type="html">NEURECA Group Featured in a Podcast!</title><link href="/2025/01/31/podcast.html" rel="alternate" type="text/html" title="NEURECA Group Featured in a Podcast!" /><published>2025-01-31T00:00:00+00:00</published><updated>2025-01-31T00:00:00+00:00</updated><id>/2025/01/31/podcast</id><content type="html" xml:base="/2025/01/31/podcast.html"><![CDATA[<p><a class="podcast-audio-button" href="https://notebook.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/artifact/45100428-5236-4c1c-b4ad-55e5e579ea80?utm_source=nlm_web_share&amp;utm_medium=google_oo&amp;utm_campaign=art_share_1&amp;utm_content=&amp;utm_smc=nlm_web_share_google_oo_art_share_1_" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">▶</span> Listen to audio</a></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-08-05T09:11:24+00:00</updated><id>/feed.xml</id><title type="html">NEURECA</title><subtitle>Dr. Hyojin Park&apos;s Research Group</subtitle><entry><title type="html">NEURECA Group Featured in a Podcast!</title><link href="/2025/01/31/podcast.html" rel="alternate" type="text/html" title="NEURECA Group Featured in a Podcast!" /><published>2025-01-31T00:00:00+00:00</published><updated>2025-01-31T00:00:00+00:00</updated><id>/2025/01/31/podcast</id><content type="html" xml:base="/2025/01/31/podcast.html"><![CDATA[<p><a class="podcast-audio-button" href="https://notebook.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/artifact/45100428-5236-4c1c-b4ad-55e5e579ea80?utm_source=nlm_web_share&amp;utm_medium=google_oo&amp;utm_campaign=art_share_1&amp;utm_content=&amp;utm_smc=nlm_web_share_google_oo_art_share_1_" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">▶</span> Listen to audio</a></p>
 
 <p>Powered by Gemini! <span class="icon neureca-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg></span>
  <br />
@@ -28,7 +28,7 @@ Its ability to generate engaging, podcast-style audio summaries in a dynamic con
 </style>]]></content><author><name>hyojin-park</name></author><category term="NEURECA" /><category term="Podcast" /><summary type="html"><![CDATA[▶ Listen to audio]]></summary></entry><entry><title type="html">Undergraduate Year3 Students’ Poster Presentation Day</title><link href="/2024/03/08/ug-y3-poster.html" rel="alternate" type="text/html" title="Undergraduate Year3 Students’ Poster Presentation Day" /><published>2024-03-08T00:00:00+00:00</published><updated>2024-03-08T00:00:00+00:00</updated><id>/2024/03/08/ug-y3-poster</id><content type="html" xml:base="/2024/03/08/ug-y3-poster.html"><![CDATA[<p>Every single student has made remarkable strides in such a remarkably brief span of time! <be>
 Well done, Jack, Mengquan, Holly and Samira!</be></p>
 
-<div class="carousel__holder">
+<div class="carousel__holder blog-carousel--compact blog-carousel--show-full">
     <div id="carousel0" class="carousel">
         
           <input class="carousel__activator" type="radio" name="carousel0" id="0a" checked="checked" />
@@ -140,7 +140,7 @@ Well done, Jack, Mengquan, Holly and Samira!</be></p>
     50%  {opacity: 0.8;}
     100% {opacity: 0; display: none;}
 }
-.carousel__holder {width: 100%; position: relative; padding-bottom: 100%; margin: 1rem 0 1rem;}
+.carousel__holder {width: 100%; position: relative; padding-bottom: 75%; margin: 1rem 0 1rem;}
 .carousel {
   height: 100%;
   width: 100%;
@@ -338,6 +338,20 @@ Well done, Jack, Mengquan, Holly and Samira!</be></p>
   animation-direction: ease-in;
 /*   transition-delay: 3s; */
   display: block;
+}
+.post-page .text-top-image1 {
+  top: auto;
+  bottom: 2.8rem;
+  z-index: 4;
+  font-size: .72rem;
+  font-weight: 300;
+  letter-spacing: .08em;
+  line-height: 1;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .55);
+  animation: none;
+  opacity: .82;
+  white-space: nowrap;
+  pointer-events: none;
 }
 .text-top-image2 {
   position: absolute;
@@ -637,7 +651,7 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
 
 <p>Also, she took part in an OPM-MEG experiment! Had a lot of fun!</p>
 
-<div class="carousel__holder">
+<div class="carousel__holder blog-carousel--compact blog-carousel--show-full">
     <div id="carousel0" class="carousel">
         
           <input class="carousel__activator" type="radio" name="carousel0" id="0a" checked="checked" />
@@ -731,7 +745,7 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
     50%  {opacity: 0.8;}
     100% {opacity: 0; display: none;}
 }
-.carousel__holder {width: 100%; position: relative; padding-bottom: 150%; margin: 1rem 0 1rem;}
+.carousel__holder {width: 100%; position: relative; padding-bottom: 75%; margin: 1rem 0 1rem;}
 .carousel {
   height: 100%;
   width: 100%;
@@ -907,6 +921,20 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
 /*   transition-delay: 3s; */
   display: block;
 }
+.post-page .text-top-image1 {
+  top: auto;
+  bottom: 2.8rem;
+  z-index: 4;
+  font-size: .72rem;
+  font-weight: 300;
+  letter-spacing: .08em;
+  line-height: 1;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .55);
+  animation: none;
+  opacity: .82;
+  white-space: nowrap;
+  pointer-events: none;
+}
 .text-top-image2 {
   position: absolute;
   top: 10%;
@@ -1039,7 +1067,7 @@ The studentship will cover UK tuition fees and monthly stipend at UKRI rate for 
 </script>]]></content><author><name>hyojin-park</name></author><category term="Seminar," /><category term="MEG," /><category term="OPM-MEG" /><summary type="html"><![CDATA[Dr. Hyojin Park gave a talk at the ULB Hospital Erasme Brussels, Belgium (Hosted by Dr. Mathieu Bourguignon).]]></summary></entry><entry><title type="html">Undergraduate Year3 Students’ Poster Presentation Day</title><link href="/2023/03/02/ug-y3-poster.html" rel="alternate" type="text/html" title="Undergraduate Year3 Students’ Poster Presentation Day" /><published>2023-03-02T00:00:00+00:00</published><updated>2023-03-02T00:00:00+00:00</updated><id>/2023/03/02/ug-y3-poster</id><content type="html" xml:base="/2023/03/02/ug-y3-poster.html"><![CDATA[<p>My brilliant students showcased their captivating posters at the magnificent Great Hall! Bravo! <br />
 Every single student has made remarkable strides in such a remarkably brief span of time!</p>
 
-<div class="carousel__holder">
+<div class="carousel__holder blog-carousel--compact">
     <div id="carousel0" class="carousel">
         
           <input class="carousel__activator" type="radio" name="carousel0" id="0a" checked="checked" />
@@ -1115,7 +1143,7 @@ Every single student has made remarkable strides in such a remarkably brief span
     50%  {opacity: 0.8;}
     100% {opacity: 0; display: none;}
 }
-.carousel__holder {width: 100%; position: relative; padding-bottom: 60%; margin: 1rem 0 1rem;}
+.carousel__holder {width: 100%; position: relative; padding-bottom: 75%; margin: 1rem 0 1rem;}
 .carousel {
   height: 100%;
   width: 100%;
@@ -1267,6 +1295,20 @@ Every single student has made remarkable strides in such a remarkably brief span
   animation-direction: ease-in;
 /*   transition-delay: 3s; */
   display: block;
+}
+.post-page .text-top-image1 {
+  top: auto;
+  bottom: 2.8rem;
+  z-index: 4;
+  font-size: .72rem;
+  font-weight: 300;
+  letter-spacing: .08em;
+  line-height: 1;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .55);
+  animation: none;
+  opacity: .82;
+  white-space: nowrap;
+  pointer-events: none;
 }
 .text-top-image2 {
   position: absolute;
@@ -1746,6 +1788,20 @@ Talk title: “Top-down and bottom-up processing in cortical entrainment to cont
 /*   transition-delay: 3s; */
   display: block;
 }
+.post-page .text-top-image1 {
+  top: auto;
+  bottom: 2.8rem;
+  z-index: 4;
+  font-size: .72rem;
+  font-weight: 300;
+  letter-spacing: .08em;
+  line-height: 1;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .55);
+  animation: none;
+  opacity: .82;
+  white-space: nowrap;
+  pointer-events: none;
+}
 .text-top-image2 {
   position: absolute;
   top: 10%;
@@ -1905,7 +1961,7 @@ Check it out and join us in uncovering the mysteries of the mind! <br /></p>
 
 <p><a href="https://youtu.be/gQ9G0IbM_z4" target="_blank">How You Can Hear with Your Eyes</a> <span class="icon neureca-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"></path><rect x="2" y="6" width="14" height="12" rx="2"></rect></svg></span></p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gQ9G0IbM_z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>]]></content><author><name>Hyojin Park, Gabriel Byczynski</name></author><category term="Audiovisual" /><category term="Speech" /><category term="Integration" /><category term="BAW" /><category term="YouTube" /><summary type="html"><![CDATA[Get ready for **Brain Awareness Week (BAW) ** 14-20 March 2022!]]></summary></entry><entry><title type="html">Inaugural MEG Symposium, CHBH</title><link href="/2018/05/11/meg-inauguration.html" rel="alternate" type="text/html" title="Inaugural MEG Symposium, CHBH" /><published>2018-05-11T00:00:00+00:00</published><updated>2018-05-11T00:00:00+00:00</updated><id>/2018/05/11/meg-inauguration</id><content type="html" xml:base="/2018/05/11/meg-inauguration.html"><![CDATA[<p>Inaugural MEG (Magnetoencephalography) Symposium at the CHBH, 11 May 2018 <br />
+<iframe class="blog-video-wide" width="860" height="484" src="https://www.youtube.com/embed/gQ9G0IbM_z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>]]></content><author><name>Hyojin Park, Gabriel Byczynski</name></author><category term="Audiovisual" /><category term="Speech" /><category term="Integration" /><category term="BAW" /><category term="YouTube" /><summary type="html"><![CDATA[Get ready for **Brain Awareness Week (BAW) ** 14-20 March 2022!]]></summary></entry><entry><title type="html">Inaugural MEG Symposium, CHBH</title><link href="/2018/05/11/meg-inauguration.html" rel="alternate" type="text/html" title="Inaugural MEG Symposium, CHBH" /><published>2018-05-11T00:00:00+00:00</published><updated>2018-05-11T00:00:00+00:00</updated><id>/2018/05/11/meg-inauguration</id><content type="html" xml:base="/2018/05/11/meg-inauguration.html"><![CDATA[<p>Inaugural MEG (Magnetoencephalography) Symposium at the CHBH, 11 May 2018 <br />
 Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at the CHBH, University of Birmingham.</p>
 
 <div class="carousel__holder">
@@ -2218,6 +2274,20 @@ Dr. Hyojin Park organizes (with Prof. Ole Jensen) the Inaugural MEG Symposium at
   animation-direction: ease-in;
 /*   transition-delay: 3s; */
   display: block;
+}
+.post-page .text-top-image1 {
+  top: auto;
+  bottom: 2.8rem;
+  z-index: 4;
+  font-size: .72rem;
+  font-weight: 300;
+  letter-spacing: .08em;
+  line-height: 1;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .55);
+  animation: none;
+  opacity: .82;
+  white-space: nowrap;
+  pointer-events: none;
 }
 .text-top-image2 {
   position: absolute;

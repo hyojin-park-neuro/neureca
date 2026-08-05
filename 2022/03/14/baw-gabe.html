@@ -433,9 +433,32 @@
   .neureca-audio-cta__copy { display: grid; gap: .25rem; }
   .neureca-audio-cta__copy small { letter-spacing: .12em; text-transform: uppercase; opacity: .68; }
   .neureca-audio-cta__action { white-space: nowrap; text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; }
+  .post-page .blog-carousel--compact {
+    width: min(88%, 58rem);
+    margin-inline: auto;
+    padding-bottom: 0 !important;
+    aspect-ratio: 4 / 3;
+  }
+  .post-page .blog-carousel--show-full {
+    width: min(82%, 54rem);
+  }
+  .post-page .blog-carousel--show-full .carousel__slide {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .post-page .blog-video-wide {
+    display: block;
+    width: min(100%, 860px);
+    height: auto;
+    margin: 1.5rem auto;
+    aspect-ratio: 16 / 9;
+  }
   @media (max-width: 560px) {
     .neureca-audio-cta { grid-template-columns: auto 1fr; }
     .neureca-audio-cta__action { grid-column: 2; }
+    .post-page .blog-carousel--compact,
+    .post-page .blog-carousel--show-full { width: 100%; }
   }
 </style>
 
@@ -509,7 +532,7 @@ Check it out and join us in uncovering the mysteries of the mind! <br></p>
 
 <p><a href="https://youtu.be/gQ9G0IbM_z4" target="_blank">How You Can Hear with Your Eyes</a> <span class="icon neureca-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"></path><rect x="2" y="6" width="14" height="12" rx="2"></rect></svg></span></p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gQ9G0IbM_z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<iframe class="blog-video-wide" width="860" height="484" src="https://www.youtube.com/embed/gQ9G0IbM_z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
   </section>
 
   
