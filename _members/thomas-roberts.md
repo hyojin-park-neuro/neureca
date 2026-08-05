@@ -1,7 +1,7 @@
 ---
 name: Thomas Roberts
 image: images/photo_members/photo_thomas_roberts.jpg
-role: undergrad
+role: msc
 aliases:
   - Thomas Roberts
   - Roberts, Thomas 
