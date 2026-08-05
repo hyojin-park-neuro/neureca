@@ -875,7 +875,7 @@ document.addEventListener('DOMContentLoaded', function () {
   button.className = 'podcast-audio-button';
   button.target = '_blank';
   button.rel = 'noopener noreferrer';
-  button.textContent = 'Listen to NEURECA Lab Intro Podcast';
+  button.innerHTML = '<span aria-hidden="true">▶</span> Listen to NEURECA Lab Intro Podcast';
 
   paragraph.replaceChildren(button);
 });
