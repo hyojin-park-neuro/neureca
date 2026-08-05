@@ -21,6 +21,6 @@ nav:
 
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
 
-## {% include icon.html icon="fa-solid fa-book-open-reader" %}A selection of published works
+## {% include icon.html icon="fa-solid fa-book-open-reader" %}A Selection of Published Works
 
 {% include list.html component="card" data="projects" filters="group: published" %}
