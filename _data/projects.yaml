@@ -96,7 +96,7 @@
   group: published
   image: images/projects/project_nlp_topic.png
   link: https://github.com/hyojin-park-neuro/intro-published/tree/main/2022-more-than-words
-  description: under review
+  description: Published
   repo: hyojin-park-neuro/intro-published
   tags:
     - Topic
@@ -110,7 +110,7 @@
   group: published
   image: images/projects/project_2018_pbio_pid.png
   link: https://github.com/hyojin-park-neuro/intro-published/tree/main/2018-av-pid
-  description: published
+  description: Published
   repo: hyojin-park-neuro/intro-published
   tags:
     - Audiovisual
@@ -123,7 +123,7 @@
   group: published
   image: images/projects/project_2016_elife_lip.png
   link: https://github.com/hyojin-park-neuro/intro-published/tree/main/2016-lip-tracking
-  description: published
+  description: Published
   repo: hyojin-park-neuro/intro-published
   tags:
     - Lip
@@ -132,12 +132,12 @@
     - MEG
     - EEG
     
-- title: Top-down Modulation of Speech
-  subtitle: Fronto-motor Top-down Signals
+- title: Top-Down Modulation of Speech
+  subtitle: Fronto-Motor Top-Down Signals
   group: published
   image: images/projects/project_2015_cb_topdown.png
   link: https://github.com/hyojin-park-neuro/intro-published/tree/main/2015-top-down
-  description: published
+  description: Published
   repo: hyojin-park-neuro/intro-published
   tags:
     - Top-Down
