@@ -1,7 +1,7 @@
 {% assign letterstring = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
 {% assign letters = letterstring | split: ',' %}
 {% assign number = include.number | minus: 1 %}
-<div class="carousel__holder">
+<div class="carousel__holder{% if include.class %} {{ include.class }}{% endif %}">
     <div id="carousel{{ number }}" class="carousel">
         {% for item in page.carousels[number].images %}
           <input class="carousel__activator" type="radio" name="carousel{{ number }}" id="{{ number }}{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
@@ -196,6 +196,20 @@
   animation-direction: ease-in;
 /*   transition-delay: 3s; */
   display: block;
+}
+.post-page .text-top-image1 {
+  top: auto;
+  bottom: 2.8rem;
+  z-index: 4;
+  font-size: .72rem;
+  font-weight: 300;
+  letter-spacing: .08em;
+  line-height: 1;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .55);
+  animation: none;
+  opacity: .82;
+  white-space: nowrap;
+  pointer-events: none;
 }
 .text-top-image2 {
   position: absolute;
