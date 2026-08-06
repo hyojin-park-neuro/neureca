@@ -13,7 +13,7 @@
   date: '2026-07-13'
   link: https://doi.org/hcc5sb
   type: paper
-  image: https://www.biorxiv.org/content/biorxiv/early/2026/07/13/2026.07.08.737094/F1.large.jpg?width=800&height=600&carousel=1
+  image: images/paper_thumbnail/2026_bioRxiv_Reynolds_YA.png
   tags:
   - Audiovisual
   - Speech
@@ -197,7 +197,7 @@
   date: '2025-03-20'
   link: https://doi.org/g9gvf2
   type: paper
-  image: images/logo.svg
+  image: images/paper_thumbnail/2025_Zheng_fNIRS.png
   tags:
   - fNIRS
   - FD-fNIRS
@@ -217,7 +217,7 @@
   date: '2024-09-14'
   link: https://doi.org/gz8gnf
   type: paper
-  image: https://www.biorxiv.org/content/biorxiv/early/2024/09/14/2024.09.13.612424/F1.large.jpg?width=800&height=600&carousel=1
+  image: images/paper_thumbnail/2025_JoN_Biau.jpg
   tags:
   - Audiovisual Speech
   - Theta
@@ -422,7 +422,7 @@
   date: '2024-01-01'
   link: https://doi.org/gtjrqq
   type: paper
-  image: images/figures_papers/Haider_2024_JCoN_Fig1.png
+  image: images/paper_thumbnail/2024_JCoN_Haider.png
   tags:
   - Audiovisual Speech
   - Lip Movement
@@ -443,7 +443,7 @@
   date: '2023-09-18'
   link: https://doi.org/gsrr6j
   type: paper
-  image: https://prod--epp.elifesciences.org/iiif/2/89703%2Fv1%2Fcontent%2F490770v1_fig1.tif/full/max/0/default.jpg
+  image: images/paper_thumbnail/2023_eLife_Park_Get_the_Gist.jpg
   tags:
   - Audiovisual Speech
   - Semantic Gist
@@ -495,7 +495,7 @@
   date: '2022-06-22'
   link: https://doi.org/gr7jkf
   type: paper
-  image: https://www.biorxiv.org/content/biorxiv/early/2022/06/22/2022.06.21.497061/F3.large.jpg?width=800&height=600&carousel=1
+  image: images/paper_thumbnail/2022_bioRxiv_Park_Differential_Roles.jpg
   tags:
   - Semantic Gist
   - Topic
@@ -812,7 +812,7 @@
   date: '2012-04-13'
   link: https://doi.org/fxvrh9
   type: paper
-  image: images/paper_thumbnail_2012_brain_connect.jpg
+  image: images/paper_thumbnail/2012_Brain_Connectivity_Park.jpg
   tags:
   - Working Memory
   - Visuospatial Memory
