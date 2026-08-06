@@ -79,7 +79,7 @@
   date: '2025-05-21'
   link: https://doi.org/g9mjzx
   type: paper
-  image: https://www.jneurosci.org/content/jneuro/45/21/e1797242025/F1.large.jpg?width=800&height=600&carousel=1
+  image: images/paper_thumbnail/2025_JoN_Biau.jpg
   tags:
   - Audiovisual Speech
   - Memory
@@ -217,7 +217,7 @@
   date: '2024-09-14'
   link: https://doi.org/gz8gnf
   type: paper
-  image: images/paper_thumbnail/2025_JoN_Biau.jpg
+  image: images/paper_thumbnail/2024_bioRxiv_Biau.jpg
   tags:
   - Audiovisual Speech
   - Theta
