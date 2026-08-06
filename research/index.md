@@ -33,7 +33,7 @@ type="paper"
 publisher="Annals of Clinical Neurophysiology"
 date="2006-12-30"
 link="https://koreascience.kr/article/JAKO200627362963917.page"
-image="images/paper_thumbnail_2006_language_lateralization.jpg"
+image="images/paper_thumbnail/2006_Annals_of_Clinical_Neurophysiology_Lee.jpg"
 tags=paper_tags
 style="rich"
 %}
