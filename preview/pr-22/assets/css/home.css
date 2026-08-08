@@ -15,8 +15,8 @@
   --accent-foreground: #8e7488;
   --viz-series-1: #6d8984;
   --viz-series-2: #8e7488;
-  --v26-brain-base: color-mix(in srgb, var(--viz-series-1) 42%, var(--foreground) 58%);
-  --v26-brain-hover: color-mix(in srgb, var(--viz-series-2) 78%, var(--foreground) 22%);
+  --v26-brain-base: var(--foreground);
+  --v26-brain-hover: var(--foreground);
   color: var(--foreground);
   background: var(--background);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -234,16 +234,6 @@
   background: var(--background);
 }
 
-#neureca-outward-labels-repaired-photos-v26 .v26-stage::before {
-  content: "";
-  position: absolute;
-  z-index: 0;
-  inset: 7% 5% 10%;
-  border-radius: 50%;
-  background: radial-gradient(circle, color-mix(in srgb, var(--primary) 8%, transparent) 0, transparent 67%);
-  pointer-events: none;
-}
-
 #neureca-outward-labels-repaired-photos-v26 .v26-stage.is-dragging {
   cursor: grabbing;
 }
@@ -272,7 +262,7 @@
   background: var(--v26-brain-base);
   -webkit-mask: url("../../images/brain-line-reference.png") center/contain no-repeat;
   mask: url("../../images/brain-line-reference.png") center/contain no-repeat;
-  opacity: 0.7;
+  opacity: 0.82;
   transition: opacity 0.25s ease;
 }
 
