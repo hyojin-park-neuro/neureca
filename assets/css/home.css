@@ -663,7 +663,7 @@ html[data-dark=true] #neureca-outward-labels-repaired-photos-v26 .v26-submark {
     line-height: 1.02;
   }
   #neureca-outward-labels-repaired-photos-v26 .v26-brain-column {
-    margin-top: 1rem;
+    margin-top: 0;
   }
 }
 @media (max-width: 760px) {
