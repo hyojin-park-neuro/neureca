@@ -104,9 +104,10 @@
         resize();
         var width = state.width;
         var height = state.height;
-        var scale = Math.min(width / 242, height / 182) * 1.05;
+        var isMobile = width <= 760;
+        var scale = Math.min(width / 205, height / 165) * 1.06;
         var centerX = width * 0.51;
-        var centerY = height * 0.485;
+        var centerY = height * (isMobile ? 0.46 : 0.49);
         var selected = state.pinned >= 0 ? state.pinned : state.hover;
         var selectedHemisphere = state.pinned >= 0 ? state.pinnedHemisphere : state.hoverHemisphere;
         var colors = palette();
