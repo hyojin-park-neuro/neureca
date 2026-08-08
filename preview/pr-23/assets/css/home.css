@@ -293,22 +293,14 @@
 
 #neureca-outward-labels-repaired-photos-v26 .v26-detail-name {
   grid-column: 1;
-  grid-row: 1/span 2;
+  grid-row: 1;
   font-weight: 600;
   letter-spacing: -0.01em;
 }
 
-#neureca-outward-labels-repaired-photos-v26 .v26-detail-kicker {
-  grid-column: 2;
-  color: var(--muted-foreground);
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
 #neureca-outward-labels-repaired-photos-v26 .v26-detail-text {
   grid-column: 2;
+  grid-row: 1;
   min-width: 0;
   line-height: 1.45;
 }
@@ -698,7 +690,6 @@ html[data-dark=true] #neureca-outward-labels-repaired-photos-v26 .v26-submark {
     min-height: 6rem;
   }
   #neureca-outward-labels-repaired-photos-v26 .v26-detail-name,
-  #neureca-outward-labels-repaired-photos-v26 .v26-detail-kicker,
   #neureca-outward-labels-repaired-photos-v26 .v26-detail-text {
     grid-column: 1;
     grid-row: auto;
