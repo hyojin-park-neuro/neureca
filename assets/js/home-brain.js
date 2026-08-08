@@ -18,11 +18,8 @@
   };
 
   function ready(callback) {
-    if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", callback, { once: true });
-    } else {
-      callback();
-    }
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", callback, { once: true });
+    else callback();
   }
 
   ready(function () {
@@ -32,8 +29,7 @@
     var detailName = document.getElementById("v26-detail-name");
     var detailText = document.getElementById("v26-detail-text");
     var payload = window.NEURECA_BRAIN_PATHS;
-
-    if (!root || !stage || !canvas || !payload || !payload.paths || !canvas.getContext) return;
+    if (!root || !stage || !canvas || !payload || !payload.paths || !payload.labels || !canvas.getContext) return;
 
     var context = canvas.getContext("2d", { alpha: true, desynchronized: true });
     if (!context) return;
@@ -44,14 +40,14 @@
       height: 0,
       dpr: 1,
       yaw: -0.08,
-      pitch: -0.045,
+      pitch: -0.035,
       dragging: false,
       moved: false,
       lastX: 0,
       lastY: 0,
       hover: "",
       pinned: "",
-      hitPaths: [],
+      hitLabels: [],
       lastFrame: 0,
       lastTick: 0,
       dirty: true
@@ -61,17 +57,8 @@
       return Math.max(minimum, Math.min(maximum, value));
     }
 
-    function cssColor(name, fallback) {
-      var value = getComputedStyle(root).getPropertyValue(name).trim();
-      return value || fallback;
-    }
-
-    function palette() {
-      return {
-        base: cssColor("--v26-brain-base", "#374a47"),
-        quiet: cssColor("--muted-foreground", "#5d6563"),
-        accent: cssColor("--v26-brain-hover", "#8e7488")
-      };
+    function foreground() {
+      return getComputedStyle(root).getPropertyValue("--foreground").trim() || "#191b1b";
     }
 
     function resize() {
@@ -99,18 +86,18 @@
         dx = (x - 0.34) / 0.62;
         dy = (y + 0.52) / 0.35;
         radial = Math.max(0, 1 - dx * dx - dy * dy);
-        return 0.12 + Math.sqrt(radial) * 0.38;
+        return 0.11 + Math.sqrt(radial) * 0.42;
       }
       if (region === "brainstem") {
         dx = (x - 0.22) / 0.2;
         dy = (y + 0.76) / 0.34;
         radial = Math.max(0, 1 - dx * dx - dy * dy);
-        return 0.09 + Math.sqrt(radial) * 0.2;
+        return 0.08 + Math.sqrt(radial) * 0.22;
       }
       dx = (x + 0.01) / 1.08;
       dy = (y - 0.13) / 0.88;
       radial = Math.max(0, 1 - dx * dx - dy * dy);
-      return 0.1 + Math.sqrt(radial) * 0.58;
+      return 0.09 + Math.sqrt(radial) * 0.64;
     }
 
     function project(point, side, region) {
@@ -125,204 +112,169 @@
       var yawZ = -x * sinYaw + z * cosYaw;
       var rotatedY = y * cosPitch - yawZ * sinPitch;
       var rotatedZ = y * sinPitch + yawZ * cosPitch;
-      var perspective = 4.2 / (4.2 - rotatedZ);
-      var scale = Math.min(state.width / 2.28, state.height / 2.08);
-
+      var perspective = 4.15 / (4.15 - rotatedZ);
+      var scale = Math.min(state.width / 2.28, state.height / 2.1);
       var normalX = x * 0.18;
       var normalY = (y - 0.08) * 0.12;
       var normalZ = side;
       var normalYawZ = -normalX * sinYaw + normalZ * cosYaw;
       var facing = normalY * sinPitch + normalYawZ * cosPitch;
-
       return {
         x: state.width * 0.51 + rotatedX * scale * perspective,
-        y: state.height * 0.49 - rotatedY * scale * perspective,
+        y: state.height * 0.495 - rotatedY * scale * perspective,
         z: rotatedZ,
-        facing: facing
+        facing: facing,
+        perspective: perspective
       };
     }
 
-    function visiblePolyline(path, side) {
-      var result = [];
+    function labelItem(label, side) {
+      var center = project([label.x, label.y], side, label.region);
+      if (center.facing < -0.1) return null;
+      var direction = 0.025;
+      var tangent = project([
+        label.x + Math.cos(label.angle) * direction,
+        label.y + Math.sin(label.angle) * direction
+      ], side, label.region);
+      return {
+        type: "label",
+        text: label.text,
+        region: label.region,
+        size: label.size,
+        x: center.x,
+        y: center.y,
+        z: center.z,
+        facing: center.facing,
+        perspective: center.perspective,
+        angle: Math.atan2(tangent.y - center.y, tangent.x - center.x)
+      };
+    }
+
+    function pathItem(path, side) {
+      var points = [];
+      var totalDepth = 0;
       var totalFacing = 0;
       for (var index = 0; index < path.points.length; index += 1) {
         var point = project(path.points[index], side, path.region);
-        result.push(point);
+        points.push(point);
+        totalDepth += point.z;
         totalFacing += point.facing;
       }
-      if (result.length < 2) return null;
-      var facing = totalFacing / result.length;
-      if (facing < -0.08) return null;
-      var first = result[0];
-      var last = result[result.length - 1];
-      var horizontal = last.x - first.x;
-      var vertical = last.y - first.y;
-      if (horizontal < -2 || (Math.abs(horizontal) <= 2 && vertical > 0)) result.reverse();
-      return { points: result, facing: facing, depth: result.reduce(function (sum, point) { return sum + point.z; }, 0) / result.length };
-    }
-
-    function metrics(points) {
-      var distances = [0];
-      for (var index = 1; index < points.length; index += 1) {
-        var dx = points[index].x - points[index - 1].x;
-        var dy = points[index].y - points[index - 1].y;
-        distances.push(distances[index - 1] + Math.sqrt(dx * dx + dy * dy));
-      }
-      return { distances: distances, length: distances[distances.length - 1] };
-    }
-
-    function pointAt(points, pathMetrics, distance) {
-      var distances = pathMetrics.distances;
-      var low = 0;
-      var high = distances.length - 1;
-      while (low < high - 1) {
-        var middle = Math.floor((low + high) / 2);
-        if (distances[middle] < distance) low = middle;
-        else high = middle;
-      }
-      var first = points[low];
-      var second = points[Math.min(low + 1, points.length - 1)];
-      var span = distances[Math.min(low + 1, distances.length - 1)] - distances[low];
-      var ratio = span ? (distance - distances[low]) / span : 0;
+      if (points.length < 2 || totalFacing / points.length < -0.12) return null;
       return {
-        x: first.x + (second.x - first.x) * ratio,
-        y: first.y + (second.y - first.y) * ratio,
-        angle: Math.atan2(second.y - first.y, second.x - first.x)
+        type: "path",
+        region: path.region,
+        points: points,
+        z: totalDepth / points.length + 0.012,
+        facing: totalFacing / points.length
       };
     }
 
-    function measurePhrase(label, fontSize, spacing) {
-      context.font = "500 " + fontSize + "px 'Helvetica Neue', Helvetica, Arial, sans-serif";
-      var width = 0;
-      for (var index = 0; index < label.length; index += 1) {
-        width += context.measureText(label.charAt(index)).width + spacing;
-      }
-      return width;
-    }
+    function drawLabel(item, ink, selected) {
+      var isSelected = item.region === selected;
+      var face = clamp((item.facing + 0.1) / 1.1, 0, 1);
+      var fontSize = clamp(state.width * 0.0091, 5.6, 9.2) * item.size * item.perspective;
+      var weight = item.size >= 1.24 ? 600 : (item.size >= 0.9 ? 500 : 400);
+      var alpha = clamp(0.25 + face * 0.72, 0.18, 0.96);
+      if (selected && !isSelected) alpha *= 0.34;
+      if (isSelected) alpha = 1;
+      var foreshorten = clamp(0.26 + Math.abs(item.facing) * 0.78, 0.26, 1);
 
-    function drawPhrase(label, points, pathMetrics, start, fontSize, spacing, color, alpha, highlighted) {
-      var cursor = start;
-      context.font = "500 " + fontSize + "px 'Helvetica Neue', Helvetica, Arial, sans-serif";
-      context.fillStyle = color;
-      context.globalAlpha = alpha;
+      context.save();
+      context.translate(item.x, item.y);
+      context.rotate(item.angle);
+      context.scale(foreshorten, 1);
+      context.font = weight + " " + fontSize + "px 'Helvetica Neue', Helvetica, Arial, sans-serif";
       context.textAlign = "center";
       context.textBaseline = "middle";
-      context.shadowColor = highlighted ? color : "transparent";
-      context.shadowBlur = highlighted ? 6 : 0;
-
-      for (var index = 0; index < label.length; index += 1) {
-        var character = label.charAt(index);
-        var advance = context.measureText(character).width + spacing;
-        cursor += advance * 0.5;
-        if (cursor > pathMetrics.length) break;
-        var placement = pointAt(points, pathMetrics, cursor);
-        context.save();
-        context.translate(placement.x, placement.y);
-        context.rotate(placement.angle);
-        context.fillText(character, 0, 0);
-        context.restore();
-        cursor += advance * 0.5;
-      }
-      context.shadowBlur = 0;
-      return cursor;
+      context.fillStyle = ink;
+      context.globalAlpha = alpha;
+      context.fillText(item.text, 0, 0);
+      context.restore();
     }
 
-    function drawTypography(item, colors) {
-      var points = item.points;
-      var pathMetrics = metrics(points);
-      if (pathMetrics.length < 13) return;
-
-      var highlighted = item.region === (state.pinned || state.hover);
-      var baseFont = clamp(state.width * 0.0108, 6.1, 10.4);
-      var compactLabel = item.label;
-      var spacing = clamp(baseFont * 0.12, 0.7, 1.2);
-      var phraseWidth = measurePhrase(compactLabel, baseFont, spacing);
-      var fontSize = baseFont;
-
-      if (phraseWidth > pathMetrics.length * 0.9) {
-        fontSize = baseFont * (pathMetrics.length * 0.9 / phraseWidth);
-        fontSize = Math.max(4.7, fontSize);
-        spacing = Math.max(0.45, fontSize * 0.11);
-        phraseWidth = measurePhrase(compactLabel, fontSize, spacing);
+    function drawPath(item, ink, selected) {
+      var isSelected = item.region === selected;
+      var face = clamp((item.facing + 0.12) / 1.12, 0, 1);
+      var alpha = clamp(0.28 + face * 0.68, 0.2, 0.96);
+      if (selected && !isSelected) alpha *= 0.4;
+      if (isSelected) alpha = 1;
+      context.strokeStyle = ink;
+      context.globalAlpha = alpha;
+      context.lineWidth = (0.7 + face * 1.05) * (isSelected ? 1.2 : 1);
+      context.lineCap = "round";
+      context.lineJoin = "round";
+      context.beginPath();
+      var drawing = false;
+      for (var index = 0; index < item.points.length; index += 1) {
+        var point = item.points[index];
+        if (point.facing < -0.12) {
+          drawing = false;
+          continue;
+        }
+        if (!drawing) {
+          context.moveTo(point.x, point.y);
+          drawing = true;
+        } else {
+          context.lineTo(point.x, point.y);
+        }
       }
-      if (phraseWidth > pathMetrics.length || fontSize < 4.7) return;
-
-      var gap = Math.max(fontSize * 2.2, 12);
-      var repeats = Math.max(1, Math.floor((pathMetrics.length + gap) / (phraseWidth + gap)));
-      var used = repeats * phraseWidth + (repeats - 1) * gap;
-      var cursor = Math.max(0, (pathMetrics.length - used) * 0.5);
-      var face = clamp((item.facing + 0.08) / 1.08, 0, 1);
-      var depthLight = clamp((item.depth + 0.8) / 1.6, 0.2, 1);
-      var alpha = highlighted ? 1 : clamp(0.2 + face * 0.63 + depthLight * 0.12, 0.18, 0.88);
-      var color = highlighted ? colors.accent : (face < 0.28 ? colors.quiet : colors.base);
-
-      for (var repeat = 0; repeat < repeats; repeat += 1) {
-        cursor = drawPhrase(compactLabel, points, pathMetrics, cursor, fontSize, spacing, color, alpha, highlighted);
-        cursor += gap;
-      }
+      context.stroke();
       context.globalAlpha = 1;
     }
 
     function draw() {
       resize();
       context.clearRect(0, 0, state.width, state.height);
-      var colors = palette();
-      var renderItems = [];
-      var hitPaths = [];
+      var ink = foreground();
       var selected = state.pinned || state.hover;
+      var items = [];
+      var hitLabels = [];
+      var sideIndex;
+      var side;
+      var item;
 
+      for (var labelIndex = 0; labelIndex < payload.labels.length; labelIndex += 1) {
+        for (sideIndex = 0; sideIndex < 2; sideIndex += 1) {
+          side = sideIndex === 0 ? 1 : -1;
+          item = labelItem(payload.labels[labelIndex], side);
+          if (!item) continue;
+          items.push(item);
+          if (item.facing > 0.08) hitLabels.push(item);
+        }
+      }
       for (var pathIndex = 0; pathIndex < payload.paths.length; pathIndex += 1) {
-        var path = payload.paths[pathIndex];
-        for (var sideIndex = 0; sideIndex < 2; sideIndex += 1) {
-          var side = sideIndex === 0 ? 1 : -1;
-          var visible = visiblePolyline(path, side);
-          if (!visible) continue;
-          var item = {
-            label: path.label,
-            region: path.region,
-            points: visible.points,
-            facing: visible.facing,
-            depth: visible.depth
-          };
-          if (item.region === selected) item.depth += 4;
-          renderItems.push(item);
-          if (visible.facing > 0.12) hitPaths.push(item);
+        for (sideIndex = 0; sideIndex < 2; sideIndex += 1) {
+          side = sideIndex === 0 ? 1 : -1;
+          item = pathItem(payload.paths[pathIndex], side);
+          if (item) items.push(item);
         }
       }
 
-      renderItems.sort(function (first, second) { return first.depth - second.depth; });
-      for (var index = 0; index < renderItems.length; index += 1) drawTypography(renderItems[index], colors);
-      state.hitPaths = hitPaths;
+      items.sort(function (first, second) { return first.z - second.z; });
+      for (var index = 0; index < items.length; index += 1) {
+        if (items[index].type === "path") drawPath(items[index], ink, selected);
+        else drawLabel(items[index], ink, selected);
+      }
+      state.hitLabels = hitLabels;
+      state.dirty = false;
       root.classList.add("v26-live");
-    }
-
-    function distanceToSegment(px, py, first, second) {
-      var dx = second.x - first.x;
-      var dy = second.y - first.y;
-      var lengthSquared = dx * dx + dy * dy;
-      var amount = lengthSquared ? ((px - first.x) * dx + (py - first.y) * dy) / lengthSquared : 0;
-      amount = clamp(amount, 0, 1);
-      var x = first.x + amount * dx;
-      var y = first.y + amount * dy;
-      var offsetX = px - x;
-      var offsetY = py - y;
-      return offsetX * offsetX + offsetY * offsetY;
     }
 
     function nearestRegion(clientX, clientY) {
       var rectangle = canvas.getBoundingClientRect();
       var x = clientX - rectangle.left;
       var y = clientY - rectangle.top;
-      var bestDistance = Math.pow(Math.max(18, state.width * 0.025), 2);
+      var bestDistance = Math.pow(Math.max(19, state.width * 0.026), 2);
       var bestRegion = "";
-      for (var pathIndex = state.hitPaths.length - 1; pathIndex >= 0; pathIndex -= 1) {
-        var path = state.hitPaths[pathIndex];
-        for (var pointIndex = 1; pointIndex < path.points.length; pointIndex += 1) {
-          var distance = distanceToSegment(x, y, path.points[pointIndex - 1], path.points[pointIndex]);
-          if (distance < bestDistance) {
-            bestDistance = distance;
-            bestRegion = path.region;
-          }
+      for (var index = state.hitLabels.length - 1; index >= 0; index -= 1) {
+        var label = state.hitLabels[index];
+        var dx = label.x - x;
+        var dy = label.y - y;
+        var distance = dx * dx + dy * dy;
+        if (distance < bestDistance) {
+          bestDistance = distance;
+          bestRegion = label.region;
         }
       }
       return bestRegion;
@@ -332,7 +284,7 @@
       var detail = REGION_DETAILS[region];
       if (!detail) {
         detailName.textContent = "Explore the brain";
-        detailText.textContent = "Drag to rotate; hover or tap a typographic line to reveal its brain region.";
+        detailText.textContent = "Drag to rotate; hover or tap a region name to explore the anatomy.";
       } else {
         detailName.textContent = detail[0];
         detailText.textContent = detail[1];
@@ -390,7 +342,7 @@
     });
     stage.addEventListener("dblclick", function () {
       state.yaw = -0.08;
-      state.pitch = -0.045;
+      state.pitch = -0.035;
       state.pinned = "";
       setHover("");
       updateDetail("");
@@ -414,22 +366,18 @@
       }
     });
 
-    if (window.ResizeObserver) {
-      new ResizeObserver(function () { state.dirty = true; resize(); }).observe(stage);
-    } else {
-      window.addEventListener("resize", function () { state.dirty = true; });
-    }
+    if (window.ResizeObserver) new ResizeObserver(function () { state.dirty = true; resize(); }).observe(stage);
+    else window.addEventListener("resize", function () { state.dirty = true; });
 
     function animate(time) {
       var elapsed = Math.min(48, time - (state.lastTick || time));
       state.lastTick = time;
       if (!reducedMotion && !state.dragging && !state.pinned && !state.hover) {
-        state.yaw += elapsed * 0.0001;
+        state.yaw += elapsed * 0.00011;
         state.dirty = true;
       }
       if (state.dirty && (state.dragging || time - state.lastFrame > 32)) {
         draw();
-        state.dirty = false;
         state.lastFrame = time;
       }
       window.requestAnimationFrame(animate);
