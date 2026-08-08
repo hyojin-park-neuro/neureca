@@ -142,7 +142,7 @@
         var depthBins = Object.create(null);
         for (i = 0; i < projected.length; i += 1) {
           var candidate = projected[i];
-          var bin = Math.round(candidate.x / 6) + ":" + Math.round(candidate.y / 6);
+          var bin = Math.round(candidate.x / 11) + ":" + Math.round(candidate.y / 11);
           var current = depthBins[bin];
           var candidatePriority = candidate.depth + candidate.facing * 10 + candidate.major * 8;
           if (!current || candidatePriority > current.priority) {
@@ -169,11 +169,7 @@
           return { x: p.x, y: p.y, halfWidth: Math.max(28, label.length * 3.25), halfHeight: 8 };
         });
 
-        var occupied = Object.create(null);
-        var visible = [];
-        projected.slice().sort(function (a, b) {
-          return (b.major * 12 + b.facing * 7 + b.depth * 0.08) - (a.major * 12 + a.facing * 7 + a.depth * 0.08);
-        }).forEach(function (p) {
+        var visible = projected.filter(function (p) {
           var face = Math.max(0, Math.min(1, p.facing));
           var size = 7.25 + face * 1.9 + p.major * 0.85;
           var text = payload.glyphs[p.glyph];
@@ -182,26 +178,9 @@
           var blockedByAnchor = anchorZones.some(function (zone) {
             return Math.abs(p.x - zone.x) < zone.halfWidth + halfWidth && Math.abs(p.y - zone.y) < zone.halfHeight + halfHeight;
           });
-          if (blockedByAnchor) return;
-
-          var minColumn = Math.floor((p.x - halfWidth) / 6);
-          var maxColumn = Math.floor((p.x + halfWidth) / 6);
-          var minRow = Math.floor((p.y - halfHeight) / 5);
-          var maxRow = Math.floor((p.y + halfHeight) / 5);
-          var blocked = false;
-          var column;
-          var row;
-          for (column = minColumn; column <= maxColumn && !blocked; column += 1) {
-            for (row = minRow; row <= maxRow; row += 1) {
-              if (occupied[column + ":" + row]) { blocked = true; break; }
-            }
-          }
-          if (blocked) return;
-          for (column = minColumn; column <= maxColumn; column += 1) {
-            for (row = minRow; row <= maxRow; row += 1) occupied[column + ":" + row] = true;
-          }
+          if (blockedByAnchor) return false;
           p.size = size;
-          visible.push(p);
+          return true;
         });
         visible.sort(function (a, b) { return a.depth - b.depth; });
 
