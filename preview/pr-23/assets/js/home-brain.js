@@ -13,7 +13,7 @@
         "CINGULATE", "FRONTAL SULCI", "LOBULES I–V", "LOBULE VI", "CRUS I",
         "CRUS II", "LOBULE VIIb", "LOBULE VIII", "LOBULES IX–X"
       ];
-      var anchorRegions = { 0: true, 2: true, 5: true, 7: true, 11: true, 20: true, 21: true };
+      var anchorRegions = { 0: true, 5: true, 7: true, 11: true, 20: true };
       var brainPoints = [];
 
       payload.points.forEach(function (source) {
@@ -153,17 +153,67 @@
         projected.sort(function (a, b) { return a.depth - b.depth; });
         state.projected = projected;
 
+        var anchorCandidates = Object.create(null);
+        projected.forEach(function (p) {
+          if (!anchorRegions[p.region] && p.region !== selected) return;
+          var score = p.facing * 26 + p.depth * 0.14 + p.major * 6;
+          if (!anchorCandidates[p.region] || score > anchorCandidates[p.region].score) {
+            anchorCandidates[p.region] = { point: p, score: score };
+          }
+        });
+        var anchors = Object.keys(anchorCandidates).map(function (key) {
+          return anchorCandidates[key].point;
+        });
+        var anchorZones = anchors.map(function (p) {
+          var label = regionLabels[p.region];
+          return { x: p.x, y: p.y, halfWidth: Math.max(28, label.length * 3.25), halfHeight: 8 };
+        });
+
+        var occupied = Object.create(null);
+        var visible = [];
+        projected.slice().sort(function (a, b) {
+          return (b.major * 12 + b.facing * 7 + b.depth * 0.08) - (a.major * 12 + a.facing * 7 + a.depth * 0.08);
+        }).forEach(function (p) {
+          var face = Math.max(0, Math.min(1, p.facing));
+          var size = 7.25 + face * 1.9 + p.major * 0.85;
+          var text = payload.glyphs[p.glyph];
+          var halfWidth = Math.max(6, text.length * size * 0.25);
+          var halfHeight = size * 0.42;
+          var blockedByAnchor = anchorZones.some(function (zone) {
+            return Math.abs(p.x - zone.x) < zone.halfWidth + halfWidth && Math.abs(p.y - zone.y) < zone.halfHeight + halfHeight;
+          });
+          if (blockedByAnchor) return;
+
+          var minColumn = Math.floor((p.x - halfWidth) / 6);
+          var maxColumn = Math.floor((p.x + halfWidth) / 6);
+          var minRow = Math.floor((p.y - halfHeight) / 5);
+          var maxRow = Math.floor((p.y + halfHeight) / 5);
+          var blocked = false;
+          var column;
+          var row;
+          for (column = minColumn; column <= maxColumn && !blocked; column += 1) {
+            for (row = minRow; row <= maxRow; row += 1) {
+              if (occupied[column + ":" + row]) { blocked = true; break; }
+            }
+          }
+          if (blocked) return;
+          for (column = minColumn; column <= maxColumn; column += 1) {
+            for (row = minRow; row <= maxRow; row += 1) occupied[column + ":" + row] = true;
+          }
+          p.size = size;
+          visible.push(p);
+        });
+        visible.sort(function (a, b) { return a.depth - b.depth; });
+
         function drawPass(highlighted) {
-          for (var j = 0; j < projected.length; j += 1) {
-            var p = projected[j];
+          for (var j = 0; j < visible.length; j += 1) {
+            var p = visible[j];
             var isSelected = p.region === selected && (selectedHemisphere === 2 || p.hemisphere === selectedHemisphere);
             if (isSelected !== highlighted) continue;
-            var face = Math.max(0, Math.min(1, p.facing));
-            var depthTone = Math.max(0.42, Math.min(1, 0.64 + p.depth * 0.0045));
-            var size = 6.35 + face * 1.65 + p.major * 0.8;
+            var depthTone = Math.max(0.5, Math.min(0.96, 0.65 + p.depth * 0.0048));
             context.fillStyle = isSelected ? colors.hover : colors.base;
-            context.globalAlpha = isSelected ? 1 : (selected >= 0 ? depthTone * 0.42 : depthTone);
-            context.font = (isSelected || p.major ? "600 " : "450 ") + (isSelected ? size * 1.34 : size).toFixed(1) + "px " + helvetica;
+            context.globalAlpha = isSelected ? 1 : (selected >= 0 ? depthTone * 0.34 : depthTone);
+            context.font = (isSelected || p.major ? "600 " : "450 ") + (isSelected ? p.size * 1.3 : p.size).toFixed(1) + "px " + helvetica;
             context.fillText(payload.glyphs[p.glyph], p.x, p.y);
           }
         }
@@ -171,20 +221,12 @@
         drawPass(false);
         if (selected >= 0) drawPass(true);
 
-        var anchors = Object.create(null);
-        projected.forEach(function (p) {
-          if (!anchorRegions[p.region]) return;
-          var key = p.region + ":" + p.hemisphere;
-          var score = p.facing * 24 + p.depth * 0.12 + p.major * 5;
-          if (!anchors[key] || score > anchors[key].score) anchors[key] = { point: p, score: score };
-        });
-        Object.keys(anchors).forEach(function (key) {
-          var p = anchors[key].point;
+        anchors.forEach(function (p) {
           var isSelected = p.region === selected && (selectedHemisphere === 2 || p.hemisphere === selectedHemisphere);
           var label = regionLabels[p.region];
-          var maxSize = label.length > 16 ? 10.1 : 11.2;
-          var anchorSize = isSelected ? maxSize * 1.24 : maxSize;
-          context.globalAlpha = isSelected ? 1 : (selected >= 0 ? 0.32 : Math.max(0.68, Math.min(0.94, 0.76 + p.depth * 0.003)));
+          var maxSize = label.length > 16 ? 11.2 : 12.4;
+          var anchorSize = isSelected ? maxSize * 1.28 : maxSize;
+          context.globalAlpha = isSelected ? 1 : (selected >= 0 ? 0.28 : Math.max(0.78, Math.min(0.98, 0.84 + p.depth * 0.0025)));
           context.fillStyle = isSelected ? colors.hover : colors.base;
           context.font = (isSelected ? "650 " : "600 ") + anchorSize.toFixed(1) + "px " + helvetica;
           context.fillText(label, p.x, p.y);
