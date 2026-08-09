@@ -805,6 +805,28 @@
         width: 90%;
         height: 90%;
       }
+      #neureca-outward-labels-repaired-photos-v26 .v26-v02-face {
+        visibility: hidden;
+        opacity: 0;
+      }
+      #neureca-outward-labels-repaired-photos-v26 .v26-v02-face.is-active {
+        visibility: visible;
+        opacity: 1;
+      }
+      #neureca-outward-labels-repaired-photos-v26 .v26-v02-depth {
+        display: none;
+      }
+      #neureca-outward-labels-repaired-photos-v26 .v26-v02-surface,
+      html[data-dark="true"] #neureca-outward-labels-repaired-photos-v26 .v26-v02-surface {
+        transform: translateZ(2px);
+        mix-blend-mode: normal;
+      }
+      #neureca-outward-labels-repaired-photos-v26 .v26-v02-light {
+        transform: translateZ(5px);
+      }
+      #neureca-outward-labels-repaired-photos-v26 .v26-v02-hotspots {
+        transform: translateZ(8px);
+      }
       #neureca-outward-labels-repaired-photos-v26 .v26-detail {
         grid-template-columns: 1fr;
         min-height: 6rem;
