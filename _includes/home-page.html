@@ -1,4 +1,4 @@
-<div id="neureca-outward-labels-repaired-photos-v26" aria-label="NEURECA homepage">
+<div id="neureca-outward-labels-repaired-photos-v26" data-main-brain-image-mode="{{ site.main_brain_image_mode | default: 'manual' }}" data-main-brain-image="{{ site.main_brain_image | default: 'main-brain-image-v01' }}" data-main-brain-image-daily-start="{{ site.main_brain_image_daily_start | default: 'main-brain-image-v01' }}" data-main-brain-image-daily-epoch="{{ site.main_brain_image_daily_epoch | default: '2026-08-09' }}" aria-label="NEURECA homepage">
   <header class="v26-nav">
     <a class="v26-brand" href="{{ '/' | relative_url }}" aria-label="NEURECA, Hyojin Park’s Research Group — home">
       <svg class="v26-lockup" viewBox="0 0 720 180" role="img" aria-label="NEURECA — Hyojin Park’s Research Group — Sound, Vision, Meaning">
@@ -16,7 +16,53 @@
 
   <main class="v26-hero">
     <section class="v26-copy" id="v26-research" aria-labelledby="v26-title"><p class="v26-definition text-small text-muted"><span>Neural Representations &amp; Computational Architecture</span><span>of Multi-modal Communication across Lifespan</span></p><h1 id="v26-title"><span class="v26-hero-line">Decoding how the brain</span><span class="v26-hero-line">constructs meaning from</span><span class="v26-hero-line">sound, vision and context.</span></h1><p style="margin-bottom: 1em;"> </p><p class="v26-lede">Our mission is to conduct rigorous research and push the boundaries of what is currently known, with the ultimate goal of improving human communication and enhancing quality of life across lifespan.</p><div class="v26-methods text-small" aria-label="Methods and approaches"><a href="https://www.birmingham.ac.uk/research/centres-institutes/human-brain-health/faciities/magnetoencephalography" target="_blank" rel="noopener noreferrer">MEG</a><a href="https://wellcome.org/insights/articles/opm-meg-revolution-brain-imaging-technology" target="_blank" rel="noopener noreferrer">OPM-MEG</a><a href="https://en.wikipedia.org/wiki/Electroencephalography" target="_blank" rel="noopener noreferrer">EEG</a><span>Eye tracking</span><span>RIFT</span><span>Brain stimulation</span><span>Computational modelling</span></div></section>
-    <section class="v26-brain-column" aria-label="Interactive anatomical word brain"><div class="v26-stage" id="v26-stage" role="img" aria-describedby="v26-detail-text" aria-label="A slowly rotating three-dimensional brain with two cerebral hemispheres made from brain-region names. Drag to rotate and hover or tap an area to identify it.">{% include home-brain-fallback.html %}<canvas id="v26-canvas"></canvas></div><div class="v26-detail" aria-live="polite"><strong class="v26-detail-name text-small" id="v26-detail-name">Explore the brain</strong><span class="v26-detail-text text-small text-muted" id="v26-detail-text">Drag to rotate; hover or tap to reveal the region and its connection to NEURECA research.</span></div></section>
+    <section class="v26-brain-column" aria-label="Interactive anatomical word brain">
+      <div class="v26-stage" id="v26-stage" role="group" aria-describedby="v26-detail-text" aria-label="An automatically rotating typographic brain with lateral and medial views. Drag to rotate; hover or tap a labelled area to identify it.">
+        {% include home-brain-fallback.html %}
+        <canvas id="v26-canvas"></canvas>
+        <div class="v26-v02" id="v26-v02" aria-hidden="true">
+          <div class="v26-v02-scene" id="v26-v02-scene">
+            <div class="v26-v02-face v26-v02-lateral is-active" data-v02-face="lateral">
+              <img class="v26-v02-image v26-v02-depth v26-v02-depth-far" src="{{ '/assets/images/main-brain-image-v02-lateral.webp' | relative_url }}" alt="" aria-hidden="true">
+              <img class="v26-v02-image v26-v02-depth v26-v02-depth-near" src="{{ '/assets/images/main-brain-image-v02-lateral.webp' | relative_url }}" alt="" aria-hidden="true">
+              <img class="v26-v02-image v26-v02-surface" src="{{ '/assets/images/main-brain-image-v02-lateral.webp' | relative_url }}" alt="A lateral anatomical brain assembled from repeated brain-region names.">
+              <div class="v26-v02-hotspots" aria-label="Lateral brain regions">
+                <button type="button" data-region="0" style="--x:23%;--y:35%;--w:28%;--h:21%" aria-label="Prefrontal cortex"></button>
+                <button type="button" data-region="1" style="--x:25%;--y:55%;--w:25%;--h:20%" aria-label="Inferior frontal gyrus"></button>
+                <button type="button" data-region="2" style="--x:45%;--y:33%;--w:18%;--h:31%" aria-label="Motor cortex"></button>
+                <button type="button" data-region="4" style="--x:56%;--y:35%;--w:18%;--h:30%" aria-label="Somatosensory cortex"></button>
+                <button type="button" data-region="5" style="--x:73%;--y:32%;--w:26%;--h:28%" aria-label="Parietal cortex"></button>
+                <button type="button" data-region="7" style="--x:50%;--y:63%;--w:24%;--h:17%" aria-label="Auditory cortex"></button>
+                <button type="button" data-region="8" style="--x:57%;--y:53%;--w:27%;--h:15%" aria-label="Superior temporal sulcus"></button>
+                <button type="button" data-region="10" style="--x:69%;--y:68%;--w:29%;--h:22%" aria-label="Temporal cortex"></button>
+                <button type="button" data-region="11" style="--x:91%;--y:50%;--w:19%;--h:28%" aria-label="Visual cortex"></button>
+                <button type="button" data-region="20" style="--x:78%;--y:86%;--w:34%;--h:25%" aria-label="Cerebellum"></button>
+              </div>
+            </div>
+            <div class="v26-v02-face v26-v02-medial" data-v02-face="medial" aria-hidden="true">
+              <img class="v26-v02-image v26-v02-depth v26-v02-depth-far" src="{{ '/assets/images/main-brain-image-v02-medial.webp' | relative_url }}" alt="" aria-hidden="true">
+              <img class="v26-v02-image v26-v02-depth v26-v02-depth-near" src="{{ '/assets/images/main-brain-image-v02-medial.webp' | relative_url }}" alt="" aria-hidden="true">
+              <img class="v26-v02-image v26-v02-surface" src="{{ '/assets/images/main-brain-image-v02-medial.webp' | relative_url }}" alt="A medial anatomical brain assembled from repeated brain-region names.">
+              <div class="v26-v02-hotspots" aria-label="Medial brain regions">
+                <button type="button" data-v02-region="medial-pfc" style="--x:15%;--y:39%;--w:24%;--h:28%" aria-label="Medial prefrontal cortex"></button>
+                <button type="button" data-v02-region="supplementary-motor" style="--x:33%;--y:13%;--w:31%;--h:20%" aria-label="Supplementary motor area"></button>
+                <button type="button" data-v02-region="cingulate" style="--x:46%;--y:25%;--w:47%;--h:20%" aria-label="Cingulate cortex"></button>
+                <button type="button" data-v02-region="corpus-callosum" style="--x:45%;--y:37%;--w:41%;--h:15%" aria-label="Corpus callosum"></button>
+                <button type="button" data-v02-region="precuneus" style="--x:69%;--y:18%;--w:22%;--h:20%" aria-label="Precuneus"></button>
+                <button type="button" data-v02-region="calcarine" style="--x:77%;--y:36%;--w:16%;--h:29%" aria-label="Calcarine sulcus"></button>
+                <button type="button" data-v02-region="medial-occipital" style="--x:89%;--y:45%;--w:20%;--h:23%" aria-label="Medial occipital cortex"></button>
+                <button type="button" data-v02-region="lingual" style="--x:80%;--y:55%;--w:29%;--h:18%" aria-label="Lingual gyrus"></button>
+                <button type="button" data-v02-region="parahippocampal" style="--x:53%;--y:62%;--w:44%;--h:18%" aria-label="Parahippocampal gyrus"></button>
+                <button type="button" data-v02-region="medial-temporal" style="--x:54%;--y:72%;--w:41%;--h:18%" aria-label="Medial temporal cortex"></button>
+                <button type="button" data-v02-region="medial-cerebellum" style="--x:80%;--y:77%;--w:29%;--h:25%" aria-label="Cerebellum"></button>
+              </div>
+            </div>
+            <span class="v26-v02-light" aria-hidden="true"></span>
+          </div>
+        </div>
+      </div>
+      <div class="v26-detail" aria-live="polite"><strong class="v26-detail-name text-small" id="v26-detail-name">Explore the brain</strong><span class="v26-detail-text text-small text-muted" id="v26-detail-text">Rotates automatically; drag to rotate and hover or tap a labelled area to explore its function.</span></div>
+    </section>
   </main>
 
   {% include home-transmissions.html %}

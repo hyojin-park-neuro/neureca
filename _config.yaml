@@ -5,6 +5,13 @@ description: Dr. Hyojin Park's Research Group
 header: images/background.svg
 footer: images/background.svg
 
+# Homepage brain renderer.
+# Set mode to "daily" to alternate at 00:00 UTC, or "manual" to keep the version below.
+main_brain_image_mode: daily
+main_brain_image: main-brain-image-v01
+main_brain_image_daily_start: main-brain-image-v01
+main_brain_image_daily_epoch: "2026-08-09"
+
 # site social media and other links
 links:
   email: h.park@bham.ac.uk
