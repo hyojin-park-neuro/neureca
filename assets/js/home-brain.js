@@ -553,15 +553,18 @@
       }
 
       function titleCaseRegionName(name) {
-        return String(name || "").replace(/(^|[\s/(\-–])([a-z])/g, function (match, separator, letter) {
+        var titledName = String(name || "").replace(/(^|[\s/(\-–])([a-z])/g, function (match, separator, letter) {
           return separator + letter.toUpperCase();
+        });
+        return titledName.replace(/\b(?:A|An|And|As|At|But|By|For|From|In|Nor|Of|On|Or|Per|The|To|Via|Vs|With)\b/g, function (word, offset) {
+          return offset === 0 ? word : word.toLowerCase();
         });
       }
 
       function updateDetail(regionIndex, hemisphere) {
         var region = payload.regions[regionIndex];
         if (!region) {
-          detailName.textContent = "Explore the brain";
+          detailName.textContent = "Explore the Brain";
           detailText.textContent = activeMainBrainImage === MAIN_BRAIN_IMAGE_V02
             ? "Rotates automatically; drag to rotate and hover or tap a labelled area to explore its function."
             : "Drag to rotate; hover or tap to reveal the region and its connection to NEURECA research.";
