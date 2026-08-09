@@ -564,7 +564,7 @@
       function updateDetail(regionIndex, hemisphere) {
         var region = payload.regions[regionIndex];
         if (!region) {
-          detailName.textContent = "Explore the brain";
+          detailName.textContent = "Explore the Brain";
           detailText.textContent = activeMainBrainImage === MAIN_BRAIN_IMAGE_V02
             ? "Rotates automatically; drag to rotate and hover or tap a labelled area to explore its function."
             : "Drag to rotate; hover or tap to reveal the region and its connection to NEURECA research.";
