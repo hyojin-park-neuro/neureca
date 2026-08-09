@@ -42,6 +42,8 @@
 
       var canvas = root.querySelector("#v26-canvas");
       var stage = root.querySelector("#v26-stage");
+      var v02 = root.querySelector("#v26-v02");
+      var v02Scene = root.querySelector("#v26-v02-scene");
       var detailName = root.querySelector("#v26-detail-name");
       var detailText = root.querySelector("#v26-detail-text");
       var baseProbe = root.querySelector(".v26-color-probe.base");
@@ -530,12 +532,80 @@
         var region = payload.regions[regionIndex];
         if (!region) {
           detailName.textContent = "Explore the brain";
-          detailText.textContent = "Drag to rotate; hover or tap to reveal the region and its connection to NEURECA research.";
+          detailText.textContent = activeMainBrainImage === MAIN_BRAIN_IMAGE_V02
+            ? "Move to reveal depth; hover or tap a labelled area to explore its connection to NEURECA research."
+            : "Drag to rotate; hover or tap to reveal the region and its connection to NEURECA research.";
           return;
         }
         var side = hemisphere < 2 ? (hemisphere === 0 ? "Left " : "Right ") : "";
         detailName.textContent = side + region.name;
         detailText.textContent = region.detail;
+      }
+
+      function setupMainBrainImageV02() {
+        if (!v02 || !v02Scene) return;
+        var hotspots = Array.prototype.slice.call(v02Scene.querySelectorAll("[data-region]"));
+        var pinnedRegion = -1;
+
+        function setLens(button) {
+          if (!button) {
+            v02Scene.classList.remove("is-region-active");
+            updateDetail(-1, -1);
+            return;
+          }
+          v02Scene.style.setProperty("--v02-lens-x", button.style.getPropertyValue("--x"));
+          v02Scene.style.setProperty("--v02-lens-y", button.style.getPropertyValue("--y"));
+          v02Scene.classList.add("is-region-active");
+          updateDetail(Number(button.getAttribute("data-region")), 2);
+        }
+
+        hotspots.forEach(function (button) {
+          button.addEventListener("pointerenter", function () {
+            if (pinnedRegion < 0) setLens(button);
+          });
+          button.addEventListener("focus", function () { setLens(button); });
+          button.addEventListener("blur", function () {
+            if (pinnedRegion < 0) setLens(null);
+          });
+          button.addEventListener("click", function (event) {
+            event.stopPropagation();
+            var region = Number(button.getAttribute("data-region"));
+            if (pinnedRegion === region) {
+              pinnedRegion = -1;
+              setLens(null);
+            } else {
+              pinnedRegion = region;
+              setLens(button);
+            }
+          });
+        });
+
+        v02Scene.addEventListener("pointermove", function (event) {
+          var rect = v02Scene.getBoundingClientRect();
+          var nx = Math.max(-1, Math.min(1, (event.clientX - rect.left) / rect.width * 2 - 1));
+          var ny = Math.max(-1, Math.min(1, (event.clientY - rect.top) / rect.height * 2 - 1));
+          v02Scene.style.setProperty("--v02-ry", (nx * 4.6).toFixed(2) + "deg");
+          v02Scene.style.setProperty("--v02-rx", (-ny * 2.8).toFixed(2) + "deg");
+          v02Scene.style.setProperty("--v02-light-x", ((nx + 1) * 50).toFixed(1) + "%");
+          v02Scene.style.setProperty("--v02-light-y", ((ny + 1) * 50).toFixed(1) + "%");
+        });
+
+        v02Scene.addEventListener("pointerleave", function () {
+          v02Scene.style.setProperty("--v02-ry", "0deg");
+          v02Scene.style.setProperty("--v02-rx", "0deg");
+          v02Scene.style.setProperty("--v02-light-x", "50%");
+          v02Scene.style.setProperty("--v02-light-y", "42%");
+          if (pinnedRegion < 0) setLens(null);
+        });
+
+        v02.setAttribute("aria-hidden", "false");
+        root.classList.add("v26-live");
+        updateDetail(-1, -1);
+      }
+
+      if (activeMainBrainImage === MAIN_BRAIN_IMAGE_V02) {
+        setupMainBrainImageV02();
+        return;
       }
 
       function nearestRegion(clientX, clientY) {
