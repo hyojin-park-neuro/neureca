@@ -661,6 +661,7 @@
           resumeAt = performance.now() + 1600;
           v02Scene.classList.remove("is-dragging");
           try { v02Scene.releasePointerCapture(event.pointerId); } catch (error) {}
+          if (dragMoved) resetV02Detail();
         }
 
         v02Scene.addEventListener("pointerup", endV02Pointer);
