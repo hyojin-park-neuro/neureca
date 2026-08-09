@@ -294,6 +294,7 @@
 #neureca-outward-labels-repaired-photos-v26 .v26-v02-surface {
   z-index: 3;
   transform: translateZ(18px);
+  mix-blend-mode: multiply;
   filter: contrast(1.025) drop-shadow(0 12px 14px rgba(20, 22, 22, 0.12));
 }
 
@@ -330,6 +331,7 @@
   overflow: hidden;
   pointer-events: none;
   opacity: 0;
+  mix-blend-mode: multiply;
   clip-path: ellipse(10.5% 8.5% at var(--v02-lens-x) var(--v02-lens-y));
   transform: translateZ(34px);
   transition: opacity 150ms ease;
@@ -378,7 +380,12 @@ html[data-dark=true] #neureca-outward-labels-repaired-photos-v26 .v26-v02-depth 
 }
 
 html[data-dark=true] #neureca-outward-labels-repaired-photos-v26 .v26-v02-surface {
+  mix-blend-mode: screen;
   filter: invert(1) contrast(1.025) drop-shadow(0 12px 14px rgba(230, 235, 234, 0.1));
+}
+
+html[data-dark=true] #neureca-outward-labels-repaired-photos-v26 .v26-v02-lens {
+  mix-blend-mode: screen;
 }
 
 html[data-dark=true] #neureca-outward-labels-repaired-photos-v26 .v26-v02-lens .v26-v02-image {
