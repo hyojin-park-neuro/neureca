@@ -1,0 +1,85 @@
+.neureca-logo-mark {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  min-height: 7rem;
+  color: #191b1b;
+}
+
+.neureca-logo-mark svg {
+  width: min(46%, 6.5rem);
+  height: auto;
+  overflow: visible;
+}
+
+.neureca-logo-mark .neureca-logo-node {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.neureca-logo-mark.is-animated .neureca-logo-node {
+  animation: neureca-logo-pulse 2.8s ease-in-out infinite;
+}
+
+.neureca-image-frame {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  min-height: inherit;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--background) 96%, var(--text));
+}
+
+.neureca-image-frame > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.neureca-image-fallback {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.card-image .neureca-image-frame {
+  aspect-ratio: 3/2;
+}
+
+.citation-image .neureca-image-frame {
+  position: absolute;
+  inset: 0;
+  min-height: 100%;
+}
+
+.citation-image > img.citation-shared-fallback {
+  object-fit: contain;
+  padding: 27%;
+  background: color-mix(in srgb, var(--background) 96%, var(--text));
+}
+
+html[data-dark=true] .neureca-logo-mark {
+  color: #f0f4f3;
+}
+
+@keyframes neureca-logo-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.18);
+    opacity: 0.72;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .neureca-logo-mark.is-animated .neureca-logo-node {
+    animation: none;
+  }
+}
+
+/*# sourceMappingURL=neureca-logo-mark.css.map */
