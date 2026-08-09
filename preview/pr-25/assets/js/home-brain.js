@@ -78,7 +78,10 @@
         return {
           base: getComputedStyle(baseProbe).color || getComputedStyle(root).color,
           hover: getComputedStyle(hoverProbe).color || getComputedStyle(root).color,
-          background: rootStyle.getPropertyValue("--background").trim() || "#ffffff"
+          background: rootStyle.getPropertyValue("--background").trim() || "#ffffff",
+          shadow: document.documentElement.getAttribute("data-dark") === "true"
+            ? "rgba(255, 255, 255, 0.12)"
+            : "rgba(25, 27, 27, 0.17)"
         };
       }
 
@@ -173,19 +176,19 @@
         context.save();
         context.translate(point.x, point.y);
         context.rotate(point.angle);
-        context.shadowColor = colors.base;
-        context.shadowBlur = isSelected ? 7 : 4 + depthShade * 3;
+        context.shadowColor = colors.shadow;
+        context.shadowBlur = isSelected ? 6 : 3 + depthShade * 2;
         context.shadowOffsetX = 0;
-        context.shadowOffsetY = isSelected ? 2 : 1.5 + depthShade * 1.5;
+        context.shadowOffsetY = isSelected ? 2 : 1 + depthShade * 1.2;
         context.globalAlpha = isDimmed ? 0.36 : 1;
         roundedRectPath(-width / 2, -height / 2, width, height, height * 0.44);
         context.fillStyle = colors.background;
         context.fill();
         context.shadowColor = "transparent";
-        context.globalAlpha = isDimmed ? 0.045 : (isSelected ? 0.12 : 0.035 + depthShade * 0.045);
+        context.globalAlpha = isDimmed ? 0.035 : (isSelected ? 0.1 : 0.018 + depthShade * 0.032);
         context.fillStyle = colors.base;
         context.fill();
-        context.globalAlpha = isDimmed ? 0.2 : (isSelected ? 0.78 : 0.2 + depthShade * 0.18);
+        context.globalAlpha = isDimmed ? 0.16 : (isSelected ? 0.72 : 0.14 + depthShade * 0.15);
         context.strokeStyle = isSelected ? colors.hover : colors.base;
         context.lineWidth = isSelected ? 1.15 : 0.55;
         context.stroke();
@@ -266,20 +269,39 @@
           context.moveTo(hull[0].x, hull[0].y);
           for (i = 1; i < hull.length; i += 1) context.lineTo(hull[i].x, hull[i].y);
           context.closePath();
-          context.shadowColor = colors.base;
+          context.shadowColor = colors.shadow;
           context.shadowBlur = isMobile ? 15 : 24;
           context.shadowOffsetX = 4;
           context.shadowOffsetY = 7;
-          context.globalAlpha = 0.055;
-          context.fillStyle = colors.base;
+          context.globalAlpha = 0.98;
+          context.fillStyle = colors.background;
           context.fill();
           context.shadowColor = "transparent";
-          context.globalAlpha = 0.16;
+          context.globalAlpha = 0.018;
+          context.fillStyle = colors.base;
+          context.fill();
+          context.globalAlpha = 0.1;
           context.lineWidth = 0.75;
           context.strokeStyle = colors.base;
           context.stroke();
           context.restore();
         }
+
+        projected.forEach(function (p, index) {
+          if (index % (isMobile ? 3 : 2) !== 0 || p.facing < 0.02) return;
+          var microLabel = regionLabels[p.region];
+          var microSize = (isMobile ? 3.05 : 3.45) + Math.max(0, Math.min(1, p.facing)) * 0.65;
+          context.save();
+          context.translate(p.x, p.y);
+          context.rotate(p.angle);
+          context.globalAlpha = selected >= 0 ? 0.09 : 0.18;
+          context.fillStyle = colors.base;
+          context.font = "520 " + microSize.toFixed(1) + "px " + helvetica;
+          context.textAlign = "center";
+          context.textBaseline = "middle";
+          context.fillText(microLabel, 0, 0, isMobile ? 36 : 46);
+          context.restore();
+        });
 
         var depthBins = Object.create(null);
         projected.forEach(function (candidate) {
@@ -301,8 +323,8 @@
         var anchors = Object.keys(anchorCandidates).map(function (key) { return anchorCandidates[key].point; });
         var anchorZones = anchors.map(function (p) {
           var label = v02RegionLabels[p.region];
-          var size = label.length > 19 ? 7.6 : 8.8;
-          var anchorWidth = Math.min(isMobile ? 108 : 132, Math.max(52, label.length * size * 0.48 + 16));
+          var size = label.length > 19 ? 8.7 : 10.1;
+          var anchorWidth = Math.min(isMobile ? 116 : 142, Math.max(56, label.length * size * 0.48 + 18));
           return { x: p.x, y: p.y, halfWidth: anchorWidth / 2, halfHeight: (size + 10) / 2 };
         });
 
@@ -314,10 +336,10 @@
         candidates.forEach(function (p) {
           var label = v02RegionLabels[p.region];
           var face = Math.max(0, Math.min(1, p.facing));
-          var fontSize = (isMobile ? 4.75 : 5.15) + face * (isMobile ? 0.85 : 1.05) + p.major * 0.2;
+          var fontSize = (isMobile ? 5.2 : 5.75) + face * (isMobile ? 0.95 : 1.15) + p.major * 0.22;
           if (label.length > 20) fontSize *= 0.87;
-          var tileWidth = Math.min(isMobile ? 66 : 82, Math.max(27, label.length * fontSize * 0.43 + 10));
-          var tileHeight = fontSize + (isMobile ? 5.5 : 6.5);
+          var tileWidth = Math.min(isMobile ? 76 : 94, Math.max(31, label.length * fontSize * 0.43 + 12));
+          var tileHeight = fontSize + (isMobile ? 6.5 : 7.5);
           var blockedByAnchor = anchorZones.some(function (zone) {
             return Math.abs(p.x - zone.x) < zone.halfWidth + tileWidth * 0.36 && Math.abs(p.y - zone.y) < zone.halfHeight + tileHeight * 0.42;
           });
@@ -363,9 +385,9 @@
         anchors.forEach(function (p) {
           var isSelected = p.region === selected && (selectedHemisphere === 2 || p.hemisphere === selectedHemisphere);
           var label = v02RegionLabels[p.region];
-          var baseSize = label.length > 19 ? 7.6 : 8.8;
-          var anchorSize = baseSize * (isSelected ? 1.48 : 1);
-          var anchorWidth = Math.min(isMobile ? 116 : 142, Math.max(54, label.length * anchorSize * 0.48 + 18));
+          var baseSize = label.length > 19 ? 8.7 : 10.1;
+          var anchorSize = baseSize * (isSelected ? 1.36 : 1);
+          var anchorWidth = Math.min(isMobile ? 124 : 152, Math.max(58, label.length * anchorSize * 0.48 + 20));
           var anchorHeight = anchorSize + (isSelected ? 12 : 10);
           drawV02Tile(
             p,
