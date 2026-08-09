@@ -442,7 +442,7 @@
         var height = state.height;
         var isMobile = width <= 760;
         var scale = Math.min(width / 205, height / 165) * 1.06;
-        var centerX = width * 0.51;
+        var centerX = width * (isMobile ? 0.48 : 0.49);
         var centerY = height * (isMobile ? 0.46 : 0.49);
         var selected = state.pinned >= 0 ? state.pinned : state.hover;
         var selectedHemisphere = state.pinned >= 0 ? state.pinnedHemisphere : state.hoverHemisphere;
