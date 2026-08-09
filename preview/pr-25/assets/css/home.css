@@ -237,7 +237,7 @@
 #neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v02] .v26-stage {
   cursor: default;
   overflow: visible;
-  background: var(--background);
+  background: transparent;
 }
 
 #neureca-outward-labels-repaired-photos-v26 .v26-v02 {
