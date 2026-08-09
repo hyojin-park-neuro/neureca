@@ -533,7 +533,7 @@
         if (!region) {
           detailName.textContent = "Explore the brain";
           detailText.textContent = activeMainBrainImage === MAIN_BRAIN_IMAGE_V02
-            ? "Move to reveal depth; hover or tap a labelled area to explore its connection to NEURECA research."
+            ? "Rotates automatically; drag to rotate and hover or tap a labelled area to explore its function."
             : "Drag to rotate; hover or tap to reveal the region and its connection to NEURECA research.";
           return;
         }
@@ -544,63 +544,152 @@
 
       function setupMainBrainImageV02() {
         if (!v02 || !v02Scene) return;
-        var hotspots = Array.prototype.slice.call(v02Scene.querySelectorAll("[data-region]"));
-        var pinnedRegion = -1;
+        var lateralFace = v02Scene.querySelector('[data-v02-face="lateral"]');
+        var medialFace = v02Scene.querySelector('[data-v02-face="medial"]');
+        var hotspots = Array.prototype.slice.call(v02Scene.querySelectorAll("[data-region], [data-v02-region]"));
+        var medialDetails = {
+          "medial-pfc": ["Medial prefrontal cortex", "Integrates context, goals, and social meaning during natural communication."],
+          "supplementary-motor": ["Supplementary motor area", "Supports internally generated action sequences, speech planning, and temporal coordination."],
+          "cingulate": ["Cingulate cortex", "Monitors uncertainty, salience, and adaptive control across changing cognitive states."],
+          "corpus-callosum": ["Corpus callosum", "Connects the cerebral hemispheres and supports interhemispheric information exchange."],
+          "precuneus": ["Precuneus", "Contributes to internally directed cognition, contextual memory, and perspective integration."],
+          "calcarine": ["Calcarine sulcus", "Contains primary visual cortex and anchors early cortical analysis of visual input."],
+          "medial-occipital": ["Medial occipital cortex", "Supports visual representations used during reading, lip perception, and multisensory communication."],
+          "lingual": ["Lingual gyrus", "Contributes to complex visual form, word, and scene processing."],
+          "parahippocampal": ["Parahippocampal gyrus", "Links contextual memory with ongoing perceptual and semantic information."],
+          "medial-temporal": ["Medial temporal cortex", "Supports contextual memory and prediction during meaning construction."],
+          "medial-cerebellum": ["Cerebellum", "Supports timing, prediction, and coordinated cognitive and sensorimotor processing."]
+        };
+        var angle = 0;
+        var pitch = 0;
+        var dragging = false;
+        var dragMoved = false;
+        var pointerId = null;
+        var lastX = 0;
+        var lastY = 0;
+        var lastTime = 0;
+        var resumeAt = performance.now() + 1400;
+        var pointerInside = false;
+        var activeFace = "lateral";
+        var finePointer = window.matchMedia && window.matchMedia("(hover: hover)").matches;
 
-        function setLens(button) {
-          if (!button) {
-            v02Scene.classList.remove("is-region-active");
-            updateDetail(-1, -1);
+        function resetV02Detail() {
+          updateDetail(-1, -1);
+        }
+
+        function showV02Detail(button) {
+          var medialKey = button.getAttribute("data-v02-region");
+          if (medialKey && medialDetails[medialKey]) {
+            detailName.textContent = medialDetails[medialKey][0];
+            detailText.textContent = medialDetails[medialKey][1];
             return;
           }
-          v02Scene.style.setProperty("--v02-lens-x", button.style.getPropertyValue("--x"));
-          v02Scene.style.setProperty("--v02-lens-y", button.style.getPropertyValue("--y"));
-          v02Scene.classList.add("is-region-active");
           updateDetail(Number(button.getAttribute("data-region")), 2);
+        }
+
+        function renderRotation() {
+          var normalized = ((angle % 360) + 360) % 360;
+          var nextFace = normalized > 90 && normalized < 270 ? "medial" : "lateral";
+          v02Scene.style.setProperty("--v02-angle", angle.toFixed(2) + "deg");
+          v02Scene.style.setProperty("--v02-rx", pitch.toFixed(2) + "deg");
+          if (nextFace !== activeFace) {
+            activeFace = nextFace;
+            lateralFace.classList.toggle("is-active", activeFace === "lateral");
+            medialFace.classList.toggle("is-active", activeFace === "medial");
+            lateralFace.setAttribute("aria-hidden", activeFace === "lateral" ? "false" : "true");
+            medialFace.setAttribute("aria-hidden", activeFace === "medial" ? "false" : "true");
+            resetV02Detail();
+          }
         }
 
         hotspots.forEach(function (button) {
           button.addEventListener("pointerenter", function () {
-            if (pinnedRegion < 0) setLens(button);
+            resumeAt = performance.now() + 1200;
+            showV02Detail(button);
           });
-          button.addEventListener("focus", function () { setLens(button); });
-          button.addEventListener("blur", function () {
-            if (pinnedRegion < 0) setLens(null);
+          button.addEventListener("pointerleave", resetV02Detail);
+          button.addEventListener("focus", function () {
+            resumeAt = performance.now() + 3000;
+            showV02Detail(button);
           });
+          button.addEventListener("blur", resetV02Detail);
           button.addEventListener("click", function (event) {
-            event.stopPropagation();
-            var region = Number(button.getAttribute("data-region"));
-            if (pinnedRegion === region) {
-              pinnedRegion = -1;
-              setLens(null);
-            } else {
-              pinnedRegion = region;
-              setLens(button);
+            if (dragMoved) {
+              event.preventDefault();
+              return;
             }
+            resumeAt = performance.now() + 3500;
+            showV02Detail(button);
           });
+        });
+
+        v02Scene.addEventListener("pointerenter", function () {
+          if (finePointer) pointerInside = true;
+        });
+
+        v02Scene.addEventListener("pointerdown", function (event) {
+          dragging = true;
+          dragMoved = false;
+          pointerId = event.pointerId;
+          lastX = event.clientX;
+          lastY = event.clientY;
+          v02Scene.classList.add("is-dragging");
+          v02Scene.setPointerCapture(event.pointerId);
         });
 
         v02Scene.addEventListener("pointermove", function (event) {
           var rect = v02Scene.getBoundingClientRect();
           var nx = Math.max(-1, Math.min(1, (event.clientX - rect.left) / rect.width * 2 - 1));
           var ny = Math.max(-1, Math.min(1, (event.clientY - rect.top) / rect.height * 2 - 1));
-          v02Scene.style.setProperty("--v02-ry", (nx * 4.6).toFixed(2) + "deg");
-          v02Scene.style.setProperty("--v02-rx", (-ny * 2.8).toFixed(2) + "deg");
           v02Scene.style.setProperty("--v02-light-x", ((nx + 1) * 50).toFixed(1) + "%");
           v02Scene.style.setProperty("--v02-light-y", ((ny + 1) * 50).toFixed(1) + "%");
+          if (!dragging || event.pointerId !== pointerId) return;
+          var dx = event.clientX - lastX;
+          var dy = event.clientY - lastY;
+          if (Math.abs(dx) + Math.abs(dy) > 1) dragMoved = true;
+          angle += dx * 0.58;
+          pitch = Math.max(-6, Math.min(6, pitch - dy * 0.14));
+          lastX = event.clientX;
+          lastY = event.clientY;
+          renderRotation();
         });
 
+        function endV02Pointer(event) {
+          if (!dragging || event.pointerId !== pointerId) return;
+          dragging = false;
+          pointerId = null;
+          resumeAt = performance.now() + 1600;
+          v02Scene.classList.remove("is-dragging");
+          try { v02Scene.releasePointerCapture(event.pointerId); } catch (error) {}
+        }
+
+        v02Scene.addEventListener("pointerup", endV02Pointer);
+        v02Scene.addEventListener("pointercancel", endV02Pointer);
         v02Scene.addEventListener("pointerleave", function () {
-          v02Scene.style.setProperty("--v02-ry", "0deg");
-          v02Scene.style.setProperty("--v02-rx", "0deg");
+          pointerInside = false;
+          resumeAt = performance.now() + 900;
           v02Scene.style.setProperty("--v02-light-x", "50%");
           v02Scene.style.setProperty("--v02-light-y", "42%");
-          if (pinnedRegion < 0) setLens(null);
+          resetV02Detail();
         });
+
+        function animateV02(time) {
+          var elapsed = Math.min(64, time - (lastTime || time));
+          lastTime = time;
+          if (!reducedMotion && !dragging && !pointerInside && time >= resumeAt) {
+            angle += elapsed * 0.012;
+          }
+          if (!dragging && Math.abs(pitch) > 0.02) pitch *= 0.94;
+          if (Math.abs(angle) > 1080) angle %= 360;
+          renderRotation();
+          requestAnimationFrame(animateV02);
+        }
 
         v02.setAttribute("aria-hidden", "false");
         root.classList.add("v26-live");
-        updateDetail(-1, -1);
+        resetV02Detail();
+        renderRotation();
+        requestAnimationFrame(animateV02);
       }
 
       if (activeMainBrainImage === MAIN_BRAIN_IMAGE_V02) {
