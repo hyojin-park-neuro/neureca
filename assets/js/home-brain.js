@@ -45,6 +45,8 @@
         var reduceV03Motion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
         if (v03Video && !reduceV03Motion) {
           v03Video.muted = true;
+          v03Video.defaultPlaybackRate = 0.8;
+          v03Video.playbackRate = 0.8;
           v03Video.preload = "auto";
           var playV03Video = v03Video.play();
           if (playV03Video && typeof playV03Video.catch === "function") playV03Video.catch(function () {});
