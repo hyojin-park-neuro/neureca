@@ -163,14 +163,16 @@
 
 #neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-hero {
   position: relative;
-  display: block;
+  display: flex;
   width: calc(100% + var(--v26-page-gutter) + var(--v26-page-gutter));
   max-width: none;
   min-height: 36rem;
   aspect-ratio: 16/9;
   margin-inline: calc(-1 * var(--v26-page-gutter));
   padding: clamp(2.5rem, 5vw, 5rem) var(--v26-page-gutter);
-  padding-left: clamp(0.35rem, 0.8vw, 0.75rem);
+  padding-left: clamp(0.75rem, 1.5vw, 1.5rem);
+  align-items: center;
+  justify-content: flex-start;
   overflow: hidden;
   isolation: isolate;
 }
@@ -197,7 +199,9 @@
   z-index: 1;
   width: min(48rem, 100vw - 2rem);
   max-width: 48rem;
-  padding-top: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   background: transparent !important;
   color: #ffffff;
   text-shadow: 0 1px 18px rgba(0, 0, 0, 0.24);
@@ -209,7 +213,11 @@
 }
 
 #neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-lede {
+  width: 100%;
   max-width: 64ch;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 #neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-methods {
