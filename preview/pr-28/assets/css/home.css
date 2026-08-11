@@ -921,10 +921,12 @@ html[data-dark=true] #neureca-outward-labels-repaired-photos-v26 .v26-submark {
     min-height: 50rem;
     aspect-ratio: auto;
     padding: 3rem var(--v26-page-gutter) 16rem clamp(0.35rem, 0.8vw, 0.75rem);
+    align-items: flex-start;
   }
   #neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-copy {
     width: 100%;
     max-width: none;
+    transform: none;
   }
   #neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-v03-video {
     object-position: center bottom;
