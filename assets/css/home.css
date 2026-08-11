@@ -15,14 +15,16 @@
   --accent-foreground: #8e7488;
   --viz-series-1: #6d8984;
   --viz-series-2: #8e7488;
+  --v26-page-gutter: clamp(.85rem, 2vw, 2rem);
   --v26-brain-base: color-mix(in srgb, var(--foreground) 86%, var(--background) 14%);
   --v26-brain-hover: var(--foreground);
   color: var(--foreground);
   background: var(--background);
+  box-sizing: border-box;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 100%;
   min-height: 100vh;
-  padding-inline: clamp(0.85rem, 2vw, 2rem);
+  padding-inline: var(--v26-page-gutter);
   text-align: left;
   overflow: hidden;
 }
@@ -155,6 +157,86 @@
   padding-block: clamp(2rem, 6vw, 5rem);
 }
 
+#neureca-outward-labels-repaired-photos-v26 .v26-v03-media {
+  display: none;
+}
+
+#neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-hero {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% + var(--v26-page-gutter) + var(--v26-page-gutter));
+  max-width: none;
+  min-height: 36rem;
+  aspect-ratio: 16/9;
+  margin-inline: calc(-1 * var(--v26-page-gutter));
+  padding: clamp(2.5rem, 5vw, 5rem) var(--v26-page-gutter);
+  padding-left: clamp(3rem, 5vw, 4.25rem);
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+#neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-v03-media {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  display: block;
+  overflow: hidden;
+  background: #090713;
+}
+
+#neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-v03-video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  object-position: center center;
+}
+
+#neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-copy {
+  position: relative;
+  z-index: 1;
+  width: min(48rem, 100vw - 2rem);
+  max-width: 48rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transform: translate(5rem, -97px);
+  background: transparent !important;
+  color: #ffffff;
+  text-shadow: 0 1px 18px rgba(0, 0, 0, 0.24);
+}
+
+#neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-definition,
+#neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-lede {
+  color: #ffffff;
+}
+
+#neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-lede {
+  width: 100%;
+  max-width: 64ch;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+#neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-methods {
+  display: flex;
+  color: #ffffff;
+  border-top-color: rgba(255, 255, 255, 0.4);
+}
+
+#neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-methods a:hover,
+#neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-methods a:focus-visible {
+  color: #e3c5df;
+}
+
+#neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-brain-column {
+  display: none;
+}
+
 #neureca-outward-labels-repaired-photos-v26 .v26-copy {
   padding-top: clamp(1rem, 5vw, 4rem);
   min-width: 0;
@@ -172,6 +254,10 @@
 #neureca-outward-labels-repaired-photos-v26 .v26-definition span {
   display: block;
   white-space: nowrap;
+}
+
+#neureca-outward-labels-repaired-photos-v26 .v26-definition .v26-definition-mobile-break {
+  display: none;
 }
 
 #neureca-outward-labels-repaired-photos-v26 h1 {
@@ -794,6 +880,9 @@ html[data-dark=true] #neureca-outward-labels-repaired-photos-v26 .v26-submark {
   #neureca-outward-labels-repaired-photos-v26 .v26-v02-scene {
     transition: none;
   }
+  #neureca-outward-labels-repaired-photos-v26 .v26-v03-video {
+    display: none;
+  }
 }
 @media (max-width: 760px) {
   #neureca-outward-labels-repaired-photos-v26 .v26-hero {
@@ -805,8 +894,15 @@ html[data-dark=true] #neureca-outward-labels-repaired-photos-v26 .v26-submark {
   #neureca-outward-labels-repaired-photos-v26 .v26-hero-line {
     white-space: normal;
   }
+  #neureca-outward-labels-repaired-photos-v26 .v26-definition,
+  #neureca-outward-labels-repaired-photos-v26 .v26-definition span {
+    text-align: left;
+  }
   #neureca-outward-labels-repaired-photos-v26 .v26-definition span {
     white-space: normal;
+  }
+  #neureca-outward-labels-repaired-photos-v26 .v26-definition .v26-definition-mobile-break {
+    display: block;
   }
   #neureca-outward-labels-repaired-photos-v26 h1 {
     font-size: clamp(1.85rem, 8vw, 2.75rem);
@@ -831,6 +927,20 @@ html[data-dark=true] #neureca-outward-labels-repaired-photos-v26 .v26-submark {
   }
   #neureca-outward-labels-repaired-photos-v26 .v26-copy {
     padding-top: 0;
+  }
+  #neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-hero {
+    min-height: 50rem;
+    aspect-ratio: auto;
+    padding: 3rem var(--v26-page-gutter) 16rem clamp(0.35rem, 0.8vw, 0.75rem);
+    align-items: flex-start;
+  }
+  #neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-copy {
+    width: 100%;
+    max-width: none;
+    transform: none;
+  }
+  #neureca-outward-labels-repaired-photos-v26[data-active-main-brain-image=main-brain-image-v03] .v26-v03-video {
+    object-position: center bottom;
   }
   #neureca-outward-labels-repaired-photos-v26 .v26-stage {
     aspect-ratio: 1/1;
