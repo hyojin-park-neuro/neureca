@@ -10,7 +10,7 @@ footer: images/background.svg
 # Set mode to "daily" to cycle through all three at 00:00 UTC,
 # or "manual" to keep the version selected below.
 main_brain_image_mode: manual
-main_brain_image: main-brain-image-v01
+main_brain_image: main-brain-image-v03
 main_brain_image_daily_start: main-brain-image-v01
 main_brain_image_daily_epoch: "2026-08-09"
 
