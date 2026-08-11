@@ -171,7 +171,7 @@
   aspect-ratio: 16/9;
   margin-inline: calc(-1 * var(--v26-page-gutter));
   padding: clamp(2.5rem, 5vw, 5rem) var(--v26-page-gutter);
-  padding-left: clamp(0.75rem, 1.5vw, 1.5rem);
+  padding-left: clamp(3rem, 5vw, 4.25rem);
   align-items: center;
   justify-content: flex-start;
   overflow: hidden;
@@ -203,6 +203,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transform: translateY(-2rem);
   background: transparent !important;
   color: #ffffff;
   text-shadow: 0 1px 18px rgba(0, 0, 0, 0.24);
