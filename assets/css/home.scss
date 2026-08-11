@@ -254,6 +254,10 @@
       white-space: nowrap;
     }
 
+    #neureca-outward-labels-repaired-photos-v26 .v26-definition .v26-definition-mobile-break {
+      display: none;
+    }
+
     #neureca-outward-labels-repaired-photos-v26 h1 {
       margin: 0;
       max-width: none;
@@ -865,7 +869,10 @@
       #neureca-outward-labels-repaired-photos-v26 .v26-hero { grid-template-columns: 1fr; }
       #neureca-outward-labels-repaired-photos-v26 .v26-copy { padding-top: 0; }
       #neureca-outward-labels-repaired-photos-v26 .v26-hero-line { white-space: normal; }
+      #neureca-outward-labels-repaired-photos-v26 .v26-definition,
+      #neureca-outward-labels-repaired-photos-v26 .v26-definition span { text-align: left; }
       #neureca-outward-labels-repaired-photos-v26 .v26-definition span { white-space: normal; }
+      #neureca-outward-labels-repaired-photos-v26 .v26-definition .v26-definition-mobile-break { display: block; }
       #neureca-outward-labels-repaired-photos-v26 h1 {
         font-size: clamp(1.85rem, 8vw, 2.75rem);
         line-height: 1.02;
