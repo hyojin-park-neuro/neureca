@@ -15,6 +15,21 @@
       - MEG
       - EEG
 
+- id: doi:10.64898/2026.05.02.722174
+  type: paper
+  date: 2026-5-4
+  image: https://www.biorxiv.org/content/biorxiv/early/2026/05/04/2026.05.02.722174/F1.large.jpg?width=800&height=600&carousel=1
+  tags:
+      - Language Comprehension
+      - Working Memory
+      - Activity-Silent
+      - Reactivation
+      - Syntactic Processing
+      - Prefrontal Cortex
+      - MEG
+      - EEG
+      - Multivariate Analysis
+      
 - id: doi:10.1088/1741-2552/ae30ab
   type: paper
   date: 2026-1-6
