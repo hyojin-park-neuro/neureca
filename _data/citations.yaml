@@ -28,6 +28,33 @@
   - EEG
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.64898/2026.05.02.722174
+  title: Transformed reactivation of latent working memory enables hierarchical language
+    processing
+  authors:
+  - Jiaqi Li
+  - Yali Pan
+  - Hyojin Park
+  - Peter Hagoort
+  - Huan Luo
+  - Ole Jensen
+  publisher: openRxiv
+  date: '2026-05-04'
+  link: https://doi.org/hcjssk
+  type: paper
+  image: https://www.biorxiv.org/content/biorxiv/early/2026/05/04/2026.05.02.722174/F1.large.jpg?width=800&height=600&carousel=1
+  tags:
+  - Language Comprehension
+  - Working Memory
+  - Activity-Silent
+  - Reactivation
+  - Syntactic Processing
+  - Prefrontal Cortex
+  - MEG
+  - EEG
+  - Multivariate Analysis
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1088/1741-2552/ae30ab
   title: Modulating speech tracking through brain state-dependent changes in audio
     loudness
