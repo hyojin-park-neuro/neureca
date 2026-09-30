@@ -12,7 +12,11 @@ nav:
 {% include neureca-icon.html name="mic-signal" %} **[NEURECA Group featured in a podcast!](https://notebooklm.google.com/notebook/ed8af334-6baf-4f64-9530-138f5fed01a6/audio){:target="_blank"}** (powered by Gemini {% include neureca-icon.html name="sparkles" %})
 
 ## 2026
-- Dr. Hyojin Park is invited to give a talk at the BrainLink X-Lab Day–Technology Exchange through Brain Circulation Network. Andong, South Korea. 11-13 November 2026.
+- {% include neureca-icon.html name="party-popper" %} Huge Congratulations! Two papers are accepted at **NeurIPS 2026 Main Track**!! 
+"SENSE: Semantic Neural Speech Synthesis from Brain Dynamics via Spatial Graph Encoding" by Jisoo Park, Seonghak Lee, Hyojin Park, Junseok Kwon
+"What Do SAE Features Encode? Evidence from Human Neural Activity" by Yujin Kang, Hyojin Park, Yoon-Sik Cho
+
+- Dr. Hyojin Park is invited to give a talk at the BrainLink X-Lab Day–Technology Exchange through Brain Circulation Network. Daegu, South Korea. 11-13 November 2026.
 
 - Dr. Hyojin Park is invited to give a talk at "Symposium on the Cognitive and Neural Mechanism of Reading", supported by the Royal Society, Beijing, China. "Neural Processing of Linguistic Meaning: From Discourse Topics to Iconicity". 26-27 August 2026.
 
