@@ -13,8 +13,7 @@ nav:
 
 ## 2026
 - {% include neureca-icon.html name="party-popper" %} Huge Congratulations! Two papers are accepted at **NeurIPS 2026 Main Track**!! 
-"SENSE: Semantic Neural Speech Synthesis from Brain Dynamics via Spatial Graph Encoding" by Jisoo Park, Seonghak Lee, Hyojin Park, Junseok Kwon
-"What Do SAE Features Encode? Evidence from Human Neural Activity" by Yujin Kang, Hyojin Park, Yoon-Sik Cho
+"SENSE: Semantic Neural Speech Synthesis from Brain Dynamics via Spatial Graph Encoding" by Jisoo Park, Seonghak Lee, Hyojin Park, Junseok Kwon & "What Do SAE Features Encode? Evidence from Human Neural Activity" by Yujin Kang, Hyojin Park, Yoon-Sik Cho
 
 - Dr. Hyojin Park is invited to give a talk at the BrainLink X-Lab Day–Technology Exchange through Brain Circulation Network. Daegu, South Korea. 11-13 November 2026.
 
